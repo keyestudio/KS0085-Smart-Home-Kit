@@ -27,7 +27,7 @@ So, go ahead and get started; let's build this amazing analog smart home.
 After getting this smart home kit, we need to make sure that there are not
 missing components.
 
-| \# | Name                                                           | QTY | Picture                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|  | Name                                                           | QTY | Picture                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----|----------------------------------------------------------------|-----|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1  | Keyestudio PLUS Control Board （Compatible with Arduino UNO ） | 1   | ![](media/9ce82804e9d9c1b9ba2483e899cf4253.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | 2  | Keyestudio Sensor Shield V 5.2                                 | 1   | ![](media/ae39c51d16d81c8005b51264f24786f8.jpeg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -450,7 +450,7 @@ that is, flashing rapidly. Conversely, you could make LED flash slowly.
 
 **![](media/b7dd590d9337f2c749ef24dc8936a7c2.jpeg)**
 
-**Project 2：Breathing Light**
+### Project 2：Breathing Light
 
 **![](media/948e5cc836bce61cc8166cfda3a277b8.jpeg)**
 
@@ -969,7 +969,7 @@ Do you hear “Ode to joy”?
 
  ![](media/197566fe08fddc5ed5686e9e9084d4b9.jpeg)
 
-Project 4：Button Sensor
+### Project 4：Button Sensor
 
 **1. Description**
 
@@ -1300,8 +1300,8 @@ to 900, this value can be set up according to the brightness you choose
 
 ![](media/b419d9dd38196af6381ea5fb25f48f5e.jpeg)
 
-![](media/baa044ee6e953a4c9834a0103b39bc3d.png)**Project 7：Adjusting Motor
-Servo Angle**
+![](media/baa044ee6e953a4c9834a0103b39bc3d.png)
+### Project 7：Adjusting Motor Servo Angle
 
 **1. Description：**
 
@@ -1444,7 +1444,7 @@ The servo rotates from 0° to 180° then from 180°\~0°
 
 ![](media/b310c2fb0e9f33e15de82ad068115aef.jpeg)
 
-**Project 8：Fan Module**
+### Project 8：Fan Module
 
 ![](media/54cdb977922bf3a61bf00d3b6468e403.jpeg)
 
@@ -1910,8 +1910,9 @@ buzzer won’t emit a sound.
 
 ![](media/10e1be4e6db13858ed9d11d458cc9633.jpeg)
 
-### ![](media/ab1818942731c6e822a574ba5c0df31e.jpeg)Project 12: 1602 LCD Display
+### Project 12: 1602 LCD Display
 
+![](media/ab1818942731c6e822a574ba5c0df31e.jpeg)
 1.  **Description：**
 
 This is a display module, with I2C communication module, can show 2 lines with
@@ -3920,8 +3921,6 @@ Wiki page: <https://wiki.keyestudio.com/Main_Page>
 
 Official website: <https://keyestudio.com/>
 
-Kidsbits website: https://wiki.kidsbits.cc/
-
 Download code, library, software and app:
 
-https://fs.keyestudio.com/KS0085
+[https://fs.keyestudio.com/KS0085](https://fs.keyestudio.com/KS0085)
