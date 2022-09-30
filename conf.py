@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Kit for arduino'
-copyright = 'keyestudio'
+copyright = 'keyestudio wiki'
 author = 'keyestudio'
 
 # -- General configuration ---------------------------------------------------
