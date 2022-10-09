@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Kit for arduino'
+project = 'Smart Home Kit for Arduino'
 copyright = 'keyestudio wiki'
 author = 'keyestudio'
 
