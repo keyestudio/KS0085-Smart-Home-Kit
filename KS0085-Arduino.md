@@ -2,7 +2,7 @@
 
 ![](media/92c136262500b1919d00f8a1e81c099c.png)
 
-# Overview:
+## 1.Overview:
 
 ![](media/b9439bf8b48aa4f22ff2003f00234c7b.jpeg)
 
@@ -16,7 +16,7 @@ As Bill Gates puts it, "In the near future, a house without a smart home system 
 
 So, go ahead and get started; let's build this amazing analog smart home.
 
-1.  **Kit**
+## 2.Kit list
 
 After getting this smart home kit, we need to make sure that there are not missing components.
 
@@ -24,7 +24,7 @@ After getting this smart home kit, we need to make sure that there are not missi
 |----|----------------------------------------------------------------|-----|--------------------------------------------------|
 | 1  | Keyestudio PLUS Control Board （Compatible with Arduino UNO ） | 1   | ![](media/9ce82804e9d9c1b9ba2483e899cf4253.jpeg) |
 | 2  | Keyestudio Sensor Shield V 5.2                                 | 1   | ![](media/ae39c51d16d81c8005b51264f24786f8.jpeg) |
-| 3  | Wooden Board\*10 T=3MM                                         | 1   | ![](media/823aeef235ae42027a2f815991858331.png)  |
+| 3  | Wooden Board*10 T=3MM                                         | 1   | ![](media/823aeef235ae42027a2f815991858331.png)  |
 | 4  | White LED Module                                               | 1   | ![](media/9cad01dce5c196317f665e6115b44c86.jpeg) |
 | 5  | Yellow LED Module                                              | 1   | ![](media/c330317970c9594d8baed73ee43106e6.jpeg) |
 | 6  | Button Sensor                                                  | 2   | ![](media/197566fe08fddc5ed5686e9e9084d4b9.jpeg) |
@@ -59,9 +59,9 @@ After getting this smart home kit, we need to make sure that there are not missi
 | 35 | 20cm 2.54 3Pin F-F Jumper Wire                                 | 13  | ![](media/bad041b053825940869213d9f431ef96.png)  |
 | 36 | 20cm 2.54 4Pin F-F Jumper Wire                                 | 2   | ![](media/114620893ecf24b61152fe3e8b7d3e0f.jpeg) |
 
-# Download Software & Install Driver
+## 3.Download Software & Install Driver
 
-## (1) Download Software
+**Download Software**
 
 When we get control board, we need to download Arduino IDE and driver in the first place.
 
@@ -83,7 +83,7 @@ The **Windows installer** needs installing manually. Yet , the **Windows zip fil
 
 ![](media/0d881660806bad51429640b2412a9d48.png)
 
-## Keyestudio PLUS Development Board
+**Keyestudio PLUS Development Board**
 
 ![](media/dfe50fbafbd9a114c782b69cd6d9dd44.png)
 
@@ -103,7 +103,7 @@ SPI communication interface: D10 is SS, D11 is MOSI, D12 is MISO, D13 is SCK
 
 IIC communication port: A4 is SDA, A5 is SCL
 
-## Installing Driver
+**Installing Driver**
 
 Let’s install the driver of Keyestudio PLUS Control Board. The USB-TTL chip on PLUS board adopts CP2102 serial chip. The driver program of this chip is included in Arduino 1.8 version and above, which is convenient.
 
@@ -137,7 +137,7 @@ When opening the device manager, we will find the yellow exclamation mark disapp
 
 ![](media/2f751d5f4e4c0c18fa862c589eaaf0da.jpeg)
 
-## (4) Arduino IDE Setting
+**Arduino IDE Setting**
 
 Click![](media/675ae7298ce0973df720b2fbbb514caa.png)icon，and open Arduino IDE.
 
@@ -165,7 +165,7 @@ E- Used to save the sketch.
 
 F- Used to send the serial data received from board to the serial monitor.
 
-## (5) Start your first program
+**Start your first program**
 
 Open the file to select **Example**, and click **BASIC**\>**BLINK**, as shown below:
 
@@ -187,9 +187,9 @@ Click![](media/9c9158a5d49baa740ea2f0048f655017.png)to upload the program
 
 After the program is uploaded successfully, the onboard LED blinks. Congratulation, you finish the first program.
 
-1.  **How to Add a Library?**
+## 4.How to Add a Library?
 
-What are Libraries ?
+**What are Libraries ?**
 
 Libraries are a collection of code that drive sensors,displays and modules, etc.
 
@@ -221,7 +221,7 @@ Then, the libraries of home smart are successfully installed, as shown below:
 
 ![](media/85fa1bc86a628bb3da0e3b9e6384d477.png)
 
-# Projects
+## 5.Projects
 
 ![](media/1dfed548560b06e51f83a1b2d1c71558.jpeg)
 
@@ -231,7 +231,7 @@ However, if you are professional with Arduino. You can skip theses steps and ass
 
 **Note: In this course, the interface of each sensor / module marked with (G,-, GND) indicates the negative pole, G is connected to G, - or GND of sensor shield or control board; “V” is positive pole and linked with V, VCC or 5V.**
 
-## Project 1: LED Blink
+### Project 1: LED Blink
 
 ![](media/48c1374daadaa5ff7efd6f0e8158a834.png)
 
@@ -393,7 +393,7 @@ What if you want to make LED flash rapidly? You only need to modify the value of
 
 **![](media/b7dd590d9337f2c749ef24dc8936a7c2.jpeg)**
 
-**Project 2：Breathing Light**
+### Project 2：Breathing Light
 
 **![](media/948e5cc836bce61cc8166cfda3a277b8.jpeg)**
 
@@ -523,7 +523,7 @@ In the above figure, the green line represents a period, and value of analogWrit
 
 PWM mostly is used for adjusting the LED brightness or rotation speed of motor.
 
-## Project 3：Passive Buzzer
+### Project 3：Passive Buzzer
 
 **1. Description**
 
@@ -615,7 +615,7 @@ We will play fabulous music if control ling frequency and beats well, so let’s
 
 Bass：
 
-| Tone Note | 1\# | 2\# | 3\# | 4\# | 5\# | 6\# | 7\# |
+| Tone Note | 1\## | 2\## | 3\## | 4\## | 5\## | 6\## | 7\## |
 |-----------|-----|-----|-----|-----|-----|-----|-----|
 | A         | 221 | 248 | 278 | 294 | 330 | 371 | 416 |
 | B         | 248 | 278 | 294 | 330 | 371 | 416 | 467 |
@@ -639,7 +639,7 @@ Alto：
 
 Treble：
 
-| Tone Note | 1\# | 2\#  | 3\#  | 4\#  | 5\#  | 6\#  | 7\#  |
+| Tone Note | 1\## | 2\##  | 3\##  | 4\##  | 5\##  | 6\##  | 7\##  |
 |-----------|-----|------|------|------|------|------|------|
 | A         | 882 | 990  | 1112 | 1178 | 1322 | 1484 | 1665 |
 | B         | 990 | 1112 | 1178 | 1322 | 1484 | 1665 | 1869 |
@@ -679,61 +679,61 @@ http://www.keyestudio.com
 
 \*/
 
-\#define NTD0 -1
+\##define NTD0 -1
 
-\#define NTD1 294
+\##define NTD1 294
 
-\#define NTD2 330
+\##define NTD2 330
 
-\#define NTD3 350
+\##define NTD3 350
 
-\#define NTD4 393
+\##define NTD4 393
 
-\#define NTD5 441
+\##define NTD5 441
 
-\#define NTD6 495
+\##define NTD6 495
 
-\#define NTD7 556
+\##define NTD7 556
 
-\#define NTDL1 147
+\##define NTDL1 147
 
-\#define NTDL2 165
+\##define NTDL2 165
 
-\#define NTDL3 175
+\##define NTDL3 175
 
-\#define NTDL4 196
+\##define NTDL4 196
 
-\#define NTDL5 221
+\##define NTDL5 221
 
-\#define NTDL6 248
+\##define NTDL6 248
 
-\#define NTDL7 278
+\##define NTDL7 278
 
-\#define NTDH1 589
+\##define NTDH1 589
 
-\#define NTDH2 661
+\##define NTDH2 661
 
-\#define NTDH3 700
+\##define NTDH3 700
 
-\#define NTDH4 786
+\##define NTDH4 786
 
-\#define NTDH5 882
+\##define NTDH5 882
 
-\#define NTDH6 990
+\##define NTDH6 990
 
-\#define NTDH7 112
+\##define NTDH7 112
 
 // List all D-tuned frequencies
 
-\#define WHOLE 1
+\##define WHOLE 1
 
-\#define HALF 0.5
+\##define HALF 0.5
 
-\#define QUARTER 0.25
+\##define QUARTER 0.25
 
-\#define EIGHTH 0.25
+\##define EIGHTH 0.25
 
-\#define SIXTEENTH 0.625
+\##define SIXTEENTH 0.625
 
 // List all beats
 
@@ -855,8 +855,10 @@ Do you hear “Ode to joy”?
 
 ![](media/0693a9a92e2629b3862c08a10469af73.jpeg)
 
-## ![](media/197566fe08fddc5ed5686e9e9084d4b9.jpeg)Project 4：Button Sensor
+### Project 4：Button Sensor
 
+
+![](media/197566fe08fddc5ed5686e9e9084d4b9.jpeg)
 **1. Description**
 
 In this lesson, we will use the input function of I/O port, that is, reading the output value of external device. Also, we will do an experiment with a button and an LED to know more about I/O.
@@ -939,7 +941,7 @@ The backlight will be on when the button is pressed
 
 ![](media/18bb6fb33cdf2894877ad13779bed5dc.jpeg)
 
-## Project 5：1-channel Relay Module
+### Project 5：1-channel Relay Module
 
 ![](media/484b144bc1b0d88b30d6b04df7918b04.jpeg)
 
@@ -1031,7 +1033,7 @@ When the relay is connected(“NO” is on , NC is off) for 0.5s, the white LED 
 
 ![](media/d001ec087a1d48dd983be447505a7d27.jpeg)
 
-## Project 6：Photocell Sensor
+### Project 6：Photocell Sensor
 
 1.  **Description：**
 
@@ -1121,7 +1123,9 @@ The analog value will gradually decrease if there is light. When the value is up
 
 ![](media/b419d9dd38196af6381ea5fb25f48f5e.jpeg)
 
-![](media/baa044ee6e953a4c9834a0103b39bc3d.png)**Project 7：Adjusting Motor Servo Angle**
+![](media/baa044ee6e953a4c9834a0103b39bc3d.png)
+
+### Project 7：Adjusting Motor Servo Angle
 
 **1. Description：**
 
@@ -1183,7 +1187,7 @@ http://www.keyestudio.com
 
 \*/
 
-\#include \<Servo.h\> // Servo function library
+\##include \<Servo.h\> // Servo function library
 
 Servo myservo;
 
@@ -1231,7 +1235,7 @@ Upload code, wire up components according to connection diagram, and power on. T
 
 ![](media/b310c2fb0e9f33e15de82ad068115aef.jpeg)
 
-**Project 8：Fan Module**
+### Project 8：Fan Module
 
 ![](media/54cdb977922bf3a61bf00d3b6468e403.jpeg)
 
@@ -1310,7 +1314,7 @@ Upload test code, hook up the components according to connection diagram, and di
 
 ![](media/c0d64cc8394901f8b0a750ded20fe969.jpeg)
 
-## Project 9: Steam Sensor
+### Project 9: Steam Sensor
 
 ![](media/d4d2afcefef9dfe30b45110c1fa5eb4a.png)
 
@@ -1393,7 +1397,7 @@ When the sensor detects the steam of boiled water, the moisture value is display
 
 [![](media/7cd14fd4e82df9909603997f9ff6e615.jpeg)](https://wiki.keyestudio.com/File:203.jpg)
 
-## Project 10: PIR Motion Sensor
+### Project 10: PIR Motion Sensor
 
 1.  **Description：**
 
@@ -1515,7 +1519,7 @@ Upload the above test code, open serial monitor, and set baud rate to 9600. If P
 
 **![](media/ee5376ab8b49273f8f968f9dc078124a.jpeg)**
 
-## Project 11: Analog Gas（MQ-2）Sensor
+### Project 11: Analog Gas（MQ-2）Sensor
 
 ![](media/fed3dd9e2581a73519bfad27b4f3a533.png)
 
@@ -1625,7 +1629,9 @@ Upload test code, wire up components according to connection diagram and power o
 
 ![](media/10e1be4e6db13858ed9d11d458cc9633.jpeg)
 
-## ![](media/ab1818942731c6e822a574ba5c0df31e.jpeg)Project 12: 1602 LCD Display
+### Project 12: 1602 LCD Display
+
+![](media/ab1818942731c6e822a574ba5c0df31e.jpeg)
 
 1.  **Description：**
 
@@ -1683,9 +1689,9 @@ http://www.keyestudio.com
 
 \*/
 
-\#include \<Wire.h\>
+\##include \<Wire.h\>
 
-\#include \<LiquidCrystal_I2C.h\>
+\##include \<LiquidCrystal_I2C.h\>
 
 LiquidCrystal_I2C lcd (0x27,16,2); // set the LCD address to 0x27 for a16 chars and 2 line display
 
@@ -1731,7 +1737,7 @@ Note: When the display doesn’t show characters, you can adjust the potentiomet
 
 ![](media/dbe985355c82548bdfaafc51f2f44dc9.jpeg)
 
-## Project 13：Soil Humidity Sensor
+### Project 13：Soil Humidity Sensor
 
 1.  **Description**
 
@@ -1785,9 +1791,9 @@ http://www.keyestudio.com
 
 \*/
 
-\#include \<Wire.h\>
+\##include \<Wire.h\>
 
-\#include \<LiquidCrystal_I2C.h\>
+\##include \<LiquidCrystal_I2C.h\>
 
 volatile int value;
 
@@ -1897,7 +1903,7 @@ The greater the humidity is, the larger the value(0-1023). Also, the 1602LCD wil
 
 ![](media/ba8a4c774add9c116ef5274f80891dca.jpeg)
 
-## Project 14: Bluetooth Test
+### Project 14: Bluetooth Test
 
 ![](media/4fd035be1d9b2a047ac2e075f76e9b62.png)
 
@@ -1952,7 +1958,7 @@ Power supply: 5V DC
 
 Working temperature: –5 to +65 Centigrade
 
-### Using Bluetooth APP
+##### Using Bluetooth APP
 
 In the previous lesson, we’ve introduced the basic parameter principle of HM-10 Bluetooth module. In this project, let's show you how to use the HM-10 Bluetooth module. In order to efficiently control this kit by HM-10 Bluetooth module, we specially designed an APP, as shown below.
 
@@ -2177,7 +2183,7 @@ Connect servo to Keyestudio PLUS Control Board and upload test code to make serv
 
 **Test Code：**
 
-\#include \<Servo.h\>
+\##include \<Servo.h\>
 
 Servo servo_10;
 
@@ -2387,7 +2393,7 @@ Fix the board I with 6 “T” bolts
 
 The smart home kit is established.
 
-## Project 15：Multi-purpose Smart Home
+### Project 15：Multi-purpose Smart Home
 
 ![](media/7f962fd86397e96ebb2eb4c590d90c1d.png)
 
@@ -2451,11 +2457,11 @@ Finish wiring, let’s design the code:
 
 //call the relevant library file
 
-\#include \<Servo.h\>
+\##include \<Servo.h\>
 
-\#include \<Wire.h\>
+\##include \<Wire.h\>
 
-\#include \<LiquidCrystal_I2C.h\>
+\##include \<LiquidCrystal_I2C.h\>
 
 //Set the communication address of I2C to 0x27, display 16 characters every line, two lines in total
 
@@ -2519,59 +2525,59 @@ int tonepin = 3; //set the signal end of passive buzzer to digital 3
 
 //define name of every sound frequency
 
-\#define D0 -1
+\##define D0 -1
 
-\#define D1 262
+\##define D1 262
 
-\#define D2 293
+\##define D2 293
 
-\#define D3 329
+\##define D3 329
 
-\#define D4 349
+\##define D4 349
 
-\#define D5 392
+\##define D5 392
 
-\#define D6 440
+\##define D6 440
 
-\#define D7 494
+\##define D7 494
 
-\#define M1 523
+\##define M1 523
 
-\#define M2 586
+\##define M2 586
 
-\#define M3 658
+\##define M3 658
 
-\#define M4 697
+\##define M4 697
 
-\#define M5 783
+\##define M5 783
 
-\#define M6 879
+\##define M6 879
 
-\#define M7 987
+\##define M7 987
 
-\#define H1 1045
+\##define H1 1045
 
-\#define H2 1171
+\##define H2 1171
 
-\#define H3 1316
+\##define H3 1316
 
-\#define H4 1393
+\##define H4 1393
 
-\#define H5 1563
+\##define H5 1563
 
-\#define H6 1755
+\##define H6 1755
 
-\#define H7 1971
+\##define H7 1971
 
-\#define WHOLE 1
+\##define WHOLE 1
 
-\#define HALF 0.5
+\##define HALF 0.5
 
-\#define QUARTER 0.25
+\##define QUARTER 0.25
 
-\#define EIGHTH 0.25
+\##define EIGHTH 0.25
 
-\#define SIXTEENTH 0.625
+\##define SIXTEENTH 0.625
 
 //set sound play frequency
 
@@ -3419,7 +3425,7 @@ switch (val)
 
 case 't'://if val is 't'，program will circulate
 
-servo1 = Serial.readStringUntil('\#');
+servo1 = Serial.readStringUntil('\##');
 
 servo1_angle = String(servo1).toInt();
 
@@ -3431,7 +3437,7 @@ break;//exit loop
 
 case 'u'://if val is 'u'，program will circulate
 
-servo2 = Serial.readStringUntil('\#');
+servo2 = Serial.readStringUntil('\##');
 
 servo2_angle = String(servo2).toInt();
 
@@ -3443,7 +3449,7 @@ break;//exit loop
 
 case 'v'://if val is 'v'，program will circulate
 
-led2 = Serial.readStringUntil('\#');
+led2 = Serial.readStringUntil('\##');
 
 value_led2 = String(led2).toInt();
 
@@ -3453,7 +3459,7 @@ break;//exit loop
 
 case 'w'://if val is 'w'，program will circulate
 
-fans_char = Serial.readStringUntil('\#');
+fans_char = Serial.readStringUntil('\##');
 
 fans_val = String(fans_char).toInt();
 
@@ -3479,7 +3485,7 @@ Remember to pair Bluetooth and Bluetooth module after uploading the test code.
 
 Upload the test code, stack expansion board on PLUS Control Board, and power on. After pairing and connecting Bluetooth successfully, we can control the smart home through app.
 
-# 7. Related Resources
+## 6.Related Resources
 
 Wiki page: <https://wiki.keyestudio.com/Main_Page>
 
