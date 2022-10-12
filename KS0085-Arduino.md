@@ -16,7 +16,7 @@ As Bill Gates puts it, "In the near future, a house without a smart home system 
 
 So, go ahead and get started; let's build this amazing analog smart home.
 
-<iframe width="750" height="500" src="https://www.youtube.com/embed/yKo0HtZbH-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="700" height="400" src="https://www.youtube.com/embed/yKo0HtZbH-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## 2.Kit list
