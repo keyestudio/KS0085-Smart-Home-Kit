@@ -1958,7 +1958,7 @@ Power supply: 5V DC
 
 Working temperature: –5 to +65 Centigrade
 
-##### Using Bluetooth APP
+**Using Bluetooth APP**
 
 In the previous lesson, we’ve introduced the basic parameter principle of HM-10 Bluetooth module. In this project, let's show you how to use the HM-10 Bluetooth module. In order to efficiently control this kit by HM-10 Bluetooth module, we specially designed an APP, as shown below.
 
