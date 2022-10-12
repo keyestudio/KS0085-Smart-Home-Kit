@@ -1,10 +1,10 @@
 # KS0085 Keyestudio Smart Home Kit for Arduino
 
-![](media/92c136262500b1919d00f8a1e81c099c.png)
+![](media/b9439bf8b48aa4f22ff2003f00234c7b.jpeg)
 
 ## 1.Overview:
 
-![](media/b9439bf8b48aa4f22ff2003f00234c7b.jpeg)
+
 
 This Smart Home Learning Kit based on the Arduino platform is newly rolled out by Keyestudio DIY Robot Co. Ltd.
 
