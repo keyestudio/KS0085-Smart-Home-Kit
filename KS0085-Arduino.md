@@ -2062,7 +2062,7 @@ The function of corresponding character and button is shown below:
 
 ![](media/ac1b1a06c5597fd684fc4dc0f6e90b6b.jpeg)
 
-1.  **Assembly Guide**
+###  **Assembly Guide**
 
 Check the board A\~I and parts in the first place.
 
