@@ -1407,11 +1407,11 @@ Conventional pyroelectric infrared sensors are much more bigger, with complex ci
 
 **2. Specifications:**
 
-Input voltage: DC 3.3V \~ 18V
+Input voltage: DC 3.3V ~ 18V
 
 Working current: 15uA
 
-Working temperature: -20 \~ 85 degrees Celsius
+Working temperature: -20 ~ 85 degrees Celsius
 
 Output voltage: high 3 V, low 0 V
 
