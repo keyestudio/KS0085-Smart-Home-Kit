@@ -1125,7 +1125,7 @@ The analog value will gradually decrease if there is light. When the value is up
 
 ![](media/baa044ee6e953a4c9834a0103b39bc3d.png)
 
-### Project 7：Adjusting Motor Servo Angle
+### Project 7：Adjusting Servo Angle
 
 **1. Description：**
 
@@ -1519,7 +1519,7 @@ Upload the above test code, open serial monitor, and set baud rate to 9600. If P
 
 **![](media/ee5376ab8b49273f8f968f9dc078124a.jpeg)**
 
-### Project 11: Analog Gas（MQ-2）Sensor
+### Project 11: Analog Gas Sensor
 
 ![](media/fed3dd9e2581a73519bfad27b4f3a533.png)
 
