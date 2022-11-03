@@ -4,8 +4,6 @@
 
 ## 1.Overview:
 
-
-
 This Smart Home Learning Kit based on the Arduino platform is newly rolled out by Keyestudio DIY Robot Co. Ltd.
 
 It simulates the real smart home and demonstrates the cozy and comfortable life for people.
@@ -290,39 +288,7 @@ Note: pin G, V and S of white LED module are linked with G, V and 13 of V5 board
 
 1.  **Test Code**
 
-/\*
-
-Keyestudio smart home Kit for Arduino
-
-Project 1
-
-Blink
-
-http://www.keyestudio.com
-
-\*/
-
-void setup() {
-
-// initialize digital pin 13 as an output.
-
-pinMode(13, OUTPUT);
-
-}
-
-// the loop function runs over and over again forever
-
-void loop() {
-
-digitalWrite(13, HIGH); // turn the LED on (HIGH is the voltage level)
-
-delay(1000); // wait for a second
-
-digitalWrite(13, LOW); // turn the LED off by making the voltage LOW
-
-delay(1000); // wait for a second
-
-}//\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+<iframe src=https://create.arduino.cc/editor/keyestudio/7685b7a4-69b1-4244-a095-83093da147c9/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
 1.  **Test Result：**
 
@@ -428,45 +394,9 @@ Note: on sensor shield, the G, V and S pins of yellow LED module are linked with
 
 1.  **Test Code**
 
-/\*
+<iframe src=https://create.arduino.cc/editor/keyestudio/619cfe18-81c1-4f72-a02c-c90ec2fd34f7/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-Keyestudio smart home Kit for Arduino
 
-Project 2
-
-PWM
-
-http://www.keyestudio.com
-
-\*/
-
-int ledPin = 5; // Define the LED pin at D5
-
-void setup () {
-
-pinMode (ledPin, OUTPUT); // initialize ledpin as an output.
-
-}
-
-void loop () {
-
-for (int value = 0; value\<255; value = value + 1) {
-
-analogWrite (ledPin, value); // LED lights gradually light up
-
-delay (5); // delay 5MS
-
-}
-
-for (int value = 255; value\>0; value = value-1) {
-
-analogWrite (ledPin, value); // LED gradually goes out
-
-delay (5); // delay 5MS
-
-}}
-
-//\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 LED smoothly changes its brightness from dark to bright and back to dark, continuing to do so, which is similar to a lung breathing in and out.
 
@@ -548,67 +478,7 @@ The G, V and S pins of passive buzzer are connected to G, V and 3.
 
 **4. Test Code**
 
-/\*
-
-Keyestudio smart home Kit for Arduino
-
-Project 3.1
-
-Buzzer
-
-http://www.keyestudio.com
-
-\*/
-
-int tonepin = 3; // Set the Pin of the buzzer to the digital D3
-
-void setup ()
-
-{
-
-pinMode (tonepin, OUTPUT); // Set the digital IO pin mode to output
-
-}
-
-void loop ()
-
-{
-
-unsigned char i, j;
-
-while (1)
-
-{
-
-for (i = 0; i \<80; i ++) // output a frequency sound
-
-{
-
-digitalWrite (tonepin, HIGH); // Sound
-
-delay (1); // Delay 1ms
-
-digitalWrite (tonepin, LOW); // No sound
-
-delay (1); // Delay 1ms
-
-}
-
-for (i = 0; i \<100; i ++) // output sound of another frequency
-
-{
-
-digitalWrite (tonepin, HIGH); // Sound
-
-delay (2); // delay 2ms
-
-digitalWrite (tonepin, LOW); // No sound
-
-delay (2); // delay 2ms
-
-}}}
-
-//\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+<iframe src=https://create.arduino.cc/editor/keyestudio/d1be00c3-ed2d-46d6-8b7d-7aef72b37820/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
 From the above code, number 80 and 100 decide frequency in “for” statement. Delay time controls duration, like the beat in music.
 
@@ -670,187 +540,9 @@ There are special notes we need to explain:
 4.  The note with”—” represents that 1 beat is added, that is 1+1 beat.
 5.  The two successive notes with arc imply legato, you could slightly modify the frequency of the note behind legato(need to debug it yourself), such like reducing or increasing some values, the sound will be more smoother.
 
-/\*
+<iframe src=https://create.arduino.cc/editor/keyestudio/a8bd4345-9f38-4031-a623-33527ddad95c/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-Keyestudio smart home Kit for Arduino
 
-Project 3.2
-
-Buzzer music
-
-http://www.keyestudio.com
-
-\*/
-
-\##define NTD0 -1
-
-\##define NTD1 294
-
-\##define NTD2 330
-
-\##define NTD3 350
-
-\##define NTD4 393
-
-\##define NTD5 441
-
-\##define NTD6 495
-
-\##define NTD7 556
-
-\##define NTDL1 147
-
-\##define NTDL2 165
-
-\##define NTDL3 175
-
-\##define NTDL4 196
-
-\##define NTDL5 221
-
-\##define NTDL6 248
-
-\##define NTDL7 278
-
-\##define NTDH1 589
-
-\##define NTDH2 661
-
-\##define NTDH3 700
-
-\##define NTDH4 786
-
-\##define NTDH5 882
-
-\##define NTDH6 990
-
-\##define NTDH7 112
-
-// List all D-tuned frequencies
-
-\##define WHOLE 1
-
-\##define HALF 0.5
-
-\##define QUARTER 0.25
-
-\##define EIGHTH 0.25
-
-\##define SIXTEENTH 0.625
-
-// List all beats
-
-int tune [] = // List each frequency according to the notation
-
-{
-
-NTD3, NTD3, NTD4, NTD5,
-
-NTD5, NTD4, NTD3, NTD2,
-
-NTD1, NTD1, NTD2, NTD3,
-
-NTD3, NTD2, NTD2,
-
-NTD3, NTD3, NTD4, NTD5,
-
-NTD5, NTD4, NTD3, NTD2,
-
-NTD1, NTD1, NTD2, NTD3,
-
-NTD2, NTD1, NTD1,
-
-NTD2, NTD2, NTD3, NTD1,
-
-NTD2, NTD3, NTD4, NTD3, NTD1,
-
-NTD2, NTD3, NTD4, NTD3, NTD2,
-
-NTD1, NTD2, NTDL5, NTD0,
-
-NTD3, NTD3, NTD4, NTD5,
-
-NTD5, NTD4, NTD3, NTD4, NTD2,
-
-NTD1, NTD1, NTD2, NTD3,
-
-NTD2, NTD1, NTD1
-
-};
-
-float durt [] = // List the beats according to the notation
-
-{
-
-1,1,1,1,
-
-1,1,1,1,
-
-1,1,1,1,
-
-1 + 0.5,0.5,1 + 1,
-
-1,1,1,1,
-
-1,1,1,1,
-
-1,1,1,1,
-
-1 + 0.5,0.5,1 + 1,
-
-1,1,1,1,
-
-1,0.5,0.5,1,1,
-
-1,0.5,0.5,1,1,
-
-1,1,1,1,
-
-1,1,1,1,
-
-1,1,1,0.5,0.5,
-
-1,1,1,1,
-
-1 + 0.5,0.5,1 + 1,
-
-};
-
-int length;
-
-int tonepin = 3; // Use interface 3
-
-void setup ()
-
-{
-
-pinMode (tonepin, OUTPUT);
-
-length = sizeof (tune) / sizeof (tune [0]); // Calculate length
-
-}
-
-void loop ()
-
-{
-
-for (int x = 0; x \<length; x ++)
-
-{
-
-tone (tonepin, tune [x]);
-
-delay (350\* durt [x]); // This is used to adjust the delay according to the beat, 350 can be adjusted by yourself.
-
-noTone (tonepin);
-
-}
-
-delay (2000); // delay 2S
-
-}
-
-//\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 Upload test code on the development board.
 
@@ -2458,9 +2150,7 @@ Keyestudio PLUS Control Board \* 1, sensor shield \* 1, Bluetooth module \* 1, P
 
 Finish wiring, let’s design the code:
 
-
 <iframe src=https://create.arduino.cc/editor/keyestudio/cb57ba85-aff5-465e-9e75-703e478f1129/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
-
 
 Upload the whole code and see the result！
 
