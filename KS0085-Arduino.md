@@ -584,51 +584,10 @@ If button is pressed, digital 4 is low level, then we make digital 5 output high
 
 As for your reference：
 
-/ \*
 
-Keyestudio smart home Kit for Arduino
+<iframe src=https://create.arduino.cc/editor/keyestudio/214887b4-e2fa-4a87-8f3f-3f7b94f829ea/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-Project 4
 
-Button
-
-http://www.keyestudio.com
-
-\* /
-
-int ledpin = 5; // Define the led light in D5
-
-int inpin = 4; // Define the button in D4
-
-int val; // Define variable val
-
-void setup ()
-
-{
-
-pinMode (ledpin, OUTPUT); // The LED light interface is defined as output
-
-pinMode (inpin, INPUT); // Define the button interface as input
-
-}
-
-void loop ()
-
-{
-
-val = digitalRead (inpin); // Read the digital 4 level value and assign it to val
-
-if (val == LOW) // Whether the key is pressed, the light will be on when pressed
-
-{digitalWrite (ledpin, HIGH);}
-
-else
-
-{digitalWrite (ledpin, LOW);}
-
-}
-
-//\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 This experiment is pretty simple, and widely applied to various of circuits and electrical appliances.
 
@@ -680,47 +639,8 @@ Note: On the shield, the G, V, and S pins of 1-channel relay module are connecte
 
 **5. Test Code：**
 
-/\*
+<iframe src=https://create.arduino.cc/editor/keyestudio/6fa63a31-fdeb-4c79-a926-d1ff39b415c6/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-Keyestudio smart home Kit for Arduino
-
-Project 5
-
-Relay
-
-http://www.keyestudio.com
-
-\*/
-
-int Relay = 12; // Define the relay pin at D12
-
-void setup ()
-
-{
-
-pinMode (13, OUTPUT); // Set Pin13 as output
-
-digitalWrite (13, HIGH); // Set Pin13 High
-
-pinMode (Relay, OUTPUT); // Set Pin12 as output
-
-}
-
-void loop ()
-
-{
-
-digitalWrite (Relay, HIGH); // Turn off relay
-
-delay (2000);
-
-digitalWrite (Relay, LOW); // Turn on relay
-
-delay (2000);
-
-}
-
-//\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 **6. Test Result：**
 
@@ -756,57 +676,8 @@ Note: On the expansion board, the G, V, and S pins of the photocell sensor modul
 
 **4. Test Code**：
 
-/\*
+<iframe src=https://create.arduino.cc/editor/keyestudio/cd0cdee5-9940-45b9-82fb-31f8f229fec3/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-Keyestudio smart home Kit for Arduino
-
-Project 6
-
-photocell
-
-http://www.keyestudio.com
-
-\*/
-
-int LED = 5; // Set LED pin at D5
-
-int val = A1; // Read the voltage value of the photodiode
-
-void setup () {
-
-pinMode (LED, OUTPUT); // LED is output
-
-Serial.begin (9600); // The serial port baud rate is set to 9600
-
-}
-
-void loop () {
-
-val = analogRead (A1); // Read the voltage value of A1 Pin
-
-Serial.println (val); // Serial port to view the change of voltage value
-
-if (val \<900)
-
-{// Less than 900, the LED lights up
-
-digitalWrite (LED, HIGH);
-
-}
-
-else
-
-{// Otherwise,LED light is off
-
-digitalWrite (LED, LOW);
-
-}
-
-delay (10); // Delay 10ms
-
-}
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 LED will be on after uploading test code. If you use a flashlight to point at the photocell, LED will be automatically off. However, if you turn off flashlight, LED will be on again.
 
@@ -870,59 +741,8 @@ Note: The servo is connected to G (GND), V (VCC), 9. The brown wire of the servo
 
 1.  **Test Code：**
 
-/\*
+<iframe src=https://create.arduino.cc/editor/keyestudio/d432de17-3745-4224-a97c-5a993550c227/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-Keyestudio smart home Kit for Arduino
-
-Project 7
-
-Sevro
-
-http://www.keyestudio.com
-
-\*/
-
-\##include \<Servo.h\> // Servo function library
-
-Servo myservo;
-
-int pos = 0; // Start angle of servo
-
-void setup ()
-
-{
-
-myservo.attach (9); // Define the position of the servo on D9
-
-}
-
-void loop ()
-
-{
-
-for(pos = 0; pos \< 180; pos += 1)// angle from 0 to 180 degrees
-
-{
-
-myservo.write (pos); // The servo angle is pos
-
-delay (15); // Delay 15ms
-
-}
-
-for(pos = 180; pos\>=1; pos-=1) // Angle from 180 to 0 degrees
-
-{
-
-myservo.write (pos); // The angle of the servo is pos
-
-delay (15); // Delay 15ms
-
-}
-
-}
-
-//\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 **6. Test Result：**
 
@@ -959,49 +779,8 @@ Note: On the shield, the GND, VCC, INA, and INB pins of the fan module are respe
 
 1.  **Test Code：**
 
-/\*
+<iframe src=https://create.arduino.cc/editor/keyestudio/59439b5d-c911-43d2-96f0-c84a247f4fd5/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-Keyestudio smart home Kit for Arduino
-
-Project 8
-
-Fan
-
-http://www.keyestudio.com
-
-\*/
-
-void setup () {
-
-pinMode (7, OUTPUT); //define D7 pin as output
-
-pinMode (6, OUTPUT); //define D6 pin as output
-
-}
-
-void loop () {
-
-digitalWrite (7, LOW);
-
-digitalWrite (6, HIGH); // Reverse rotation of the motor
-
-delay (3000); // delay 3S
-
-digitalWrite (7, LOW);
-
-digitalWrite (6, LOW); // The motor stops rotating
-
-delay (1000); //delay 1S
-
-digitalWrite (7, HIGH);
-
-digitalWrite (6, LOW); // The motor rotates in the forward direction
-
-delay (3000); // delay 3S
-
-}
-
-//\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 **6. Test Result：**
 
@@ -1044,43 +823,10 @@ Note: On the sensor shield, the pins G，V and S of steam sensor are connected t
 
 1.  **Test Code：**
 
-/\*
+<iframe src=https://create.arduino.cc/editor/keyestudio/3db05abd-5da4-49b3-931c-571a50dce5bb/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-Keyestudio smart home Kit for Arduino
 
-Project 9
 
-Steam
-
-http://www.keyestudio.com
-
-\*/
-
-void setup()
-
-{
-
-Serial.begin(9600); //open serial port, and set baud rate at 9600bps
-
-}
-
-void loop()
-
-{
-
-int val;
-
-val=analogRead(3); //plug vapor sensor into analog port 3
-
-Serial.print("Moisture is ");
-
-Serial.println(val,DEC); //read analog value through serial port printed
-
-delay(100); //delay 100ms
-
-}
-
-//\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 **7. Test Result：**
 
