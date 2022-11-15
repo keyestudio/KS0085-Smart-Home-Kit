@@ -894,63 +894,8 @@ Note: On the shield, the G, V and S of PIR motion sensor are connected to G, V a
 
 **5. Test Code：**
 
-/\*
+<iframe src=https://create.arduino.cc/editor/keyestudio/5ac6b263-154d-47a0-89ad-7f8fa7717e8a/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-Keyestudio smart home Kit for Arduino
-
-Project 10
-
-PIR
-
-http://www.keyestudio.com
-
-\*/
-
-void setup () {
-
-Serial.begin (9600); // open serial port, and set baud rate at 9600bps
-
-pinMode (2, INPUT); // Define PIR as input in D2
-
-Serial.begin (9600);
-
-pinMode (13, OUTPUT); // Define LED as output in D13
-
-pinMode (7, OUTPUT); // Define D7 as output
-
-pinMode (6, OUTPUT); // Define D6 as output
-
-}
-
-void loop () {
-
-Serial.println (digitalRead (2));
-
-delay (500); // Delay 500ms
-
-if (digitalRead (2) == 1) // If someone is detected walking
-
-{
-
-digitalWrite (13, HIGH); // LED light is on
-
-digitalWrite (7, HIGH);
-
-analogWrite (6,150); // Fan rotates
-
-} else // If no person is detected walking
-
-{
-
-digitalWrite (13, LOW); // LED light is not on
-
-digitalWrite (7, LOW);
-
-analogWrite (6,0); // The fan does not rotate
-
-}}
-
-//\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 **6. Test Result：**
 
@@ -1004,65 +949,7 @@ Note: On the shield, the pin GND, VCC, D0 and A0 of gas sensor are linked with p
 
 1.  **Test Code：**
 
-/\*
-
-Keyestudio smart home Kit for Arduino
-
-Project 11
-
-Gas
-
-http://www.keyestudio.com
-
-\*/
-
-int MQ2 = A0; // Define MQ2 gas sensor pin at A0
-
-int val = 0; // declare variable
-
-int buzzer = 3; // Define the buzzer pin at D3
-
-void setup ()
-
-{
-
-pinMode (MQ2, INPUT); // MQ2 gas sensor as input
-
-Serial.begin (9600); // Set the serial port baud rate to 9600
-
-pinMode (buzzer, OUTPUT); // Set the digital IO pin mode for output
-
-}
-
-void loop ()
-
-{
-
-val = analogRead (MQ2); // Read the voltage value of A0 port and assign it to val
-
-Serial.println (val); // Serial port sends val value
-
-if (val\> 450)
-
-{
-
-tone (buzzer, 589);
-
-delay(300);
-
-}
-
-else
-
-{
-
-noTone (buzzer);
-
-}
-
-}
-
-//\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+<iframe src=https://create.arduino.cc/editor/keyestudio/c8d72d20-6dd9-4287-bdce-734a6a86bf4f/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
 1.  **Test Result：**
 
@@ -1118,51 +1005,8 @@ SCL to SCL.
 
 1.  **Test Code:**
 
-/\*
+<iframe src=https://create.arduino.cc/editor/keyestudio/de097c4b-e145-4577-9270-f1ad623db597/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-Keyestudio smart home Kit for Arduino
-
-Project 12
-
-1602 LCD
-
-http://www.keyestudio.com
-
-\*/
-
-\##include \<Wire.h\>
-
-\##include \<LiquidCrystal_I2C.h\>
-
-LiquidCrystal_I2C lcd (0x27,16,2); // set the LCD address to 0x27 for a16 chars and 2 line display
-
-void setup ()
-
-{
-
-lcd.init (); // initialize the lcd
-
-lcd.init (); // Print a message to the LCD.
-
-lcd.backlight ();
-
-lcd.setCursor (3,0);
-
-lcd.print ("Hello, world!"); // LED print hello, world!
-
-lcd.setCursor (2,1);
-
-lcd.print ("keyestudio!"); // LED print keyestudio!
-
-}
-
-void loop ()
-
-{
-
-}
-
-//\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 **6. Test Result**
 
@@ -1220,121 +1064,8 @@ Note: On the shield, the pin G, V and S of soil humidity sensor are connected to
 
 1.  **Test Code：**
 
-/\*
+<iframe src=https://create.arduino.cc/editor/keyestudio/a4a54c99-aebc-4f21-ab78-3bc44317a723/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-Keyestudio smart home Kit for Arduino
-
-Project 13
-
-Soil Humidity
-
-http://www.keyestudio.com
-
-\*/
-
-\##include \<Wire.h\>
-
-\##include \<LiquidCrystal_I2C.h\>
-
-volatile int value;
-
-LiquidCrystal_I2C mylcd (0x27,16,2); // set the LCD address to 0x27 for a16 chars and 2 line display
-
-void setup () {
-
-Serial.begin (9600); // Set the serial port baud rate to 9600
-
-value = 0;
-
-mylcd.init ();
-
-mylcd.backlight (); // Light up the backlight
-
-mylcd.clear (); // Clear the screen
-
-Serial.begin (9600); // Set the serial port baud rate to 9600
-
-pinMode (A2, INPUT); // Soil sensor is at A2, the mode is input
-
-}
-
-void loop () {
-
-Serial.print ("Soil moisture value:"); // Print the value of soil moisture
-
-Serial.print ("");
-
-Serial.println (value);
-
-delay (500); // Delay 0.5S
-
-value = analogRead (A2); // Read the value of the soil sensor
-
-if (value \<300) // If the value is less than 300
-
-{
-
-mylcd.clear (); // clear screen
-
-mylcd.setCursor (0, 0);
-
-mylcd.print ("value:"); //
-
-mylcd.setCursor (6, 0);
-
-mylcd.print (value);
-
-mylcd.setCursor (0, 1);
-
-mylcd.print ("dry soil"); // LCD screen print dry soil
-
-delay (300); // Delay 0.3S
-
-}
-
-else if ((value\>=300) && (value \<= 700)) // If the value is greater than 300 and less than 700
-
-{
-
-mylcd.clear (); //clear screen
-
-mylcd.setCursor (0, 0);
-
-mylcd.print ("value:");
-
-mylcd.setCursor (6, 0);
-
-mylcd.print (value);
-
-mylcd.setCursor (0, 1);
-
-mylcd.print ("humid soil"); // LCD screen printing humid soil
-
-delay (300); // Delay 0.3S
-
-} else if (value\> 700) // If the value is greater than 700
-
-{
-
-mylcd.clear ();//clear screen
-
-mylcd.setCursor (0, 0);
-
-mylcd.print ("value:");
-
-mylcd.setCursor (6, 0);
-
-mylcd.print (value);
-
-mylcd.setCursor (0, 1);
-
-mylcd.print ("in water"); /// LCD screen printing in water
-
-delay (300); // Delay 0.3S
-
-}}
-
-//\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 **6. Test Result：**
 
@@ -1457,45 +1188,9 @@ Note: On the sensor expansion board, the RXD, TXD, GND, and VCC of the Bluetooth
 
 1.  **Test Code：**
 
-/\*
+<iframe src=https://create.arduino.cc/editor/keyestudio/c739bb5c-ef07-4c76-8303-c9344cbdb271/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
-Keyestudio smart home Kit for Arduino
 
-Project 14
-
-Bluetooth
-
-http://www.keyestudio.com
-
-\*/
-
-char val;
-
-void setup()
-
-{
-
-Serial.begin(9600);// Set the serial port baud rate to 9600
-
-}
-
-void loop()
-
-{
-
-while (Serial.available()\>0)
-
-{
-
-val=Serial.read();// Read the value sent by Bluetooth
-
-Serial.print(val);// The serial port prints the read value
-
-}
-
-}
-
-//\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 ![](media/b66d6abbf718d3a506f57f8345a392d6.jpeg)
 
