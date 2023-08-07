@@ -63,7 +63,7 @@ After getting this smart home kit, we need to make sure that there are not missi
 
 ## 3.Download Software & Install Driver
 
-#### **Installing Arduino IDE**
+**Installing Arduino IDE**
 
 When you get control board, you need to download Arduino IDE and driver firstly.
 
@@ -83,7 +83,7 @@ You can choose between the Installer (.exe) and the Zip packages. We suggest you
 
 You just need to click **JUST DOWNLOAD**.
 
-#### **Keyestudio PLUS Development Board**
+**Keyestudio PLUS Development Board**
 
 ![](./media/dfe50fbafbd9a114c782b69cd6d9dd44.png)
 
@@ -104,7 +104,7 @@ Keyestudio PLUS Control Board is fully compatible with Arduino UNO R3 board. Its
 - IIC communication port: A4 is SDA, A5 is SCL
 
 
-#### **Installing the driver for Windows system**
+**Installing the driver for Windows system**
 
 Let’s install the driver of Keyestudio PLUS Control Board. The USB-TTL chip on PLUS board adopts CP2102 serial chip. The driver program of this chip is included in Arduino 1.8 version and above, which is convenient. 
 
@@ -138,7 +138,7 @@ Open device manager, you will find the yellow exclamation mark disappear. The dr
 
 ![image-20230523153540374](media/image-20230523153540374.png)
 
-#### **Installing the driver for MAC system**
+**Installing the driver for MAC system**
 
 ![](media/aee40e1614afae9be6b0ffa78bcb833c.png)
 
@@ -196,7 +196,7 @@ Open device manager, you will find the yellow exclamation mark disappear. The dr
 
 Successfully installed ![{46A164EF-E3D2-CBE2-8CAC-B67C253E68AB}](media/7c26ef0b6e1d36b49c1d80dc4f153707.jpeg)
 
-#### **Arduino IDE Setting**
+**Arduino IDE Setting**
 
 Click![image-20230523153852276](media/image-20230523153852276.png)icon，open Arduino IDE.
 
@@ -289,11 +289,11 @@ However, if you are professional with Arduino. You can skip theses steps and ass
 
 **Note: In this course, the interface of each sensor / module marked with (G,-, GND) indicates the negative pole, G is connected to G, - or GND of sensor shield or control board; “V” is positive pole and connected with V, VCC or 5V.**
 
-### **Project 1: LED Blink**
+**Project 1: LED Blink**
 
 ![](media/48c1374daadaa5ff7efd6f0e8158a834.png)
 
-#### **1.1 Description**
+**1.1 Description**
 
 We’ve installed the driver of Keyestudio V4.0 development board.
 
@@ -303,7 +303,7 @@ Let’s connect GND and VCC to power. The LED will be on when signal end S is hi
 
 In addition, the different blinking frequency can be presented by adjusting the delayed time.
 
-#### **1.2 Specifications**
+**1.2 Specifications**
 
 - Control interface: digital port
 
@@ -315,13 +315,13 @@ In addition, the different blinking frequency can be presented by adjusting the 
 
 - Display color: white
 
-#### **1.3 What You Need**
+**1.3 What You Need**
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | White LED  Module *1                                         | USB Cable*1                                                  | 3pin F-F Dupont Cable*1   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------- |
 | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps72.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps73.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps74.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps75.jpg) | ![img](./media/wps76.jpg) |
 
-#### **1.4 Sensor Shield**
+**1.4 Sensor Shield**
 
 ![](./media/image-20230612104345186.png)
 
@@ -331,11 +331,11 @@ To cope with this disadvantage, we just need to stack V5 sensor board on Keyestu
 
 This V5 shield can be directly attached to sensors with 3 pin connectors, and be extended the commonly used communication ports as well, such as serial communication, IIC communication and SPI communication ports. What’s more, the shield comes with a reset button and 2 signal lights.
 
-#### **1.5 Pins Description**
+**1.5 Pins Description**
 
 ![](media/fd2e9e9910365f3c5b7d8dda73620ac9.jpeg)
 
-#### **1.6 Wiring Diagram**
+**1.6 Wiring Diagram**
 
 Connect LED module with D13 of shield.
 
@@ -343,7 +343,7 @@ Connect LED module with D13 of shield.
 
 Note: pin G, V and S of white LED module are connected with G, V and 13 of V5 board.
 
-#### **1.7 Test Code**
+**1.7 Test Code**
 
 ```c
 /*
@@ -365,11 +365,11 @@ void loop() {
 }
 ```
 
-#### **1.8 Test Result：**
+**1.8 Test Result：**
 
 After the code is uploaded, the white LED flashes for 1000ms, alternately.
 
-#### **1.9 Code Explanation**
+**1.9 Code Explanation**
 
 The code looks long and clutter, but most of which are comments. The grammar of Arduino is based on C.
 
@@ -439,11 +439,11 @@ What if you want to make LED flash rapidly? You only need to modify the value of
 
 **![](media/b7dd590d9337f2c749ef24dc8936a7c2.jpeg)**
 
-### Project 2：Breathing Light
+Project 2：Breathing Light
 
 ![](media/948e5cc836bce61cc8166cfda3a277b8.jpeg)
 
-#### **2.1 Description**
+**2.1 Description**
 
 In the previous lesson, we control LED on and off and make it blink.
 
@@ -457,19 +457,19 @@ For the Arduino digital port voltage output, there are only LOW and HIGH, which 
 
 If output five hundred 1, that is 5V; if all of which is 1, that is 0V. If output 010101010101 in this way then the output port is 2.5V, which is like showing movie. The movie we watch are not completely continuous. It actually outputs 25 pictures per second. In this case, the human can’t tell it, neither does PWM. If want different voltage, need to control the ratio of 0 and 1. The more 0,1 signals output per unit time, the more accurately control.
 
-#### **2.2 What You Need**
+**2.2 What You Need**
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | Yellow LED Module*1                                          | USB Cable*1                                                  | 3pin F-F Dupont Cable*1   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------- |
 | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps77.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps78.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps79.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps80.jpg) | ![img](./media/wps81.jpg) |
 
-#### **2.3 Wiring Diagram**
+**2.3 Wiring Diagram**
 
 ![](media/cd10f1f03f20f7465f1feee9e1bd0a67.png)
 
 Note: on sensor shield, the G, V and S pins of yellow LED module are connected with G, V and 5.
 
-#### **2.4 Test Code**
+**2.4 Test Code**
 
 ```c
 /*
@@ -497,7 +497,7 @@ LED smoothly changes its brightness from dark to bright and back to dark, contin
 
 ![](media/84ac0b289e27c94f023d5fa83716d412.jpeg)
 
-#### **2.5 Code Analysis**
+**2.5 Code Analysis**
 
 When we need to repeat some statements, we have to use “for” statement
 
@@ -550,9 +550,9 @@ In the above figure, the green line represents a period, and value of analogWrit
 
 PWM mostly is used for adjusting the LED brightness or rotation speed of motor.
 
-### Project 3：Passive Buzzer
+Project 3：Passive Buzzer
 
-#### **3.1 Description**
+**3.1 Description**
 
 ![](./media/image-20230612105405939.png)
 
@@ -560,19 +560,19 @@ There are prolific interactive works completed by Arduino. The most common one i
 
 While using passive buzzer, we can control different sound by inputting square waves with distinct frequency. During the experiment, we control code to make buzzer sound, begin with “tick, tick” sound, then make passive buzzer emit “do re mi fa so la si do”, and play specific songs.
 
-#### **3.2 What You Need**
+**3.2 What You Need**
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | Passive Buzzer*1                                             | USB Cable*1                                                  | 3pin F-F Dupont Cable*1   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------- |
 | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps82.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps83.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps84.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps85.jpg) | ![img](./media/wps86.jpg) |
 
-#### **3.2 Wiring Diagram**
+**3.2 Wiring Diagram**
 
 ![](media/1b0b1b98f6e805d4dca168a4c5ba97a7.png)
 
 The G, V and S pins of passive buzzer are connected to G, V and 3.
 
-#### **3.4 Test Code**
+**3.4 Test Code**
 
 ```c
 /*
@@ -770,11 +770,11 @@ Do you hear “Ode to joy”?
 
 ![](./media/image-20230612110252965.png)
 
-### Project 4：Button module
+Project 4：Button module
 
 ![](./media/image-20230612110259469.png)
 
-#### **4.1 Description**
+**4.1 Description**
 
 In this lesson, we will use the input function of I/O port, that is, reading the output value of external device. Also, we will do an experiment with a button and an LED to know more about I/O.
 
@@ -782,19 +782,19 @@ The button switch is ordinary in our life. It belongs to switch quantity( digita
 
 When the normally open contact bears pressure, the circuit will be on state ; however, when this pressure disappears, the normally open contact will go back to be the initial state, that is, off state.
 
-#### **4.2 What You Need**
+**4.2 What You Need**
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | Yellow LED Module*1                                          | Button Sensor*1                                              | USB Cable*1                                                  | 3pinF-F Dupont  Cable*2   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------- |
 | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps87.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps88.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps89.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps90.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps91.jpg) | ![img](./media/wps92.jpg) |
 
-#### **4.3 Wiring Diagram**
+**4.3 Wiring Diagram**
 
 ![](media/48cb561fe113be0ceda220ebcf6ebb59.png)
 
 Note: The G, V, and S pins of button sensor module are separately connected to G, V, and 4 on the shield, and the G, V, and S pins of the yellow LED module are connected with G, V, and 5 on the shield.
 
-#### **4.4 Test Code**
+**4.4 Test Code**
 
 Then, we will design the program to make LED on by button. Comparing with previous experiments, we add a conditional judgement statement --- “if” statement. The written sentences of Arduino is based on C language, therefore, the condition judgement statement of C is suitable for Arduino, like while, swich, etc.
 
@@ -835,11 +835,11 @@ The back-light will be on when the button is pressed.
 
 ![](./media/image-20230612110406053.png)
 
-### Project 5：1-channel Relay Module
+Project 5：1-channel Relay Module
 
 ![](./media/image-20230612110412980.png)
 
-#### **5.1 Description：**
+**5.1 Description：**
 
 This module is an Arduino dedicated module, compatible with Arduino sensor expansion board. It has a control system (also called an input loop) and a controlled system (also called an output loop).
 
@@ -855,7 +855,7 @@ As long as a certain voltage is applied to both ends of the coil, a certain curr
 
 This pulls in and releases, thus achieving the purpose of turning on and off in the circuit. The "normally open and closed" contacts of the relay can be distinguished in this way: the static contacts on disconnected state when the relay coil is powered off are called "normally open contacts"; the static contacts on connected state are called "normally closed contact". The module comes with 2 positioning holes for you to fix the module to other equipment.
 
-#### **5.2 Specifications：**
+**5.2 Specifications：**
 
 - Working voltage: 5V (DC)
 
@@ -873,7 +873,7 @@ This pulls in and releases, thus achieving the purpose of turning on and off in 
 
   
 
-#### **5.3 What You Need**
+**5.3 What You Need**
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | USB Cable*1                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -883,13 +883,13 @@ This pulls in and releases, thus achieving the purpose of turning on and off in 
 | Female to Female Dupont Cables*2                             | Male to Female Dupont Cables*2                               |                                                              |
 | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps99.png) ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps100.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps101.png) ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps102.png) |                                                              |
 
-#### **5.4 Wiring Diagram：**
+**5.4 Wiring Diagram：**
 
 ![](media/0bde162c8c3ae0e8917a8a9953827a68.png)
 
 Note: On the shield, the G, V, and S pins of 1-channel relay module are connected to G, V, and 12 respectively. The NO is connected with V; the G, V, and S pins of white LED are respectively connected to G, V, and the static contact of NO on relay module.
 
-#### **5.5 Test Code：**
+**5.5 Test Code：**
 
 ```c
 /*
@@ -914,15 +914,15 @@ delay (2000);
 }
 ```
 
-#### **5.6 Test Result：**
+**5.6 Test Result：**
 
 When the relay is connected(“NO” is on , NC is off) for 0.5s, the white LED will be on; conversely, when it is disconnected, the white LED will go off.
 
 ![](media/d001ec087a1d48dd983be447505a7d27.jpeg)
 
-### Project 6：Photocell Sensor
+Project 6：Photocell Sensor
 
-#### **6.1 Description：**
+**6.1 Description：**
 
 ![](./media/image-20230612110527917.png)
 
@@ -934,19 +934,19 @@ Therefore, we can use the photoresistor sensor module to read the corresponding 
 
 It is commonly applied to light measurement, control and conversion, light control circuit as well.
 
-#### **6.2 What You Need**
+**6.2 What You Need**
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | Photocell Sensor*1                                           | Yellow LED Module*1                                          | USB Cable*1                                                  | 3pin F-F Dupont Cables*2   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------- |
 | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps103.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps104.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps105.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps106.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps107.jpg) | ![img](./media/wps108.jpg) |
 
-#### **6.3 Wiring Diagram：**
+**6.3 Wiring Diagram：**
 
 ![](media/38be559475a64e6b228f06b2e09e1d7a.png)
 
 Note: On the expansion board, the G, V, and S pins of the photocell sensor module are connected to G, V, and A1; the G, V, and S pins of the yellow LED module are connected with G, V, and 5 separately.
 
-#### **6.4 Test Code**：
+**6.4 Test Code**：
 
 ```c
 /*
@@ -979,7 +979,7 @@ void loop () {
 
 LED will be on after uploading test code. If you use a flashlight to point at the photocell, LED will be automatically off. However, if you turn off flashlight, LED will be on again.
 
-#### **6.5 Result**
+**6.5 Result**
 
 For this code string, it is simple. We read value through analog port and attention that analog quantity doesn’t need input and output mode. You can read the analog value of photocell sensor by analog port.
 
@@ -989,11 +989,11 @@ The analog value will gradually decrease if there is light. When the value is up
 
 
 
-### Project 7：Adjusting Servo Angle
+Project 7：Adjusting Servo Angle
 
 ![](./media/image-20230612110628157.png)
 
-#### **7.1 Description：**
+**7.1 Description：**
 
 Servo can control doors and windows. In this course, we’ll introduce its principle and demonstrate how to use it.
 
@@ -1013,7 +1013,7 @@ The Arduino drive capacity is limited. So if you need to control more than one m
 
 Note that don’t supply power through USB cable, there is possibility to damage the USB cable if the current demand is greater than 500MA. We recommend the external power.
 
-#### **7.2 Specifications:**
+**7.2 Specifications:**
 
 -   Working voltage: DC 4.8V \~ 6V
 -   Operating angle range: about 180 ° (at 500 → 2500 μsec)
@@ -1027,19 +1027,19 @@ Note that don’t supply power through USB cable, there is possibility to damage
 -   Appearance size: 22.9 \* 12.2 \* 30mm
 -   Weight: 9 ± 1 g (without servo horn)
 
-#### **7.3 What You Need**
+**7.3 What You Need**
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | Servo*1                                                      | USB Cable*1                |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------- |
 | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps109.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps110.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps111.jpg) | ![img](./media/wps112.jpg) |
 
-#### **7.4 Wiring Diagram：**
+**7.4 Wiring Diagram：**
 
 ![](media/2993c9c61fb1185b6e24403e0eb53136.png)
 
 Note: The servo is connected to G (GND), V (VCC), 9. The brown wire of the servo is connected to Gnd (G), the red wire is connected with 5v (V), and the orange wire is connected to digital pin 9.
 
-#### **7.5 Test Code：**
+**7.5 Test Code：**
 
 ```c
 /*
@@ -1070,21 +1070,21 @@ delay (15); // Delay 15ms
 }
 ```
 
-#### **7.6 Test Result：**
+**7.6 Test Result：**
 
 Upload code, wire up components according to connection diagram, and power on. The servo rotates from 0° to 180° then from 180°\~0°
 
 ![](./media/image-20230612110754405.png)
 
-### Project 8：Fan Module
+Project 8：Fan Module
 
 ![](./media/image-20230612110803700.png)
 
-#### **8.1 Description**
+**8.1 Description**
 
 The L9110 fan module adopts L9110 motor control chip, and controls the rotation direction and speed of the motor. Moreover, this module is efficient, with high quality fan, which can put out the flame within 20cm distance. Similarly, it is an important part of fire robot as well.
 
-#### **8.2 Specifications:**
+**8.2 Specifications:**
 
 -   Working voltage: 5V
 -   Working current: 0.8A
@@ -1093,19 +1093,19 @@ The L9110 fan module adopts L9110 motor control chip, and controls the rotation 
 -   Have pin high pressure protection function
 -   Working temperature: 0-80 °
 
-#### **8.3 What You Need**
+**8.3 What You Need**
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | Fan Module*1                                                 | USB Cable*1                                                  | Female to Female Dupont Cables*4 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------- |
 | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps113.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps114.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps115.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps116.jpg) | ![img](./media/wps117.jpg)       |
 
-#### **8.4 Wiring Diagram：**
+**8.4 Wiring Diagram：**
 
 ![](media/a7ec518da57cd093981bd578ddc70aec.png)
 
 Note: On the shield, the GND, VCC, INA, and INB pins of the fan module are respectively connected to G, V, 7, 6.
 
-#### **8.5 Test Code：**
+**8.5 Test Code：**
 
 ```c
 /*
@@ -1131,17 +1131,17 @@ void loop () {
 }
 ```
 
-#### **8.6 Test Result：**
+**8.6 Test Result：**
 
 Upload test code, hook up the components according to connection diagram, and dial the DIP switch to right side and power on. The fan rotates counterclockwise for 3000ms, stops for 1000ms, then rotates clockwise for 3000ms.
 
 ![](./media/image-20230612110851044.png)
 
-### Project 9: Steam Sensor
+Project 9: Steam Sensor
 
 ![](./media/image-20230612110856132.png)
 
-#### **9.1 Description：**
+**9.1 Description：**
 
 This is a commonly used steam sensor. Its principle is to detect the amount of water by bare printed parallel lines on the circuit board. The more the water content is, the more wires will be connected. As the conductive contact coverage increases, the output voltage will gradually rise. It can detect water vapor in the air as well. The steam sensor can be used as a rain water detector and level switch. When the humidity on the sensor surface surges, the output voltage will increase.
 
@@ -1151,7 +1151,7 @@ First, connect the sensor to the analog port of the microcontroller, and display
 
 Note: the connection part is not waterproof, therefore, don’t immerse it in the water please.
 
-#### **9.2 Specifications:**
+**9.2 Specifications:**
 
 -   Working voltage: DC 3.3-5V
 -   Working current: \<20mA
@@ -1159,19 +1159,19 @@ Note: the connection part is not waterproof, therefore, don’t immerse it in th
 -   Control signal: analog signal output
 -   Interface: 3pin interface with 2.54mm in pitch
 
-#### **9.3 What You Need**
+**9.3 What You Need**
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | Steam Sensor*1                                               | USB Cable*1                                                  | 3pin F-F Dupont Cable*1    |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------- |
 | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps118.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps119.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps120.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps121.jpg) | ![img](./media/wps122.jpg) |
 
-#### **9.4 Wiring Diagram：**
+**9.4 Wiring Diagram：**
 
 ![](media/b050f0182ffc81a13824af95511a9fe5.png)
 
 Note: On the sensor shield, the pins G，V and S of steam sensor are connected to G, V and A3
 
-#### **9.5 Test Code：**
+**9.5 Test Code：**
 
 ```c
 /*
@@ -1194,7 +1194,7 @@ delay(100); //delay 100ms
 }
 ```
 
-#### **9.6 Test Result：**
+**9.6 Test Result：**
 
 When detecting different humidity, the sensor will get the feedback of different current value. As shown below;
 
@@ -1204,9 +1204,9 @@ When the sensor detects the steam of boiled water, the moisture value is display
 
 ![](media/7cd14fd4e82df9909603997f9ff6e615.jpeg)
 
-### Project 10: PIR Motion Sensor
+Project 10: PIR Motion Sensor
 
-#### **10.1 Description：**
+**10.1 Description：**
 
 ![](./media/image-20230612110954811.png)
 
@@ -1214,7 +1214,7 @@ The Pyroelectric infrared motion sensor can detect infrared signals from moving 
 
 Conventional pyroelectric infrared sensors are much more bigger, with complex circuit and lower reliability. Yet, this new pyroelectric infrared motion sensor, is more practical. It integrates a digital pyroelectric infrared sensor and connecting pins. It features higher sensibility and reliability, lower power consumption, light weight, small size, lower voltage working mode and simpler peripheral circuit.
 
-#### **10.2 Specifications:**
+**10.2 Specifications:**
 
 - Input voltage: DC 3.3V ~ 18V
 
@@ -1246,7 +1246,7 @@ Conventional pyroelectric infrared sensors are much more bigger, with complex ci
 
 5\. After powering up and uploading the code, you can start testing after 5-10 seconds, otherwise the sensor is not sensitive.
 
-#### **10.3 What You Need**
+**10.3 What You Need**
 
 | PLUS Control Board*1                                         | SensorShield*1                                               | PIR Motion Sensor*1                                          | Female to Female Dupont Cables*4                             |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -1254,13 +1254,13 @@ Conventional pyroelectric infrared sensors are much more bigger, with complex ci
 | Fan Module*1                                                 | White LED Module*1                                           | USB Cable*1                                                  | 3pinF-F Dupont Line*2                                        |
 | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps127.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps128.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps129.jpg) | ![img](./media/wps130.jpg)                                   |
 
-#### **10.4 Wiring Diagram：**
+**10.4 Wiring Diagram：**
 
 ![](media/070ebbff591c015a1c2986e4d5e0803d.png)
 
 Note: On the shield, the G, V and S of PIR motion sensor are connected to G, V and 2; the GND, VCC, INA and INB of fan module are separately connected with G,V,7,6. The pin G, V and S of LED module are connected with G, V and 13.
 
-#### **10.5 Test Code：**
+**10.5 Test Code：**
 
 ```c
 /*
@@ -1297,7 +1297,7 @@ void loop () {
    }
 ```
 
-#### **10.6 Test Result：**
+**10.6 Test Result：**
 
 Upload the above test code, open serial monitor, and set baud rate to 9600. If PIR motion sensor detects someone nearby, the serial monitor will display “1” , and LED and D13 will be turned on as well, and fan will rotate. If nobody is around, the serial monitor will show “0”, indicators will be off and fan will stop rotating.
 
@@ -1305,11 +1305,11 @@ Upload the above test code, open serial monitor, and set baud rate to 9600. If P
 
 **![](./media/image-20230612111100070.png)**
 
-### Project 11: Analog Gas Sensor
+Project 11: Analog Gas Sensor
 
 ![](./media/image-20230612111109389.png)
 
-#### **11.1 Description：**
+**11.1 Description：**
 
 This gas sensor is used for household gas leak alarms, industrial combustible gas alarms and portable gas detection instruments. Also, it is suitable for the detection of liquefied gas, benzene, alkane, alcohol, hydrogen, etc.,
 
@@ -1323,7 +1323,7 @@ It belongs to the tin dioxide semiconductor gas-sensitive material. At a certain
 
 When in contact with flammable gas in the air and smog, and the potential barrier at the grain boundary is adjusted by the smog, it will cause the surface conductivity to change. With this, information about the presence of smoke or flammable gas can be obtained. The greater the concentration of smoke or flammable gas in the air, the greater the conductivity, and the lower the output resistance, the larger the analog signal output. In addition, the sensitivity can be adjusted by rotating the potentiometer.
 
-#### **11.2 Specifications:**
+**11.2 Specifications:**
 
 - Working voltage: 3.3-5V (DC)
 
@@ -1333,7 +1333,7 @@ When in contact with flammable gas in the air and smog, and the potential barrie
 
 - Weight: 7.5g
 
-#### **11.3 What you need**
+**11.3 What you need**
 
 | PLUS controlBoard*1                                          | Sensor Shield*1                                              | MQ-2 Gas Sensor*1                                            | 3pinF-F Dupont Cable*1                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -1341,13 +1341,13 @@ When in contact with flammable gas in the air and smog, and the potential barrie
 | Passive Buzzer*1                                             | USB Cable*1                                                  | F-F Dupont Cable*3                                           |                                                              |
 | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps135.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps136.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps137.png)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps138.png)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps139.png) |                                                              |
 
-#### **11.4 Wiring Diagram：**
+**11.4 Wiring Diagram：**
 
 ![](media/5326feaab7a0b9887ef921e589694635.png)
 
 Note: On the shield, the pin GND, VCC, D0 and A0 of gas sensor are connected with pin G, V and A0. The pin G,V and S of passive buzzer are connected to G,V and 3.
 
-#### **11.5 Test Code：**
+**11.5 Test Code：**
 
 ```c
 /*
@@ -1381,17 +1381,17 @@ noTone (buzzer);
 }
 ```
 
-#### **11.6 Test Result：**
+**11.6 Test Result：**
 
 Upload test code, wire up components according to connection diagram and power on. When the detected value of flammable gas is greater than 70, the passive buzzer will emit sound, however, when there is no flammable gas, the passive buzzer won’t emit a sound.
 
 ![](./media/image-20230612111215876.png)
 
-### Project 12: 1602 LCD Display
+Project 12: 1602 LCD Display
 
 ![](media/ab1818942731c6e822a574ba5c0df31e.jpeg)
 
-#### **12.1 Description：**
+**12.1 Description：**
 
 This is a display module, with I2C communication module, can show 2 lines with 16 characters per line.
 
@@ -1401,7 +1401,7 @@ The original 1602 LCD can run with 7 IO ports, but ours is built with ARDUINOIIC
 
 Notice that when the screen gets brighter or darker, the characters will become more visible or less visible.
 
-#### **122 Specifications:**
+**122 Specifications:**
 
 - I2C address: 0x27
 
@@ -1419,19 +1419,19 @@ Notice that when the screen gets brighter or darker, the characters will become 
 
 - SCL: A pin that connects to analog port A5 for IIC communication
 
-#### **12.3 What You Need**
+**12.3 What You Need**
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | 1602 LCD Display*1                                           | USB Cable*1                                                  | 4pinF-F Dupont Cable*1     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------- |
 | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps140.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps141.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps142.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps143.jpg) | ![img](./media/wps144.jpg) |
 
-#### **12.4 Wiring Diagram：**
+**12.4 Wiring Diagram：**
 
 ![](media/18e30bb459c2c24d40509741424c3fb9.png)
 
 Note: there are pin GND, VCC, SDA and SCL on 1602LCD module. GND is connected with GND（-）of IIC communication, VCC is connected to 5V（+）, SDA to SDA, SCL to SCL.
 
-#### **12.5 Test Code:**
+**12.5 Test Code:**
 
 ```c
 /*
@@ -1458,7 +1458,7 @@ void loop ()
 }
 ```
 
-#### **12.6 Test Result**
+**12.6 Test Result**
 
 After hooking up components and uploading sample code, the 1602 LCD will print "Hello, world!, keyestudio!", and you can adjust LCD backlight with a potentiometer.
 
@@ -1468,9 +1468,9 @@ Note: When the display doesn’t show characters, you can adjust the potentiomet
 
 ![](./media/image-20230612111314348.png)
 
-### Project 13：Soil Humidity Sensor
+Project 13：Soil Humidity Sensor
 
-#### **13.1 Description**
+**13.1 Description**
 
 ![](./media/image-20230612111327983.png)
 
@@ -1482,7 +1482,7 @@ The soil humidity sensor module is not as complicated as you think. It has two p
 
 Meanwhile, it comes with 2 positioning holes for installing on other devices.
 
-#### **13.2 Specification**
+**13.2 Specification**
 
 - Power Supply Voltage: 3.3V or 5V
 
@@ -1494,7 +1494,7 @@ Meanwhile, it comes with 2 positioning holes for installing on other devices.
 
 - Interface definition: S- signal, G- GND, V - VCC
 
-#### **13.3 What You Need**
+**13.3 What You Need**
 
 | PLUS control   Board*1                                       | Sensor Shield*1                                              | Soil humidity Sensor*1                                       | 1602 LCD Display*1                                           |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -1502,13 +1502,13 @@ Meanwhile, it comes with 2 positioning holes for installing on other devices.
 | USB Cable*1                                                  | 4pinF-F Dupont Cable*1                                       | 3pinF-F Dupont Cable*1                                       |                                                              |
 | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps149.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps150.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps151.jpg) |                                                              |
 
-#### **13.4 Wiring Diagram：**
+**13.4 Wiring Diagram：**
 
 ![](media/8339f3adc268de8c8dd5d26a6c0a1359.png)
 
 Note: On the shield, the pin G, V and S of soil humidity sensor are connected to G, V and A2; GND of 1602 LCD is connected with GND of ICC communication, VCC is connected to 5V（+）, SDA to SDA, SCL to SCL.
 
-#### **13.5 Test Code：**
+**13.5 Test Code：**
 
 ```c
 /*
@@ -1571,7 +1571,7 @@ void loop () {
 }
 ```
 
-#### **13.6 Test Result：**
+**13.6 Test Result：**
 
 Upload code, open the serial monitor and insert the soil humidity sensor into the soil.
 
@@ -1579,9 +1579,9 @@ The greater the humidity is, the larger the value(0-1023). Also, the 1602 LCD wi
 
 ![](./media/image-20230612111429712.png)
 
-### Project 14: Bluetooth Test
+Project 14: Bluetooth Test
 
-#### 14.1 Description
+14.1 Description
 
 ![](./media/image-20230612111440173.png)
 
@@ -1604,7 +1604,7 @@ We also provide you with APP for Android and iOS system.
 | VCC   | Positive pole of power, input 5V                                                                                                                                                                                                                                                                                                                                  |
 | STATE | As output pin, show the working state of module Flash slowly in standby state——repeat 500ms pulse； Always light up in connected state——high level You could set to no flashing in standby state, always light up in connected state                                                                                                                              |
 
-#### **14.2 Parameters:**
+**14.2 Parameters:**
 
 - Bluetooth protocol: Bluetooth Specification V4.0 BLE
 
@@ -1634,7 +1634,7 @@ We also provide you with APP for Android and iOS system.
 
 - Working temperature: –5 to +65 Centigrade
 
-#### **14.3 Using Bluetooth APP**
+**14.3 Using Bluetooth APP**
 
 In the previous lesson, we’ve introduced the basic parameter principle of HM-10 Bluetooth module. In this project, let's show you how to use the HM-10 Bluetooth module. In order to efficiently control this kit by HM-10 Bluetooth module, we specially designed an APP, as shown below.
 
@@ -1684,13 +1684,13 @@ Note: Remove the Bluetooth module please when uploading the test code. Otherwise
 
 Remember to pair Bluetooth and Bluetooth module after uploading the test code.
 
-#### **14.4 Wiring Diagram：**
+**14.4 Wiring Diagram：**
 
 ![](media/16477d46a4396f0283d1ea5acf603a19.png)
 
 Note: On the sensor expansion board, the RXD, TXD, GND, and VCC of the Bluetooth module are respectively connected to TXD, RXD, GND, and 5V, and the STATE and BRK pins of the Bluetooth module do not need connecting.
 
-#### **14.5 Test Code：**
+**14.5 Test Code：**
 
 ```c
 /*
@@ -1720,13 +1720,13 @@ The function of corresponding character and button is shown below:
 
 ![](./media/6465465654.jpeg)
 
-### **Assembly Guide**
+**Assembly Guide**
 
 Check the board A\~I and parts in the first place.
 
 ![](media/cb40021b27fe3b52ffbbfe9cc840dae9.png)
 
-#### **Step 1: Install sensors on A board**
+**Step 1: Install sensors on A board**
 
 Prepare components as follows;
 
@@ -1759,7 +1759,7 @@ Prepare components as follows;
 
 ![](media/c415fa75fb346efaf4836819c462caae.jpeg)![](media/b6f28bdad72c4b30104666c4abb7d86f.jpeg)
 
-#### **Step 2: Install sensors on B board**
+**Step 2: Install sensors on B board**
 
 -   B board，
 -   3pin F-F dupont line\*1，
@@ -1777,7 +1777,7 @@ Assemble the relay module on B board with 2 pcs M3\*10MM screws and 2pcs M3 nick
 
 ![](media/47ebcf299a900923be7d3fce0d0e8eb7.jpeg)
 
-#### **Step 3: Fix A board and B board together with a “T” bolt**
+**Step 3: Fix A board and B board together with a “T” bolt**
 
 ![](media/a214abddefb0337b929f1be0e397b2f5.jpeg)
 
@@ -1785,7 +1785,7 @@ Assemble the relay module on B board with 2 pcs M3\*10MM screws and 2pcs M3 nick
 
 ![](media/844b631173fa706522b6e68beadc337a.jpeg)
 
-#### **Step 4: Assemble sensors and a battery holder on C board**
+**Step 4: Assemble sensors and a battery holder on C board**
 
 C board\*1
 
@@ -1813,7 +1813,7 @@ M3 nickel plated nut\*3
 
 ![](media/3934097b98ae64dcdf30de857621ab44.jpeg)
 
-#### **Step 5: Install the sensors and parts on D board**
+**Step 5: Install the sensors and parts on D board**
 
 -   A servo
 -   M1.2\*5 self-tapping screw\*4
@@ -1880,7 +1880,7 @@ Install the white cross mount on the gear with 4pcs M1.2\*5MM self-tapping screw
 
 ![](media/5dfca1d1f5f603146b989ca48011ecd0.jpeg)
 
-#### **Step 6: Assemble C board with D board with a “T” bolt.**
+**Step 6: Assemble C board with D board with a “T” bolt.**
 
 ![](media/8e4f5a60e2e176ee09c19efe94d1df2a.jpeg)
 
@@ -1888,7 +1888,7 @@ Install the white cross mount on the gear with 4pcs M1.2\*5MM self-tapping screw
 
 ![](media/7558c2a4c94ea2310798fed818a0269c.jpeg)
 
-#### **Step 7: Install the yellow LED on E board**
+**Step 7: Install the yellow LED on E board**
 
 -   A yellow LED module
 -   A E board
@@ -1904,7 +1904,7 @@ Mount the yellow LED on the corresponding area of E board with 1 M3\*10MM round 
 
 ![](media/4a5bf0af3b96ddd254e550dc6b4c3711.jpeg)![](media/66a496c0fc7baf9c157eaf6f07dc0aea.jpeg)
 
-#### **Step 8: Install control board, sensors and parts on H board**
+**Step 8: Install control board, sensors and parts on H board**
 
 - A servo
 
@@ -1976,7 +1976,7 @@ Fix the gear with white cross mount on the black servo with 1 M2\*5MM screw(incl
 
 ![](media/d0c652476b02c86138c6dd2502611f43.jpeg)
 
-#### Step 9: Assemble all boards together with 2 “T” type bolts.
+Step 9: Assemble all boards together with 2 “T” type bolts.
 
 (Note: the port of PLUS Control Board is aligned with the hole ⑧ on board B, and the interface of USB cable is aligned with the hole ⑦ on board B)
 
@@ -1988,7 +1988,7 @@ Fix the gear with white cross mount on the black servo with 1 M2\*5MM screw(incl
 
 ![](media/c1d3c6cc45db04bc6aa0cf3d05ea286c.jpeg)![](media/10b307c39057d29e26bcdcf639c6c5e4.jpeg)
 
-#### **Step 10: Install sensors on F board**
+**Step 10: Install sensors on F board**
 
 - A steam sensor,
 
@@ -2016,7 +2016,7 @@ Separately fix the steam sensor, the photocell sensor and the fan module on the 
 
 ![](media/6d437743fb286eef5f284756318e4a4a.jpeg)
 
-#### **Step 11: Connect sensor/module**
+**Step 11: Connect sensor/module**
 
 Connect one end of a 3pin dupont line to soil humidity sensor, then connect all sensors with the sensor shield. (make dupont wires of the servo go through the holes of board)
 
@@ -2057,7 +2057,7 @@ Insert the Bluetooth module into sensor shield, then fix the F board with 2 M3\*
 
 ![](media/36dfb4e4defba38c41d548e9eba76ab0.jpeg)
 
-#### **Step 12: Assemble the kit**
+**Step 12: Assemble the kit**
 
 Fix the board I with 6 “T” bolts
 
@@ -2069,11 +2069,11 @@ Fix the board I with 6 “T” bolts
 
 The smart home kit is established.
 
-### Project 15：Multi-purpose Smart Home
+Project 15：Multi-purpose Smart Home
 
 ![](media/7f962fd86397e96ebb2eb4c590d90c1d.png)
 
-#### **15.1 Description**
+**15.1 Description**
 
 In the previous projects, we’ve introduced how to use sensors, modules and HM-10 Bluetooth module. For this lesson, we will present all functions of this smart home.
 
@@ -2109,11 +2109,11 @@ The door will be closed when PIR motion sensor doesn’t detect people around. W
 
 ![](./media/image-20230612113105664.png)
 
-#### **15.2 What You Need**
+**15.2 What You Need**
 
 ![](media/ea22fb2dc139a1414e4f7c3ac6a9f72b.png)
 
-#### **15.3 Wiring diagram：**
+**15.3 Wiring diagram：**
 
 ![](./media/image-20230612113133417.png)
 
@@ -2135,7 +2135,7 @@ The door will be closed when PIR motion sensor doesn’t detect people around. W
 | Soil Humidity Sensor            | G/V/S                     | G/V/A2          |      |
 | Steam Sensor                    | G/V/S                     | G/V/A3          | ⑬    |
 
-#### **15.4 Test Code：**
+**15.4 Test Code：**
 
 Finish wiring, let’s design the code:
 
@@ -2693,7 +2693,7 @@ Note: Remove the Bluetooth module please when uploading the test code. Otherwise
 
 Remember to pair Bluetooth and Bluetooth module after uploading the test code.
 
-#### **15.5 Test Result：**
+**15.5 Test Result：**
 
 Upload the test code, stack expansion board on PLUS Control Board, and power on. After pairing and connecting Bluetooth successfully, we can control the smart home through app.
 
