@@ -289,7 +289,7 @@ However, if you are professional with Arduino. You can skip theses steps and ass
 
 **Note: In this course, the interface of each sensor / module marked with (G,-, GND) indicates the negative pole, G is connected to G, - or GND of sensor shield or control board; “V” is positive pole and connected with V, VCC or 5V.**
 
-**Project 1: LED Blink**
+### **Project 1: LED Blink**
 
 ![](media/48c1374daadaa5ff7efd6f0e8158a834.png)
 
@@ -439,7 +439,7 @@ What if you want to make LED flash rapidly? You only need to modify the value of
 
 **![](media/b7dd590d9337f2c749ef24dc8936a7c2.jpeg)**
 
-Project 2：Breathing Light
+### Project 2：Breathing Light
 
 ![](media/948e5cc836bce61cc8166cfda3a277b8.jpeg)
 
@@ -550,7 +550,7 @@ In the above figure, the green line represents a period, and value of analogWrit
 
 PWM mostly is used for adjusting the LED brightness or rotation speed of motor.
 
-Project 3：Passive Buzzer
+### Project 3：Passive Buzzer
 
 **3.1 Description**
 
@@ -770,7 +770,7 @@ Do you hear “Ode to joy”?
 
 ![](./media/image-20230612110252965.png)
 
-Project 4：Button module
+### Project 4：Button module
 
 ![](./media/image-20230612110259469.png)
 
@@ -835,7 +835,7 @@ The back-light will be on when the button is pressed.
 
 ![](./media/image-20230612110406053.png)
 
-Project 5：1-channel Relay Module
+### Project 5：1-channel Relay Module
 
 ![](./media/image-20230612110412980.png)
 
@@ -920,7 +920,7 @@ When the relay is connected(“NO” is on , NC is off) for 0.5s, the white LED 
 
 ![](media/d001ec087a1d48dd983be447505a7d27.jpeg)
 
-Project 6：Photocell Sensor
+### Project 6：Photocell Sensor
 
 **6.1 Description：**
 
@@ -989,7 +989,7 @@ The analog value will gradually decrease if there is light. When the value is up
 
 
 
-Project 7：Adjusting Servo Angle
+### Project 7：Adjusting Servo Angle
 
 ![](./media/image-20230612110628157.png)
 
@@ -1076,7 +1076,7 @@ Upload code, wire up components according to connection diagram, and power on. T
 
 ![](./media/image-20230612110754405.png)
 
-Project 8：Fan Module
+### Project 8：Fan Module
 
 ![](./media/image-20230612110803700.png)
 
@@ -1137,7 +1137,7 @@ Upload test code, hook up the components according to connection diagram, and di
 
 ![](./media/image-20230612110851044.png)
 
-Project 9: Steam Sensor
+### Project 9: Steam Sensor
 
 ![](./media/image-20230612110856132.png)
 
@@ -1204,7 +1204,7 @@ When the sensor detects the steam of boiled water, the moisture value is display
 
 ![](media/7cd14fd4e82df9909603997f9ff6e615.jpeg)
 
-Project 10: PIR Motion Sensor
+### Project 10: PIR Motion Sensor
 
 **10.1 Description：**
 
@@ -1305,7 +1305,7 @@ Upload the above test code, open serial monitor, and set baud rate to 9600. If P
 
 **![](./media/image-20230612111100070.png)**
 
-Project 11: Analog Gas Sensor
+### Project 11: Analog Gas Sensor
 
 ![](./media/image-20230612111109389.png)
 
@@ -1387,7 +1387,7 @@ Upload test code, wire up components according to connection diagram and power o
 
 ![](./media/image-20230612111215876.png)
 
-Project 12: 1602 LCD Display
+### Project 12: 1602 LCD Display
 
 ![](media/ab1818942731c6e822a574ba5c0df31e.jpeg)
 
@@ -1468,7 +1468,7 @@ Note: When the display doesn’t show characters, you can adjust the potentiomet
 
 ![](./media/image-20230612111314348.png)
 
-Project 13：Soil Humidity Sensor
+### Project 13：Soil Humidity Sensor
 
 **13.1 Description**
 
@@ -1579,7 +1579,7 @@ The greater the humidity is, the larger the value(0-1023). Also, the 1602 LCD wi
 
 ![](./media/image-20230612111429712.png)
 
-Project 14: Bluetooth Test
+### Project 14: Bluetooth Test
 
 14.1 Description
 
@@ -2069,7 +2069,7 @@ Fix the board I with 6 “T” bolts
 
 The smart home kit is established.
 
-Project 15：Multi-purpose Smart Home
+### Project 15：Multi-purpose Smart Home
 
 ![](media/7f962fd86397e96ebb2eb4c590d90c1d.png)
 
