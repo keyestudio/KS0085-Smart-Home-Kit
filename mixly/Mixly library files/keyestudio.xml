@@ -1,0 +1,899 @@
+
+type="company" 
+block="block/Keyestudio001.js"
+generator="generator/Keyestudio001.js" 
+language="language/keyestudio/" 
+lib="Keyestudio001"
+hardware="hardware/arduino"
+media="media/Keyestudio001/" 
+
+
+<script type="text/javascript" src="../../blocks/company/Keyestudio001.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/Keyestudio001.js"></script>
+<category id="Keyestudio001_KE" name="keyestudio" colour="20">
+
+	<!--                  控制输出                 -->
+	<category id="controloutput_keyes" name="Control output" colour="20">
+		<block type="cb_led1">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+		<block type="cb_led01">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+		<block type="cb_3wled">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+		<block type="cb_led4">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+		<block type="cb_led5">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+		<block type="cb_LEDW">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+		<block type="cb_LEDR">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+		<block type="cb_LEDG">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+		<block type="cb_LEDB">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+		<block type="cb_LEDY">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+<!--          有源蜂鸣器       -->  
+		<block type="cb_y_buzzer">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<!--          无源蜂鸣器       -->      
+		<block type="cb_tone01">
+			<value name="tone">
+				<shadow type="FREQUENCY"></shadow>
+			</value>
+		</block>
+
+		<block type="cb_w_buzzer">
+			<value name="PIN">
+				   <shadow type="pins_digital"></shadow>
+			    </value>
+			<value name="FREQUENCY">
+				   <shadow type="cb_tone01"></shadow>
+			</value>
+			
+			<value name="DURATION">
+				<shadow type="math_number">
+					<field name="NUM">1000</field>
+				</shadow>
+			</value>
+
+			
+		</block> 
+
+		<!--          音乐             -->
+		<block type="cb_w_music">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			
+		</block>  
+		
+		<!--          关闭蜂鸣器               -->
+		<block type="cb_w_notone">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<block type="cb_relay">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+		<block type="cb_motor">
+			<value name="PIN1">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="PIN2">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<block type="cb_motor001">
+			<value name="PIN1">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="PIN2">
+				<shadow type="pins_digital"></shadow>
+			</value>
+
+			<value name="pwma">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="pwmb">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+
+		</block>
+
+		<block type="cb_motor002">
+			<value name="PIN1">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="PIN2">
+				<shadow type="pins_digital"></shadow>
+			</value>
+
+			<value name="pwma">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="pwmb">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+
+		</block>
+
+<!--            电机驱动                  -->
+		<block type="cb_TB6612">
+			<value name="Left1">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="Left2">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="PWM_L">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="L">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+
+			<value name="Right1">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="Right2">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="PWM_R">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="R">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+		</block>
+
+
+
+
+		<block type="cb_L298N">
+			<value name="Left1">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="Left2">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="PWM_L">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="L">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+
+			<value name="Right1">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="Right2">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="PWM_R">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="R">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			
+		</block>
+
+
+		<block type="cb_servo">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="angle">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="time">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+		</block>
+
+		<block type="cb_servo_r">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<block type="cb_traffic_light">
+			<value name="R">
+				<shadow type="pins_digital"></shadow>
+			</value>
+
+			<value name="G">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="B">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<block type="cb_rgb01">
+			<value name="R">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="r">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="G">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="g">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="B">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="b">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+		</block>
+
+	</category>
+
+
+
+
+	<!--                数字传感器              -->
+	<category id="digitalRead" name="digital sensor" colour="20">
+
+		<!--          人体红外传感器               -->
+		<block type="cb_ir_g">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<!--          火焰传感器数字               -->
+		<block type="cb_flame">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+		<!--          霍尔传感器               -->
+		<block type="cb_hall">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<!--          碰撞传感器               -->
+		<block type="cb_crash">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<!--          按键传感器               -->
+		<block type="cb_button">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+		<!--          电容触摸传感器               -->
+		<block type="cb_tuoch">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+		<!--          敲击传感器               -->
+		<block type="cb_knock">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<!--          倾斜传感器               -->
+		<block type="cb_tilt">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<!--          振动传感器               -->
+		<block type="cb_shake">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<!--          干簧管传感器               -->
+		<block type="cb_reed_s">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<!--          循迹传感器               -->
+		<block type="cb_track">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<!--          避障传感器               -->
+		<block type="cb_avoid">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<!--          光折断传感器               -->
+		<block type="cb_light_b">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<!--          MQ传感器               -->
+		<block type="cb_MQ_d">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+	</category>
+
+	<!--               模拟传感器              -->
+	<category id="analogRead" name="analog sensor" colour="20">
+
+		<!--              模拟温度传感器              -->
+		<block type="cb_analog_t">
+			<value name="PIN">
+				<shadow type="pins_analog"></shadow>
+			</value>
+		</block>
+		<!--              声音传感器              -->
+		<block type="cb_sound">
+			<value name="PIN">
+				<shadow type="pins_analog"></shadow>
+			</value>
+		</block>
+		<!--              光线传感器              -->
+		<block type="cb_light">
+			<value name="PIN">
+				<shadow type="pins_analog"></shadow>
+			</value>
+		</block>
+		<!--              水位传感器              -->
+		<block type="cb_water">
+			<value name="PIN">
+				<shadow type="pins_analog"></shadow>
+			</value>
+		</block>
+		<!--              土壤传感器              -->
+		<block type="cb_soil">
+			<value name="PIN">
+				<shadow type="pins_analog"></shadow>
+			</value>
+		</block>
+		<!--              电位器传感器              -->
+		<block type="cb_potentiometer">
+			<value name="PIN">
+				<shadow type="pins_analog"></shadow>
+			</value>
+		</block>
+		<!--              LM35传感器              -->
+		<block type="cb_lm35">
+			<value name="PIN">
+				<shadow type="pins_analog"></shadow>
+			</value>
+		</block>
+		<!--              滑动电位器              -->
+		<block type="cb_slide_potentiometer">
+			<value name="PIN">
+				<shadow type="pins_analog"></shadow>
+			</value>
+		</block>
+		<!--              TEMT6000环境光             -->
+		<block type="cb_temt6000">
+			<value name="PIN">
+				<shadow type="pins_analog"></shadow>
+			</value>
+		</block>
+		<!--              水蒸气传感器              -->
+		<block type="cb_steam">
+			<value name="PIN">
+				<shadow type="pins_analog"></shadow>
+			</value>
+		</block>
+		<!--              薄膜压力传感器              -->
+		<block type="cb_film_p">
+			<value name="PIN">
+				<shadow type="pins_analog"></shadow>
+			</value>
+		</block>
+		<!--              摇杆传感器              -->
+		<block type="cb_joystick">
+			<value name="PIN">
+				<shadow type="pins_analog"></shadow>
+			</value>
+		</block>
+		<!--              烟雾传感器              
+		<block type="cb_smoke">
+			<value name="PIN">
+				<shadow type="pins_analog"></shadow>
+			</value>
+		</block>
+		-->
+		<!--              酒精传感器              -->
+		<block type="cb_alcohol">
+			<value name="PIN">
+				<shadow type="pins_analog"></shadow>
+			</value>
+		</block>
+		<!--              MQ135空气质量              -->
+		<block type="cb_mq135">
+			<value name="PIN">
+				<shadow type="pins_analog"></shadow>
+			</value>
+		</block>
+		<!--              电压              -->
+		<block type="cb_voltage">
+			<value name="PIN">
+				<shadow type="pins_analog"></shadow>
+			</value>
+		</block>
+
+		<!--              电流              -->
+		<block type="cb_dianliu">
+			<value name="PIN">
+				<shadow type="pins_analog"></shadow>
+			</value>
+		</block>
+
+		<!--          火焰传感器模拟               -->
+		<block type="cb_flame_a">
+			<value name="PIN">
+				<shadow type="pins_analog"></shadow>
+			</value>
+		</block>
+
+	
+		
+		
+		
+		
+	</category>
+
+	<category id="sensor" name="Special modules" colour="20">
+
+		<block type="cb_sr01">
+			<value name="PIN1">
+				<shadow type="pins_digital">
+					<field name="PIN">2</field>
+				</shadow>
+			</value>
+			<value name="PIN2">
+				<shadow type="pins_digital">
+					<field name="PIN">3</field>
+				</shadow>
+			</value>	
+		</block>
+
+		<!--              18B20温度模块              -->
+		<block type="cb_18b20">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<block type="cb_adxl345">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block> 
+
+		<!--              BMP180高度计模块              -->
+		<block type="cb_bmp180">
+			
+		</block>
+
+		<!--              MPU6050              -->
+		<block type="cb_mpu6050">
+			
+		</block>
+
+		<!--              DS3231模块              -->
+		<block type="cb_ds3231">
+			<value name="dow">
+				<shadow type="math_number">
+					<field name="NUM">1</field>
+				</shadow>
+			</value>
+			<value name="day">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="month">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="year">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			
+			
+			<value name="hour">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="minute">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="second">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+		</block>
+
+		<!--              DS3231读取时间模块             -->
+		<block type="cb_ds3231getTime">
+			
+		</block>
+
+		<!--              温湿度模块             -->
+		<block type="cb_dht11">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<!--              SHT31温湿度模块             -->
+		<block type="cb_SHT31">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<!--              红外温度             -->
+		<block type="cb_hwwd">
+			
+		</block>
+
+		<!--             颜色传感器              -->
+		<block type="cb_yanse">
+			
+		</block>
+
+	</category>
+
+	<category id="print" name="display screen" colour="20">
+
+    <!--           RGB灯                -->
+		<block type="cb_rgb">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="num01">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="red">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="green">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="blue">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+		</block>
+
+	  
+
+	 <!--           TM1637数码管初始化               	
+		<block type="cb_tm1637_init">
+			<value name="PIN1">
+				<shadow type="pins_digital">4</shadow>
+			</value>
+			<value name="PIN2">
+				<shadow type="pins_digital">3</shadow>
+			</value>
+		</block>
+		-->
+
+   <!--           TM1637数码管自定义显示              
+		<block type="cb_tm1637_dy">
+			<value name="num">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="weishu">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="wei">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+		</block>
+		-->
+
+		<!--           TM1637数码管自定义显示是否填充0              
+		<block type="cb_tm1637_tc">
+			<value name="num">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="0and1">
+				<shadow type="math_Boolean">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+		</block>
+		-->
+
+		<!--           TM1637数码管亮度             
+		<block type="cb_tm1637_ld">
+			<value name="num">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+		</block>
+		-->
+
+        <!--           TM1637数码管是否隐藏             
+		<block type="cb_tm1637_yc">
+			<value name="BOOL">
+				<shadow type="math_Boolean">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+		</block>
+		-->
+
+		<!--           TM1637数码管自定义显示是否显示冒号              
+		<block type="cb_tm1637_mh">
+			<value name="num1">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="num2">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			<value name="BOOL">
+				<shadow type="math_Boolean">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+		</block>
+		-->
+
+		<!--                   8*8点阵                    
+	        
+   			<block type="cb_matrix_init">
+				<value name="PIN1">
+					<shadow type="pins_digital">
+						<field name="PIN">A4</field>
+					</shadow>
+				</value>
+				<value name="PIN2">
+					<shadow type="pins_digital">
+						<field name="PIN">A5</field>
+					</shadow>
+				</value>
+			</block>
+
+   			<block type="cb_matrix1" name="点阵屏显示_显示图案">
+				<value name="LEDArray">
+					<block type="cb_matrix2"></block>
+				</value>
+			</block>
+        -->
+
+         <!--                1602LCD                    -->
+		<block type="cb_1602lcd_init">
+			<value name="address">
+				<shadow type="math_number">
+					<field name="NUM">0x27</field>
+				</shadow>
+			    </value>
+
+		</block>
+
+        <!--                1602LCD                    -->
+		<block type="cb_1602lcd">
+			<value name="TEXT">
+				<shadow type="text">
+                    <field name="TEXT">line1</field>
+                </shadow>
+			</value>
+			<value name="TEXT2">
+				<shadow type="text">
+                    <field name="TEXT">line2</field>
+                </shadow>
+			</value>
+		</block>
+
+		<block type="cb_1602lcd_print2">
+			<value name="row">
+				<shadow type="math_number">
+					<field name="row">1</field>
+				</shadow>
+			    </value>
+
+			  <value name="column">
+				<shadow type="math_number">
+					<field name="column">1</field>
+				</shadow>
+			    </value>
+
+			    <value name="TEXT">
+				<shadow type="text">
+                    <field name="TEXT">hello</field>
+                </shadow>
+			</value>
+
+		</block>
+
+		<!--                1602LCD 左移                   -->
+		<block type="cb_1602lcd_left">
+
+		</block>
+
+		<!--                1602LCD 右移                   -->
+		<block type="cb_1602lcd_right">
+
+		</block>
+
+
+		<!--                1602LCD                    -->
+		<block type="cb_1602lcd_clear">
+
+		</block>
+		<block type="cb_oled">
+			<value name="size">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="TEXT1">
+				<block type="text">
+					<field name="TEXT1"></field>
+				</block>
+			</value>
+			<value name="TEXT2">
+				<block type="text">
+					<field name="TEXT2"></field>
+				</block>
+			</value>
+			<value name="TEXT3">
+				<block type="text">
+					<field name="TEXT3"></field>
+				</block>
+			</value>
+			<value name="TEXT4">
+				<block type="text">
+					<field name="TEXT4"></field>
+				</block>
+			</value>
+		</block>
+
+
+
+	</category>
+
+	<category id="communicate" name="communication" colour="20">
+
+		<block type="cb_ir_r">
+			<value name="PIN">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+		<block type="cb_ir_s">
+			<value name="num1">
+				<shadow type="math_number">
+					<field name="NUM1">0x00</field>
+				</shadow>
+			</value>
+		</block>
+
+		<block type="cb_bluetooth">
+			<value name="PIN1">
+				<shadow type="pins_digital"></shadow>
+			</value>
+			<value name="PIN2">
+				<shadow type="pins_digital"></shadow>
+			</value>
+		</block>
+
+
+
+
+		
+	</category>
+
+</category>
