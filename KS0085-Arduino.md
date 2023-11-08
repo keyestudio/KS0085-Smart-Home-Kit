@@ -279,7 +279,7 @@ Then, the libraries of home smart are successfully installed.
 
 
 
-## 5.Projects
+## 5. Projects
 
 ![](arduino/media/1dfed548560b06e51f83a1b2d1c71558.jpeg)
 
@@ -289,7 +289,7 @@ However, if you are professional with Arduino. You can skip theses steps and ass
 
 **Note: In this course, the interface of each sensor / module marked with (G,-, GND) indicates the negative pole, G is connected to G, - or GND of sensor shield or control board; “V” is positive pole and connected with V, VCC or 5V.**
 
-### **Project 1: LED Blink**
+### Project 1: LED Blink
 
 ![](arduino/media/48c1374daadaa5ff7efd6f0e8158a834.png)
 
@@ -1720,7 +1720,7 @@ The function of corresponding character and button is shown below:
 
 ![](./arduino/media/6465465654.jpeg)
 
-**Assembly Guide**
+### **Assembly Guide**
 
 Check the board A\~I and parts in the first place.
 
