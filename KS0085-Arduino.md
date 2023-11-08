@@ -1,4 +1,4 @@
-# KS0085 Keyestudio Smart Home Kit for Arduino
+# Smart Home Kit for Arduino Project
 
 ![](arduino/media/b9439bf8b48aa4f22ff2003f00234c7b.jpeg)
 
@@ -22,44 +22,44 @@ So, go ahead and get started; let's build this amazing analog smart home.
 
 After getting this smart home kit, we need to make sure that there are not missing components.
 
-| #    | Name                                                         | QTY  |                           Picture                            |
-| ---- | ------------------------------------------------------------ | :--: | :----------------------------------------------------------: |
-| 1    | Keyestudio PLUS Control Board（Compatible with Arduino UNO ） |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps1.png) |
-| 2    | Keyestudio Sensor Shield V 5.2                               |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps2.png) |
-| 3    | Wooden Board*10 T=3MM                                        |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps3.jpg) |
-| 4    | White LED Module                                             |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps4.png) |
-| 5    | Yellow LED Module                                            |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps5.png) |
-| 6    | Button Sensor                                                |  2   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps6.png) |
-| 7    | Photocell Sensor                                             |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps7.png) |
-| 8    | PIR Motion Sensor                                            |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps8.png) |
-| 9    | MQ-2 Gas Sensor                                              |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps9.jpg) |
-| 10   | Relay Module                                                 |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps10.png) |
-| 11   | Bluetooth HM-10 Module                                       |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps11.jpg) |
-| 12   | Passive Buzzer Sensor                                        |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps12.png) |
-| 13   | Fan module                                                   |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps13.png) |
-| 14   | Steam Sensor                                                 |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps14.png) |
-| 15   | Servo Motor                                                  |  2   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps15.jpg) |
-| 16   | LCD1602 Display Module                                       |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps16.png) |
-| 17   | Soil Humidity Sensor                                         |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps17.png) |
-| 18   | USB Cable                                                    |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps18.png) |
-| 19   | Female to Female Dupont Cables                               |  40  | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps19.jpg) |
-| 20   | Male to female Dupont Cables                                 |  6   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps20.jpg) |
-| 21   | M3 Nickel Plated Nuts                                        |  25  | ![](./arduino/media/wps43-1686537455401-10.jpg)![wps43](./arduino/media/wps43-1686537458637-12.jpg)![wps43](./arduino/media/wps43-1686537460883-14.jpg)![wps43](./arduino/media/wps43-1686537462484-16.jpg) |
-| 22   | M2*12MM Round Head Screws                                    |  6   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps46.png)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps47.png) |
-| 23   | M2 Nickel Plated Nuts                                        |  6   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps48.png) |
-| 24   | M3*10MM Dual-pass Copper Bush                                |  4   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps49.png) |
-| 25   | M3*6MM Round Head Screws                                     |  8   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps50.png) |
-| 26   | M3 304 Stainless Steel Self-locking Nuts                     |  4   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps51.png)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps52.png) ![wps51](./arduino/media/wps51.png) |
-| 27   | M3*10MM Round Head Screws                                    |  20  | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps53.png)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps54.png)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps55.png)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps56.png) |
-| 28   | M2.5*10MM Round Head Screws                                  |  6   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps58.png) |
-| 29   | M2.5 Nickel Plated Nuts                                      |  6   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps59.jpg)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps60.jpg)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps61.jpg)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps62.jpg)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps63.jpg)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps64.jpg) |
-| 30   | M3*12MM Round Head Screws                                    |  6   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps65.png) |
-| 31   | M3*10MM Flat Head Screws                                     |  2   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps66.png) |
-| 32   | M1.2*5MM Round Head Self-tapping Screws                      |  10  | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps67.png) |
-| 33   | 6-Slot AA Battery Holder with DC Head and 15cm Dew Line      |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps68.jpg) |
-| 34   | Black-yellow Handle 3*40MM Cross Screwdriver                 |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps69.png) |
-| 35   | 20cm 2.54 3Pin F-F Jumper Wire                               |  13  | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps70.jpg) |
-| 36   | 20cm 2.54 4Pin F-F Jumper Wire                               |  2   |                  ![img](./arduino/media/wps71.png)                   |
+| # | Name                                                           | QTY | Picture                                          |
+|----|----------------------------------------------------------------|-----|--------------------------------------------------|
+| 1  | Keyestudio PLUS Control Board （Compatible with Arduino UNO ） | 1   | ![](arduino/media/9ce82804e9d9c1b9ba2483e899cf4253.jpeg) |
+| 2  | Keyestudio Sensor Shield V 5.2                                 | 1   | ![](arduino/media/ae39c51d16d81c8005b51264f24786f8.jpeg) |
+| 3  | Wooden Board*10 T=3MM                                          | 1   | ![](arduino/media/823aeef235ae42027a2f815991858331.png)  |
+| 4  | White LED Module                                               | 1   | ![](arduino/media/9cad01dce5c196317f665e6115b44c86.jpeg) |
+| 5  | Yellow LED Module                                              | 1   | ![](arduino/media/c330317970c9594d8baed73ee43106e6.jpeg) |
+| 6  | Button Sensor                                                  | 2   | ![](arduino/media/197566fe08fddc5ed5686e9e9084d4b9.jpeg) |
+| 7  | Photocell Sensor                                               | 1   | ![](arduino/media/7950acf19912aabfb83928eb3459cc2c.jpeg) |
+| 8  | PIR Motion Sensor                                              | 1   | ![](arduino/media/3ced83ccadf7d3ef5783ddb224cf3e4d.jpeg) |
+| 9  | MQ-2 Gas Sensor                                                | 1   | ![](arduino/media/fed3dd9e2581a73519bfad27b4f3a533.png)  |
+| 10 | Relay Module                                                   | 1   | ![](arduino/media/484b144bc1b0d88b30d6b04df7918b04.jpeg) |
+| 11 | Bluetooth HM-10 Module                                         | 1   | ![](arduino/media/5d8c20e6c260da18d8455044036ef705.png)  |
+| 12 | Passive Buzzer Sensor                                          | 1   | ![](arduino/media/73d052659c19eb9abbf9ed63261d22c0.jpeg) |
+| 13 | Fan module                                                     | 1   | ![](arduino/media/54cdb977922bf3a61bf00d3b6468e403.jpeg) |
+| 14 | Steam Sensor                                                   | 1   | ![](arduino/media/9e74ad218abc3b7c7ddc669f26aa4b2b.jpeg) |
+| 15 | Servo Motor                                                    | 2   | ![](arduino/media/baa044ee6e953a4c9834a0103b39bc3d.png)  |
+| 16 | LCD1602 Display Module                                         | 1   | ![](arduino/media/ab1818942731c6e822a574ba5c0df31e.jpeg) |
+| 17 | Soil Humidity Sensor                                           | 1   | ![](arduino/media/4fc308a59339d9178ffa2f3254b55ecd.jpeg) |
+| 18 | USB Cable                                                      | 1   | ![](arduino/media/3e0a72e3120949058f77981f45b95607.jpeg) |
+| 19 | Female to Female Dupont Cables                                 | 40  | ![](arduino/media/538e49ca56dcd48e781494272568d932.png)  |
+| 20 | Male to female Dupont Cables                                   | 6   | ![](arduino/media/67ffb375f996d3e16f77a31a510ff00c.png)  |
+| 21 | M3 Nickel Plated Nuts                                          | 25  | ![](arduino/media/40828578b370119a7a5c40dcc412f9c6.png)  |
+| 22 | M2*12MM Round Head Screws                                      | 6   | ![](arduino/media/90f262e52991756983f29416b65889de.png)  |
+| 23 | M2 Nickel Plated Nuts                                          | 6   | ![](arduino/media/40828578b370119a7a5c40dcc412f9c6.png)  |
+| 24 | M3*10MM Dual-pass  Copper Bush                                 | 4   | ![](arduino/media/4f371e1be3fb1cf7b6b81e44ecc35da0.png)  |
+| 25 | M3*6MM Round Head Screws                                       | 8   | ![](arduino/media/90f262e52991756983f29416b65889de.png)  |
+| 26 | M3 304 Stainless Steel Self-locking Nuts                       | 4   | ![](arduino/media/df88853394ecb10e544d9d29c7334ebb.png)  |
+| 27 | M3*10MM Round Head Screws                                      | 20  | ![](arduino/media/90f262e52991756983f29416b65889de.png)  |
+| 28 | M2.5*10MM Round Head Screws                                    | 6   | ![](arduino/media/90f262e52991756983f29416b65889de.png)  |
+| 29 | M2.5 Nickel Plated Nuts                                        | 6   | ![](arduino/media/40828578b370119a7a5c40dcc412f9c6.png)  |
+| 30 | M3*12MM Round Head Screws                                      | 6   | ![](arduino/media/90f262e52991756983f29416b65889de.png)  |
+| 31 | M3*10MM Flat Head Screws                                       | 2   | ![](arduino/media/0abb3effc9ca8c8444126b00488ff853.png)  |
+| 32 | M1.2*5MM Round Head Self-tapping Screws                        | 10  | ![](arduino/media/597b6fa488e5a15e1f434a9cc0e7c236.png)  |
+| 33 | 6-Slot AA Battery Holder with DC Head and 15cm Dew Line        | 1   | ![](arduino/media/5caae57a78e083f7a2d4cb3c31651236.png)  |
+| 34 | Black-yellow  Handle 3*40MM Cross Screwdriver                  | 1   | ![](arduino/media/635b8724dc3e7a27f940b3953ed4536d.jpeg) |
+| 35 | 20cm 2.54 3Pin F-F Jumper Wire                                 | 13  | ![](arduino/media/bad041b053825940869213d9f431ef96.png)  |
+| 36 | 20cm 2.54 4Pin F-F Jumper Wire                                 | 2   | ![](arduino/media/114620893ecf24b61152fe3e8b7d3e0f.jpeg) |              |
 
 ## 3.Download Software & Install Driver
 

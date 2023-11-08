@@ -1,4 +1,4 @@
-# **KS0085 Keyestudio Smart Home Kit for Mixly**
+# Smart Home Kit for Mixly Project
 
 ![](mixly/media/6d044e8a930f59e98d4c4ac801160c7e.png)
 
