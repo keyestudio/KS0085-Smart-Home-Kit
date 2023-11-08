@@ -1,7 +1,7 @@
 
 .. toctree::
    :maxdepth: 5
-   :caption: KS0085 Keyestudio Smart Home Kit for Mixly
+   :caption: KS0085 Keyestudio Smart Home Kit 
 
 
    KS0085-Arduino.md
