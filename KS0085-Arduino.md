@@ -317,9 +317,9 @@ In addition, the different blinking frequency can be presented by adjusting the 
 
 **1.3 What You Need**
 
-| PLUS Control Board*1                                         | Sensor Shield*1                                              | White LED  Module *1                                         | USB Cable*1                                                  | 3pin F-F Dupont Cable*1   |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------- |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps72.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps73.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps74.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps75.jpg) | ![img](./arduino/media/wps76.jpg) |
+| PLUS control board\*1                           | Sensor shield\*1                                 | White LED module \*1                             | USB cable\*1                                    | 3pin F-F Dupont line\*1                         |
+|-------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| ![](arduino/media/24c831162a53ab88e584fbbedd6e4018.png) | ![](arduino/media/cc6f4cc25bad50e342fe54bc09417592.jpeg) | ![](arduino/media/9cad01dce5c196317f665e6115b44c86.jpeg) | ![](arduino/media/0da41a27db41e1207a7f760067e93104.png) | ![](arduino/media/bad041b053825940869213d9f431ef96.png) |
 
 **1.4 Sensor Shield**
 
@@ -459,9 +459,9 @@ If output five hundred 1, that is 5V; if all of which is 1, that is 0V. If outpu
 
 **2.2 What You Need**
 
-| PLUS Control Board*1                                         | Sensor Shield*1                                              | Yellow LED Module*1                                          | USB Cable*1                                                  | 3pin F-F Dupont Cable*1   |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------- |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps77.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps78.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps79.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps80.jpg) | ![img](./arduino/media/wps81.jpg) |
+| PLUS control board\*1                           | Sensor shield\*1                                 | Yellow LED module\*1                             | USB cable\*1                                    | 3pin F-F Dupont line\*1                         |
+|-------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| ![](arduino/media/24c831162a53ab88e584fbbedd6e4018.png) | ![](arduino/media/cc6f4cc25bad50e342fe54bc09417592.jpeg) | ![](arduino/media/c330317970c9594d8baed73ee43106e6.jpeg) | ![](arduino/media/0da41a27db41e1207a7f760067e93104.png) | ![](arduino/media/bad041b053825940869213d9f431ef96.png) |
 
 **2.3 Wiring Diagram**
 
@@ -562,9 +562,9 @@ While using passive buzzer, we can control different sound by inputting square w
 
 **3.2 What You Need**
 
-| PLUS Control Board*1                                         | Sensor Shield*1                                              | Passive Buzzer*1                                             | USB Cable*1                                                  | 3pin F-F Dupont Cable*1   |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------- |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps82.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps83.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps84.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps85.jpg) | ![img](./arduino/media/wps86.jpg) |
+| PLUS control board\*1                           | Sensor shield\*1                                 | Passive buzzer\*1                                | USB cable\*1                                    | 3pin F-F Dupont line\*1                         |
+|-------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| ![](arduino/media/24c831162a53ab88e584fbbedd6e4018.png) | ![](arduino/media/cc6f4cc25bad50e342fe54bc09417592.jpeg) | ![](arduino/media/73d052659c19eb9abbf9ed63261d22c0.jpeg) | ![](arduino/media/0da41a27db41e1207a7f760067e93104.png) | ![](arduino/media/bad041b053825940869213d9f431ef96.png) |
 
 **3.2 Wiring Diagram**
 
@@ -784,9 +784,9 @@ When the normally open contact bears pressure, the circuit will be on state ; ho
 
 **4.2 What You Need**
 
-| PLUS Control Board*1                                         | Sensor Shield*1                                              | Yellow LED Module*1                                          | Button Sensor*1                                              | USB Cable*1                                                  | 3pinF-F Dupont  Cable*2   |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------- |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps87.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps88.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps89.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps90.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps91.jpg) | ![img](./arduino/media/wps92.jpg) |
+| PLUS control board\*1                                    | Sensor shield\*1                                 | Yellow LED module\*1                             | Button sensor\*1                                 | USB cable\*1                                    | 3pin F-F Dupont line\*2                         |
+|----------------------------------------------------------|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+|          ![](arduino/media/24c831162a53ab88e584fbbedd6e4018.png) | ![](arduino/media/cc6f4cc25bad50e342fe54bc09417592.jpeg) | ![](arduino/media/c330317970c9594d8baed73ee43106e6.jpeg) | ![](arduino/media/197566fe08fddc5ed5686e9e9084d4b9.jpeg) | ![](arduino/media/0da41a27db41e1207a7f760067e93104.png) | ![](arduino/media/bad041b053825940869213d9f431ef96.png) |
 
 **4.3 Wiring Diagram**
 
@@ -875,13 +875,13 @@ This pulls in and releases, thus achieving the purpose of turning on and off in 
 
 **5.3 What You Need**
 
-| PLUS Control Board*1                                         | Sensor Shield*1                                              | USB Cable*1                                                  |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps93.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps94.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps95.jpg) |
-| Relay Module*1                                               | White LED Module*1                                           | 3pin F-F Dupont Cable*1                                      |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps96.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps97.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps98.jpg) |
-| Female to Female Dupont Cables*2                             | Male to Female Dupont Cables*2                               |                                                              |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps99.png) ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps100.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps101.png) ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps102.png) |                                                              |
+| PLUS control board\*1                                                                                                                             | Sensor shield\*1                                                                                  | USB cable\*1                                    |
+|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------|
+| ![](arduino/media/24c831162a53ab88e584fbbedd6e4018.png)                                                                                                   | ![](arduino/media/cc6f4cc25bad50e342fe54bc09417592.jpeg)                                                  | ![](arduino/media/0da41a27db41e1207a7f760067e93104.png) |
+| Relay module\*1                                                                                                                                   | White LED\*1                                                                                      | 3pin F-F Dupont Line\*1                         |
+| ![](arduino/media/484b144bc1b0d88b30d6b04df7918b04.jpeg)                                                                                                  | ![](arduino/media/9cad01dce5c196317f665e6115b44c86.jpeg)                                                  | ![](arduino/media/bad041b053825940869213d9f431ef96.png) |
+| Female to Female Dupont Lines\*2                                                                                                                  | Male to Female Dupont Line\*2                                                                     |                                                 |
+| ![](arduino/media/c765da7bdad858ecaa7080ffcec4f605.jpeg)![](arduino/media/c765da7bdad858ecaa7080ffcec4f605.jpeg) ![](arduino/media/c765da7bdad858ecaa7080ffcec4f605.jpeg) | ![](arduino/media/ebae742607b42dd5a84676d6a399d980.jpeg) ![](arduino/media/ebae742607b42dd5a84676d6a399d980.jpeg) |                                                 |
 
 **5.4 Wiring Diagram：**
 
@@ -936,9 +936,9 @@ It is commonly applied to light measurement, control and conversion, light contr
 
 **6.2 What You Need**
 
-| PLUS Control Board*1                                         | Sensor Shield*1                                              | Photocell Sensor*1                                           | Yellow LED Module*1                                          | USB Cable*1                                                  | 3pin F-F Dupont Cables*2   |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------- |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps103.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps104.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps105.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps106.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps107.jpg) | ![img](./arduino/media/wps108.jpg) |
+| PLUS control board\*1                           | Sensor shield\*1                                 | Photocell sensor\*1                              | Yellow LED module\*1                             | USB cable\*1                                    | 3pin F-F Dupont line\*2                         |
+|-------------------------------------------------|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| ![](arduino/media/24c831162a53ab88e584fbbedd6e4018.png) | ![](arduino/media/cc6f4cc25bad50e342fe54bc09417592.jpeg) | ![](arduino/media/7950acf19912aabfb83928eb3459cc2c.jpeg) | ![](arduino/media/c330317970c9594d8baed73ee43106e6.jpeg) | ![](arduino/media/0da41a27db41e1207a7f760067e93104.png) | ![](arduino/media/bad041b053825940869213d9f431ef96.png) |
 
 **6.3 Wiring Diagram：**
 
@@ -1029,9 +1029,9 @@ Note that don’t supply power through USB cable, there is possibility to damage
 
 **7.3 What You Need**
 
-| PLUS Control Board*1                                         | Sensor Shield*1                                              | Servo*1                                                      | USB Cable*1                |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------- |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps109.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps110.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps111.jpg) | ![img](./arduino/media/wps112.jpg) |
+| PLUS control board\*1                           | Sensor shield\*1                                 | Servo\*1                                        | USB cable\*1                                    |
+|-------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| ![](arduino/media/24c831162a53ab88e584fbbedd6e4018.png) | ![](arduino/media/cc6f4cc25bad50e342fe54bc09417592.jpeg) | ![](arduino/media/c458fe22759b1d73bded113c44753333.png) | ![](arduino/media/0da41a27db41e1207a7f760067e93104.png) |
 
 **7.4 Wiring Diagram：**
 
@@ -1095,9 +1095,9 @@ The L9110 fan module adopts L9110 motor control chip, and controls the rotation 
 
 **8.3 What You Need**
 
-| PLUS Control Board*1                                         | Sensor Shield*1                                              | Fan Module*1                                                 | USB Cable*1                                                  | Female to Female Dupont Cables*4 |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------- |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps113.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps114.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps115.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps116.jpg) | ![img](./arduino/media/wps117.jpg)       |
+| PLUS control board\*1                           | Sensor shield\*1                                 | Fan module\*1                                    | USB cable\*1                                    | Female to Female Dupont lines\*4                |
+|-------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| ![](arduino/media/24c831162a53ab88e584fbbedd6e4018.png) | ![](arduino/media/cc6f4cc25bad50e342fe54bc09417592.jpeg) | ![](arduino/media/54cdb977922bf3a61bf00d3b6468e403.jpeg) | ![](arduino/media/0da41a27db41e1207a7f760067e93104.png) | ![](arduino/media/1b76ae2bbea30f1a9fe80b41de65ab94.png) |
 
 **8.4 Wiring Diagram：**
 
@@ -1161,9 +1161,9 @@ Note: the connection part is not waterproof, therefore, don’t immerse it in th
 
 **9.3 What You Need**
 
-| PLUS Control Board*1                                         | Sensor Shield*1                                              | Steam Sensor*1                                               | USB Cable*1                                                  | 3pin F-F Dupont Cable*1    |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------- |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps118.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps119.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps120.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps121.jpg) | ![img](./arduino/media/wps122.jpg) |
+| PLUS control board\*1                           | Sensor shield\*1                                 | Steam sensor\*1                                 | USB  cable\*1                                   | 3pinF-F Dupont  line\*1                         |
+|-------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| ![](arduino/media/24c831162a53ab88e584fbbedd6e4018.png) | ![](arduino/media/cc6f4cc25bad50e342fe54bc09417592.jpeg) | ![](arduino/media/d4d2afcefef9dfe30b45110c1fa5eb4a.png) | ![](arduino/media/0da41a27db41e1207a7f760067e93104.png) | ![](arduino/media/bad041b053825940869213d9f431ef96.png) |
 
 **9.4 Wiring Diagram：**
 
@@ -1248,11 +1248,11 @@ Conventional pyroelectric infrared sensors are much more bigger, with complex ci
 
 **10.3 What You Need**
 
-| PLUS Control Board*1                                         | SensorShield*1                                               | PIR Motion Sensor*1                                          | Female to Female Dupont Cables*4                             |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps123.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps124.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps125.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps126.jpg) |
-| Fan Module*1                                                 | White LED Module*1                                           | USB Cable*1                                                  | 3pinF-F Dupont Line*2                                        |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps127.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps128.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps129.jpg) | ![img](./arduino/media/wps130.jpg)                                   |
+| PLUS control board\*1                            | Sensor  shield\*1                                | PIR motion sensor\*1                             | F-F Dupont lines\*4                             |
+|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
+| ![](arduino/media/24c831162a53ab88e584fbbedd6e4018.png)  | ![](arduino/media/cc6f4cc25bad50e342fe54bc09417592.jpeg) | ![](arduino/media/3ced83ccadf7d3ef5783ddb224cf3e4d.jpeg) | ![](arduino/media/1b76ae2bbea30f1a9fe80b41de65ab94.png) |
+| Fan module\*1                                    | White LED module\*1                              | USB cable\*1                                     | 3pinF-F Dupont  line\*2                         |
+| ![](arduino/media/54cdb977922bf3a61bf00d3b6468e403.jpeg) | ![](arduino/media/9cad01dce5c196317f665e6115b44c86.jpeg) | ![](arduino/media/0da41a27db41e1207a7f760067e93104.png)  | ![](arduino/media/18bffe57fac75c8ff5a156ac96f1798d.png) |
 
 **10.4 Wiring Diagram：**
 
@@ -1335,11 +1335,11 @@ When in contact with flammable gas in the air and smog, and the potential barrie
 
 **11.3 What you need**
 
-| PLUS controlBoard*1                                          | Sensor Shield*1                                              | MQ-2 Gas Sensor*1                                            | 3pinF-F Dupont Cable*1                                       |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps131.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps132.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps133.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps134.jpg) |
-| Passive Buzzer*1                                             | USB Cable*1                                                  | F-F Dupont Cable*3                                           |                                                              |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps135.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps136.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps137.png)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps138.png)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps139.png) |                                                              |
+| PLUS control  board\*1                           | Sensor shield\*1                                 | MQ-2 gas sensor\*1                              | Fan module\*1                                    | Yellow LED module\*1                             |
+|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|--------------------------------------------------|--------------------------------------------------|
+| ![](arduino/media/24c831162a53ab88e584fbbedd6e4018.png)  | ![](arduino/media/cc6f4cc25bad50e342fe54bc09417592.jpeg) | ![](arduino/media/fed3dd9e2581a73519bfad27b4f3a533.png) | ![](arduino/media/54cdb977922bf3a61bf00d3b6468e403.jpeg) | ![](arduino/media/c330317970c9594d8baed73ee43106e6.jpeg) |
+| Passive buzzer\*1                                | USB cable\*1                                     | F-F Dupint line\*8                              | 3pinF-F Dupint line\*2                           |                                                  |
+| ![](arduino/media/73d052659c19eb9abbf9ed63261d22c0.jpeg) | ![](arduino/media/0da41a27db41e1207a7f760067e93104.png)  | ![](arduino/media/42d3f31a0f9d17c0a219a885dd2759bf.png) | ![](arduino/media/05621d579e502c5e71fa193a6afe7ac6.png)  |                                                  |
 
 **11.4 Wiring Diagram：**
 
@@ -1421,9 +1421,9 @@ Notice that when the screen gets brighter or darker, the characters will become 
 
 **12.3 What You Need**
 
-| PLUS Control Board*1                                         | Sensor Shield*1                                              | 1602 LCD Display*1                                           | USB Cable*1                                                  | 4pinF-F Dupont Cable*1     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------- |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps140.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps141.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps142.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps143.jpg) | ![img](./arduino/media/wps144.jpg) |
+| PLUS control board\*1                           | Sensor shield\*1                                 | 1602 LCD Display\*1                              | USB cable\*1                                    | 4pinF-F Dupont  line\*1                         |
+|-------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| ![](arduino/media/24c831162a53ab88e584fbbedd6e4018.png) | ![](arduino/media/cc6f4cc25bad50e342fe54bc09417592.jpeg) | ![](arduino/media/ab1818942731c6e822a574ba5c0df31e.jpeg) | ![](arduino/media/0da41a27db41e1207a7f760067e93104.png) | ![](arduino/media/7e9771a54d49d2cc123894447b941cf8.png) |
 
 **12.4 Wiring Diagram：**
 
@@ -1496,11 +1496,11 @@ Meanwhile, it comes with 2 positioning holes for installing on other devices.
 
 **13.3 What You Need**
 
-| PLUS control   Board*1                                       | Sensor Shield*1                                              | Soil humidity Sensor*1                                       | 1602 LCD Display*1                                           |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps145.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps146.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps147.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps148.png) |
-| USB Cable*1                                                  | 4pinF-F Dupont Cable*1                                       | 3pinF-F Dupont Cable*1                                       |                                                              |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps149.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps150.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps151.jpg) |                                                              |
+| PLUS control board\*1                           | Sensor shield\*1                                 | Soil humidity sensor\*1                          | 1602 LCD display\*1                              |
+|-------------------------------------------------|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|
+| ![](arduino/media/24c831162a53ab88e584fbbedd6e4018.png) | ![](arduino/media/cc6f4cc25bad50e342fe54bc09417592.jpeg) | ![](arduino/media/4fc308a59339d9178ffa2f3254b55ecd.jpeg) | ![](arduino/media/ab1818942731c6e822a574ba5c0df31e.jpeg) |
+| USB cable\*1                                    | 4pinF-F Dupont line\*1                           | 3pinF-F Dupont line\*1                           |                                                  |
+| ![](arduino/media/0da41a27db41e1207a7f760067e93104.png) | ![](arduino/media/7e9771a54d49d2cc123894447b941cf8.png)  | ![](arduino/media/4e989abe8df04574fdba53bea8f89d78.png)  |                                                  |
 
 **13.4 Wiring Diagram：**
 
@@ -1650,7 +1650,7 @@ Enter **Google** play，search “keyes IoT”. If you can’t search it on app 
 
 <https://play.google.com/store/apps/details?id=com.keyestudio.iot_keyes>
 
-Open the app <img src="arduino/media/image-20230523171524632.png" alt="image-20230523171524632" style="zoom:50%;" />，and the interface will pop up as below:
+Open the app![](arduino/media/c2c30c626d6a10fd8123780ec5847a5d.png)，and the interface will pop up as below:
 
 ![](arduino/media/51f78d766d19dff68efde3e89cc25a0c.jpeg)
 
@@ -1672,7 +1672,7 @@ Click “Connect”, then Bluetooth is connected successfully(indicator is alway
 
 ![image-20230523171616100](arduino/media/image-20230523171616100.png)
 
-(3)  After the app is installed successfully, tap<img src="arduino/media/image-20230523171524632.png" alt="image-20230523171524632" style="zoom:50%;" />to enter the interface as follows:
+(3)  After the app is installed successfully, tap![](arduino/media/c2c30c626d6a10fd8123780ec5847a5d.png)to enter the interface as follows:
 
 ![](arduino/media/cbdbd5555560fbae02c9d45301bad4b1.png)
 
