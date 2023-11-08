@@ -1,6 +1,6 @@
 # KS0085 Keyestudio Smart Home Kit for Arduino
 
-![](media/b9439bf8b48aa4f22ff2003f00234c7b.jpeg)
+![](arduino/media/b9439bf8b48aa4f22ff2003f00234c7b.jpeg)
 
 ## 1.Overview:
 
@@ -14,7 +14,7 @@ As Bill Gates puts it, "In the near future, a house without a smart home system 
 
 So, go ahead and get started; let's build this amazing analog smart home.
 
-![image-20230523152355702](media/image-20230523152355702.png)
+![image-20230523152355702](arduino/media/image-20230523152355702.png)
 
 
 
@@ -44,12 +44,12 @@ After getting this smart home kit, we need to make sure that there are not missi
 | 18   | USB Cable                                                    |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps18.png) |
 | 19   | Female to Female Dupont Cables                               |  40  | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps19.jpg) |
 | 20   | Male to female Dupont Cables                                 |  6   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps20.jpg) |
-| 21   | M3 Nickel Plated Nuts                                        |  25  | ![](./media/wps43-1686537455401-10.jpg)![wps43](./media/wps43-1686537458637-12.jpg)![wps43](./media/wps43-1686537460883-14.jpg)![wps43](./media/wps43-1686537462484-16.jpg) |
+| 21   | M3 Nickel Plated Nuts                                        |  25  | ![](./arduino/media/wps43-1686537455401-10.jpg)![wps43](./arduino/media/wps43-1686537458637-12.jpg)![wps43](./arduino/media/wps43-1686537460883-14.jpg)![wps43](./arduino/media/wps43-1686537462484-16.jpg) |
 | 22   | M2*12MM Round Head Screws                                    |  6   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps46.png)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps47.png) |
 | 23   | M2 Nickel Plated Nuts                                        |  6   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps48.png) |
 | 24   | M3*10MM Dual-pass Copper Bush                                |  4   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps49.png) |
 | 25   | M3*6MM Round Head Screws                                     |  8   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps50.png) |
-| 26   | M3 304 Stainless Steel Self-locking Nuts                     |  4   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps51.png)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps52.png) ![wps51](./media/wps51.png) |
+| 26   | M3 304 Stainless Steel Self-locking Nuts                     |  4   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps51.png)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps52.png) ![wps51](./arduino/media/wps51.png) |
 | 27   | M3*10MM Round Head Screws                                    |  20  | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps53.png)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps54.png)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps55.png)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps56.png) |
 | 28   | M2.5*10MM Round Head Screws                                  |  6   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps58.png) |
 | 29   | M2.5 Nickel Plated Nuts                                      |  6   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps59.jpg)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps60.jpg)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps61.jpg)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps62.jpg)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps63.jpg)![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps64.jpg) |
@@ -59,7 +59,7 @@ After getting this smart home kit, we need to make sure that there are not missi
 | 33   | 6-Slot AA Battery Holder with DC Head and 15cm Dew Line      |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps68.jpg) |
 | 34   | Black-yellow Handle 3*40MM Cross Screwdriver                 |  1   | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps69.png) |
 | 35   | 20cm 2.54 3Pin F-F Jumper Wire                               |  13  | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps70.jpg) |
-| 36   | 20cm 2.54 4Pin F-F Jumper Wire                               |  2   |                  ![img](./media/wps71.png)                   |
+| 36   | 20cm 2.54 4Pin F-F Jumper Wire                               |  2   |                  ![img](./arduino/media/wps71.png)                   |
 
 ## 3.Download Software & Install Driver
 
@@ -71,13 +71,13 @@ You could download Arduino IDE from the official website:
 
 <https://www.arduino.cc/>, click the **SOFTWARE** on the browse bar to enter download page, as shown below:
 
-![image-20230410170227195](media/image-20230410170227195.png)
+![image-20230410170227195](arduino/media/image-20230410170227195.png)
 
 There are various versions of IDE for Arduino. Just download a version compatible with your system. Here we will show you how to download and install the windows version of Arduino IDE.
 
-![image-20230523152826361](media/image-20230523152826361.png)
+![image-20230523152826361](arduino/media/image-20230523152826361.png)
 
-![image-20230523152845412](media/image-20230523152845412.png)
+![image-20230523152845412](arduino/media/image-20230523152845412.png)
 
 You can choose between the Installer (.exe) and the Zip packages. We suggest you use the first one that installs directly everything you need to use the Arduino Software (IDE), including the drivers. With the Zip package you need to install the drivers manually. The Zip file is also useful if you want to create a portable installation.
 
@@ -85,13 +85,13 @@ You just need to click **JUST DOWNLOAD**.
 
 **Keyestudio PLUS Development Board**
 
-![](./media/dfe50fbafbd9a114c782b69cd6d9dd44.png)
+![](./arduino/media/dfe50fbafbd9a114c782b69cd6d9dd44.png)
 
 Now, let’s get to know Keyestudio PLUS development board. It is the core of the whole kit.
 
 Keyestudio PLUS Control Board is fully compatible with Arduino UNO R3 board. Its functions is as same as Arduino UNO R3 board. Moreover, some improvements made highly strengthen its function. Alternatively, it is the best choice to learn building the circuit and designing codes.
 
-![](media/faaf0f3d74218e010b280a0768dcaa8c.jpeg)
+![](arduino/media/faaf0f3d74218e010b280a0768dcaa8c.jpeg)
 
 - Serial communication interface: D0 is RX, D1 is TX
 
@@ -116,31 +116,31 @@ For Windows system, you can select the first driver to download and upzip it.
 
 Then open the device manager of computer. Right click Computer----- Properties----- Device Manager
 
-![image-20230523153418278](media/image-20230523153418278.png)
+![image-20230523153418278](arduino/media/image-20230523153418278.png)
 
 The yellow exclamation mark on the page implies that the driver of CP2101 isn’t installed. Next, you should double-click the hardware to update the driver.
 
-![image-20230523153446274](media/image-20230523153446274.png)
+![image-20230523153446274](arduino/media/image-20230523153446274.png)
 
 Click“OK”to enter the following page, click“browse my computer for updated driver software”. As shown below:
 
-![image-20230523153457094](media/image-20230523153457094.png)
+![image-20230523153457094](arduino/media/image-20230523153457094.png)
 
 Navigate to the CP210x_Universal_Windows_Driver unzip folder that you have downloaded and click Next.
 
-There is a DRIVERS folder in Arduino software installed package（![img](media/wps1.jpg)), open driver folder and check the driver of CP210X series chips.
+There is a DRIVERS folder in Arduino software installed package（![img](arduino/media/wps1.jpg)), open driver folder and check the driver of CP210X series chips.
 
-![image-20230523153512834](media/image-20230523153512834.png)
+![image-20230523153512834](arduino/media/image-20230523153512834.png)
 
 Open device manager, you will find the yellow exclamation mark disappear. The driver of CP2102 is installed successfully.
 
-![image-20230523153535853](media/image-20230523153535853.png)
+![image-20230523153535853](arduino/media/image-20230523153535853.png)
 
-![image-20230523153540374](media/image-20230523153540374.png)
+![image-20230523153540374](arduino/media/image-20230523153540374.png)
 
 **Installing the driver for MAC system**
 
-![](media/aee40e1614afae9be6b0ffa78bcb833c.png)
+![](arduino/media/aee40e1614afae9be6b0ffa78bcb833c.png)
 
 1.You can download the driver of the CP2101 in the following link.
 
@@ -148,101 +148,101 @@ Open device manager, you will find the yellow exclamation mark disappear. The dr
 
 2.For MacOS system, you can select the this driver to download and upzip it.
 
-![](media/28a72783e9df9fb397a9ac2ba435e716.png)
+![](arduino/media/28a72783e9df9fb397a9ac2ba435e716.png)
 
 3.Open the driver folder and double-click SiLabsUSBDriverDisk.dmg file.
 
-![{B226126D-C3F1-8402-1361-7E6AB44E7078}](media/59c91402aeb0941e301acb8c8aa36141.jpeg)
+![{B226126D-C3F1-8402-1361-7E6AB44E7078}](arduino/media/59c91402aeb0941e301acb8c8aa36141.jpeg)
 
 4.You will view following files as follows:
 
-![{5C3FCA68-7405-460C-91BE-E0775E4B2429}](media/cf395759ef97b05784c65b2514f728fc.jpeg)
+![{5C3FCA68-7405-460C-91BE-E0775E4B2429}](arduino/media/cf395759ef97b05784c65b2514f728fc.jpeg)
 
 5\. Double-click Install CP210x VCP Driver, tick Don’t warn me and click Open
 
-![{59DB6F00-1A8B-3450-CDAA-ED2D7CAA65D6}](media/56ad0368ee8f50fef217428c1e7c00c5.jpeg)
+![{59DB6F00-1A8B-3450-CDAA-ED2D7CAA65D6}](arduino/media/56ad0368ee8f50fef217428c1e7c00c5.jpeg)
 
 6.Click Continue
 
-![{E3881FC6-7F40-B173-AA22-2A2A8A36ECAB}](media/88a3949d8e7d10d631a8fffa2b9df108.jpeg)
+![{E3881FC6-7F40-B173-AA22-2A2A8A36ECAB}](arduino/media/88a3949d8e7d10d631a8fffa2b9df108.jpeg)
 
 7.Click Continue and Agree
 
-![{5D5929F6-B53A-0C03-7919-49AA20E7738D}](media/28e8013fdde7914820515697181f1ec7.jpeg)
+![{5D5929F6-B53A-0C03-7919-49AA20E7738D}](arduino/media/28e8013fdde7914820515697181f1ec7.jpeg)
 
 8.Click Continue and enter your user password.
 
-![{15F1B01F-B066-9615-0B44-D5039DF02484}](media/d610b36b30a7847d9562143531ff1bde.jpeg)
+![{15F1B01F-B066-9615-0B44-D5039DF02484}](arduino/media/d610b36b30a7847d9562143531ff1bde.jpeg)
 
-![{B4E122B5-21D3-E930-1D2B-70E00ED504BE}](media/b4e122b521d3e9301d2b70e00ed504be.jpeg)
+![{B4E122B5-21D3-E930-1D2B-70E00ED504BE}](arduino/media/b4e122b521d3e9301d2b70e00ed504be.jpeg)
 
 9.Select Open Security Preferences
 
-![](media/f97f0c1a960ddda5c2a98f52386f0462.png)
+![](arduino/media/f97f0c1a960ddda5c2a98f52386f0462.png)
 
 10.Click the lock then enter your user’s password to authorize.
 
-![{7B313247-7D6D-C1AD-1403-5E14567A2208}](media/41ae5006b276caa2a752f49858e01bf6.jpeg)
+![{7B313247-7D6D-C1AD-1403-5E14567A2208}](arduino/media/41ae5006b276caa2a752f49858e01bf6.jpeg)
 
-![{E8F637A3-A951-0AA8-F90C-65820D4D1CD8}](media/e8f637a3a9510aa8f90c65820d4d1cd8.jpeg)
+![{E8F637A3-A951-0AA8-F90C-65820D4D1CD8}](arduino/media/e8f637a3a9510aa8f90c65820d4d1cd8.jpeg)
 
 11.Then click Allow
 
-![{2A6CFC15-8C4A-2409-CA08-34BF16BD4C9A}](media/8d87ad5fd228acf0a28dc22b9d91194b.jpeg)
+![{2A6CFC15-8C4A-2409-CA08-34BF16BD4C9A}](arduino/media/8d87ad5fd228acf0a28dc22b9d91194b.jpeg)
 
 12.Back to installation page, and wait to install.
 
-![{47734125-C9FF-7E42-674B-4FD59872EB1C}](media/952736d011b3ac0a628df0a5473af00f.jpeg)
+![{47734125-C9FF-7E42-674B-4FD59872EB1C}](arduino/media/952736d011b3ac0a628df0a5473af00f.jpeg)
 
-Successfully installed ![{46A164EF-E3D2-CBE2-8CAC-B67C253E68AB}](media/7c26ef0b6e1d36b49c1d80dc4f153707.jpeg)
+Successfully installed ![{46A164EF-E3D2-CBE2-8CAC-B67C253E68AB}](arduino/media/7c26ef0b6e1d36b49c1d80dc4f153707.jpeg)
 
 **Arduino IDE Setting**
 
-Click![image-20230523153852276](media/image-20230523153852276.png)icon，open Arduino IDE.
+Click![image-20230523153852276](arduino/media/image-20230523153852276.png)icon，open Arduino IDE.
 
-![e9a2d59afcff8121d18d8767326baa42](media/e9a2d59afcff8121d18d8767326baa42.png)
+![e9a2d59afcff8121d18d8767326baa42](arduino/media/e9a2d59afcff8121d18d8767326baa42.png)
 
 To avoid the errors when uploading the program to the board, you need to select the correct Arduino board that matches the board connected to your computer.
 
 Then come back to the Arduino software, you should click Tools→Board, select the board. (as shown below)
 
-![84317a7babddff172520b99756dc1f85](media/84317a7babddff172520b99756dc1f85.png)
+![84317a7babddff172520b99756dc1f85](arduino/media/84317a7babddff172520b99756dc1f85.png)
 
 Then select the correct COM port (you can see the corresponding COM port after the driver is successfully installed)
 
-![bcd36a3d3e1209c16866e554089832d5](media/bcd36a3d3e1209c16866e554089832d5.png)
+![bcd36a3d3e1209c16866e554089832d5](arduino/media/bcd36a3d3e1209c16866e554089832d5.png)
 
 Before uploading the program to the board, let’s demonstrate the function of each symbol in the Arduino IDE toolbar.
 
-![image-20230523163939751](media/image-20230523163939751.png)
+![image-20230523163939751](arduino/media/image-20230523163939751.png)
 
-![ddd21c81338ae1f6b7f84de2a3caecf0](media/ddd21c81338ae1f6b7f84de2a3caecf0.png)- Used to verify whether there is any compiling mistakes or not.
+![ddd21c81338ae1f6b7f84de2a3caecf0](arduino/media/ddd21c81338ae1f6b7f84de2a3caecf0.png)- Used to verify whether there is any compiling mistakes or not.
 
-![9c9158a5d49baa740ea2f0048f655017](media/9c9158a5d49baa740ea2f0048f655017.png)- Used to upload the sketch to your Arduino board.
+![9c9158a5d49baa740ea2f0048f655017](arduino/media/9c9158a5d49baa740ea2f0048f655017.png)- Used to upload the sketch to your Arduino board.
 
-![image-20230523164034251](media/image-20230523164034251.png)- Used to send the serial data received from board to the serial plottle.
+![image-20230523164034251](arduino/media/image-20230523164034251.png)- Used to send the serial data received from board to the serial plottle.
 
-![image-20230523164048637](media/image-20230523164048637.png)- Used to send the serial data received from board to the serial monitor.
+![image-20230523164048637](arduino/media/image-20230523164048637.png)- Used to send the serial data received from board to the serial monitor.
 
 **Start First Program**
 
 Open the file to select Example, choose BLINK from BASIC, as shown below:
 
-![2a6a0b8b8e2585776e01873caf10a1b0](media/2a6a0b8b8e2585776e01873caf10a1b0.png)
+![2a6a0b8b8e2585776e01873caf10a1b0](arduino/media/2a6a0b8b8e2585776e01873caf10a1b0.png)
 
 Set board and COM port, the corresponding board and COM port are shown on the lower right of IDE.
 
-![5c4521f3fa5c4f4c0a5c9d1581ab1580](media/5c4521f3fa5c4f4c0a5c9d1581ab1580.png)
+![5c4521f3fa5c4f4c0a5c9d1581ab1580](arduino/media/5c4521f3fa5c4f4c0a5c9d1581ab1580.png)
 
-![6030cde1341c3432f0f4b1fb6c92e49e](media/6030cde1341c3432f0f4b1fb6c92e49e.png)
+![6030cde1341c3432f0f4b1fb6c92e49e](arduino/media/6030cde1341c3432f0f4b1fb6c92e49e.png)
 
-Click![](media/ddd21c81338ae1f6b7f84de2a3caecf0.png)to start compiling the program, check errors.
+Click![](arduino/media/ddd21c81338ae1f6b7f84de2a3caecf0.png)to start compiling the program, check errors.
 
-![9948cd36a3b39cb57fd2bea79540c4b7](media/9948cd36a3b39cb57fd2bea79540c4b7.png)
+![9948cd36a3b39cb57fd2bea79540c4b7](arduino/media/9948cd36a3b39cb57fd2bea79540c4b7.png)
 
-Click![](media/9c9158a5d49baa740ea2f0048f655017.png)to upload the program, upload successfully.
+Click![](arduino/media/9c9158a5d49baa740ea2f0048f655017.png)to upload the program, upload successfully.
 
-![60e002aacf662c1ecf88ad3ecd85e6ca](media/60e002aacf662c1ecf88ad3ecd85e6ca.png)
+![60e002aacf662c1ecf88ad3ecd85e6ca](arduino/media/60e002aacf662c1ecf88ad3ecd85e6ca.png)
 
 Upload the program successfully, the onboard LED lights on for 1s, lights off for 1s. Congratulation, you have finished the first program.
 
@@ -262,17 +262,17 @@ The built-in libraries and some of these additional libraries are listed in the 
 
 When you want to add a zip library, you need to download it as a ZIP file, put in the proper directory. The Libraries needed to run the mini tank can be found on：<https://fs.keyestudio.com/KS0085>
 
-![1ef67b3f7a755928efbfa7f4f1d806a0](media/1ef67b3f7a755928efbfa7f4f1d806a0.png)
+![1ef67b3f7a755928efbfa7f4f1d806a0](arduino/media/1ef67b3f7a755928efbfa7f4f1d806a0.png)
 
-![3baff7b6870bde1ca937ea2041f7bbab](media/3baff7b6870bde1ca937ea2041f7bbab.png)
+![3baff7b6870bde1ca937ea2041f7bbab](arduino/media/3baff7b6870bde1ca937ea2041f7bbab.png)
 
 Click Sketch----\>Include Library—\>Add.ZIP Library，then Then navigate to the library file you downloaded and click "open."
 
-![image-20230523164919414](media/image-20230523164919414.png)
+![image-20230523164919414](arduino/media/image-20230523164919414.png)
 
 Import the library. You can find it in the include library list.
 
-![85fa1bc86a628bb3da0e3b9e6384d477](media/85fa1bc86a628bb3da0e3b9e6384d477.png)
+![85fa1bc86a628bb3da0e3b9e6384d477](arduino/media/85fa1bc86a628bb3da0e3b9e6384d477.png)
 
 
 Then, the libraries of home smart are successfully installed.
@@ -281,7 +281,7 @@ Then, the libraries of home smart are successfully installed.
 
 ## 5.Projects
 
-![](media/1dfed548560b06e51f83a1b2d1c71558.jpeg)
+![](arduino/media/1dfed548560b06e51f83a1b2d1c71558.jpeg)
 
 Alright, let’s get straight to our projects. In this kit, there are 14 sensors and modules. We will make you know the smart home deeply from the simple sensor.
 
@@ -291,7 +291,7 @@ However, if you are professional with Arduino. You can skip theses steps and ass
 
 ### **Project 1: LED Blink**
 
-![](media/48c1374daadaa5ff7efd6f0e8158a834.png)
+![](arduino/media/48c1374daadaa5ff7efd6f0e8158a834.png)
 
 **1.1 Description**
 
@@ -319,11 +319,11 @@ In addition, the different blinking frequency can be presented by adjusting the 
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | White LED  Module *1                                         | USB Cable*1                                                  | 3pin F-F Dupont Cable*1   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------- |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps72.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps73.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps74.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps75.jpg) | ![img](./media/wps76.jpg) |
+| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps72.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps73.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps74.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps75.jpg) | ![img](./arduino/media/wps76.jpg) |
 
 **1.4 Sensor Shield**
 
-![](./media/image-20230612104345186.png)
+![](./arduino/media/image-20230612104345186.png)
 
 We usually combine Arduino control board with a large number of sensors and modules. However, the pins and ports are limited on control board.
 
@@ -333,13 +333,13 @@ This V5 shield can be directly attached to sensors with 3 pin connectors, and be
 
 **1.5 Pins Description**
 
-![](media/fd2e9e9910365f3c5b7d8dda73620ac9.jpeg)
+![](arduino/media/fd2e9e9910365f3c5b7d8dda73620ac9.jpeg)
 
 **1.6 Wiring Diagram**
 
 Connect LED module with D13 of shield.
 
-![](media/f333bf0356bdac18485911e123ed4d2e.png)
+![](arduino/media/f333bf0356bdac18485911e123ed4d2e.png)
 
 Note: pin G, V and S of white LED module are connected with G, V and 13 of V5 board.
 
@@ -437,11 +437,11 @@ Delay for 1s, light on LED--keep on 1s--light off LED--stay on 1s, iterate the p
 
 What if you want to make LED flash rapidly? You only need to modify the value of delay block. Reducing the delay value implies that the time you wait is shorter, that is, flashing rapidly. Conversely, you could make LED flash slowly.
 
-**![](media/b7dd590d9337f2c749ef24dc8936a7c2.jpeg)**
+**![](arduino/media/b7dd590d9337f2c749ef24dc8936a7c2.jpeg)**
 
 ### Project 2：Breathing Light
 
-![](media/948e5cc836bce61cc8166cfda3a277b8.jpeg)
+![](arduino/media/948e5cc836bce61cc8166cfda3a277b8.jpeg)
 
 **2.1 Description**
 
@@ -451,7 +451,7 @@ In this project, we will control LED brightness through PWM to simulate breathin
 
 PWM is a means of controlling the analog output via digital means. Digital control is used to generate square waves with different duty cycles (a signal that constantly switches between high and low levels) to control the analog output.In general, the input voltage of port are 0V and 5V. What if the 3V is required? Or what if switch among 1V, 3V and 3.5V? We can’t change resistor constantly. For this situation, we need to control by PWM.
 
-![](media/bbcfcb9ae56abb7e80ee587246fc4be9.gif)
+![](arduino/media/bbcfcb9ae56abb7e80ee587246fc4be9.gif)
 
 For the Arduino digital port voltage output, there are only LOW and HIGH, which correspond to the voltage output of 0V and 5V. You can define LOW as 0 and HIGH as 1, and let the Arduino output five hundred 0 or 1 signals within 1 second.
 
@@ -461,11 +461,11 @@ If output five hundred 1, that is 5V; if all of which is 1, that is 0V. If outpu
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | Yellow LED Module*1                                          | USB Cable*1                                                  | 3pin F-F Dupont Cable*1   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------- |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps77.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps78.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps79.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps80.jpg) | ![img](./media/wps81.jpg) |
+| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps77.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps78.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps79.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps80.jpg) | ![img](./arduino/media/wps81.jpg) |
 
 **2.3 Wiring Diagram**
 
-![](media/cd10f1f03f20f7465f1feee9e1bd0a67.png)
+![](arduino/media/cd10f1f03f20f7465f1feee9e1bd0a67.png)
 
 Note: on sensor shield, the G, V and S pins of yellow LED module are connected with G, V and 5.
 
@@ -495,7 +495,7 @@ for (int value = 0; value<255; value = value + 1) {
 
 LED smoothly changes its brightness from dark to bright and back to dark, continuing to do so, which is similar to a lung breathing in and out.
 
-![](media/84ac0b289e27c94f023d5fa83716d412.jpeg)
+![](arduino/media/84ac0b289e27c94f023d5fa83716d412.jpeg)
 
 **2.5 Code Analysis**
 
@@ -503,7 +503,7 @@ When we need to repeat some statements, we have to use “for” statement
 
 For statement format as follows:
 
-![](media/65da124bdd0ea488291c71c6b879fe95.jpeg) 
+![](arduino/media/65da124bdd0ea488291c71c6b879fe95.jpeg) 
 
 “for” cyclic sequence:
 
@@ -544,7 +544,7 @@ PWM is a technology to obtain analog quantity through digital method. Digital co
 
 Through the following five square waves, let’s know more about PWM.
 
-![](media/553f3d1b6ca04e1aa0479841dd075fa2.png)
+![](arduino/media/553f3d1b6ca04e1aa0479841dd075fa2.png)
 
 In the above figure, the green line represents a period, and value of analogWrite() corresponds to a percentage which is called Duty Cycle as well. Duty cycle implies that high-level duration is divided by low-level duration in a cycle. From top to bottom, the duty cycle of first square wave is 0% and its corresponding value is 0. The LED brightness is lowest, that is, turn off. The more time high level lasts, the brighter the LED. Therefore, the last duty cycle is 100%, which correspond to 255, LED is brightest. 25% means darker.
 
@@ -554,7 +554,7 @@ PWM mostly is used for adjusting the LED brightness or rotation speed of motor.
 
 **3.1 Description**
 
-![](./media/image-20230612105405939.png)
+![](./arduino/media/image-20230612105405939.png)
 
 There are prolific interactive works completed by Arduino. The most common one is sound and light display. We always use LED to make experiments. For this lesson, we design circuit to emit sound. The universal sound components are buzzer and horns. Buzzer is easier to use. And buzzer includes about active buzzer and passive buzzer. In this experiment, we adopt passive buzzer.
 
@@ -564,11 +564,11 @@ While using passive buzzer, we can control different sound by inputting square w
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | Passive Buzzer*1                                             | USB Cable*1                                                  | 3pin F-F Dupont Cable*1   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------- |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps82.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps83.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps84.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps85.jpg) | ![img](./media/wps86.jpg) |
+| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps82.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps83.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps84.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps85.jpg) | ![img](./arduino/media/wps86.jpg) |
 
 **3.2 Wiring Diagram**
 
-![](media/1b0b1b98f6e805d4dca168a4c5ba97a7.png)
+![](arduino/media/1b0b1b98f6e805d4dca168a4c5ba97a7.png)
 
 The G, V and S pins of passive buzzer are connected to G, V and 3.
 
@@ -611,7 +611,7 @@ int tonepin = 3; // Set the Pin of the buzzer to the digital D3
 
 From the above code, number 80 and 100 decide frequency in “for” statement. Delay time controls duration, like the beat in music.
 
-![](media/7768261ac881df969bd5d384faca4ac5.png)
+![](arduino/media/7768261ac881df969bd5d384faca4ac5.png)
 
 We will play fabulous music if control ling frequency and beats well, so let’s figure out the frequency of tones. As shown below:
 
@@ -657,7 +657,7 @@ The time for a note is stipulated as half beat( 0.5), 1/4 beat(0.250, 1/8 beat( 
 
 We will take an example of “Ode to joy”
 
-![](media/528bf6b44f7d795ff487dce28fad43de.jpeg)
+![](arduino/media/528bf6b44f7d795ff487dce28fad43de.jpeg)
 
 From notation, the music is 4/4 beat.
 
@@ -665,7 +665,7 @@ There are special notes we need to explain:
 
 1.  Normal note, like the first note 3, correspond to 350(frequency), occupy 1 beat
 2.  The note with underline means 0.5 beat
-3.  The note with dot(![](media/d3e0cf5647f9ed8613ba339c25b1ec1f.png))means that 0.5 beat is added, that is 1+0.5 beat
+3.  The note with dot(![](arduino/media/d3e0cf5647f9ed8613ba339c25b1ec1f.png))means that 0.5 beat is added, that is 1+0.5 beat
 4.  The note with”—” represents that 1 beat is added, that is 1+1 beat.
 5.  The two successive notes with arc imply legato, you could slightly modify the frequency of the note behind legato(need to debug it yourself), such like reducing or increasing some values, the sound will be more smoother.
 
@@ -768,11 +768,11 @@ Upload test code on the development board.
 
 Do you hear “Ode to joy”?
 
-![](./media/image-20230612110252965.png)
+![](./arduino/media/image-20230612110252965.png)
 
 ### Project 4：Button module
 
-![](./media/image-20230612110259469.png)
+![](./arduino/media/image-20230612110259469.png)
 
 **4.1 Description**
 
@@ -786,11 +786,11 @@ When the normally open contact bears pressure, the circuit will be on state ; ho
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | Yellow LED Module*1                                          | Button Sensor*1                                              | USB Cable*1                                                  | 3pinF-F Dupont  Cable*2   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------- |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps87.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps88.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps89.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps90.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps91.jpg) | ![img](./media/wps92.jpg) |
+| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps87.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps88.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps89.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps90.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps91.jpg) | ![img](./arduino/media/wps92.jpg) |
 
 **4.3 Wiring Diagram**
 
-![](media/48cb561fe113be0ceda220ebcf6ebb59.png)
+![](arduino/media/48cb561fe113be0ceda220ebcf6ebb59.png)
 
 Note: The G, V, and S pins of button sensor module are separately connected to G, V, and 4 on the shield, and the G, V, and S pins of the yellow LED module are connected with G, V, and 5 on the shield.
 
@@ -833,11 +833,11 @@ This experiment is pretty simple, and widely applied to various of circuits and 
 
 The back-light will be on when the button is pressed.
 
-![](./media/image-20230612110406053.png)
+![](./arduino/media/image-20230612110406053.png)
 
 ### Project 5：1-channel Relay Module
 
-![](./media/image-20230612110412980.png)
+![](./arduino/media/image-20230612110412980.png)
 
 **5.1 Description：**
 
@@ -849,7 +849,7 @@ Therefore, it plays the role of automatic adjustment, safety protection and conv
 
 The main internal components of the relay module are electromagnet A, armature B, spring C, moving contact D, static contact (normally open contact) E, and static contact (normally closed contact) F, (as shown in the figure ).
 
-![](media/97319b6bfd2ebf5cef9d1a14d07ae538.jpeg)
+![](arduino/media/97319b6bfd2ebf5cef9d1a14d07ae538.jpeg)
 
 As long as a certain voltage is applied to both ends of the coil, a certain current will flow through the coil to generate electromagnetic effects, and the armature will attract the iron core against the pulling force of the return spring under the action of electromagnetic force attraction, thereby driving the moving contact and the static contact (normally open contact) to attract. When the coil is disconnected, the electromagnetic suction will also disappear, and the armature will return to the original position under the reaction force of the spring, releasing the moving contact and the original static contact (normally closed contact). 
 
@@ -885,7 +885,7 @@ This pulls in and releases, thus achieving the purpose of turning on and off in 
 
 **5.4 Wiring Diagram：**
 
-![](media/0bde162c8c3ae0e8917a8a9953827a68.png)
+![](arduino/media/0bde162c8c3ae0e8917a8a9953827a68.png)
 
 Note: On the shield, the G, V, and S pins of 1-channel relay module are connected to G, V, and 12 respectively. The NO is connected with V; the G, V, and S pins of white LED are respectively connected to G, V, and the static contact of NO on relay module.
 
@@ -918,13 +918,13 @@ delay (2000);
 
 When the relay is connected(“NO” is on , NC is off) for 0.5s, the white LED will be on; conversely, when it is disconnected, the white LED will go off.
 
-![](media/d001ec087a1d48dd983be447505a7d27.jpeg)
+![](arduino/media/d001ec087a1d48dd983be447505a7d27.jpeg)
 
 ### Project 6：Photocell Sensor
 
 **6.1 Description：**
 
-![](./media/image-20230612110527917.png)
+![](./arduino/media/image-20230612110527917.png)
 
 The photocell sensor (photoresistor) is a resistor made by the photoelectric effect of a semiconductor. As highly sensitive to ambient light, its resistance value vary with different light intensity.
 
@@ -938,11 +938,11 @@ It is commonly applied to light measurement, control and conversion, light contr
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | Photocell Sensor*1                                           | Yellow LED Module*1                                          | USB Cable*1                                                  | 3pin F-F Dupont Cables*2   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------- |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps103.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps104.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps105.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps106.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps107.jpg) | ![img](./media/wps108.jpg) |
+| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps103.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps104.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps105.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps106.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps107.jpg) | ![img](./arduino/media/wps108.jpg) |
 
 **6.3 Wiring Diagram：**
 
-![](media/38be559475a64e6b228f06b2e09e1d7a.png)
+![](arduino/media/38be559475a64e6b228f06b2e09e1d7a.png)
 
 Note: On the expansion board, the G, V, and S pins of the photocell sensor module are connected to G, V, and A1; the G, V, and S pins of the yellow LED module are connected with G, V, and 5 separately.
 
@@ -985,13 +985,13 @@ For this code string, it is simple. We read value through analog port and attent
 
 The analog value will gradually decrease if there is light. When the value is up to 900, this value can be set up according to the brightness you choose
 
-![](./media/image-20230612110618805.png)
+![](./arduino/media/image-20230612110618805.png)
 
 
 
 ### Project 7：Adjusting Servo Angle
 
-![](./media/image-20230612110628157.png)
+![](./arduino/media/image-20230612110628157.png)
 
 **7.1 Description：**
 
@@ -1003,7 +1003,7 @@ When the motor speed is constant, the potentiometer is driven to rotate through 
 
 The rotation angle of servo motor is controlled by regulating the duty cycle of PWM (Pulse-Width Modulation) signal. The standard cycle of PWM signal is 20ms (50Hz). Theoretically, the width is distributed between 1ms-2ms, but in fact, it's between 0.5ms-2.5ms. The width corresponds to the rotation angle from 0° to 180°. But note that for different brand motor, the same signal may have different rotation angle.
 
-![](./media/image-20230612110643097.png)
+![](./arduino/media/image-20230612110643097.png)
 
 One way is using a common digital sensor port of Arduino to produce square wave with different duty cycle and to simulate PWM signal and use that signal to control the positioning of the motor.
 
@@ -1031,11 +1031,11 @@ Note that don’t supply power through USB cable, there is possibility to damage
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | Servo*1                                                      | USB Cable*1                |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------- |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps109.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps110.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps111.jpg) | ![img](./media/wps112.jpg) |
+| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps109.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps110.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps111.jpg) | ![img](./arduino/media/wps112.jpg) |
 
 **7.4 Wiring Diagram：**
 
-![](media/2993c9c61fb1185b6e24403e0eb53136.png)
+![](arduino/media/2993c9c61fb1185b6e24403e0eb53136.png)
 
 Note: The servo is connected to G (GND), V (VCC), 9. The brown wire of the servo is connected to Gnd (G), the red wire is connected with 5v (V), and the orange wire is connected to digital pin 9.
 
@@ -1074,11 +1074,11 @@ delay (15); // Delay 15ms
 
 Upload code, wire up components according to connection diagram, and power on. The servo rotates from 0° to 180° then from 180°\~0°
 
-![](./media/image-20230612110754405.png)
+![](./arduino/media/image-20230612110754405.png)
 
 ### Project 8：Fan Module
 
-![](./media/image-20230612110803700.png)
+![](./arduino/media/image-20230612110803700.png)
 
 **8.1 Description**
 
@@ -1097,11 +1097,11 @@ The L9110 fan module adopts L9110 motor control chip, and controls the rotation 
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | Fan Module*1                                                 | USB Cable*1                                                  | Female to Female Dupont Cables*4 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------- |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps113.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps114.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps115.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps116.jpg) | ![img](./media/wps117.jpg)       |
+| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps113.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps114.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps115.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps116.jpg) | ![img](./arduino/media/wps117.jpg)       |
 
 **8.4 Wiring Diagram：**
 
-![](media/a7ec518da57cd093981bd578ddc70aec.png)
+![](arduino/media/a7ec518da57cd093981bd578ddc70aec.png)
 
 Note: On the shield, the GND, VCC, INA, and INB pins of the fan module are respectively connected to G, V, 7, 6.
 
@@ -1135,11 +1135,11 @@ void loop () {
 
 Upload test code, hook up the components according to connection diagram, and dial the DIP switch to right side and power on. The fan rotates counterclockwise for 3000ms, stops for 1000ms, then rotates clockwise for 3000ms.
 
-![](./media/image-20230612110851044.png)
+![](./arduino/media/image-20230612110851044.png)
 
 ### Project 9: Steam Sensor
 
-![](./media/image-20230612110856132.png)
+![](./arduino/media/image-20230612110856132.png)
 
 **9.1 Description：**
 
@@ -1163,11 +1163,11 @@ Note: the connection part is not waterproof, therefore, don’t immerse it in th
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | Steam Sensor*1                                               | USB Cable*1                                                  | 3pin F-F Dupont Cable*1    |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------- |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps118.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps119.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps120.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps121.jpg) | ![img](./media/wps122.jpg) |
+| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps118.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps119.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps120.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps121.jpg) | ![img](./arduino/media/wps122.jpg) |
 
 **9.4 Wiring Diagram：**
 
-![](media/b050f0182ffc81a13824af95511a9fe5.png)
+![](arduino/media/b050f0182ffc81a13824af95511a9fe5.png)
 
 Note: On the sensor shield, the pins G，V and S of steam sensor are connected to G, V and A3
 
@@ -1200,15 +1200,15 @@ When detecting different humidity, the sensor will get the feedback of different
 
 When the sensor detects the steam of boiled water, the moisture value is displayed on serial monitor of ARDUINO software.
 
-![](./media/image-20230612110941990.png)
+![](./arduino/media/image-20230612110941990.png)
 
-![](media/7cd14fd4e82df9909603997f9ff6e615.jpeg)
+![](arduino/media/7cd14fd4e82df9909603997f9ff6e615.jpeg)
 
 ### Project 10: PIR Motion Sensor
 
 **10.1 Description：**
 
-![](./media/image-20230612110954811.png)
+![](./arduino/media/image-20230612110954811.png)
 
 The Pyroelectric infrared motion sensor can detect infrared signals from moving objects, and output switching signals. Applied to a variety of occasions, it can detect movement of human body.
 
@@ -1252,11 +1252,11 @@ Conventional pyroelectric infrared sensors are much more bigger, with complex ci
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps123.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps124.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps125.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps126.jpg) |
 | Fan Module*1                                                 | White LED Module*1                                           | USB Cable*1                                                  | 3pinF-F Dupont Line*2                                        |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps127.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps128.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps129.jpg) | ![img](./media/wps130.jpg)                                   |
+| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps127.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps128.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps129.jpg) | ![img](./arduino/media/wps130.jpg)                                   |
 
 **10.4 Wiring Diagram：**
 
-![](media/070ebbff591c015a1c2986e4d5e0803d.png)
+![](arduino/media/070ebbff591c015a1c2986e4d5e0803d.png)
 
 Note: On the shield, the G, V and S of PIR motion sensor are connected to G, V and 2; the GND, VCC, INA and INB of fan module are separately connected with G,V,7,6. The pin G, V and S of LED module are connected with G, V and 13.
 
@@ -1301,13 +1301,13 @@ void loop () {
 
 Upload the above test code, open serial monitor, and set baud rate to 9600. If PIR motion sensor detects someone nearby, the serial monitor will display “1” , and LED and D13 will be turned on as well, and fan will rotate. If nobody is around, the serial monitor will show “0”, indicators will be off and fan will stop rotating.
 
-![](media/030b1fdb722ca22716bbed0a0503b91c.png)
+![](arduino/media/030b1fdb722ca22716bbed0a0503b91c.png)
 
-**![](./media/image-20230612111100070.png)**
+**![](./arduino/media/image-20230612111100070.png)**
 
 ### Project 11: Analog Gas Sensor
 
-![](./media/image-20230612111109389.png)
+![](./arduino/media/image-20230612111109389.png)
 
 **11.1 Description：**
 
@@ -1343,7 +1343,7 @@ When in contact with flammable gas in the air and smog, and the potential barrie
 
 **11.4 Wiring Diagram：**
 
-![](media/5326feaab7a0b9887ef921e589694635.png)
+![](arduino/media/5326feaab7a0b9887ef921e589694635.png)
 
 Note: On the shield, the pin GND, VCC, D0 and A0 of gas sensor are connected with pin G, V and A0. The pin G,V and S of passive buzzer are connected to G,V and 3.
 
@@ -1385,11 +1385,11 @@ noTone (buzzer);
 
 Upload test code, wire up components according to connection diagram and power on. When the detected value of flammable gas is greater than 70, the passive buzzer will emit sound, however, when there is no flammable gas, the passive buzzer won’t emit a sound.
 
-![](./media/image-20230612111215876.png)
+![](./arduino/media/image-20230612111215876.png)
 
 ### Project 12: 1602 LCD Display
 
-![](media/ab1818942731c6e822a574ba5c0df31e.jpeg)
+![](arduino/media/ab1818942731c6e822a574ba5c0df31e.jpeg)
 
 **12.1 Description：**
 
@@ -1423,11 +1423,11 @@ Notice that when the screen gets brighter or darker, the characters will become 
 
 | PLUS Control Board*1                                         | Sensor Shield*1                                              | 1602 LCD Display*1                                           | USB Cable*1                                                  | 4pinF-F Dupont Cable*1     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------- |
-| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps140.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps141.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps142.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps143.jpg) | ![img](./media/wps144.jpg) |
+| ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps140.jpg) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps141.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps142.png) | ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml6252\wps143.jpg) | ![img](./arduino/media/wps144.jpg) |
 
 **12.4 Wiring Diagram：**
 
-![](media/18e30bb459c2c24d40509741424c3fb9.png)
+![](arduino/media/18e30bb459c2c24d40509741424c3fb9.png)
 
 Note: there are pin GND, VCC, SDA and SCL on 1602LCD module. GND is connected with GND（-）of IIC communication, VCC is connected to 5V（+）, SDA to SDA, SCL to SCL.
 
@@ -1462,17 +1462,17 @@ void loop ()
 
 After hooking up components and uploading sample code, the 1602 LCD will print "Hello, world!, keyestudio!", and you can adjust LCD backlight with a potentiometer.
 
-![](media/aff719348ce074be2d6f3aa88eb822ef.png)
+![](arduino/media/aff719348ce074be2d6f3aa88eb822ef.png)
 
 Note: When the display doesn’t show characters, you can adjust the potentiometer behind the 1602LCD and backlight to make the 1602LCD display the corresponding character string.
 
-![](./media/image-20230612111314348.png)
+![](./arduino/media/image-20230612111314348.png)
 
 ### Project 13：Soil Humidity Sensor
 
 **13.1 Description**
 
-![](./media/image-20230612111327983.png)
+![](./arduino/media/image-20230612111327983.png)
 
 This is a sensor to detect the soil humidity.
 
@@ -1504,7 +1504,7 @@ Meanwhile, it comes with 2 positioning holes for installing on other devices.
 
 **13.4 Wiring Diagram：**
 
-![](media/8339f3adc268de8c8dd5d26a6c0a1359.png)
+![](arduino/media/8339f3adc268de8c8dd5d26a6c0a1359.png)
 
 Note: On the shield, the pin G, V and S of soil humidity sensor are connected to G, V and A2; GND of 1602 LCD is connected with GND of ICC communication, VCC is connected to 5V（+）, SDA to SDA, SCL to SCL.
 
@@ -1577,13 +1577,13 @@ Upload code, open the serial monitor and insert the soil humidity sensor into th
 
 The greater the humidity is, the larger the value(0-1023). Also, the 1602 LCD will display the corresponding value.
 
-![](./media/image-20230612111429712.png)
+![](./arduino/media/image-20230612111429712.png)
 
 ### Project 14: Bluetooth Test
 
 14.1 Description
 
-![](./media/image-20230612111440173.png)
+![](./arduino/media/image-20230612111440173.png)
 
 Bluetooth technology is a wireless standard technology that enables short-distance data exchange between fixed devices, mobile devices, and building personal area networks (using UHF radio waves in the ISM band of 2.4 to 2.485 GHz).
 
@@ -1638,7 +1638,7 @@ We also provide you with APP for Android and iOS system.
 
 In the previous lesson, we’ve introduced the basic parameter principle of HM-10 Bluetooth module. In this project, let's show you how to use the HM-10 Bluetooth module. In order to efficiently control this kit by HM-10 Bluetooth module, we specially designed an APP, as shown below.
 
-![](media/51f78d766d19dff68efde3e89cc25a0c.jpeg)
+![](arduino/media/51f78d766d19dff68efde3e89cc25a0c.jpeg)
 
 There are twelve control buttons and four sliders on App. When we press control button on APP, the Bluetooth of cellphone will send a control character, and Bluetooth module will receive a corresponding control character. When programming, we set the corresponding function of each sensor or module according to the corresponding key control character. Next, let’s test 16 buttons on app.
 
@@ -1650,31 +1650,31 @@ Enter **Google** play，search “keyes IoT”. If you can’t search it on app 
 
 <https://play.google.com/store/apps/details?id=com.keyestudio.iot_keyes>
 
-Open the app <img src="media/image-20230523171524632.png" alt="image-20230523171524632" style="zoom:50%;" />，and the interface will pop up as below:
+Open the app <img src="arduino/media/image-20230523171524632.png" alt="image-20230523171524632" style="zoom:50%;" />，and the interface will pop up as below:
 
-![](media/51f78d766d19dff68efde3e89cc25a0c.jpeg)
+![](arduino/media/51f78d766d19dff68efde3e89cc25a0c.jpeg)
 
 Upload code and power on. LED of Bluetooth module blinks.
 
 Start Bluetooth of your cellphone and open App to click “SCANNING” to pair.
 
-![](media/c9e488c23dadabcbc2fffed2adf69dd8.jpeg)
+![](arduino/media/c9e488c23dadabcbc2fffed2adf69dd8.jpeg)
 
 Click “Connect”, then Bluetooth is connected successfully(indicator is always on). As shown below;
 
-![](media/a182ea97bfea835954cf6205b5bec83c.jpeg)
+![](arduino/media/a182ea97bfea835954cf6205b5bec83c.jpeg)
 
 **iOS System：**
 
-(1) Open App store![image-20230523171559487](media/image-20230523171559487.png).
+(1) Open App store![image-20230523171559487](arduino/media/image-20230523171559487.png).
 
 (2) Search “IoT keyes”on APP store, then click “download”.
 
-![image-20230523171616100](media/image-20230523171616100.png)
+![image-20230523171616100](arduino/media/image-20230523171616100.png)
 
-(3)  After the app is installed successfully, tap<img src="media/image-20230523171524632.png" alt="image-20230523171524632" style="zoom:50%;" />to enter the interface as follows:
+(3)  After the app is installed successfully, tap<img src="arduino/media/image-20230523171524632.png" alt="image-20230523171524632" style="zoom:50%;" />to enter the interface as follows:
 
-![](media/cbdbd5555560fbae02c9d45301bad4b1.png)
+![](arduino/media/cbdbd5555560fbae02c9d45301bad4b1.png)
 
 (4) After uploading the test code successfully, insert the Bluetooth module and power on.
 
@@ -1686,7 +1686,7 @@ Remember to pair Bluetooth and Bluetooth module after uploading the test code.
 
 **14.4 Wiring Diagram：**
 
-![](media/16477d46a4396f0283d1ea5acf603a19.png)
+![](arduino/media/16477d46a4396f0283d1ea5acf603a19.png)
 
 Note: On the sensor expansion board, the RXD, TXD, GND, and VCC of the Bluetooth module are respectively connected to TXD, RXD, GND, and 5V, and the STATE and BRK pins of the Bluetooth module do not need connecting.
 
@@ -1714,17 +1714,17 @@ Serial.print(val);// The serial port prints the read value
 }
 ```
 
-![](./media/image-20230612111533264.png)
+![](./arduino/media/image-20230612111533264.png)
 
 The function of corresponding character and button is shown below:
 
-![](./media/6465465654.jpeg)
+![](./arduino/media/6465465654.jpeg)
 
 **Assembly Guide**
 
 Check the board A\~I and parts in the first place.
 
-![](media/cb40021b27fe3b52ffbbfe9cc840dae9.png)
+![](arduino/media/cb40021b27fe3b52ffbbfe9cc840dae9.png)
 
 **Step 1: Install sensors on A board**
 
@@ -1741,23 +1741,23 @@ Prepare components as follows;
 -   4pin F-F dupont Cable\*1
 -   3pin F-F dupont cable\*4
 
-![](media/a5a38c11360552deb37181d5635c3e82.png)
+![](arduino/media/a5a38c11360552deb37181d5635c3e82.png)
 
-![](media/c54d1adc1bae45a80503690854a21bbc.png)
+![](arduino/media/c54d1adc1bae45a80503690854a21bbc.png)
 
 1.  Fix the white LED, 2 button sensors and the PIR motion sensor on the corresponding areas of the A board with 4pcs M3\*10MM round head screws and 4pcs M3 nuts.
 2.  Then install the LCD1602 display on A board with 4pcs M2.5\*10MM round head screws and 4pcs M2.5 nuts.
 3.  Connect them with 3pin and 4pin dupont cables.
 
-![](media/2cfbc6a9dcfa7321901b82a0cdc480e5.jpeg)
+![](arduino/media/2cfbc6a9dcfa7321901b82a0cdc480e5.jpeg)
 
-![](media/8461d9f32c2f8a2e8aa63f7c5434f26f.jpeg)
+![](arduino/media/8461d9f32c2f8a2e8aa63f7c5434f26f.jpeg)
 
-![](media/cbf9eb21013bd648297b12542c0a5453.jpeg)
+![](arduino/media/cbf9eb21013bd648297b12542c0a5453.jpeg)
 
-![](media/4e46ef90620c3c9f59dbf6e0534bfd77.jpeg)
+![](arduino/media/4e46ef90620c3c9f59dbf6e0534bfd77.jpeg)
 
-![](media/c415fa75fb346efaf4836819c462caae.jpeg)![](media/b6f28bdad72c4b30104666c4abb7d86f.jpeg)
+![](arduino/media/c415fa75fb346efaf4836819c462caae.jpeg)![](arduino/media/b6f28bdad72c4b30104666c4abb7d86f.jpeg)
 
 **Step 2: Install sensors on B board**
 
@@ -1767,23 +1767,23 @@ Prepare components as follows;
 -   M3 nickel plated nut\*2
 -   A relay module
 
-![](media/8ae3f57b21c0f51bed1a20f582ed6f8d.png)
+![](arduino/media/8ae3f57b21c0f51bed1a20f582ed6f8d.png)
 
-![](media/46239818633aa196b2b6a52e0dc25e9f.jpeg)
+![](arduino/media/46239818633aa196b2b6a52e0dc25e9f.jpeg)
 
 Assemble the relay module on B board with 2 pcs M3\*10MM screws and 2pcs M3 nickel plated nuts, and attach a 3pin F-F dupont cable to the relay module.
 
-![](media/386f90f0dce9d43345f3f8ba2632fec1.jpeg)
+![](arduino/media/386f90f0dce9d43345f3f8ba2632fec1.jpeg)
 
-![](media/47ebcf299a900923be7d3fce0d0e8eb7.jpeg)
+![](arduino/media/47ebcf299a900923be7d3fce0d0e8eb7.jpeg)
 
 **Step 3: Fix A board and B board together with a “T” bolt**
 
-![](media/a214abddefb0337b929f1be0e397b2f5.jpeg)
+![](arduino/media/a214abddefb0337b929f1be0e397b2f5.jpeg)
 
-![](media/59381b0cac49a329238743ff6bcce93b.jpeg)
+![](arduino/media/59381b0cac49a329238743ff6bcce93b.jpeg)
 
-![](media/844b631173fa706522b6e68beadc337a.jpeg)
+![](arduino/media/844b631173fa706522b6e68beadc337a.jpeg)
 
 **Step 4: Assemble sensors and a battery holder on C board**
 
@@ -1801,17 +1801,17 @@ M3 nickel plated nut\*3
 
 4pin F-F dupont line\*1
 
-![](media/25ff0e408ba63ae89e28da8a5c91dcf2.png)
+![](arduino/media/25ff0e408ba63ae89e28da8a5c91dcf2.png)
 
-![](media/01a3d67a67ee1bb0300ca8e947efe543.jpeg)
+![](arduino/media/01a3d67a67ee1bb0300ca8e947efe543.jpeg)
 
 1.  Fix the battery holder on C board with 2pcs M3\*10MM flat head screws and 2 pcs M3 nickel plated nuts.
 2.  Then install the MQ-2 gas sensor on the corresponding area of C board with a M3\*10MM round head screw and a M3 nickel plated nut.
 3.  Connect a 4pin dupont line to the MQ-2 gas sensor
 
-![](media/87cfc3b68613fb063bbfbb2a517f465f.jpeg)
+![](arduino/media/87cfc3b68613fb063bbfbb2a517f465f.jpeg)
 
-![](media/3934097b98ae64dcdf30de857621ab44.jpeg)
+![](arduino/media/3934097b98ae64dcdf30de857621ab44.jpeg)
 
 **Step 5: Install the sensors and parts on D board**
 
@@ -1827,9 +1827,9 @@ M3 nickel plated nut\*3
 -   A gear
 -   Board1
 
-![](media/8ccaf29c72c51af6f6ce7094797c4669.png)
+![](arduino/media/8ccaf29c72c51af6f6ce7094797c4669.png)
 
-![](media/2c8f1b59a323d3d35424e0b6f5823058.jpeg)
+![](arduino/media/2c8f1b59a323d3d35424e0b6f5823058.jpeg)
 
 We need to set the servo to 90° before installing. Just follow the steps below
 
@@ -1841,7 +1841,7 @@ Connect servo to Keyestudio PLUS Control Board and upload test code to make serv
 | Red wire    | 5V      |
 | Orange wire | S（10） |
 
-![](./media/image-20230612113008225.png)
+![](./arduino/media/image-20230612113008225.png)
 
 **Test Code：**
 
@@ -1862,31 +1862,31 @@ After the test code is uploaded successfully, the servo will rotate to 90°
 1.  Fix the servo on the corresponding area of D board with 2pcs M2\*12MM round head screws and 2pcs M2 nickel plated nuts.
 2.  Then install the square board 1 on the D board with 4pcs M3\*12MM round head screws and 4 M3 self-locking nuts.
 
-![](media/f244c60d719c62a53459535aba172d2b.jpeg)
+![](arduino/media/f244c60d719c62a53459535aba172d2b.jpeg)
 
-![](media/5695d16c1019b09d8a6274cd48ffc9ec.jpeg)
+![](arduino/media/5695d16c1019b09d8a6274cd48ffc9ec.jpeg)
 
-![](media/83350a24d1590d9c6fd8a6b768fbb0de.jpeg)
+![](arduino/media/83350a24d1590d9c6fd8a6b768fbb0de.jpeg)
 
-![](media/299ec806259817e1df361cb7fad22d6a.jpeg)
+![](arduino/media/299ec806259817e1df361cb7fad22d6a.jpeg)
 
 Install the white cross mount on the gear with 4pcs M1.2\*5MM self-tapping screws, and mount the gear on the servo motor with 1 M2\*5MM round head screw.
 
-![](media/2cfaaa43af4c41714ff59629db160c6d.jpeg)
+![](arduino/media/2cfaaa43af4c41714ff59629db160c6d.jpeg)
 
-![](media/fe2114e6e29711f518e0be07e2619ecf.jpeg)
+![](arduino/media/fe2114e6e29711f518e0be07e2619ecf.jpeg)
 
-![](media/dd8247a34700465c88cc6229825bea47.jpeg)
+![](arduino/media/dd8247a34700465c88cc6229825bea47.jpeg)
 
-![](media/5dfca1d1f5f603146b989ca48011ecd0.jpeg)
+![](arduino/media/5dfca1d1f5f603146b989ca48011ecd0.jpeg)
 
 **Step 6: Assemble C board with D board with a “T” bolt.**
 
-![](media/8e4f5a60e2e176ee09c19efe94d1df2a.jpeg)
+![](arduino/media/8e4f5a60e2e176ee09c19efe94d1df2a.jpeg)
 
-![](media/2d274ad0bf60d9eb283249aa80621cd9.jpeg)
+![](arduino/media/2d274ad0bf60d9eb283249aa80621cd9.jpeg)
 
-![](media/7558c2a4c94ea2310798fed818a0269c.jpeg)
+![](arduino/media/7558c2a4c94ea2310798fed818a0269c.jpeg)
 
 **Step 7: Install the yellow LED on E board**
 
@@ -1896,13 +1896,13 @@ Install the white cross mount on the gear with 4pcs M1.2\*5MM self-tapping screw
 -   M3 nickel plated nut \*1
 -   3pin F-F dupont line\*1
 
-![](media/ceadd9fddab49d404e992b744c52b55f.png)
+![](arduino/media/ceadd9fddab49d404e992b744c52b55f.png)
 
-![](media/c9fdca12bfe959d9a648d29af985e276.jpeg)
+![](arduino/media/c9fdca12bfe959d9a648d29af985e276.jpeg)
 
 Mount the yellow LED on the corresponding area of E board with 1 M3\*10MM round head screw and 1 M3 nickel plated nut，then connect a 3pin dupont line to it.
 
-![](media/4a5bf0af3b96ddd254e550dc6b4c3711.jpeg)![](media/66a496c0fc7baf9c157eaf6f07dc0aea.jpeg)
+![](arduino/media/4a5bf0af3b96ddd254e550dc6b4c3711.jpeg)![](arduino/media/66a496c0fc7baf9c157eaf6f07dc0aea.jpeg)
 
 **Step 8: Install control board, sensors and parts on H board**
 
@@ -1940,53 +1940,53 @@ Mount the yellow LED on the corresponding area of E board with 1 M3\*10MM round 
 - Board 2\*2
 
 
-![](media/597433c2300a027ff6ebee5c0b3c3707.png)
+![](arduino/media/597433c2300a027ff6ebee5c0b3c3707.png)
 
-![](media/400de4d98176394486793d39760e6150.jpeg)
+![](arduino/media/400de4d98176394486793d39760e6150.jpeg)
 
 1.  Mount 4pcs dual-pass copper pillars on the H board with 4pcs M3\*6MM screws
 2.  Then fix the passive buzzer on H board with 1 M3\*10MM round head screw and 1 M3 nut.
 3.  Connect a 3pinF-F dupont line to the passive buzzer.
 
-![](media/f33c7e4d3fdc88f51da0e5cb5adc279d.jpeg)![](media/34a50a1a1858a954016f13bedae32b10.jpeg)
+![](arduino/media/f33c7e4d3fdc88f51da0e5cb5adc279d.jpeg)![](arduino/media/34a50a1a1858a954016f13bedae32b10.jpeg)
 
-![](media/1b2f78a761ce0609281a0f665742f9e1.jpeg)![](media/dd3f0b0078b3fbb3939c7807bfe6b571.jpeg)
+![](arduino/media/1b2f78a761ce0609281a0f665742f9e1.jpeg)![](arduino/media/dd3f0b0078b3fbb3939c7807bfe6b571.jpeg)
 
 Set the servo to 90° before installing, and the method is same as the step 6.
 
 Fix the 4pcs M3\*10MM copper pillars on the Keyestudio PLUS control board with 4 M3\*6MM round head screws, then mount the servo on the corresponding area of H board with 2 M2\*12MM round head screws and 2 M2 nuts.
 
-![](media/92d69de4a3357170f499cf359e232b6b.jpeg)
+![](arduino/media/92d69de4a3357170f499cf359e232b6b.jpeg)
 
-![](media/7e0350f12cd1a84c05f67f9299e64ea9.jpeg)![](media/066bd05ae837c9904a4653c7d9db9379.jpeg)
+![](arduino/media/7e0350f12cd1a84c05f67f9299e64ea9.jpeg)![](arduino/media/066bd05ae837c9904a4653c7d9db9379.jpeg)
 
 Mount 2pcs board 2 together, then fix white cross mount on the gear with 4pcs M1.2\*5 self-tapping screws
 
-![](media/229ba883da33ab9c829237d0b15266cc.jpeg)
+![](arduino/media/229ba883da33ab9c829237d0b15266cc.jpeg)
 
-![](media/59dbff7f3be6b6a43432f7ebb620d7cd.jpeg)
+![](arduino/media/59dbff7f3be6b6a43432f7ebb620d7cd.jpeg)
 
-![](media/a4d9ed95b8a9fec0deeba703af46cb73.jpeg)
+![](arduino/media/a4d9ed95b8a9fec0deeba703af46cb73.jpeg)
 
-![](media/a23ac3154c7a63d387b8df8cb9315c43.jpeg)
+![](arduino/media/a23ac3154c7a63d387b8df8cb9315c43.jpeg)
 
 Fix the gear with white cross mount on the black servo with 1 M2\*5MM screw(included in servo), then install the combination of 2pcs board 2 and another servo on the corresponding area of H board, finally stack the sensor shield on the Keyestudio PLUS control board.
 
-![](media/b72a6309c515a427a9dcf1040163e65a.jpeg)
+![](arduino/media/b72a6309c515a427a9dcf1040163e65a.jpeg)
 
-![](media/d0c652476b02c86138c6dd2502611f43.jpeg)
+![](arduino/media/d0c652476b02c86138c6dd2502611f43.jpeg)
 
 Step 9: Assemble all boards together with 2 “T” type bolts.
 
 (Note: the port of PLUS Control Board is aligned with the hole ⑧ on board B, and the interface of USB cable is aligned with the hole ⑦ on board B)
 
-![](media/1095045fa1165b5553cfb8856356d2c8.jpeg)
+![](arduino/media/1095045fa1165b5553cfb8856356d2c8.jpeg)
 
-![](media/0c334ef18456d4df74383b12c2b30d68.jpeg)
+![](arduino/media/0c334ef18456d4df74383b12c2b30d68.jpeg)
 
-![](media/a2d8dd6a5e34c6be3400068a35c9cf4b.jpeg)![](media/65aa75da5e1fa9d789e3e017a0b5e82b.jpeg)
+![](arduino/media/a2d8dd6a5e34c6be3400068a35c9cf4b.jpeg)![](arduino/media/65aa75da5e1fa9d789e3e017a0b5e82b.jpeg)
 
-![](media/c1d3c6cc45db04bc6aa0cf3d05ea286c.jpeg)![](media/10b307c39057d29e26bcdcf639c6c5e4.jpeg)
+![](arduino/media/c1d3c6cc45db04bc6aa0cf3d05ea286c.jpeg)![](arduino/media/10b307c39057d29e26bcdcf639c6c5e4.jpeg)
 
 **Step 10: Install sensors on F board**
 
@@ -2006,21 +2006,21 @@ Step 9: Assemble all boards together with 2 “T” type bolts.
 - M3 nickel plated nut\*3.
 
 
-![](media/bd684ff7cbb44813eb77e478a5ca71f5.png)
+![](arduino/media/bd684ff7cbb44813eb77e478a5ca71f5.png)
 
-![](media/984fda0b23048b65de00721b90504d12.jpeg)
+![](arduino/media/984fda0b23048b65de00721b90504d12.jpeg)
 
 Separately fix the steam sensor, the photocell sensor and the fan module on the F board with 3pcs M3\*10MM round head screws and 3pcs M3 nuts, then attach 3pin and 4pin dupont lines to sensors
 
-![](media/7f99a61c34f2df4c4edf3f2a19cdb99f.jpeg)
+![](arduino/media/7f99a61c34f2df4c4edf3f2a19cdb99f.jpeg)
 
-![](media/6d437743fb286eef5f284756318e4a4a.jpeg)
+![](arduino/media/6d437743fb286eef5f284756318e4a4a.jpeg)
 
 **Step 11: Connect sensor/module**
 
 Connect one end of a 3pin dupont line to soil humidity sensor, then connect all sensors with the sensor shield. (make dupont wires of the servo go through the holes of board)
 
-![](media/bca03708b95612f0eda1bc87b807d0ae.jpeg)
+![](arduino/media/bca03708b95612f0eda1bc87b807d0ae.jpeg)
 
 |  Name                           | The corresponding interfaces of sensors and sensor shield | The corresponding installed area on the board |   |
 |---------------------------------|-----------------------------------------------------------|-----------------------------------------------|---|
@@ -2040,7 +2040,7 @@ Connect one end of a 3pin dupont line to soil humidity sensor, then connect all 
 | Soil humidity sensor            | G/V/S                                                     | G/V/A2                                        |   |
 | Steam sensor                    | G/V/S                                                     | G/V/A3                                        | ⑬ |
 
-![](media/2bf2f025ffdf28c89bbb103d7f7866f8.jpeg)
+![](arduino/media/2bf2f025ffdf28c89bbb103d7f7866f8.jpeg)
 
 Insert the Bluetooth module into sensor shield, then fix the F board with 2 M3\*10MM round head screws, 2 M3 nuts and 2 pcs parts and mount G board with 2 “T” bolts.
 
@@ -2051,27 +2051,27 @@ Insert the Bluetooth module into sensor shield, then fix the F board with 2 M3\*
 | TXD              | RXD           |
 | RXD              | TXD           |
 
-![](media/50519e5fada2b8a6a273fb3ecd983301.jpeg)
+![](arduino/media/50519e5fada2b8a6a273fb3ecd983301.jpeg)
 
-![](media/32920af7e9a825278dd6c2e024de3a6f.jpeg)
+![](arduino/media/32920af7e9a825278dd6c2e024de3a6f.jpeg)
 
-![](media/36dfb4e4defba38c41d548e9eba76ab0.jpeg)
+![](arduino/media/36dfb4e4defba38c41d548e9eba76ab0.jpeg)
 
 **Step 12: Assemble the kit**
 
 Fix the board I with 6 “T” bolts
 
-![](media/79c3b7b5e28d4248b6f6f8e155ee4e25.jpeg)
+![](arduino/media/79c3b7b5e28d4248b6f6f8e155ee4e25.jpeg)
 
-![](media/60c101c92e1ee57410849267dcb2e4ad.jpeg)
+![](arduino/media/60c101c92e1ee57410849267dcb2e4ad.jpeg)
 
-![](media/e2febc246493ba3293296c4e0caca3ce.jpeg)
+![](arduino/media/e2febc246493ba3293296c4e0caca3ce.jpeg)
 
 The smart home kit is established.
 
 ### Project 15：Multi-purpose Smart Home
 
-![](media/7f962fd86397e96ebb2eb4c590d90c1d.png)
+![](arduino/media/7f962fd86397e96ebb2eb4c590d90c1d.png)
 
 **15.1 Description**
 
@@ -2079,7 +2079,7 @@ In the previous projects, we’ve introduced how to use sensors, modules and HM-
 
 We will achieve the effect as follows:
 
-![](./media/image-20230612113049091.png)
+![](./arduino/media/image-20230612113049091.png)
 
 **1.Photocell sensor, PIR motion sensor and LED.**  When at night, someone passes by, LED is on; nobody is around, the LED is off.
 
@@ -2097,25 +2097,25 @@ The door will be closed when PIR motion sensor doesn’t detect people around. W
 
 **3.Insert soil humidity sensor into a plant pot.** When the soil is too dry, the buzzer will alarm and you will get the notification from app.
 
-![](./media/image-20230612113055108.png)
+![](./arduino/media/image-20230612113055108.png)
 
 
 
 **(4) When the gas sensor detects the gas with high concentration,** the buzzer will emit a "tick,tick" alarm sound.
 
-![](./media/image-20230612113100185.png)
+![](./arduino/media/image-20230612113100185.png)
 
 **(5) When steam sensor detects rains,** the servo 2 will be activated and the window will be closed automatically, otherwise, the window will be open.
 
-![](./media/image-20230612113105664.png)
+![](./arduino/media/image-20230612113105664.png)
 
 **15.2 What You Need**
 
-![](media/ea22fb2dc139a1414e4f7c3ac6a9f72b.png)
+![](arduino/media/ea22fb2dc139a1414e4f7c3ac6a9f72b.png)
 
 **15.3 Wiring diagram：**
 
-![](./media/image-20230612113133417.png)
+![](./arduino/media/image-20230612113133417.png)
 
 | Name                            | sensors and sensor shield | board           |      |
 | ------------------------------- | ------------------------- | --------------- | ---- |
