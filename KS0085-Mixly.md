@@ -1803,7 +1803,9 @@ Click "serialport” →![](mixly/media/c31cb91bea35b631b53d5e8a42b49b0d.png), e
 
 Remove Bluetooth module after uploading test code, then connect with Bluetooth module and open serial monitor, set baud rate to 9600. The corresponding characters are shown below:
 
-![](mixly/media/ea7b7546187d6b3f4644bb809f95bb1f.png)![](mixly/media/a3d768527aed10735fb2abb736c72dea.png)![](mixly/media/1acbb4e8a97d76a2ddbaed5448b1cc05.png) ![](mixly/media/b66d6abbf718d3a506f57f8345a392d6.jpeg)
+![](mixly/media/ea7b7546187d6b3f4644bb809f95bb1f.png)
+![](mixly/media/a3d768527aed10735fb2abb736c72dea.png)
+![](mixly/media/b66d6abbf718d3a506f57f8345a392d6.jpeg)
 
 The function of corresponding characters and buttons are shown below:
 
