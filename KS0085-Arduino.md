@@ -58,27 +58,27 @@ For Windows system, you can select the first driver to download and upzip it.
 
 Then open the device manager of computer. Right click Computer----- Properties----- Device Manager
 
-![image-20230523153418278](arduino/media/image-20230523153418278.png)
+![](arduino/media/image-20230523153418278.png)
 
 The yellow exclamation mark on the page implies that the driver of CP2101 isn’t installed. Next, you should double-click the hardware to update the driver.
 
-![image-20230523153446274](arduino/media/image-20230523153446274.png)
+![](arduino/media/image-20230523153446274.png)
 
 Click“OK”to enter the following page, click“browse my computer for updated driver software”. As shown below:
 
-![image-20230523153457094](arduino/media/image-20230523153457094.png)
+![](arduino/media/image-20230523153457094.png)
 
 Navigate to the CP210x_Universal_Windows_Driver unzip folder that you have downloaded and click Next.
 
 There is a DRIVERS folder in Arduino software installed package（![img](arduino/media/wps1.jpg)), open driver folder and check the driver of CP210X series chips.
 
-![image-20230523153512834](arduino/media/image-20230523153512834.png)
+![](arduino/media/image-20230523153512834.png)
 
 Open device manager, you will find the yellow exclamation mark disappear. The driver of CP2102 is installed successfully.
 
-![image-20230523153535853](arduino/media/image-20230523153535853.png)
+![](arduino/media/image-20230523153535853.png)
 
-![image-20230523153540374](arduino/media/image-20230523153540374.png)
+![](arduino/media/image-20230523153540374.png)
 
 **Installing the driver for MAC system**
 
@@ -94,29 +94,29 @@ Open device manager, you will find the yellow exclamation mark disappear. The dr
 
 3.Open the driver folder and double-click SiLabsUSBDriverDisk.dmg file.
 
-![{B226126D-C3F1-8402-1361-7E6AB44E7078}](arduino/media/59c91402aeb0941e301acb8c8aa36141.jpeg)
+![](arduino/media/59c91402aeb0941e301acb8c8aa36141.jpeg)
 
 4.You will view following files as follows:
 
-![{5C3FCA68-7405-460C-91BE-E0775E4B2429}](arduino/media/cf395759ef97b05784c65b2514f728fc.jpeg)
+![](arduino/media/cf395759ef97b05784c65b2514f728fc.jpeg)
 
 5\. Double-click Install CP210x VCP Driver, tick Don’t warn me and click Open
 
-![{59DB6F00-1A8B-3450-CDAA-ED2D7CAA65D6}](arduino/media/56ad0368ee8f50fef217428c1e7c00c5.jpeg)
+![](arduino/media/56ad0368ee8f50fef217428c1e7c00c5.jpeg)
 
 6.Click Continue
 
-![{E3881FC6-7F40-B173-AA22-2A2A8A36ECAB}](arduino/media/88a3949d8e7d10d631a8fffa2b9df108.jpeg)
+![](arduino/media/88a3949d8e7d10d631a8fffa2b9df108.jpeg)
 
 7.Click Continue and Agree
 
-![{5D5929F6-B53A-0C03-7919-49AA20E7738D}](arduino/media/28e8013fdde7914820515697181f1ec7.jpeg)
+![](arduino/media/28e8013fdde7914820515697181f1ec7.jpeg)
 
 8.Click Continue and enter your user password.
 
-![{15F1B01F-B066-9615-0B44-D5039DF02484}](arduino/media/d610b36b30a7847d9562143531ff1bde.jpeg)
+![](arduino/media/d610b36b30a7847d9562143531ff1bde.jpeg)
 
-![{B4E122B5-21D3-E930-1D2B-70E00ED504BE}](arduino/media/b4e122b521d3e9301d2b70e00ed504be.jpeg)
+![](arduino/media/b4e122b521d3e9301d2b70e00ed504be.jpeg)
 
 9.Select Open Security Preferences
 
@@ -124,25 +124,25 @@ Open device manager, you will find the yellow exclamation mark disappear. The dr
 
 10.Click the lock then enter your user’s password to authorize.
 
-![{7B313247-7D6D-C1AD-1403-5E14567A2208}](arduino/media/41ae5006b276caa2a752f49858e01bf6.jpeg)
+![](arduino/media/41ae5006b276caa2a752f49858e01bf6.jpeg)
 
-![{E8F637A3-A951-0AA8-F90C-65820D4D1CD8}](arduino/media/e8f637a3a9510aa8f90c65820d4d1cd8.jpeg)
+![](arduino/media/e8f637a3a9510aa8f90c65820d4d1cd8.jpeg)
 
 11.Then click Allow
 
-![{2A6CFC15-8C4A-2409-CA08-34BF16BD4C9A}](arduino/media/8d87ad5fd228acf0a28dc22b9d91194b.jpeg)
+![](arduino/media/8d87ad5fd228acf0a28dc22b9d91194b.jpeg)
 
 12.Back to installation page, and wait to install.
 
-![{47734125-C9FF-7E42-674B-4FD59872EB1C}](arduino/media/952736d011b3ac0a628df0a5473af00f.jpeg)
+![](arduino/media/952736d011b3ac0a628df0a5473af00f.jpeg)
 
-Successfully installed ![{46A164EF-E3D2-CBE2-8CAC-B67C253E68AB}](arduino/media/7c26ef0b6e1d36b49c1d80dc4f153707.jpeg)
+Successfully installed ![](arduino/media/7c26ef0b6e1d36b49c1d80dc4f153707.jpeg)
 
 **Arduino IDE Setting**
 
-Click![image-20230523153852276](arduino/media/image-20230523153852276.png)icon，open Arduino IDE.
+Click![](arduino/media/image-20230523153852276.png)icon，open Arduino IDE.
 
-![e9a2d59afcff8121d18d8767326baa42](arduino/media/e9a2d59afcff8121d18d8767326baa42.png)
+![](arduino/media/e9a2d59afcff8121d18d8767326baa42.png)
 
 To avoid the errors when uploading the program to the board, you need to select the correct Arduino board that matches the board connected to your computer.
 
