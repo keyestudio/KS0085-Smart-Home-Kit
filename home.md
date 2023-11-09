@@ -1,6 +1,6 @@
 
 
-# Home
+# **Home**
 
 ![image-20230523152355702](arduino/media/image-20230523152355702.png)
 
@@ -64,7 +64,7 @@ After getting this smart home kit, we need to make sure that there are not missi
 | 36 | 20cm 2.54 4Pin F-F Jumper Wire                                 | 2   | ![](arduino/media/114620893ecf24b61152fe3e8b7d3e0f.jpeg) |  
 
 
-## 3. Related Resources
+## 3. Download Resources
 
 Official website: <https://keyestudio.com/>
 
