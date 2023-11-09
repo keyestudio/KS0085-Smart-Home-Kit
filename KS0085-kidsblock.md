@@ -1,7 +1,7 @@
 
 # **KidsBlock Tutorial**
 
-##  KidsBlock Software
+## Getting started with KidsBlock Software
 
 **Instruction**
 
@@ -9,17 +9,17 @@ The Kidsblock, based on the Scratch graphical programming software, integrates m
 
 **Download and install KidsBlock software**
 
-Windows system: (https://www.kidsblock.cn/Down/KidsBlock.exe)
+**[Windows system](https://www.kidsblock.cn/Down/KidsBlock.exe)**
 
-MACOS system：(https://www.kidsblock.cn/Down/KidsBlock-MACOS.dmg)
+**[MACOS system](https://www.kidsblock.cn/Down/KidsBlock-MACOS.dmg)**
 
 
 **Install Development Board Driver**
 
-How to install development board driver：(https://kidsblocksite.readthedocs.io/en/latest/driver/)
+**[How to install development board driver](https://kidsblocksite.readthedocs.io/en/latest/driver/)**
 
 **Start your first program**
-Quick Start：(https://kidsblocksite.readthedocs.io/en/latest/function/)
+**[Quick Start](https://kidsblocksite.readthedocs.io/en/latest/function/)**
 
 ## Projects
 
