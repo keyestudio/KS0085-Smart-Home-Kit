@@ -5,7 +5,7 @@
 Note: when you get this kit, you need to confirm to use 9V voltage to drive smart home to work.
 
 
-## Download Mixly Software
+## **Download Mixly Software**
 
 **Instruction**
 
