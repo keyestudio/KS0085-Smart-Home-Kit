@@ -39,6 +39,7 @@ In addition, the different blinking frequency can be presented by adjusting the 
 - LED display color: white
 
  3. Needed Components
+   
 |PLUS control board*1 |Expansion board*1|White LED*1|USB cable *1|3Pin F-F Dupont wire*1|
 | :--: | :--: | :--: |:--:|:--:|
 |![Img](/kidsblock/media/img-20230302142231.png)|![Img](/kidsblock/media/img-20230302142246.png)|![Img](/kidsblock/media/img-20230302142259.png)|![Img](/kidsblock/media/img-20230302142305.png)|![Img](/kidsblock/media/img-20230302142310.png)|
@@ -82,6 +83,7 @@ This is like showing movie. The movie we watch are not completely continuous. It
 If want different voltage, need to control the ratio of 0 and 1. The more 0 and 1 signals output per unit time, the more accurately control.
 
  2. Needed Components
+   
 |PLUS control board*1 |Expansion board*1|Yellow LED*1|USB cable *1|3Pin F-F Dupont wire*1|
 | :--: | :--: | :--: |:--:|:--:|
 |![Img](/kidsblock/media/img-20230302142231.png)|![Img](/kidsblock/media/img-20230302142246.png)|![Img](/kidsblock/media/img-20230302145405.png)|![Img](/kidsblock/media/img-20230302142305.png)|![Img](/kidsblock/media/img-20230302142310.png)|
@@ -120,11 +122,12 @@ Buzzer includes about active buzzer and passive buzzer. In this experiment, we a
 During this experiment, we control code to make buzzer sound, begin with “tick, tick” sound, then make passive buzzer emit “do re mi fa so la si do”, and play specific songs.
 
  2. Needed Components
+
 |PLUS control board*1 |Expansion board*1|Passive buzzer*1|USB cable*1|3Pin F-F Dupont wire*1|
 | :--: | :--: | :--: |:--:|:--:|
 |![Img](/kidsblock/media/img-20230302142231.png)|![Img](/kidsblock/media/img-20230302142246.png)|![Img](/kidsblock/media/img-20230302150803.png)|![Img](/kidsblock/media/img-20230302142305.png)|![Img](/kidsblock/media/img-20230302142310.png)|
 
- 3.Wiring Diagram：
+ 3. Wiring Diagram：
 ![Img](/kidsblock/media/img-20230317131712.png)
 <span style="color: rgb(255, 76, 65);">Note:The G, V and S pins of passive buzzer are connected to G, V and 3.</span>
 
@@ -153,8 +156,9 @@ The button belongs to switch quantity (digital quantity) components. Composed of
 When the normally-open contact bears pressure, the circuit will be on state; however, when this pressure disappears, this contact will go back to be the initial state(off state).
 
  2. Needed Components
+
 |PLUS control board*1 |Expansion board*1|Yellow LED*1|Button sensor*1|USB cable*1|3Pin F-F Dupont wire*2|
-| :--: | :--: | :--: |:--:|:--:|
+| :--: | :--: | :--: |:--:|:--:|:--:|
 |![Img](/kidsblock/media/img-20230302142231.png)|![Img](/kidsblock/media/img-20230302142246.png)|![Img](/kidsblock/media/img-20230302155112.png)|![Img](/kidsblock/media/img-20230302155120.png)|![Img](/kidsblock/media/img-20230302142305.png)|![Img](/kidsblock/media/img-20230302142310.png)|
 
  3. Wiring Diagram
@@ -201,8 +205,9 @@ The module comes with 2 positioning holes for you to fix the module to other dev
 - Contact: static contact (normally-open contact, normally-closed contact) and moving contact
 
  3. Needed Components
+
 |PLUS control board*1 |Expansion board*1|Relay module*1|USB cable*1|3Pin F-F Dupont wire*1|
-| :--: | :--: | :--: |:--:|:--:|:--:|:--:|
+| :--: | :--: | :--: |:--:|:--:|
 |![Img](/kidsblock/media/img-20230302142231.png)|![Img](/kidsblock/media/img-20230302142246.png)|![Img](/kidsblock/media/img-20230303135617.png)|![Img](/kidsblock/media/img-20230302142305.png)|![Img](/kidsblock/media/img-20230302142310.png)|
 
  4. Wiring Diagram
@@ -228,8 +233,9 @@ Therefore, we can use the photoresistor to read the corresponding analog value a
 It is commonly applied to light measurement, control and conversion as well as light control circuit.
 
  2. Needed Components
+
 |PLUS control board*1 |Expansion board*1|Yellow LED*1|Photocell sensor*1|USB cable*1|3Pin F-F Dupont wire*2|
-| :--: | :--: | :--: |:--:|:--:|
+| :--: | :--: | :--: |:--:|:--:|:--:|
 |![Img](/kidsblock/media/img-20230302142231.png)|![Img](/kidsblock/media/img-20230302142246.png)|![Img](/kidsblock/media/img-20230302155112.png)|![Img](/kidsblock/media/img-20230303150005.png)|![Img](/kidsblock/media/img-20230302142305.png)|![Img](/kidsblock/media/img-20230302142310.png)| 
 
  3. Wiring Diagram
@@ -281,6 +287,7 @@ The corresponding servo Angle:
 - Weight: 9±1g(without servo horn) 
 
  3. Needed Components
+
 |PLUS control board*1 |Expansion board*1|Servo*1|USB cable*1|
 | :--: | :--: | :--: |:--:|
 |![Img](/kidsblock/media/img-20230302142231.png)|![Img](/kidsblock/media/img-20230302142246.png)|![Img](/kidsblock/media/img-20230307170845.png)|![Img](/kidsblock/media/img-20230302142305.png)|
@@ -315,6 +322,7 @@ Moreover, this module is an important part of fire robot, which can put out the 
 - Working temperature: 0-80° 
 
  3. Needed Components
+
 |PLUS control board*1 |Expansion board*1|Fan *1|USB cable*1|4pin F-F Dupont wire*1|
 | :--: | :--: | :--: |:--:|:--:|
 |![Img](/kidsblock/media/img-20230302142231.png)|![Img](/kidsblock/media/img-20230302142246.png)|![Img](/kidsblock/media/img-20230303160043.png)|![Img](/kidsblock/media/img-20230302142305.png)|![Img](/kidsblock/media/img-20230303160104.png)|
@@ -355,6 +363,7 @@ In addition to measuring the amount of water, it can also detect water vapor in 
 - Interface: 3pin interface with 2.54mm in pitch
 
  3. Needed Components
+
 |PLUS control board*1 |Expansion board*1|Steam sensor*1|USB canble*1|3Pin F-F Dupont wire*1|
 | :--: | :--: | :--: |:--:|:--:|
 |![Img](/kidsblock/media/img-20230302142231.png)|![Img](/kidsblock/media/img-20230302142246.png)|![Img](/kidsblock/media/img-20230303164915.png)|![Img](/kidsblock/media/img-20230302142305.png)|![Img](/kidsblock/media/img-20230302142310.png)|
@@ -403,6 +412,7 @@ It features higher sensibility and reliability, low power consumption and workin
 <span style="color: rgb(255, 76, 65);">6. To avoid misinformation caused by great changes in environmental temperature, this module should avoid direct exposure to sunlight, car headlamps, incandescent lamps, heat sources(such as radiator and heater) as well as air conditioning. It is also susceptible to radio-frequency radiation.</span><br>
 
  3. Needed Components
+
 |PLUS control board*1 |Expansion board*1|PIR motion sensor*1|Fan*1|
 | :--: | :--: | :--: |:--:|
 |![Img](/kidsblock/media/img-20230302142231.png)|![Img](/kidsblock/media/img-20230302142246.png)|![Img](/kidsblock/media/img-20230303171527.png)|![Img](/kidsblock/media/img-20230303171544.png)|
@@ -447,6 +457,7 @@ In addition, the sensitivity can be adjusted via the potentiometer.
 - Weight: 7.5g
 
  3. Needed Components
+
 |PLUS control board*1 |Expansion board*1|MQ-2 gas sensor*1|Passive buzzer*1|
 | :--: | :--: | :--: |:--:|
 |![Img](/kidsblock/media/img-20230302142231.png)|![Img](/kidsblock/media/img-20230302142246.png)|![Img](/kidsblock/media/img-20230303184448.png)|![Img](/kidsblock/media/img-20230303184507.png)|
@@ -488,6 +499,7 @@ Alternatively, the module comes with 4 positioning holes with a diameter of 3mm,
 - SCL: A pin that connects to analog port A5 for IIC communication
 
  3. Needed Components
+
 |PLUS control board*1 |Expansion board*1|1602 LCD display*1|USB cable*1|4Pin F-F Dupont wire*1|
 | :--: | :--: | :--: |:--:|:--:|
 |![Img](/kidsblock/media/img-20230302142231.png)|![Img](/kidsblock/media/img-20230302142246.png)|![Img](/kidsblock/media/img-20230303191709.png)|![Img](/kidsblock/media/img-20230302142305.png)|![Img](/kidsblock/media/img-20230303191644.png)|
@@ -528,6 +540,7 @@ It also comes with 2 positioning holes for installing on other devices.
 - Interface definition: S - Signal, G - GND, V - VCC
 
  3. Needed Components
+
 |PLUS control board*1 |Expansion board*1|Humidity sensor*1|1602 LCD display*1|USB cable*1|4Pin F-F Dupont wire*1|3Pin F-F Dupont wire*1|
 | :--: | :--: |:--:| :--: |:--:|:--:|:--:|
 |![Img](/kidsblock/media/img-20230302142231.png)|![Img](/kidsblock/media/img-20230302142246.png)|![Img](/kidsblock/media/img-20230303194856.png)|![Img](/kidsblock/media/img-20230303191709.png)|![Img](/kidsblock/media/img-20230302142305.png)|![Img](/kidsblock/media/img-20230303191644.png)|![Img](/kidsblock/media/img-20230303194919.png)|
@@ -553,7 +566,7 @@ Bluetooth technology is a wireless standard technology that enables short-distan
 This is a host-slave device equipped with HM-10 Bluetooth module. The host sends commands to the slave, while the slave only receives. 
 The HM-10 Bluetooth module supports the Bluetooth 4.0 protocol in not only Android but also iOS system. In the experiment, we take the HM-10 Bluetooth module as a Slave and our mobile phone as a Host. Install the Bluetooth APP on our phone and connect to this module, so that we control smart home kits via Bluetooth. 
 
-## （1）. Interface Description
+ 2. Interface Description
 | Pins | Description |
 | :--: | :-- |
 | BRK | Input pin(short press to control), or input single pulse of 100ms low level to achieve the following functions:<br> ① When BT is in sleep state, it will be activated to normal state; if open AT+NOTI, serial port will send OK+WAKE.<br> ② It actively requests to disconnect in connected state. <br> ③ If it is in standby mode, it will back to the initial state.|
@@ -563,7 +576,7 @@ The HM-10 Bluetooth module supports the Bluetooth 4.0 protocol in not only Andro
 | VCC | Positive pole of power with an input of 5V |
 | STATE | Output pin, shows the working state of module:<br> Flash slowly in standby state and repeat 500ms pulse;<br> Always light in connected state in a high level; <br> Or you may set light state as you needed.  |
 
-## （2）. Parameters
+ 3. Parameters
 - Bluetooth protocol: Bluetooth Specification V4.0 BLE
 - No byte limit in receiving and sending of serial port.
 - 100m ultra-distance communication with phones/pads in an open environment.
@@ -579,28 +592,29 @@ The HM-10 Bluetooth module supports the Bluetooth 4.0 protocol in not only Andro
 - Power supply: 5V DC
 - Working temperature: -5 ~ +65℃
 
- 2. Needed Components
+ 4. Needed Components
+
 |PLUS control board*1 |Expansion board*1|HM-10 BT module*1|White LED*1|USB cable*1|
 | :--: | :--: | :--: |:--:|:--:|
 |![Img](/kidsblock/media/img-20230302142231.png)|![Img](/kidsblock/media/img-20230302142246.png)|![Img](/kidsblock/media/img-20230306134446.png)|![Img](/kidsblock/media/img-20230302142259.png)|![Img](/kidsblock/media/img-20230302142305.png)|
 
- 3. Wiring Diagram
+ 5. Wiring Diagram
 ![Img](/kidsblock/media/img-20230306134653.png)
 <span style="color: rgb(255, 76, 65);">On the sensor expansion board, the RXD, TXD, GND, and VCC of the Bluetooth module are respectively connected to TXD, RXD, GND, and 5V, and the STATE and BRK pins of the Bluetooth module do not need connecting.</span>
 
- 4. Test Code 1
+ 6. Test Code 1
 **Read Bluetooth Character Strings**
 ![Img](/kidsblock/media/img-20230306135539.png)
 <span style="color: rgb(255, 76, 65);">Pay attention: Remove the Bluetooth module please when uploading the test code. Otherwise, the code will fail to be uploaded.</span>
 
- 5. Bluetooth APP download
+ 7. Bluetooth APP download
 In the previous, we’ve introduced the basic parameter principle of HM-10 Bluetooth module. 
 In this project, let's show you how to use the HM-10 Bluetooth module. To efficiently control this kit, we specially designed an APP as shown below.
 ![Img](/kidsblock/media/img-20230306115553.png)
 There are twelve control buttons and four sliders on App. When we press control button, the Bluetooth sends a control character and the module will receive a corresponding counterpart. 
 When programming, we set the corresponding function of each sensor or module according to the corresponding key control character. We will test 16 buttons on app in the following parts.
 
-## （1）Android Mobile/Pad: 
+ （1）Android Mobile/Pad: 
 <span style="color: rgb(255, 76, 65);">Note: You need to enable the location information before connecting to HM-10 Bluetooth module via cellphone, otherwise, Bluetooth may not be connected.</span>
 <br><br>
 
@@ -616,7 +630,7 @@ B. Upload code and power on. LED of Bluetooth module blinks. Open App to click �
 C. Click “**connect**”, then Bluetooth is connected successfully(indicator is always on) as shown below:
 ![Img](/kidsblock/media/img-20230306140719.png)
 
-## (2) iOS System
+ (2) iOS System
 A. Open App Store.
 ![Img](/kidsblock/media/img-20230306140923.png)
 <br>
@@ -634,7 +648,7 @@ D. Click "Connect" and HMSoft to pair the Bluetooth. After paring successfully, 
 When we press control button, the Bluetooth sends a control character and the module will receive a corresponding counterpart.
 When programming, we set the corresponding function of each sensor or module according to the corresponding key control character. 
 
- 6. Test Result 1
+ 8. Test Result 1
 Upload test code and plug Bluetooth on the expansion board. Open the APP to pair with it.
 Click ![Img](/kidsblock/media/img-20230303174037.png) on the serial monitor to set the baud rate to 9600. Tap the buttons on APP and we can see corresponding characters below: 
 ![Img](/kidsblock/media/img-20230321131145.png)
@@ -645,12 +659,12 @@ Click ![Img](/kidsblock/media/img-20230303174037.png) on the serial monitor to s
 We can call a functional list through tests(ios is basically the same)</span>）
 ![Img](/kidsblock/media/img-20230306143836.png)
 
- 7. Test Code 2
+ 9. Test Code 2
 Bluetooth controls LED
 ![Img](/kidsblock/media/img-20230306152006.png)
 <span style="color: rgb(255, 169, 0);">Note: Remove the Bluetooth module please when uploading the test code. Otherwise, the code will fail to be uploaded. Remember to pair Bluetooth after uploading the code.</span>
 
- 8. Test Result 2
+ 10. Test Result 2
 Upload test code and plug Bluetooth on the expansion board. Open the APP to pair with it.
 Tap ![Img](/kidsblock/media/img-20230306152432.png) to light the white LED up, and tap again ![Img](/kidsblock/media/img-20230306152449.png) to turn it off.
 ![Img](/kidsblock/media/img-20230321131052.png)
@@ -664,6 +678,7 @@ Tap ![Img](/kidsblock/media/img-20230306152432.png) to light the white LED up, a
 In the previous projects, we’ve introduced how to use sensors, modules and HM-10 Bluetooth module. For this lesson, we will present all functions of this smart home.
 
  2. Needed Components
+
 |PLUS control board*1|Expansion board*1|Fan*1|Servo*2|
 | :--: | :--: | :--: |:--: |
 |![Img](/kidsblock/media/img-20230302142231.png)|![Img](/kidsblock/media/img-20230302142246.png)|![Img](/kidsblock/media/img-20230303160043.png)|![Img](/kidsblock/media/img-20230307171014.png)![Img](/kidsblock/media/img-20230307171014.png)|
@@ -678,6 +693,7 @@ In the previous projects, we’ve introduced how to use sensors, modules and HM-
 
  3. Wiring Diagram
 ![Img](/kidsblock/media/img-20230308082655.png)
+
 |Names|Sensor/module pins|Expansion pins|Installation position|
 | :--: | :--: | :--: |:--: |
 |PIR motion sensor|G/V/S|G/V/2|⑤|
@@ -718,87 +734,4 @@ Each time you enter one password, the display will show a “*” . Press button
 If it is correct, the screen displays "open" and Servo 1 truns to 180° to open the door. When the motion sensor detects no one 5s later, the door close automatically. 
 If it is wrong, the display shows "error". Wait for 2s and re-enter the passwords when you see and "again". Or press and hold button 2 to ring the doorbell(the buzzer emits sounds).
 ![Img](/kidsblock/media/img-20230321121021.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
