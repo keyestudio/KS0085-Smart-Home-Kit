@@ -6,7 +6,7 @@
 
    home.md
    KS0085-Arduino.md
-   KS0085-scratch
+   KS0085-kidsblock.md
    KS0085-Mixly.md
 
 
