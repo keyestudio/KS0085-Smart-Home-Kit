@@ -1,21 +1,21 @@
-.. _4.-Keyestudio-Smart-Home-Kit-for-Arduino:
-
 4. Keyestudio Smart Home Kit for Arduino
 ========================================
 
-.. image:: arduino/media/image-20230523152355702.png
+.. figure:: arduino/media/image-20230523152355702.png
    :alt: image-20230523152355702
 
-.. _4.1-Overview::
+   image-20230523152355702
 
 4.1 Overview:
 -------------
 
-.. image:: media/image-20250416145232275.png
+.. figure:: media/image-20250416145232275.png
    :alt: image-20250416145232275
 
+   image-20250416145232275
+
 This Smart Home Learning Kit based on the Arduino platform is newly
-rolled out by Keyestudio DIY Robot Co. Ltd.
+rolled out by Keyestudio DIY Robot Co. Ltd.
 
 It simulates the real smart home and demonstrates the cozy and
 comfortable life for people.
@@ -28,14 +28,12 @@ Meanwhile, the intelligent lighting system allows you to create a
 comfortable, tranquil atmosphere. Everything is finished by a remote
 control or your own cellphone.
 
-As Bill Gates puts it, "In the near future, a house without a smart home
+As Bill Gates puts it, “In the near future, a house without a smart home
 system will be as unfashionable as a home without Internet access
-today."
+today.”
 
-So, go ahead and get started; let's build this amazing analog smart
+So, go ahead and get started; let’s build this amazing analog smart
 home.
-
-.. _4.2-Kit-list:
 
 4.2 Kit list
 ------------
@@ -43,104 +41,98 @@ home.
 After getting this smart home kit, we need to make sure that there are
 not missing components.
 
-.. container:: table-wrapper
-
-   +----+---------------------------+-----+---------------------------+
-   | #  | Name                      | QTY | Picture                   |
-   +====+===========================+=====+===========================+
-   | 1  | Keyestudio PLUS Control   | 1   | |image47|                 |
-   |    | Board （Compatible with   |     |                           |
-   |    | Arduino UNO ）            |     |                           |
-   +----+---------------------------+-----+---------------------------+
-   | 2  | Keyestudio Sensor Shield  | 1   | |image48|                 |
-   |    | V 5.2                     |     |                           |
-   +----+---------------------------+-----+---------------------------+
-   | 3  | Wooden Board*10 T=3MM     | 1   | |image-20250416145409152| |
-   +----+---------------------------+-----+---------------------------+
-   | 4  | White LED Module          | 1   | |image49|                 |
-   +----+---------------------------+-----+---------------------------+
-   | 5  | Yellow LED Module         | 1   | |image50|                 |
-   +----+---------------------------+-----+---------------------------+
-   | 6  | Button Sensor             | 2   | |image51|                 |
-   +----+---------------------------+-----+---------------------------+
-   | 7  | Photocell Sensor          | 1   | |image52|                 |
-   +----+---------------------------+-----+---------------------------+
-   | 8  | PIR Motion Sensor         | 1   | |image53|                 |
-   +----+---------------------------+-----+---------------------------+
-   | 9  | MQ-2 Gas Sensor           | 1   | |image54|                 |
-   +----+---------------------------+-----+---------------------------+
-   | 10 | Relay Module              | 1   | |image55|                 |
-   +----+---------------------------+-----+---------------------------+
-   | 11 | Bluetooth HM-10 Module    | 1   | |image56|                 |
-   +----+---------------------------+-----+---------------------------+
-   | 12 | Passive Buzzer Sensor     | 1   | |image57|                 |
-   +----+---------------------------+-----+---------------------------+
-   | 13 | Fan module                | 1   | |image58|                 |
-   +----+---------------------------+-----+---------------------------+
-   | 14 | Steam Sensor              | 1   | |image59|                 |
-   +----+---------------------------+-----+---------------------------+
-   | 15 | Servo Motor               | 2   | |image60|                 |
-   +----+---------------------------+-----+---------------------------+
-   | 16 | LCD1602 Display Module    | 1   | |image61|                 |
-   +----+---------------------------+-----+---------------------------+
-   | 17 | Soil Humidity Sensor      | 1   | |image62|                 |
-   +----+---------------------------+-----+---------------------------+
-   | 18 | USB Cable                 | 1   | |image63|                 |
-   +----+---------------------------+-----+---------------------------+
-   | 19 | Female to Female Dupont   | 40  | |image64|                 |
-   |    | Cables                    |     |                           |
-   +----+---------------------------+-----+---------------------------+
-   | 20 | Male to female Dupont     | 6   | |image65|                 |
-   |    | Cables                    |     |                           |
-   +----+---------------------------+-----+---------------------------+
-   | 21 | M3 Nickel Plated Nuts     | 25  | |image-20250416150440426| |
-   +----+---------------------------+-----+---------------------------+
-   | 22 | M2*12MM Round Head Screws | 6   | |image-20250416150255499| |
-   +----+---------------------------+-----+---------------------------+
-   | 23 | M2 Nickel Plated Nuts     | 6   | |image-20250416150222937| |
-   +----+---------------------------+-----+---------------------------+
-   | 24 | M3*10MM Dual-pass Copper  | 4   | |image-20250416150153520| |
-   |    | Bush                      |     |                           |
-   +----+---------------------------+-----+---------------------------+
-   | 25 | M3*6MM Round Head Screws  | 8   | |image-20250416150130680| |
-   +----+---------------------------+-----+---------------------------+
-   | 26 | M3 304 Stainless Steel    | 4   | |image-20250416150119881| |
-   |    | Self-locking Nuts         |     |                           |
-   +----+---------------------------+-----+---------------------------+
-   | 27 | M3*10MM Round Head Screws | 20  | |image-20250416150056376| |
-   +----+---------------------------+-----+---------------------------+
-   | 28 | M2.5*10MM Round Head      | 6   | |image-20250416150036608| |
-   |    | Screws                    |     |                           |
-   +----+---------------------------+-----+---------------------------+
-   | 29 | M2.5 Nickel Plated Nuts   | 6   | |image-20250416150006617| |
-   +----+---------------------------+-----+---------------------------+
-   | 30 | M3*12MM Round Head Screws | 6   | |image-20250416145907696| |
-   +----+---------------------------+-----+---------------------------+
-   | 31 | M3*10MM Flat Head Screws  | 2   | |image-20250416145826473| |
-   +----+---------------------------+-----+---------------------------+
-   | 32 | M1.2*5MM Round Head       | 10  | |image-20250416145807856| |
-   |    | Self-tapping Screws       |     |                           |
-   +----+---------------------------+-----+---------------------------+
-   | 33 | 6-Slot AA Battery Holder  | 1   | |image66|                 |
-   |    | with DC Head and 15cm Dew |     |                           |
-   |    | Line                      |     |                           |
-   +----+---------------------------+-----+---------------------------+
-   | 34 | Black-yellow Handle       | 1   | |image67|                 |
-   |    | 3*40MM Cross Screwdriver  |     |                           |
-   +----+---------------------------+-----+---------------------------+
-   | 35 | 20cm 2.54 3Pin F-F Jumper | 13  | |image68|                 |
-   |    | Wire                      |     |                           |
-   +----+---------------------------+-----+---------------------------+
-   | 36 | 20cm 2.54 4Pin F-F Jumper | 2   | |image69|                 |
-   |    | Wire                      |     |                           |
-   +----+---------------------------+-----+---------------------------+
-
-.. _4.3-Download-Software-&-Install-Driver:
++----+---------------------------+-----+---------------------------+
+| #  | Name                      | QTY | Picture                   |
++====+===========================+=====+===========================+
+| 1  | Keyestudio PLUS Control   | 1   | |image47|                 |
+|    | Board （Compatible with   |     |                           |
+|    | Arduino UNO ）            |     |                           |
++----+---------------------------+-----+---------------------------+
+| 2  | Keyestudio Sensor Shield  | 1   | |image48|                 |
+|    | V 5.2                     |     |                           |
++----+---------------------------+-----+---------------------------+
+| 3  | Wooden Board*10 T=3MM     | 1   | |image-20250416145409152| |
++----+---------------------------+-----+---------------------------+
+| 4  | White LED Module          | 1   | |image49|                 |
++----+---------------------------+-----+---------------------------+
+| 5  | Yellow LED Module         | 1   | |image50|                 |
++----+---------------------------+-----+---------------------------+
+| 6  | Button Sensor             | 2   | |image51|                 |
++----+---------------------------+-----+---------------------------+
+| 7  | Photocell Sensor          | 1   | |image52|                 |
++----+---------------------------+-----+---------------------------+
+| 8  | PIR Motion Sensor         | 1   | |image53|                 |
++----+---------------------------+-----+---------------------------+
+| 9  | MQ-2 Gas Sensor           | 1   | |image54|                 |
++----+---------------------------+-----+---------------------------+
+| 10 | Relay Module              | 1   | |image55|                 |
++----+---------------------------+-----+---------------------------+
+| 11 | Bluetooth HM-10 Module    | 1   | |image56|                 |
++----+---------------------------+-----+---------------------------+
+| 12 | Passive Buzzer Sensor     | 1   | |image57|                 |
++----+---------------------------+-----+---------------------------+
+| 13 | Fan module                | 1   | |image58|                 |
++----+---------------------------+-----+---------------------------+
+| 14 | Steam Sensor              | 1   | |image59|                 |
++----+---------------------------+-----+---------------------------+
+| 15 | Servo Motor               | 2   | |image60|                 |
++----+---------------------------+-----+---------------------------+
+| 16 | LCD1602 Display Module    | 1   | |image61|                 |
++----+---------------------------+-----+---------------------------+
+| 17 | Soil Humidity Sensor      | 1   | |image62|                 |
++----+---------------------------+-----+---------------------------+
+| 18 | USB Cable                 | 1   | |image63|                 |
++----+---------------------------+-----+---------------------------+
+| 19 | Female to Female Dupont   | 40  | |image64|                 |
+|    | Cables                    |     |                           |
++----+---------------------------+-----+---------------------------+
+| 20 | Male to female Dupont     | 6   | |image65|                 |
+|    | Cables                    |     |                           |
++----+---------------------------+-----+---------------------------+
+| 21 | M3 Nickel Plated Nuts     | 25  | |image-20250416150440426| |
++----+---------------------------+-----+---------------------------+
+| 22 | M2*12MM Round Head Screws | 6   | |image-20250416150255499| |
++----+---------------------------+-----+---------------------------+
+| 23 | M2 Nickel Plated Nuts     | 6   | |image-20250416150222937| |
++----+---------------------------+-----+---------------------------+
+| 24 | M3*10MM Dual-pass Copper  | 4   | |image-20250416150153520| |
+|    | Bush                      |     |                           |
++----+---------------------------+-----+---------------------------+
+| 25 | M3*6MM Round Head Screws  | 8   | |image-20250416150130680| |
++----+---------------------------+-----+---------------------------+
+| 26 | M3 304 Stainless Steel    | 4   | |image-20250416150119881| |
+|    | Self-locking Nuts         |     |                           |
++----+---------------------------+-----+---------------------------+
+| 27 | M3*10MM Round Head Screws | 20  | |image-20250416150056376| |
++----+---------------------------+-----+---------------------------+
+| 28 | M2.5*10MM Round Head      | 6   | |image-20250416150036608| |
+|    | Screws                    |     |                           |
++----+---------------------------+-----+---------------------------+
+| 29 | M2.5 Nickel Plated Nuts   | 6   | |image-20250416150006617| |
++----+---------------------------+-----+---------------------------+
+| 30 | M3*12MM Round Head Screws | 6   | |image-20250416145907696| |
++----+---------------------------+-----+---------------------------+
+| 31 | M3*10MM Flat Head Screws  | 2   | |image-20250416145826473| |
++----+---------------------------+-----+---------------------------+
+| 32 | M1.2*5MM Round Head       | 10  | |image-20250416145807856| |
+|    | Self-tapping Screws       |     |                           |
++----+---------------------------+-----+---------------------------+
+| 33 | 6-Slot AA Battery Holder  | 1   | |image66|                 |
+|    | with DC Head and 15cm Dew |     |                           |
+|    | Line                      |     |                           |
++----+---------------------------+-----+---------------------------+
+| 34 | Black-yellow Handle       | 1   | |image67|                 |
+|    | 3*40MM Cross Screwdriver  |     |                           |
++----+---------------------------+-----+---------------------------+
+| 35 | 20cm 2.54 3Pin F-F Jumper | 13  | |image68|                 |
+|    | Wire                      |     |                           |
++----+---------------------------+-----+---------------------------+
+| 36 | 20cm 2.54 4Pin F-F Jumper | 2   | |image69|                 |
+|    | Wire                      |     |                           |
++----+---------------------------+-----+---------------------------+
 
 4.3 Download Software & Install Driver
 --------------------------------------
-
-.. _(1)-Download-Software:
 
 (1) Download Software
 ~~~~~~~~~~~~~~~~~~~~~
@@ -152,34 +144,39 @@ You could download Arduino IDE from the official website:
 https://www.arduino.cc/, and click the **SOFTWARE > DOWNLOADS**, as
 shown below:
 
-.. image:: media/image-20250416141202258.png
+.. figure:: media/image-20250416141202258.png
    :alt: image-20250416141202258
 
-You can select the latest version-----1.8.13. Alternatively, the
-previous release is your another choice.
+   image-20250416141202258
+
+You can select the latest version—–1.8.13. Alternatively, the previous
+release is your another choice.
 
 In this project, we use 1.8.12 version
 
-.. image:: media/image-20250416151816745.png
+.. figure:: media/image-20250416151816745.png
    :alt: image-20250416151816745
+
+   image-20250416151816745
 
 Click\ |image-20250416151909786|\ to enter the new page. As shown below;
 
-The <font color="0000FF">\ **Windows installer** </font>needs installing
-manually. Yet , the <font color="0000FF">\ **Windows zip file for non
-admin install**\ </font>，a zip file of Arduino 1.8.12 version, can be
-directly downloaded and installed.
+The \ **Windows installer** needs installing manually. Yet , the
+\ **Windows zip file for non admin install**\ ，a zip file of Arduino
+1.8.12 version, can be directly downloaded and installed.
 
-.. image:: media/image-20250416152353501.png
+.. figure:: media/image-20250416152353501.png
    :alt: image-20250416152353501
 
-.. _(2)-Keyestudio-PLUS-Development-Board:
+   image-20250416152353501
 
 (2) Keyestudio PLUS Development Board
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: media/image-20250416152440165.png
+.. figure:: media/image-20250416152440165.png
    :alt: image-20250416152440165
+
+   image-20250416152440165
 
 Now, let’s get to know Keyestudio PLUS development board. It is the core
 of the whole kit.
@@ -189,8 +186,10 @@ board. Its functions is as same as Arduino UNO R3 board. Moreover, some
 improvements made highly strengthen its function. Alternatively, it is
 the best choice to learn building the circuit and designing codes.
 
-.. image:: media/image-20250416152616313.png
+.. figure:: media/image-20250416152616313.png
    :alt: image-20250416152616313
+
+   image-20250416152616313
 
 Serial communication interface: D0 is RX, D1 is TX
 
@@ -202,8 +201,6 @@ SPI communication interface: D10 is SS, D11 is MOSI, D12 is MISO, D13 is
 SCK
 
 IIC communication port: A4 is SDA, A5 is SCL
-
-.. _(3)-Installing-Driver:
 
 (3) Installing Driver
 ~~~~~~~~~~~~~~~~~~~~~
@@ -220,24 +217,30 @@ installed.
 
 If the driver is installed unsuccessfully,you need to install it
 manually.Open the device manager of computer.Right click
-Computer-----Properties-----DeviceManager.
+Computer—–Properties—–DeviceManager.
 
-.. image:: media/image-20250416142843432.png
+.. figure:: media/image-20250416142843432.png
    :alt: image-20250416142843432
+
+   image-20250416142843432
 
 There is a yellow exclamation mark on the page,which implies installing
 the driver of CP2102.
 
 Operate as follows；
 
-.. image:: media/image-20250416143119424.png
+.. figure:: media/image-20250416143119424.png
    :alt: image-20250416143119424
+
+   image-20250416143119424
 
 Click “OK” to enter the following page,click “browse my computer for
 updated driver software”.
 
-.. image:: media/image-20250416143433535.png
+.. figure:: media/image-20250416143433535.png
    :alt: image-20250416143433535
+
+   image-20250416143433535
 
 Click “Browse”, then search the driver of CP2102 and click “Next”.
 
@@ -245,37 +248,47 @@ There is a DRIVERS folder in Arduino software installed
 package(|image-20250416143541687|),open driver folder and you can see
 the driver of CP210X series chips.
 
-.. image:: media/image-20250416144210986.png
+.. figure:: media/image-20250416144210986.png
    :alt: image-20250416144210986
+
+   image-20250416144210986
 
 When opening the device manager, we will find the yellow exclamation
 mark disappear. The driver of CP2102 is installed successfully.
 
-.. image:: media/image-20250416144347571.png
+.. figure:: media/image-20250416144347571.png
    :alt: image-20250416144347571
 
-.. image:: media/image-20250416144406915.png
+   image-20250416144347571
+
+.. figure:: media/image-20250416144406915.png
    :alt: image-20250416144406915
 
-.. _(4)-Arduino-IDE-Setting:
+   image-20250416144406915
 
 (4) Arduino IDE Setting
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Click\ |image-20250416153813408|\ icon，and open Arduino IDE.
 
-.. image:: media/image-20250416153837276.png
+.. figure:: media/image-20250416153837276.png
    :alt: image-20250416153837276
+
+   image-20250416153837276
 
 When downloading the sketch to the board, you must select the correct
 name of Arduino board that matches the board connected to your computer.
 As shown below;
 
-.. image:: media/image-20250416153924447.png
+.. figure:: media/image-20250416153924447.png
    :alt: image-20250416153924447
 
-.. image:: media/image-20250416153937613.png
+   image-20250416153924447
+
+.. figure:: media/image-20250416153937613.png
    :alt: image-20250416153937613
+
+   image-20250416153937613
 
 A- Used to verify whether there is any compiling mistakes or not.
 
@@ -290,42 +303,48 @@ E- Used to save the sketch.
 F- Used to send the serial data received from board to the serial
 monitor.
 
-.. _(5)Startyourfirstprogram:
-
 (5)Startyourfirstprogram
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Open the file to select **Example**,and click **BASIC**>\ **BLINK**,as
 shown below:
 
-.. image:: media/image-20250416154602909.png
+.. figure:: media/image-20250416154602909.png
    :alt: image-20250416154602909
 
-.. image:: media/image-20250416154614283.png
+   image-20250416154602909
+
+.. figure:: media/image-20250416154614283.png
    :alt: image-20250416154614283
 
-Set board and \**COM \**port,the corresponding board and COM port are
+   image-20250416154614283
+
+Set board and **COM**\ port,the corresponding board and COM port are
 shown on the lower right of IDE.
 
-.. image:: media/image-20250416154828966.png
+.. figure:: media/image-20250416154828966.png
    :alt: image-20250416154828966
+
+   image-20250416154828966
 
 Click\ |image-20250416154932852|\ to start compiling the program,and
 check errors.
 
-.. image:: media/image-20250416155012957.png
+.. figure:: media/image-20250416155012957.png
    :alt: image-20250416155012957
+
+   image-20250416155012957
 
 Click\ |image-20250416155034403|\ to upload the program
 
-.. image:: media/image-20250416155103534.png
+.. figure:: media/image-20250416155103534.png
    :alt: image-20250416155103534
+
+   image-20250416155103534
 
 After the program is uploaded successfully,the onboard LED blinks.
 
 Congratulation,you finish the first program.
-
-.. _4.4-HowtoAddaLibrary?:
 
 4.4 HowtoAddaLibrary?
 ---------------------
@@ -343,37 +362,47 @@ We will introduce the most simple way for you to add libraries .
 Step 1 : After downloading well the Arduino IDE, you can right-click the
 icon of Arduino IDE.
 
-Find the option "Open file location" shown as below:
+Find the option “Open file location” shown as below:
 
-.. image:: media/image-20250416135402662.png
+.. figure:: media/image-20250416135402662.png
    :alt: image-20250416135402662
+
+   image-20250416135402662
 
 Step 2: Enter libraries folder Arduino,an show below;
 
-.. image:: media/image-20250416135514536.png
+.. figure:: media/image-20250416135514536.png
    :alt: image-20250416135514536
+
+   image-20250416135514536
 
 Step 3：Next,search “libraries” of smart home(seen in the
 link:https://fs.keyestudio.com/KS0085),as shown below:
 
-.. image:: media/image-20250416135707560.png
+.. figure:: media/image-20250416135707560.png
    :alt: image-20250416135707560
 
-.. image:: media/image-20250416135728074.png
+   image-20250416135707560
+
+.. figure:: media/image-20250416135728074.png
    :alt: image-20250416135728074
 
-.. image:: media/image-20250416135741407.png
+   image-20250416135728074
+
+.. figure:: media/image-20250416135741407.png
    :alt: image-20250416135741407
 
+   image-20250416135741407
+
 You just need to replicate and paste\ |image-20250416135911854|\ in to
-the <font color ="0000FF">libraries folder of Arduino IDE</font>.
+the libraries folder of Arduino IDE.
 
 The library of smart home is successfully installed,as shown below:
 
-.. image:: media/image-20250416140059823.png
+.. figure:: media/image-20250416140059823.png
    :alt: image-20250416140059823
 
-.. _4.5-Projects:
+   image-20250416140059823
 
 4.5 Projects
 ------------
@@ -385,15 +414,13 @@ sensors and modules. We will make you know the smart home deeply from
 the simple sensor.
 
 However, if you are professional with Arduino. You can skip theses steps
-and assemble the smart home kit directly(<font color
-="#FF0000">\ **there is assembly video in the folder**\ </font>)
+and assemble the smart home kit directly(\ **there is assembly video in
+the folder**\ )
 
-<font color ="#FF0000">**Note: In this course, the interface of each
-sensor / module marked with (G,-, GND) indicates the negative pole, G is
-connected to G, - or GND of sensor shield or control board; “V” is
-positive pole and connected with V, VCC or 5V.**</font>
-
-.. _Project-1:-LED-Blink:
+\ **Note: In this course, the interface of each sensor / module marked
+with (G,-, GND) indicates the negative pole, G is connected to G, - or
+GND of sensor shield or control board; “V” is positive pole and
+connected with V, VCC or 5V.**\ 
 
 Project 1: LED Blink
 ~~~~~~~~~~~~~~~~~~~~
@@ -427,15 +454,13 @@ adjusting the delayed time.
 
 **1.3 What You Need**
 
-.. container:: table-wrapper
-
-   +-------------+-------------+-------------+-------------+-------------+
-   | PLUS        | Sensor      | White LED   | USB cable*1 | 3pin F-F    |
-   | control     | shield*1    | module \*1  |             | Dupont      |
-   | board*1     |             |             |             | line*1      |
-   +=============+=============+=============+=============+=============+
-   | |image80|   | |image81|   | |image82|   | |image83|   | |image84|   |
-   +-------------+-------------+-------------+-------------+-------------+
++-------------+-------------+-------------+-------------+-------------+
+| PLUS        | Sensor      | White LED   | USB cable*1 | 3pin F-F    |
+| control     | shield*1    | module \*1  |             | Dupont      |
+| board*1     |             |             |             | line*1      |
++=============+=============+=============+=============+=============+
+| |image70|   | |image71|   | |image72|   | |image73|   | |image74|   |
++-------------+-------------+-------------+-------------+-------------+
 
 **1.4 Sensor Shield**
 
@@ -500,7 +525,7 @@ grammar of Arduino is based on C.
 
 Comments generally have two forms of expression:
 
-/\* .......*/ : suitable for long paragraph comments
+/\* …….*/ : suitable for long paragraph comments
 
 // : suitable for mono line comments
 
@@ -564,15 +589,13 @@ Similarly, we make D13 output low level, LED will turn off.
 
    delay(1000); // wait for a second
 
-Delay for 1s, light on LED--keep on 1s--light off LED--stay on 1s,
-iterate the process. LED flashes with 1-second interval.
+Delay for 1s, light on LED–keep on 1s–light off LED–stay on 1s, iterate
+the process. LED flashes with 1-second interval.
 
 What if you want to make LED flash rapidly? You only need to modify the
 value of delay block. Reducing the delay value implies that the time you
 wait is shorter, that is, flashing rapidly. Conversely, you could make
 LED flash slowly.
-
-.. _Project-2：Breathing-Light:
 
 Project 2：Breathing Light
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -590,10 +613,10 @@ time in the code so as to demonstrate different breathing effect.
 PWM is a means of controlling the analog output via digital means.
 Digital control is used to generate square waves with different duty
 cycles (a signal that constantly switches between high and low levels)
-to control the analog `output.In <http://output.In>`__ general, the
-input voltage of port are 0V and 5V. What if the 3V is required? Or what
-if switch among 1V, 3V and 3.5V? We can’t change resistor constantly.
-For this situation, we need to control by PWM.
+to control the analog output.In general, the input voltage of port are
+0V and 5V. What if the 3V is required? Or what if switch among 1V, 3V
+and 3.5V? We can’t change resistor constantly. For this situation, we
+need to control by PWM.
 
 .. image:: media/bbcfcb9ae56abb7e80ee587246fc4be9.gif
 
@@ -612,15 +635,13 @@ the more accurately control.
 
 **2.2 What You Need**
 
-.. container:: table-wrapper
-
-   +-------------+-------------+-------------+-------------+-------------+
-   | PLUS        | Sensor      | Yellow LED  | USB cable*1 | 3pin F-F    |
-   | control     | shield*1    | module*1    |             | Dupont      |
-   | board*1     |             |             |             | line*1      |
-   +=============+=============+=============+=============+=============+
-   | |image95|   | |image96|   | |image97|   | |image98|   | |image99|   |
-   +-------------+-------------+-------------+-------------+-------------+
++-------------+-------------+-------------+-------------+-------------+
+| PLUS        | Sensor      | Yellow LED  | USB cable*1 | 3pin F-F    |
+| control     | shield*1    | module*1    |             | Dupont      |
+| board*1     |             |             |             | line*1      |
++=============+=============+=============+=============+=============+
+| |image75|   | |image76|   | |image77|   | |image78|   | |image79|   |
++-------------+-------------+-------------+-------------+-------------+
 
 **2.3 Wiring Diagram**
 
@@ -689,9 +710,9 @@ After knowing this order, go back to code:
    }
 
 The two “for”statement make value increase from 0 to 255, then reduce
-from 255 to 0, then increase to 255,....infinite loop
+from 255 to 0, then increase to 255,….infinite loop
 
-There is a new function in “for” statement ----- analogWrite()
+There is a new function in “for” statement —– analogWrite()
 
 We know that digital port only has two state of 0 and 1. So how to send
 an analog value to a digital value? Here, we need this function, observe
@@ -732,8 +753,6 @@ correspond to 255, LED is brightest. 25% means darker.
 PWM mostly is used for adjusting the LED brightness or rotation speed of
 motor.
 
-.. _Project-3：Passive-Buzzer:
-
 Project 3：Passive Buzzer
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -755,15 +774,13 @@ passive buzzer emit “do re mi fa so la si do”, and play specific songs.
 
 **3.2 What You Need**
 
-.. container:: table-wrapper
-
-   +-------------+-------------+-------------+-------------+-------------+
-   | PLUS        | Sensor      | Passive     | USB cable*1 | 3pin F-F    |
-   | control     | shield*1    | buzzer*1    |             | Dupont      |
-   | board*1     |             |             |             | line*1      |
-   +=============+=============+=============+=============+=============+
-   | |image110|  | |image111|  | |image112|  | |image113|  | |image114|  |
-   +-------------+-------------+-------------+-------------+-------------+
++-------------+-------------+-------------+-------------+-------------+
+| PLUS        | Sensor      | Passive     | USB cable*1 | 3pin F-F    |
+| control     | shield*1    | buzzer*1    |             | Dupont      |
+| board*1     |             |             |             | line*1      |
++=============+=============+=============+=============+=============+
+| |image80|   | |image81|   | |image82|   | |image83|   | |image84|   |
++-------------+-------------+-------------+-------------+-------------+
 
 **3.2 Wiring Diagram**
 
@@ -818,58 +835,52 @@ let’s figure out the frequency of tones. As shown below:
 
 Bass：
 
-.. container:: table-wrapper
-
-   ========= === === === === === === ===
-   Tone Note 1#  2#  3#  4#  5#  6#  7#
-   ========= === === === === === === ===
-   A         221 248 278 294 330 371 416
-   B         248 278 294 330 371 416 467
-   C         131 147 165 175 196 221 248
-   D         147 165 175 196 221 248 278
-   E         165 175 196 221 248 278 312
-   F         175 196 221 234 262 294 330
-   G         196 221 234 262 294 330 371
-   ========= === === === === === === ===
+========= === === === === === === ===
+Tone Note 1#  2#  3#  4#  5#  6#  7#
+========= === === === === === === ===
+A         221 248 278 294 330 371 416
+B         248 278 294 330 371 416 467
+C         131 147 165 175 196 221 248
+D         147 165 175 196 221 248 278
+E         165 175 196 221 248 278 312
+F         175 196 221 234 262 294 330
+G         196 221 234 262 294 330 371
+========= === === === === === === ===
 
 Alto：
 
-.. container:: table-wrapper
-
-   ========= === === === === === === ===
-   Tone Note 1   2   3   4   5   6   7
-   ========= === === === === === === ===
-   A         441 495 556 589 661 742 833
-   B         495 556 624 661 742 833 935
-   C         262 294 330 350 393 441 495
-   D         294 330 350 393 441 495 556
-   E         330 350 393 441 495 556 624
-   F         350 393 441 495 556 624 661
-   G         393 441 495 556 624 661 742
-   ========= === === === === === === ===
+========= === === === === === === ===
+Tone Note 1   2   3   4   5   6   7
+========= === === === === === === ===
+A         441 495 556 589 661 742 833
+B         495 556 624 661 742 833 935
+C         262 294 330 350 393 441 495
+D         294 330 350 393 441 495 556
+E         330 350 393 441 495 556 624
+F         350 393 441 495 556 624 661
+G         393 441 495 556 624 661 742
+========= === === === === === === ===
 
 Treble：
 
-.. container:: table-wrapper
-
-   ========= === ==== ==== ==== ==== ==== ====
-   Tone Note 1#  2#   3#   4#   5#   6#   7#
-   ========= === ==== ==== ==== ==== ==== ====
-   A         882 990  1112 1178 1322 1484 1665
-   B         990 1112 1178 1322 1484 1665 1869
-   C         525 589  661  700  786  882  990
-   D         589 661  700  786  882  990  1112
-   E         661 700  786  882  990  1112 1248
-   F         700 786  882  935  1049 1178 1322
-   G         786 882  990  1049 1178 1322 1484
-   ========= === ==== ==== ==== ==== ==== ====
+========= === ==== ==== ==== ==== ==== ====
+Tone Note 1#  2#   3#   4#   5#   6#   7#
+========= === ==== ==== ==== ==== ==== ====
+A         882 990  1112 1178 1322 1484 1665
+B         990 1112 1178 1322 1484 1665 1869
+C         525 589  661  700  786  882  990
+D         589 661  700  786  882  990  1112
+E         661 700  786  882  990  1112 1248
+F         700 786  882  935  1049 1178 1322
+G         786 882  990  1049 1178 1322 1484
+========= === ==== ==== ==== ==== ==== ====
 
 Next, we need to control the time the note plays. The music will be
 produced when every note plays a certain amount of time. The note rhythm
 is divided into one beat, half beat, 1/4 beat, 1/8 beat,.
 
 The time for a note is stipulated as half beat( 0.5), 1/4 beat(0.250,
-1/8 beat( 0.125)....., therefore, the music is played.
+1/8 beat( 0.125)….., therefore, the music is played.
 
 We will take an example of “Ode to joy”
 
@@ -879,13 +890,13 @@ From notation, the music is 4/4 beat.
 
 There are special notes we need to explain:
 
-#. Normal note, like the first note 3, correspond to 350(frequency),
+1. Normal note, like the first note 3, correspond to 350(frequency),
    occupy 1 beat
-#. The note with underline means 0.5 beat
-#. The note with dot(|image115|)means that 0.5 beat is added, that is
+2. The note with underline means 0.5 beat
+3. The note with dot(|image85|)means that 0.5 beat is added, that is
    1+0.5 beat
-#. The note with”—” represents that 1 beat is added, that is 1+1 beat.
-#. The two successive notes with arc imply legato, you could slightly
+4. The note with”—” represents that 1 beat is added, that is 1+1 beat.
+5. The two successive notes with arc imply legato, you could slightly
    modify the frequency of the note behind legato(need to debug it
    yourself), such like reducing or increasing some values, the sound
    will be more smoother.
@@ -991,8 +1002,6 @@ Do you hear “Ode to joy”?
 
 .. image:: media/image-20230612110252965.png
 
-.. _Project-4：Button-module:
-
 Project 4：Button module
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1014,16 +1023,14 @@ contact will go back to be the initial state, that is, off state.
 
 **4.2 What You Need**
 
-.. container:: table-wrapper
-
-   +----------+----------+----------+----------+----------+----------+
-   | PLUS     | Sensor   | Yellow   | Button   | USB      | 3pin F-F |
-   | control  | shield*1 | LED      | sensor*1 | cable*1  | Dupont   |
-   | board*1  |          | module*1 |          |          | line*2   |
-   +==========+==========+==========+==========+==========+==========+
-   | |i       | |i       | |i       | |i       | |i       | |i       |
-   | mage128| | mage129| | mage130| | mage131| | mage132| | mage133| |
-   +----------+----------+----------+----------+----------+----------+
++----------+-----------+-----------+-----------+----------+----------+
+| PLUS     | Sensor    | Yellow    | Button    | USB      | 3pin F-F |
+| control  | shield*1  | LED       | sensor*1  | cable*1  | Dupont   |
+| board*1  |           | module*1  |           |          | line*2   |
++==========+===========+===========+===========+==========+==========+
+| |        | |image87| | |image88| | |image89| | |        | |        |
+| image86| |           |           |           | image90| | image91| |
++----------+-----------+-----------+-----------+----------+----------+
 
 **4.3 Wiring Diagram**
 
@@ -1036,7 +1043,7 @@ yellow LED module are connected with G, V, and 5 on the shield.
 **4.4 Test Code**
 
 Then, we will design the program to make LED on by button. Comparing
-with previous experiments, we add a conditional judgement statement ---
+with previous experiments, we add a conditional judgement statement —
 “if” statement. The written sentences of Arduino is based on C language,
 therefore, the condition judgement statement of C is suitable for
 Arduino, like while, swich, etc.
@@ -1083,8 +1090,6 @@ The back-light will be on when the button is pressed.
 
 .. image:: media/image-20230612110406053.png
 
-.. _Project-5：1-channel-Relay-Module:
-
 Project 5：1-channel Relay Module
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1097,7 +1102,7 @@ sensor expansion board. It has a control system (also called an input
 loop) and a controlled system (also called an output loop).
 
 Commonly used in automatic control circuits, the relay module is an
-"automatic switch" that controls a larger current and a lower voltage
+“automatic switch” that controls a larger current and a lower voltage
 with a smaller current and a lower voltage.
 
 Therefore, it plays the role of automatic adjustment, safety protection
@@ -1124,11 +1129,11 @@ releasing the moving contact and the original static contact (normally
 closed contact).
 
 This pulls in and releases, thus achieving the purpose of turning on and
-off in the circuit. The "normally open and closed" contacts of the relay
+off in the circuit. The “normally open and closed” contacts of the relay
 can be distinguished in this way: the static contacts on disconnected
-state when the relay coil is powered off are called "normally open
-contacts"; the static contacts on connected state are called "normally
-closed contact". The module comes with 2 positioning holes for you to
+state when the relay coil is powered off are called “normally open
+contacts”; the static contacts on connected state are called “normally
+closed contact”. The module comes with 2 positioning holes for you to
 fix the module to other equipment.
 
 **5.2 Specifications：**
@@ -1150,25 +1155,23 @@ fix the module to other equipment.
 
 **5.3 What You Need**
 
-.. container:: table-wrapper
-
-   +----------------------+----------------------+----------------------+
-   | PLUS control board*1 | Sensor shield*1      | USB cable*1          |
-   +======================+======================+======================+
-   | |image156|           | |image157|           | |image158|           |
-   +----------------------+----------------------+----------------------+
-   | Relay module*1       | White LED*1          | 3pin F-F Dupont      |
-   |                      |                      | Line*1               |
-   +----------------------+----------------------+----------------------+
-   | |image159|           | |image160|           | |image161|           |
-   +----------------------+----------------------+----------------------+
-   | Female to Female     | Male to Female       |                      |
-   | Dupont Lines*2       | Dupont Line*2        |                      |
-   +----------------------+----------------------+----------------------+
-   | |i                   | |image165|           |                      |
-   | mage162|\ |image163| | |image166|           |                      |
-   | |image164|           |                      |                      |
-   +----------------------+----------------------+----------------------+
++----------------------+----------------------+----------------------+
+| PLUS control board*1 | Sensor shield*1      | USB cable*1          |
++======================+======================+======================+
+| |image114|           | |image115|           | |image116|           |
++----------------------+----------------------+----------------------+
+| Relay module*1       | White LED*1          | 3pin F-F Dupont      |
+|                      |                      | Line*1               |
++----------------------+----------------------+----------------------+
+| |image117|           | |image118|           | |image119|           |
++----------------------+----------------------+----------------------+
+| Female to Female     | Male to Female       |                      |
+| Dupont Lines*2       | Dupont Line*2        |                      |
++----------------------+----------------------+----------------------+
+| |i                   | |image123|           |                      |
+| mage120|\ |image121| | |image124|           |                      |
+| |image122|           |                      |                      |
++----------------------+----------------------+----------------------+
 
 **5.4 Wiring Diagram：**
 
@@ -1212,8 +1215,6 @@ go off.
 
 .. image:: media/d001ec087a1d48dd983be447505a7d27.jpeg
 
-.. _Project-6：Photocell-Sensor:
-
 Project 6：Photocell Sensor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1240,16 +1241,14 @@ light control circuit as well.
 
 **6.2 What You Need**
 
-.. container:: table-wrapper
-
-   +----------+----------+----------+----------+----------+----------+
-   | PLUS     | Sensor   | P        | Yellow   | USB      | 3pin F-F |
-   | control  | shield*1 | hotocell | LED      | cable*1  | Dupont   |
-   | board*1  |          | sensor*1 | module*1 |          | line*2   |
-   +==========+==========+==========+==========+==========+==========+
-   | |i       | |i       | |i       | |i       | |i       | |i       |
-   | mage179| | mage180| | mage181| | mage182| | mage183| | mage184| |
-   +----------+----------+----------+----------+----------+----------+
++----------+-----------+-----------+-----------+----------+----------+
+| PLUS     | Sensor    | Photocell | Yellow    | USB      | 3pin F-F |
+| control  | shield*1  | sensor*1  | LED       | cable*1  | Dupont   |
+| board*1  |           |           | module*1  |          | line*2   |
++==========+===========+===========+===========+==========+==========+
+| |i       | |         | |         | |         | |i       | |i       |
+| mage125| | image126| | image127| | image128| | mage129| | mage130| |
++----------+-----------+-----------+-----------+----------+----------+
 
 **6.3 Wiring Diagram：**
 
@@ -1305,8 +1304,6 @@ you choose
 
 .. image:: media/image-20230612110618805.png
 
-.. _Project-7：Adjusting-Servo-Angle:
-
 Project 7：Adjusting Servo Angle
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1327,12 +1324,12 @@ voltage of the potentiometer and obtains the voltage difference output.
 When the motor speed is constant, the potentiometer is driven to rotate
 through the cascade reduction gear, which leads 0 voltage difference,
 and the motor stops rotating. Generally, the angle range of servo
-rotation is 0° --180 °
+rotation is 0° –180 °
 
 The rotation angle of servo motor is controlled by regulating the duty
 cycle of PWM (Pulse-Width Modulation) signal. The standard cycle of PWM
 signal is 20ms (50Hz). Theoretically, the width is distributed between
-1ms-2ms, but in fact, it's between 0.5ms-2.5ms. The width corresponds to
+1ms-2ms, but in fact, it’s between 0.5ms-2.5ms. The width corresponds to
 the rotation angle from 0° to 180°. But note that for different brand
 motor, the same signal may have different rotation angle.
 
@@ -1371,13 +1368,11 @@ recommend the external power.
 
 **7.3 What You Need**
 
-.. container:: table-wrapper
-
-   ==================== =============== ========== ===========
-   PLUS control board*1 Sensor shield*1 Servo*1    USB cable*1
-   ==================== =============== ========== ===========
-   |image185|           |image186|      |image187| |image188|
-   ==================== =============== ========== ===========
+==================== =============== ========== ===========
+PLUS control board*1 Sensor shield*1 Servo*1    USB cable*1
+==================== =============== ========== ===========
+|image131|           |image132|      |image133| |image134|
+==================== =============== ========== ===========
 
 **7.4 Wiring Diagram：**
 
@@ -1425,8 +1420,6 @@ power on. The servo rotates from 0° to 180° then from 180°~0°
 
 .. image:: media/image-20230612110754405.png
 
-.. _Project-8：Fan-Module:
-
 Project 8：Fan Module
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -1450,16 +1443,14 @@ efficient, with high quality fan, which can put out the flame within
 
 **8.3 What You Need**
 
-.. container:: table-wrapper
-
-   +-------------+-------------+-------------+-------------+-------------+
-   | PLUS        | Sensor      | Fan         | USB cable*1 | Female to   |
-   | control     | shield*1    | module*1    |             | Female      |
-   | board*1     |             |             |             | Dupont      |
-   |             |             |             |             | lines*4     |
-   +=============+=============+=============+=============+=============+
-   | |image199|  | |image200|  | |image201|  | |image202|  | |image203|  |
-   +-------------+-------------+-------------+-------------+-------------+
++-------------+-------------+-------------+-------------+-------------+
+| PLUS        | Sensor      | Fan         | USB cable*1 | Female to   |
+| control     | shield*1    | module*1    |             | Female      |
+| board*1     |             |             |             | Dupont      |
+|             |             |             |             | lines*4     |
++=============+=============+=============+=============+=============+
+| |image135|  | |image136|  | |image137|  | |image138|  | |image139|  |
++-------------+-------------+-------------+-------------+-------------+
 
 **8.4 Wiring Diagram：**
 
@@ -1503,8 +1494,6 @@ clockwise for 3000ms.
 
 .. image:: media/image-20230612110851044.png
 
-.. _Project-9:-Steam-Sensor:
-
 Project 9: Steam Sensor
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1540,15 +1529,13 @@ in the water please.
 
 **9.3 What You Need**
 
-.. container:: table-wrapper
-
-   +-------------+-------------+-------------+-------------+-------------+
-   | PLUS        | Sensor      | Steam       | USB cable*1 | 3pinF-F     |
-   | control     | shield*1    | sensor*1    |             | Dupont      |
-   | board*1     |             |             |             | line*1      |
-   +=============+=============+=============+=============+=============+
-   | |image214|  | |image215|  | |image216|  | |image217|  | |image218|  |
-   +-------------+-------------+-------------+-------------+-------------+
++-------------+-------------+-------------+-------------+-------------+
+| PLUS        | Sensor      | Steam       | USB cable*1 | 3pinF-F     |
+| control     | shield*1    | sensor*1    |             | Dupont      |
+| board*1     |             |             |             | line*1      |
++=============+=============+=============+=============+=============+
+| |image140|  | |image141|  | |image142|  | |image143|  | |image144|  |
++-------------+-------------+-------------+-------------+-------------+
 
 **9.4 Wiring Diagram：**
 
@@ -1591,8 +1578,6 @@ displayed on serial monitor of ARDUINO software.
 .. image:: media/image-20230612110941990.png
 
 .. image:: media/7cd14fd4e82df9909603997f9ff6e615.jpeg
-
-.. _Project-10:-PIR-Motion-Sensor:
 
 Project 10: PIR Motion Sensor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1651,19 +1636,17 @@ reduce when temperature exceeds 30℃.
 
 **10.3 What You Need**
 
-.. container:: table-wrapper
-
-   +----------------+----------------+----------------+----------------+
-   | PLUS control   | Sensor         | PIR motion     | F-F Dupont     |
-   | board*1        | shield*1       | sensor*1       | lines*4        |
-   +================+================+================+================+
-   | |image235|     | |image236|     | |image237|     | |image238|     |
-   +----------------+----------------+----------------+----------------+
-   | Fan module*1   | White LED      | USB cable*1    | 3pinF-F Dupont |
-   |                | module*1       |                | line*2         |
-   +----------------+----------------+----------------+----------------+
-   | |image239|     | |image240|     | |image241|     | |image242|     |
-   +----------------+----------------+----------------+----------------+
++----------------+----------------+----------------+----------------+
+| PLUS control   | Sensor         | PIR motion     | F-F Dupont     |
+| board*1        | shield*1       | sensor*1       | lines*4        |
++================+================+================+================+
+| |image161|     | |image162|     | |image163|     | |image164|     |
++----------------+----------------+----------------+----------------+
+| Fan module*1   | White LED      | USB cable*1    | 3pinF-F Dupont |
+|                | module*1       |                | line*2         |
++----------------+----------------+----------------+----------------+
+| |image165|     | |image166|     | |image167|     | |image168|     |
++----------------+----------------+----------------+----------------+
 
 **10.4 Wiring Diagram：**
 
@@ -1721,8 +1704,6 @@ indicators will be off and fan will stop rotating.
 
 .. image:: media/030b1fdb722ca22716bbed0a0503b91c.png
 
-.. _Project-11:-Analog-Gas-Sensor:
-
 Project 11: Analog Gas Sensor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1774,21 +1755,19 @@ the potentiometer.
 
 **11.3 What you need**
 
-.. container:: table-wrapper
-
-   +----------------+----------------+----------------+----------------+
-   | PLUS control   | Sensor         | MQ-2 gas       | 3pinF-FDupont  |
-   | board*1        | shield*1       | sensor*1       | Cable*1        |
-   +================+================+================+================+
-   | |image253|     | |image254|     | |image255|     | |image-2025    |
-   |                |                |                | 0416163533718| |
-   +----------------+----------------+----------------+----------------+
-   | **Passive      | **USB          | **F-F Dupint   |                |
-   | buzzer*1**     | cable*1**      | line*8**       |                |
-   +----------------+----------------+----------------+----------------+
-   | |image256|     | |image257|     | |image-2025    |                |
-   |                |                | 0416163526130| |                |
-   +----------------+----------------+----------------+----------------+
++---------------+---------------+-------------------+-------------------+
+| PLUS control  | Sensor        | MQ-2 gas sensor*1 | 3pinF-FDupont     |
+| board*1       | shield*1      |                   | Cable*1           |
++===============+===============+===================+===================+
+| |image169|    | |image170|    | |image171|        | |image-2          |
+|               |               |                   | 0250416163533718| |
++---------------+---------------+-------------------+-------------------+
+| **Passive     | **USB         | **F-F Dupint      |                   |
+| buzzer*1**    | cable*1**     | line*8**          |                   |
++---------------+---------------+-------------------+-------------------+
+| |image172|    | |image173|    | |image-2          |                   |
+|               |               | 0250416163526130| |                   |
++---------------+---------------+-------------------+-------------------+
 
 **11.4 Wiring Diagram：**
 
@@ -1841,8 +1820,6 @@ gas, the passive buzzer won’t emit a sound.
 
 .. image:: media/image-20230612111215876.png
 
-.. _Project-12:-1602-LCD-Display:
-
 Project 12: 1602 LCD Display
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1885,15 +1862,13 @@ become more visible or less visible.
 
 **12.3 What You Need**
 
-.. container:: table-wrapper
-
-   +-------------+-------------+-------------+-------------+-------------+
-   | PLUS        | Sensor      | 1602 LCD    | USB cable*1 | 4pinF-F     |
-   | control     | shield*1    | Display*1   |             | Dupont      |
-   | board*1     |             |             |             | line*1      |
-   +=============+=============+=============+=============+=============+
-   | |image268|  | |image269|  | |image270|  | |image271|  | |image272|  |
-   +-------------+-------------+-------------+-------------+-------------+
++-------------+-------------+-------------+-------------+-------------+
+| PLUS        | Sensor      | 1602 LCD    | USB cable*1 | 4pinF-F     |
+| control     | shield*1    | Display*1   |             | Dupont      |
+| board*1     |             |             |             | line*1      |
++=============+=============+=============+=============+=============+
+| |image174|  | |image175|  | |image176|  | |image177|  | |image178|  |
++-------------+-------------+-------------+-------------+-------------+
 
 **12.4 Wiring Diagram：**
 
@@ -1933,7 +1908,7 @@ connected with GND（-）of IIC communication, VCC is connected to
 **12.6 Test Result**
 
 After hooking up components and uploading sample code, the 1602 LCD will
-print "Hello, world!, keyestudio!", and you can adjust LCD backlight
+print “Hello, world!, keyestudio!”, and you can adjust LCD backlight
 with a potentiometer.
 
 .. image:: media/aff719348ce074be2d6f3aa88eb822ef.png
@@ -1943,8 +1918,6 @@ potentiometer behind the 1602LCD and backlight to make the 1602LCD
 display the corresponding character string.
 
 .. image:: media/image-20230612111314348.png
-
-.. _Project-13：Soil-Humidity-Sensor:
 
 Project 13：Soil Humidity Sensor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1984,20 +1957,18 @@ devices.
 
 **13.3 What You Need**
 
-.. container:: table-wrapper
-
-   +----------------+----------------+----------------+----------------+
-   | PLUS control   | Sensor         | Soil humidity  | 1602 LCD       |
-   | board*1        | shield*1       | sensor*1       | display*1      |
-   +================+================+================+================+
-   | |image285|     | |image286|     | |image287|     | |image288|     |
-   +----------------+----------------+----------------+----------------+
-   | USB cable*1    | 4pinF-F Dupont | 3pinF-F Dupont |                |
-   |                | line*1         | line*1         |                |
-   +----------------+----------------+----------------+----------------+
-   | |image289|     | |image290|     | |image-2025    |                |
-   |                |                | 0416164007472| |                |
-   +----------------+----------------+----------------+----------------+
++---------------+----------------+--------------------+----------------+
+| PLUS control  | Sensor         | Soil humidity      | 1602 LCD       |
+| board*1       | shield*1       | sensor*1           | display*1      |
++===============+================+====================+================+
+| |image179|    | |image180|     | |image181|         | |image182|     |
++---------------+----------------+--------------------+----------------+
+| USB cable*1   | 4pinF-F Dupont | 3pinF-F Dupont     |                |
+|               | line*1         | line*1             |                |
++---------------+----------------+--------------------+----------------+
+| |image183|    | |image184|     | |image-            |                |
+|               |                | 20250416164007472| |                |
++---------------+----------------+--------------------+----------------+
 
 **13.4 Wiring Diagram：**
 
@@ -2080,8 +2051,6 @@ The greater the humidity is, the larger the value(0-1023). Also, the
 
 .. image:: media/image-20230612111429712.png
 
-.. _Project-14:-Bluetooth-Test:
-
 Project 14: Bluetooth Test
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -2109,33 +2078,34 @@ smart home kit.
 
 We also provide you with APP for Android and iOS system.
 
-.. container:: table-wrapper
-
-   +-------+-------------------------------------------------------------+
-   | Pins  | Description                                                 |
-   +=======+=============================================================+
-   | BRK   | As the input pin, short press control, or input single      |
-   |       | pulse of 100ms low level to achieve the following           |
-   |       | functions: When module is in sleep state: Module is         |
-   |       | activated to normal state, if open AT+NOTI, serial port     |
-   |       | will send OK+WAKE. When in connected state: Module will     |
-   |       | actively request to disconnect When in standby mode: Module |
-   |       | will be in initial state                                    |
-   +-------+-------------------------------------------------------------+
-   | RXD   | Serial data inputs                                          |
-   +-------+-------------------------------------------------------------+
-   | TXD   | Serial data outputs                                         |
-   +-------+-------------------------------------------------------------+
-   | GND   | ground lead                                                 |
-   +-------+-------------------------------------------------------------+
-   | VCC   | Positive pole of power, input 5V                            |
-   +-------+-------------------------------------------------------------+
-   | STATE | As output pin, show the working state of module Flash       |
-   |       | slowly in standby state——repeat 500ms pulse； Always light  |
-   |       | up in connected state——high level You could set to no       |
-   |       | flashing in standby state, always light up in connected     |
-   |       | state                                                       |
-   +-------+-------------------------------------------------------------+
++----+-----------------------------------------------------------------+
+| Pi | Description                                                     |
+| ns |                                                                 |
++====+=================================================================+
+| B  | As the input pin, short press control, or input single pulse of |
+| RK | 100ms low level to achieve the following functions: When module |
+|    | is in sleep state: Module is activated to normal state, if open |
+|    | AT+NOTI, serial port will send OK+WAKE. When in connected       |
+|    | state: Module will actively request to disconnect When in       |
+|    | standby mode: Module will be in initial state                   |
++----+-----------------------------------------------------------------+
+| R  | Serial data inputs                                              |
+| XD |                                                                 |
++----+-----------------------------------------------------------------+
+| T  | Serial data outputs                                             |
+| XD |                                                                 |
++----+-----------------------------------------------------------------+
+| G  | ground lead                                                     |
+| ND |                                                                 |
++----+-----------------------------------------------------------------+
+| V  | Positive pole of power, input 5V                                |
+| CC |                                                                 |
++----+-----------------------------------------------------------------+
+| S  | As output pin, show the working state of module Flash slowly in |
+| TA | standby state——repeat 500ms pulse； Always light up in          |
+| TE | connected state——high level You could set to no flashing in     |
+|    | standby state, always light up in connected state               |
++----+-----------------------------------------------------------------+
 
 **14.2 Parameters:**
 
@@ -2173,7 +2143,7 @@ We also provide you with APP for Android and iOS system.
 **14.3 Using Bluetooth APP**
 
 In the previous lesson, we’ve introduced the basic parameter principle
-of HM-10 Bluetooth module. In this project, let's show you how to use
+of HM-10 Bluetooth module. In this project, let’s show you how to use
 the HM-10 Bluetooth module. In order to efficiently control this kit by
 HM-10 Bluetooth module, we specially designed an APP, as shown below.
 
@@ -2220,16 +2190,18 @@ always on). As shown below;
 
 (2) Search “IoT keyes”on APP store, then click “download”.
 
-.. image:: media/image-20230523171616100.png
+.. figure:: media/image-20230523171616100.png
    :alt: image-20230523171616100
 
+   image-20230523171616100
+
 (3) After the app is installed successfully,
-tap\ |image-20250416164358790|\ to enter the interface as follows:
+    tap\ |image-20250416164358790|\ to enter the interface as follows:
 
 .. image:: media/cbdbd5555560fbae02c9d45301bad4b1.png
 
 (4) After uploading the test code successfully, insert the Bluetooth
-module and power on.
+    module and power on.
 
 First start the Bluetooth on cellphone, then click “connect” on app to
 search Bluetooth and pair. After paring successfully, the LED of
@@ -2280,15 +2252,15 @@ The function of corresponding character and button is shown below:
 
 .. image:: media/6465465654.jpeg
 
-.. _Assembly-Guide:
-
 Assembly Guide
 ~~~~~~~~~~~~~~
 
 Check the board A~I and parts in the first place.
 
-.. image:: media/image-20250416164450809.png
+.. figure:: media/image-20250416164450809.png
    :alt: image-20250416164450809
+
+   image-20250416164450809
 
 **Step 1: Install sensors on A board**
 
@@ -2305,33 +2277,43 @@ Prepare components as follows;
 -  4pin F-F dupont Cable*1
 -  3pin F-F dupont cable*4
 
-.. image:: media/image-20250416164523463.png
+.. figure:: media/image-20250416164523463.png
    :alt: image-20250416164523463
 
-.. image:: media/image-20250416164537929.png
+   image-20250416164523463
+
+.. figure:: media/image-20250416164537929.png
    :alt: image-20250416164537929
 
-#. Fix the white LED, 2 button sensors and the PIR motion sensor on the
+   image-20250416164537929
+
+1. Fix the white LED, 2 button sensors and the PIR motion sensor on the
    corresponding areas of the A board with 4pcs M3*10MM round head
    screws and 4pcs M3 nuts.
-#. Then install the LCD1602 display on A board with 4pcs M2.5*10MM round
+2. Then install the LCD1602 display on A board with 4pcs M2.5*10MM round
    head screws and 4pcs M2.5 nuts.
-#. Connect them with 3pin and 4pin dupont cables.
+3. Connect them with 3pin and 4pin dupont cables.
 
-.. image:: media/image-20250416164604216.png
+.. figure:: media/image-20250416164604216.png
    :alt: image-20250416164604216
+
+   image-20250416164604216
 
 .. image:: media/8461d9f32c2f8a2e8aa63f7c5434f26f.jpeg
 
 .. image:: media/cbf9eb21013bd648297b12542c0a5453.jpeg
 
-.. image:: media/image-20250416164800592.png
+.. figure:: media/image-20250416164800592.png
    :alt: image-20250416164800592
+
+   image-20250416164800592
 
 .. image:: media/c415fa75fb346efaf4836819c462caae.jpeg
 
-.. image:: media/image-20250416164845112.png
+.. figure:: media/image-20250416164845112.png
    :alt: image-20250416164845112
+
+   image-20250416164845112
 
 **Step 2: Install sensors on B board**
 
@@ -2343,15 +2325,19 @@ Prepare components as follows;
 
 .. image:: media/8ae3f57b21c0f51bed1a20f582ed6f8d.png
 
-.. image:: media/image-20250416164919408.png
+.. figure:: media/image-20250416164919408.png
    :alt: image-20250416164919408
+
+   image-20250416164919408
 
 Assemble the relay module on B board with 2 pcs M3*10MM screws and 2pcs
 M3 nickel plated nuts, and attach a 3pin F-F dupont cable to the relay
 module.
 
-.. image:: media/image-20250416164959680.png
+.. figure:: media/image-20250416164959680.png
    :alt: image-20250416164959680
+
+   image-20250416164959680
 
 .. image:: media/47ebcf299a900923be7d3fce0d0e8eb7.jpeg
 
@@ -2381,14 +2367,16 @@ M3 nickel plated nut*3
 
 .. image:: media/25ff0e408ba63ae89e28da8a5c91dcf2.png
 
-.. image:: media/image-20250416165040744.png
+.. figure:: media/image-20250416165040744.png
    :alt: image-20250416165040744
 
-#. Fix the battery holder on C board with 2pcs M3*10MM flat head screws
+   image-20250416165040744
+
+1. Fix the battery holder on C board with 2pcs M3*10MM flat head screws
    and 2 pcs M3 nickel plated nuts.
-#. Then install the MQ-2 gas sensor on the corresponding area of C board
+2. Then install the MQ-2 gas sensor on the corresponding area of C board
    with a M3*10MM round head screw and a M3 nickel plated nut.
-#. Connect a 4pin dupont line to the MQ-2 gas sensor
+3. Connect a 4pin dupont line to the MQ-2 gas sensor
 
 .. image:: media/87cfc3b68613fb063bbfbb2a517f465f.jpeg
 
@@ -2418,15 +2406,13 @@ below
 Connect servo to Keyestudio PLUS Control Board and upload test code to
 make servo rotate to 90°
 
-.. container:: table-wrapper
-
-   =========== =======
-   Servo Motor 
-   =========== =======
-   Brown wire  GND
-   Red wire    5V
-   Orange wire S（10）
-   =========== =======
+=========== =======
+Servo Motor 
+=========== =======
+Brown wire  GND
+Red wire    5V
+Orange wire S（10）
+=========== =======
 
 .. image:: media/image-20230612113008225.png
 
@@ -2447,26 +2433,34 @@ make servo rotate to 90°
 After the test code is uploaded successfully, the servo will rotate to
 90°
 
-#. Fix the servo on the corresponding area of D board with 2pcs M2*12MM
+1. Fix the servo on the corresponding area of D board with 2pcs M2*12MM
    round head screws and 2pcs M2 nickel plated nuts.
-#. Then install the square board 1 on the D board with 4pcs M3*12MM
+2. Then install the square board 1 on the D board with 4pcs M3*12MM
    round head screws and 4 M3 self-locking nuts.
 
-.. image:: media/image-20250416165136186.png
+.. figure:: media/image-20250416165136186.png
    :alt: image-20250416165136186
 
-.. image:: media/image-20250416165232574.png
+   image-20250416165136186
+
+.. figure:: media/image-20250416165232574.png
    :alt: image-20250416165232574
+
+   image-20250416165232574
 
 Install the white cross mount on the gear with 4pcs M1.2*5MM
 self-tapping screws, and mount the gear on the servo motor with 1 M2*5MM
 round head screw.
 
-.. image:: media/image-20250416165315281.png
+.. figure:: media/image-20250416165315281.png
    :alt: image-20250416165315281
 
-.. image:: media/image-20250416165403504.png
+   image-20250416165315281
+
+.. figure:: media/image-20250416165403504.png
    :alt: image-20250416165403504
+
+   image-20250416165403504
 
 **Step 6: Assemble C board with D board with a “T” bolt.**
 
@@ -2492,7 +2486,7 @@ Mount the yellow LED on the corresponding area of E board with 1 M3*10MM
 round head screw and 1 M3 nickel plated nut，then connect a 3pin dupont
 line to it.
 
-|image291|\ |image292|
+|image185|\ |image186|
 
 **Step 8: Install control board, sensors and parts on H board**
 
@@ -2534,17 +2528,21 @@ line to it.
 
 .. image:: media/400de4d98176394486793d39760e6150.jpeg
 
-#. Mount 4pcs dual-pass copper pillars on the H board with 4pcs M3*6MM
+1. Mount 4pcs dual-pass copper pillars on the H board with 4pcs M3*6MM
    screws
-#. Then fix the passive buzzer on H board with 1 M3*10MM round head
+2. Then fix the passive buzzer on H board with 1 M3*10MM round head
    screw and 1 M3 nut.
-#. Connect a 3pinF-F dupont line to the passive buzzer.
+3. Connect a 3pinF-F dupont line to the passive buzzer.
 
-.. image:: media/image-20250416165703041.png
+.. figure:: media/image-20250416165703041.png
    :alt: image-20250416165703041
 
-.. image:: media/image-20250416165728984.png
+   image-20250416165703041
+
+.. figure:: media/image-20250416165728984.png
    :alt: image-20250416165728984
+
+   image-20250416165728984
 
 Set the servo to 90° before installing, and the method is same as the
 step 6.
@@ -2554,11 +2552,15 @@ with 4 M3*6MM round head screws, then mount the servo on the
 corresponding area of H board with 2 M2*12MM round head screws and 2 M2
 nuts.
 
-.. image:: media/image-20250416165812840.png
+.. figure:: media/image-20250416165812840.png
    :alt: image-20250416165812840
 
-.. image:: media/image-20250416165834185.png
+   image-20250416165812840
+
+.. figure:: media/image-20250416165834185.png
    :alt: image-20250416165834185
+
+   image-20250416165834185
 
 Mount 2pcs board 2 together, then fix white cross mount on the gear with
 4pcs M1.2*5 self-tapping screws
@@ -2567,16 +2569,20 @@ Mount 2pcs board 2 together, then fix white cross mount on the gear with
 
 .. image:: media/59dbff7f3be6b6a43432f7ebb620d7cd.jpeg
 
-.. image:: media/image-20250416165924161.png
+.. figure:: media/image-20250416165924161.png
    :alt: image-20250416165924161
+
+   image-20250416165924161
 
 Fix the gear with white cross mount on the black servo with 1 M2*5MM
 screw(included in servo), then install the combination of 2pcs board 2
 and another servo on the corresponding area of H board, finally stack
 the sensor shield on the Keyestudio PLUS control board.
 
-.. image:: media/image-20250416170105760.png
+.. figure:: media/image-20250416170105760.png
    :alt: image-20250416170105760
+
+   image-20250416170105760
 
 .. image:: media/d0c652476b02c86138c6dd2502611f43.jpeg
 
@@ -2590,9 +2596,9 @@ board B)
 
 .. image:: media/0c334ef18456d4df74383b12c2b30d68.jpeg
 
-|image293|\ |image294|
+|image187|\ |image188|
 
-|image295|\ |image296|
+|image189|\ |image190|
 
 **Step 10: Install sensors on F board**
 
@@ -2620,8 +2626,10 @@ Separately fix the steam sensor, the photocell sensor and the fan module
 on the F board with 3pcs M3*10MM round head screws and 3pcs M3 nuts,
 then attach 3pin and 4pin dupont lines to sensors
 
-.. image:: media/image-20250416170252231.png
+.. figure:: media/image-20250416170252231.png
    :alt: image-20250416170252231
+
+   image-20250416170252231
 
 **Step 11: Connect sensor/module**
 
@@ -2631,49 +2639,53 @@ servo go through the holes of board)
 
 .. image:: media/bca03708b95612f0eda1bc87b807d0ae.jpeg
 
-.. container:: table-wrapper
-
-   +--------------------+--------------------+--------------------+---+
-   | Name               | The corresponding  | The corresponding  |   |
-   |                    | interfaces of      | installed area on  |   |
-   |                    | sensors and sensor | the board          |   |
-   |                    | shield             |                    |   |
-   +====================+====================+====================+===+
-   | PIR Motion Sensor  | G/V/S              | G/V/2              | ⑤ |
-   +--------------------+--------------------+--------------------+---+
-   | Passive buzzer     | G/V/S              | G/V/3              | ⑯ |
-   +--------------------+--------------------+--------------------+---+
-   | Button module 1    | G/V/S              | G/V/4              | ③ |
-   +--------------------+--------------------+--------------------+---+
-   | Yellow LED         | G/V/S              | G/V/5              | ⑫ |
-   +--------------------+--------------------+--------------------+---+
-   | Fan module         | GND/VCC/INA/INB    | G/V/7/6            | ⑮ |
-   +--------------------+--------------------+--------------------+---+
-   | Button module 2    | G/V/S              | G/V/8              | ④ |
-   +--------------------+--------------------+--------------------+---+
-   | Servo 1            | Brown/Red/Orange   | G/V/9              | ⑰ |
-   | controlling the    | wire               |                    |   |
-   | door               |                    |                    |   |
-   +--------------------+--------------------+--------------------+---+
-   | Servo 2            | Brown/Red/Orange   | G/V/10             | ⑪ |
-   | controlling the    | wire               |                    |   |
-   | windows            |                    |                    |   |
-   +--------------------+--------------------+--------------------+---+
-   | MQ-2 Gas Sensor    | GND/VCC/D0/A0      | G/V/11/A0          | ⑩ |
-   +--------------------+--------------------+--------------------+---+
-   | Relay Module       | G/V/S              | G/V/12             | ⑥ |
-   +--------------------+--------------------+--------------------+---+
-   | White LED          | G/V/S              | G/V/13             | ① |
-   +--------------------+--------------------+--------------------+---+
-   | LCD1602 Display    | GND/VCC/SDA/SCL    | GND/5V/SDA/SCL     | ② |
-   +--------------------+--------------------+--------------------+---+
-   | Photocell Sensor   | G/V/S              | G/V/A1             | ⑭ |
-   +--------------------+--------------------+--------------------+---+
-   | Soil humidity      | G/V/S              | G/V/A2             |   |
-   | sensor             |                    |                    |   |
-   +--------------------+--------------------+--------------------+---+
-   | Steam sensor       | G/V/S              | G/V/A3             | ⑬ |
-   +--------------------+--------------------+--------------------+---+
++---------------+----------------------------+----------------------+---+
+| Name          | The corresponding          | The corresponding    |   |
+|               | interfaces of sensors and  | installed area on    |   |
+|               | sensor shield              | the board            |   |
++===============+============================+======================+===+
+| PIR Motion    | G/V/S                      | G/V/2                | ⑤ |
+| Sensor        |                            |                      |   |
++---------------+----------------------------+----------------------+---+
+| Passive       | G/V/S                      | G/V/3                | ⑯ |
+| buzzer        |                            |                      |   |
++---------------+----------------------------+----------------------+---+
+| Button module | G/V/S                      | G/V/4                | ③ |
+| 1             |                            |                      |   |
++---------------+----------------------------+----------------------+---+
+| Yellow LED    | G/V/S                      | G/V/5                | ⑫ |
++---------------+----------------------------+----------------------+---+
+| Fan module    | GND/VCC/INA/INB            | G/V/7/6              | ⑮ |
++---------------+----------------------------+----------------------+---+
+| Button module | G/V/S                      | G/V/8                | ④ |
+| 2             |                            |                      |   |
++---------------+----------------------------+----------------------+---+
+| Servo 1       | Brown/Red/Orange wire      | G/V/9                | ⑰ |
+| controlling   |                            |                      |   |
+| the door      |                            |                      |   |
++---------------+----------------------------+----------------------+---+
+| Servo 2       | Brown/Red/Orange wire      | G/V/10               | ⑪ |
+| controlling   |                            |                      |   |
+| the windows   |                            |                      |   |
++---------------+----------------------------+----------------------+---+
+| MQ-2 Gas      | GND/VCC/D0/A0              | G/V/11/A0            | ⑩ |
+| Sensor        |                            |                      |   |
++---------------+----------------------------+----------------------+---+
+| Relay Module  | G/V/S                      | G/V/12               | ⑥ |
++---------------+----------------------------+----------------------+---+
+| White LED     | G/V/S                      | G/V/13               | ① |
++---------------+----------------------------+----------------------+---+
+| LCD1602       | GND/VCC/SDA/SCL            | GND/5V/SDA/SCL       | ② |
+| Display       |                            |                      |   |
++---------------+----------------------------+----------------------+---+
+| Photocell     | G/V/S                      | G/V/A1               | ⑭ |
+| Sensor        |                            |                      |   |
++---------------+----------------------------+----------------------+---+
+| Soil humidity | G/V/S                      | G/V/A2               |   |
+| sensor        |                            |                      |   |
++---------------+----------------------------+----------------------+---+
+| Steam sensor  | G/V/S                      | G/V/A3               | ⑬ |
++---------------+----------------------------+----------------------+---+
 
 .. image:: media/2bf2f025ffdf28c89bbb103d7f7866f8.jpeg
 
@@ -2681,24 +2693,26 @@ Insert the Bluetooth module into sensor shield, then fix the F board
 with 2 M3*10MM round head screws, 2 M3 nuts and 2 pcs parts and mount G
 board with 2 “T” bolts.
 
-.. container:: table-wrapper
-
-   ================ =============
-   Bluetooth Module Sensor shield
-   ================ =============
-   VCC              5V
-   GND              GND
-   TXD              RXD
-   RXD              TXD
-   ================ =============
+================ =============
+Bluetooth Module Sensor shield
+================ =============
+VCC              5V
+GND              GND
+TXD              RXD
+RXD              TXD
+================ =============
 
 .. image:: media/50519e5fada2b8a6a273fb3ecd983301.jpeg
 
-.. image:: media/image-20250416170353497.png
+.. figure:: media/image-20250416170353497.png
    :alt: image-20250416170353497
 
-.. image:: media/image-20250416170410340.png
+   image-20250416170353497
+
+.. figure:: media/image-20250416170410340.png
    :alt: image-20250416170410340
+
+   image-20250416170410340
 
 **Step 12: Assemble the kit**
 
@@ -2711,8 +2725,6 @@ Fix the board I with 6 “T” bolts
 .. image:: media/e2febc246493ba3293296c4e0caca3ce.jpeg
 
 The smart home kit is established.
-
-.. _Project-15：Multi-purpose-Smart-Home:
 
 Project 15：Multi-purpose Smart Home
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2760,7 +2772,7 @@ dry, the buzzer will alarm and you will get the notification from app.
 .. image:: media/image-20230612113055108.png
 
 **(4) When the gas sensor detects the gas with high concentration,** the
-buzzer will emit a "tick,tick" alarm sound.
+buzzer will emit a “tick,tick” alarm sound.
 
 .. image:: media/image-20230612113100185.png
 
@@ -2786,41 +2798,39 @@ several FF dupont cable, USB cable \* 1
 
 .. image:: media/image-20230612113133417.png
 
-.. container:: table-wrapper
-
-   +--------------------------------+---------------------------+-----------------+---+
-   | Name                           | sensors and sensor shield | board           |   |
-   +================================+===========================+=================+===+
-   | PIR Motion Sensor              | G/V/S                     | G/V/2           | ⑤ |
-   +--------------------------------+---------------------------+-----------------+---+
-   | Passive Buzzer                 | G/V/S                     | G/V/3           | ⑯ |
-   +--------------------------------+---------------------------+-----------------+---+
-   | Button sensor 1                | G/V/S                     | G/V/4           | ③ |
-   +--------------------------------+---------------------------+-----------------+---+
-   | Yellow LED Module              | G/V/S                     | G/V/5           | ⑫ |
-   +--------------------------------+---------------------------+-----------------+---+
-   | Fan Module                     | GND/VCC/ INA/INB          | G/V/7/6         | ⑮ |
-   +--------------------------------+---------------------------+-----------------+---+
-   | Button Module 2                | G/V/S                     | G/V/8           | ④ |
-   +--------------------------------+---------------------------+-----------------+---+
-   | Servo 1 controlling the door   | Brown/Red/ Orange Wire    | G/V/9           | ⑰ |
-   +--------------------------------+---------------------------+-----------------+---+
-   | Servo 2 controlling the window | Brown/Red/ Orange Wire    | G/V/10          | ⑪ |
-   +--------------------------------+---------------------------+-----------------+---+
-   | MQ-2 Gas Sensor                | GND/VCC/ D0/A0            | G/V/11/A0       | ⑩ |
-   +--------------------------------+---------------------------+-----------------+---+
-   | Relay Module                   | G/V/S                     | G/V/12          | ⑥ |
-   +--------------------------------+---------------------------+-----------------+---+
-   | White LED                      | G/V/S                     | G/V/13          | ① |
-   +--------------------------------+---------------------------+-----------------+---+
-   | LCD1602 Display                | GND/VCC /SDA/SCL          | GND/5V /SDA/SCL | ② |
-   +--------------------------------+---------------------------+-----------------+---+
-   | Photocell Sensor               | G/V/S                     | G/V/A1          | ⑭ |
-   +--------------------------------+---------------------------+-----------------+---+
-   | Soil Humidity Sensor           | G/V/S                     | G/V/A2          |   |
-   +--------------------------------+---------------------------+-----------------+---+
-   | Steam Sensor                   | G/V/S                     | G/V/A3          | ⑬ |
-   +--------------------------------+---------------------------+-----------------+---+
++--------------------------------+---------------------------+-----------------+---+
+| Name                           | sensors and sensor shield | board           |   |
++================================+===========================+=================+===+
+| PIR Motion Sensor              | G/V/S                     | G/V/2           | ⑤ |
++--------------------------------+---------------------------+-----------------+---+
+| Passive Buzzer                 | G/V/S                     | G/V/3           | ⑯ |
++--------------------------------+---------------------------+-----------------+---+
+| Button sensor 1                | G/V/S                     | G/V/4           | ③ |
++--------------------------------+---------------------------+-----------------+---+
+| Yellow LED Module              | G/V/S                     | G/V/5           | ⑫ |
++--------------------------------+---------------------------+-----------------+---+
+| Fan Module                     | GND/VCC/ INA/INB          | G/V/7/6         | ⑮ |
++--------------------------------+---------------------------+-----------------+---+
+| Button Module 2                | G/V/S                     | G/V/8           | ④ |
++--------------------------------+---------------------------+-----------------+---+
+| Servo 1 controlling the door   | Brown/Red/ Orange Wire    | G/V/9           | ⑰ |
++--------------------------------+---------------------------+-----------------+---+
+| Servo 2 controlling the window | Brown/Red/ Orange Wire    | G/V/10          | ⑪ |
++--------------------------------+---------------------------+-----------------+---+
+| MQ-2 Gas Sensor                | GND/VCC/ D0/A0            | G/V/11/A0       | ⑩ |
++--------------------------------+---------------------------+-----------------+---+
+| Relay Module                   | G/V/S                     | G/V/12          | ⑥ |
++--------------------------------+---------------------------+-----------------+---+
+| White LED                      | G/V/S                     | G/V/13          | ① |
++--------------------------------+---------------------------+-----------------+---+
+| LCD1602 Display                | GND/VCC /SDA/SCL          | GND/5V /SDA/SCL | ② |
++--------------------------------+---------------------------+-----------------+---+
+| Photocell Sensor               | G/V/S                     | G/V/A1          | ⑭ |
++--------------------------------+---------------------------+-----------------+---+
+| Soil Humidity Sensor           | G/V/S                     | G/V/A2          |   |
++--------------------------------+---------------------------+-----------------+---+
+| Steam Sensor                   | G/V/S                     | G/V/A3          | ⑬ |
++--------------------------------+---------------------------+-----------------+---+
 
 **15.4 Test Code：**
 
@@ -3386,8 +3396,6 @@ Upload the test code, stack expansion board on PLUS Control Board, and
 power on. After pairing and connecting Bluetooth successfully, we can
 control the smart home through app.
 
-.. _4.6-Related-Resources:
-
 4.6 Related Resources
 ---------------------
 
@@ -3496,229 +3504,123 @@ https://fs.keyestudio.com/KS0085
 .. |image74| image:: media/bad041b053825940869213d9f431ef96.png
 .. |image75| image:: media/24c831162a53ab88e584fbbedd6e4018.png
 .. |image76| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image77| image:: media/9cad01dce5c196317f665e6115b44c86.jpeg
+.. |image77| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
 .. |image78| image:: media/0da41a27db41e1207a7f760067e93104.png
 .. |image79| image:: media/bad041b053825940869213d9f431ef96.png
 .. |image80| image:: media/24c831162a53ab88e584fbbedd6e4018.png
 .. |image81| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image82| image:: media/9cad01dce5c196317f665e6115b44c86.jpeg
+.. |image82| image:: media/73d052659c19eb9abbf9ed63261d22c0.jpeg
 .. |image83| image:: media/0da41a27db41e1207a7f760067e93104.png
 .. |image84| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image85| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image86| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image87| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
-.. |image88| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image89| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image90| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image91| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image92| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
-.. |image93| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image94| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image95| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image96| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image97| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
-.. |image98| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image99| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image100| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image101| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image102| image:: media/73d052659c19eb9abbf9ed63261d22c0.jpeg
-.. |image103| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image104| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image105| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image106| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image107| image:: media/73d052659c19eb9abbf9ed63261d22c0.jpeg
-.. |image108| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image109| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image110| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image111| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image112| image:: media/73d052659c19eb9abbf9ed63261d22c0.jpeg
-.. |image113| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image114| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image115| image:: media/d3e0cf5647f9ed8613ba339c25b1ec1f.png
-.. |image116| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image117| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image118| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
-.. |image119| image:: media/197566fe08fddc5ed5686e9e9084d4b9.jpeg
-.. |image120| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image121| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image122| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image123| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image124| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
-.. |image125| image:: media/197566fe08fddc5ed5686e9e9084d4b9.jpeg
-.. |image126| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image127| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image128| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image129| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image130| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
-.. |image131| image:: media/197566fe08fddc5ed5686e9e9084d4b9.jpeg
-.. |image132| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image133| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image134| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image135| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image136| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image137| image:: media/484b144bc1b0d88b30d6b04df7918b04.jpeg
-.. |image138| image:: media/9cad01dce5c196317f665e6115b44c86.jpeg
-.. |image139| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image140| image:: media/c765da7bdad858ecaa7080ffcec4f605.jpeg
-.. |image141| image:: arduino/media/c765da7bdad858ecaa7080ffcec4f605.jpeg
-.. |image142| image:: arduino/media/c765da7bdad858ecaa7080ffcec4f605.jpeg
-.. |image143| image:: media/ebae742607b42dd5a84676d6a399d980.jpeg
-.. |image144| image:: arduino/media/ebae742607b42dd5a84676d6a399d980.jpeg
+.. |image85| image:: media/d3e0cf5647f9ed8613ba339c25b1ec1f.png
+.. |image86| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image87| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image88| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
+.. |image89| image:: media/197566fe08fddc5ed5686e9e9084d4b9.jpeg
+.. |image90| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image91| image:: media/bad041b053825940869213d9f431ef96.png
+.. |image92| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image93| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image94| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image95| image:: media/484b144bc1b0d88b30d6b04df7918b04.jpeg
+.. |image96| image:: media/9cad01dce5c196317f665e6115b44c86.jpeg
+.. |image97| image:: media/bad041b053825940869213d9f431ef96.png
+.. |image98| image:: media/c765da7bdad858ecaa7080ffcec4f605.jpeg
+.. |image99| image:: arduino/media/c765da7bdad858ecaa7080ffcec4f605.jpeg
+.. |image100| image:: arduino/media/c765da7bdad858ecaa7080ffcec4f605.jpeg
+.. |image101| image:: media/ebae742607b42dd5a84676d6a399d980.jpeg
+.. |image102| image:: arduino/media/ebae742607b42dd5a84676d6a399d980.jpeg
+.. |image103| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image104| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image105| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image106| image:: media/484b144bc1b0d88b30d6b04df7918b04.jpeg
+.. |image107| image:: media/9cad01dce5c196317f665e6115b44c86.jpeg
+.. |image108| image:: media/bad041b053825940869213d9f431ef96.png
+.. |image109| image:: media/c765da7bdad858ecaa7080ffcec4f605.jpeg
+.. |image110| image:: arduino/media/c765da7bdad858ecaa7080ffcec4f605.jpeg
+.. |image111| image:: arduino/media/c765da7bdad858ecaa7080ffcec4f605.jpeg
+.. |image112| image:: media/ebae742607b42dd5a84676d6a399d980.jpeg
+.. |image113| image:: arduino/media/ebae742607b42dd5a84676d6a399d980.jpeg
+.. |image114| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image115| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image116| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image117| image:: media/484b144bc1b0d88b30d6b04df7918b04.jpeg
+.. |image118| image:: media/9cad01dce5c196317f665e6115b44c86.jpeg
+.. |image119| image:: media/bad041b053825940869213d9f431ef96.png
+.. |image120| image:: media/c765da7bdad858ecaa7080ffcec4f605.jpeg
+.. |image121| image:: arduino/media/c765da7bdad858ecaa7080ffcec4f605.jpeg
+.. |image122| image:: arduino/media/c765da7bdad858ecaa7080ffcec4f605.jpeg
+.. |image123| image:: media/ebae742607b42dd5a84676d6a399d980.jpeg
+.. |image124| image:: arduino/media/ebae742607b42dd5a84676d6a399d980.jpeg
+.. |image125| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image126| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image127| image:: media/7950acf19912aabfb83928eb3459cc2c.jpeg
+.. |image128| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
+.. |image129| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image130| image:: media/bad041b053825940869213d9f431ef96.png
+.. |image131| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image132| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image133| image:: media/c458fe22759b1d73bded113c44753333.png
+.. |image134| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image135| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image136| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image137| image:: media/54cdb977922bf3a61bf00d3b6468e403.jpeg
+.. |image138| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image139| image:: media/1b76ae2bbea30f1a9fe80b41de65ab94.png
+.. |image140| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image141| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image142| image:: media/d4d2afcefef9dfe30b45110c1fa5eb4a.png
+.. |image143| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image144| image:: media/bad041b053825940869213d9f431ef96.png
 .. |image145| image:: media/24c831162a53ab88e584fbbedd6e4018.png
 .. |image146| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image147| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image148| image:: media/484b144bc1b0d88b30d6b04df7918b04.jpeg
-.. |image149| image:: media/9cad01dce5c196317f665e6115b44c86.jpeg
-.. |image150| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image151| image:: media/c765da7bdad858ecaa7080ffcec4f605.jpeg
-.. |image152| image:: arduino/media/c765da7bdad858ecaa7080ffcec4f605.jpeg
-.. |image153| image:: arduino/media/c765da7bdad858ecaa7080ffcec4f605.jpeg
-.. |image154| image:: media/ebae742607b42dd5a84676d6a399d980.jpeg
-.. |image155| image:: arduino/media/ebae742607b42dd5a84676d6a399d980.jpeg
-.. |image156| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image157| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image158| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image159| image:: media/484b144bc1b0d88b30d6b04df7918b04.jpeg
-.. |image160| image:: media/9cad01dce5c196317f665e6115b44c86.jpeg
-.. |image161| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image162| image:: media/c765da7bdad858ecaa7080ffcec4f605.jpeg
-.. |image163| image:: arduino/media/c765da7bdad858ecaa7080ffcec4f605.jpeg
-.. |image164| image:: arduino/media/c765da7bdad858ecaa7080ffcec4f605.jpeg
-.. |image165| image:: media/ebae742607b42dd5a84676d6a399d980.jpeg
-.. |image166| image:: arduino/media/ebae742607b42dd5a84676d6a399d980.jpeg
-.. |image167| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image168| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image169| image:: media/7950acf19912aabfb83928eb3459cc2c.jpeg
-.. |image170| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
-.. |image171| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image172| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image173| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image174| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image175| image:: media/7950acf19912aabfb83928eb3459cc2c.jpeg
-.. |image176| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
+.. |image147| image:: media/3ced83ccadf7d3ef5783ddb224cf3e4d.jpeg
+.. |image148| image:: media/1b76ae2bbea30f1a9fe80b41de65ab94.png
+.. |image149| image:: media/54cdb977922bf3a61bf00d3b6468e403.jpeg
+.. |image150| image:: media/9cad01dce5c196317f665e6115b44c86.jpeg
+.. |image151| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image152| image:: arduino/media/18bffe57fac75c8ff5a156ac96f1798d.png
+.. |image153| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image154| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image155| image:: media/3ced83ccadf7d3ef5783ddb224cf3e4d.jpeg
+.. |image156| image:: media/1b76ae2bbea30f1a9fe80b41de65ab94.png
+.. |image157| image:: media/54cdb977922bf3a61bf00d3b6468e403.jpeg
+.. |image158| image:: media/9cad01dce5c196317f665e6115b44c86.jpeg
+.. |image159| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image160| image:: arduino/media/18bffe57fac75c8ff5a156ac96f1798d.png
+.. |image161| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image162| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image163| image:: media/3ced83ccadf7d3ef5783ddb224cf3e4d.jpeg
+.. |image164| image:: media/1b76ae2bbea30f1a9fe80b41de65ab94.png
+.. |image165| image:: media/54cdb977922bf3a61bf00d3b6468e403.jpeg
+.. |image166| image:: media/9cad01dce5c196317f665e6115b44c86.jpeg
+.. |image167| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image168| image:: arduino/media/18bffe57fac75c8ff5a156ac96f1798d.png
+.. |image169| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image170| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image171| image:: media/fed3dd9e2581a73519bfad27b4f3a533.png
+.. |image-20250416163533718| image:: media/image-20250416163533718.png
+.. |image172| image:: media/73d052659c19eb9abbf9ed63261d22c0.jpeg
+.. |image173| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image-20250416163526130| image:: media/image-20250416163526130.png
+.. |image174| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image175| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image176| image:: media/ab1818942731c6e822a574ba5c0df31e.jpeg
 .. |image177| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image178| image:: media/bad041b053825940869213d9f431ef96.png
+.. |image178| image:: media/7e9771a54d49d2cc123894447b941cf8.png
 .. |image179| image:: media/24c831162a53ab88e584fbbedd6e4018.png
 .. |image180| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image181| image:: media/7950acf19912aabfb83928eb3459cc2c.jpeg
-.. |image182| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
+.. |image181| image:: media/4fc308a59339d9178ffa2f3254b55ecd.jpeg
+.. |image182| image:: media/ab1818942731c6e822a574ba5c0df31e.jpeg
 .. |image183| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image184| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image185| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image186| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image187| image:: media/c458fe22759b1d73bded113c44753333.png
-.. |image188| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image189| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image190| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image191| image:: media/54cdb977922bf3a61bf00d3b6468e403.jpeg
-.. |image192| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image193| image:: media/1b76ae2bbea30f1a9fe80b41de65ab94.png
-.. |image194| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image195| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image196| image:: media/54cdb977922bf3a61bf00d3b6468e403.jpeg
-.. |image197| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image198| image:: media/1b76ae2bbea30f1a9fe80b41de65ab94.png
-.. |image199| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image200| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image201| image:: media/54cdb977922bf3a61bf00d3b6468e403.jpeg
-.. |image202| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image203| image:: media/1b76ae2bbea30f1a9fe80b41de65ab94.png
-.. |image204| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image205| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image206| image:: media/d4d2afcefef9dfe30b45110c1fa5eb4a.png
-.. |image207| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image208| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image209| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image210| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image211| image:: media/d4d2afcefef9dfe30b45110c1fa5eb4a.png
-.. |image212| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image213| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image214| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image215| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image216| image:: media/d4d2afcefef9dfe30b45110c1fa5eb4a.png
-.. |image217| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image218| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image219| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image220| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image221| image:: media/3ced83ccadf7d3ef5783ddb224cf3e4d.jpeg
-.. |image222| image:: media/1b76ae2bbea30f1a9fe80b41de65ab94.png
-.. |image223| image:: media/54cdb977922bf3a61bf00d3b6468e403.jpeg
-.. |image224| image:: media/9cad01dce5c196317f665e6115b44c86.jpeg
-.. |image225| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image226| image:: arduino/media/18bffe57fac75c8ff5a156ac96f1798d.png
-.. |image227| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image228| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image229| image:: media/3ced83ccadf7d3ef5783ddb224cf3e4d.jpeg
-.. |image230| image:: media/1b76ae2bbea30f1a9fe80b41de65ab94.png
-.. |image231| image:: media/54cdb977922bf3a61bf00d3b6468e403.jpeg
-.. |image232| image:: media/9cad01dce5c196317f665e6115b44c86.jpeg
-.. |image233| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image234| image:: arduino/media/18bffe57fac75c8ff5a156ac96f1798d.png
-.. |image235| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image236| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image237| image:: media/3ced83ccadf7d3ef5783ddb224cf3e4d.jpeg
-.. |image238| image:: media/1b76ae2bbea30f1a9fe80b41de65ab94.png
-.. |image239| image:: media/54cdb977922bf3a61bf00d3b6468e403.jpeg
-.. |image240| image:: media/9cad01dce5c196317f665e6115b44c86.jpeg
-.. |image241| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image242| image:: arduino/media/18bffe57fac75c8ff5a156ac96f1798d.png
-.. |image243| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image244| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image245| image:: media/fed3dd9e2581a73519bfad27b4f3a533.png
-.. |image-20250416163533718| image:: media/image-20250416163533718.png
-.. |image246| image:: media/73d052659c19eb9abbf9ed63261d22c0.jpeg
-.. |image247| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image-20250416163526130| image:: media/image-20250416163526130.png
-.. |image248| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image249| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image250| image:: media/fed3dd9e2581a73519bfad27b4f3a533.png
-.. |image251| image:: media/73d052659c19eb9abbf9ed63261d22c0.jpeg
-.. |image252| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image253| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image254| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image255| image:: media/fed3dd9e2581a73519bfad27b4f3a533.png
-.. |image256| image:: media/73d052659c19eb9abbf9ed63261d22c0.jpeg
-.. |image257| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image258| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image259| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image260| image:: media/ab1818942731c6e822a574ba5c0df31e.jpeg
-.. |image261| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image262| image:: media/7e9771a54d49d2cc123894447b941cf8.png
-.. |image263| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image264| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image265| image:: media/ab1818942731c6e822a574ba5c0df31e.jpeg
-.. |image266| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image267| image:: media/7e9771a54d49d2cc123894447b941cf8.png
-.. |image268| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image269| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image270| image:: media/ab1818942731c6e822a574ba5c0df31e.jpeg
-.. |image271| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image272| image:: media/7e9771a54d49d2cc123894447b941cf8.png
-.. |image273| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image274| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image275| image:: media/4fc308a59339d9178ffa2f3254b55ecd.jpeg
-.. |image276| image:: media/ab1818942731c6e822a574ba5c0df31e.jpeg
-.. |image277| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image278| image:: media/7e9771a54d49d2cc123894447b941cf8.png
+.. |image184| image:: media/7e9771a54d49d2cc123894447b941cf8.png
 .. |image-20250416164007472| image:: media/image-20250416164007472.png
-.. |image279| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image280| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image281| image:: media/4fc308a59339d9178ffa2f3254b55ecd.jpeg
-.. |image282| image:: media/ab1818942731c6e822a574ba5c0df31e.jpeg
-.. |image283| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image284| image:: media/7e9771a54d49d2cc123894447b941cf8.png
-.. |image285| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image286| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image287| image:: media/4fc308a59339d9178ffa2f3254b55ecd.jpeg
-.. |image288| image:: media/ab1818942731c6e822a574ba5c0df31e.jpeg
-.. |image289| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image290| image:: media/7e9771a54d49d2cc123894447b941cf8.png
 .. |image-20250416164302672| image:: media/image-20250416164302672.png
 .. |image-20230523171559487| image:: media/image-20230523171559487.png
 .. |image-20250416164358790| image:: media/image-20250416164358790.png
-.. |image291| image:: media/4a5bf0af3b96ddd254e550dc6b4c3711.jpeg
-.. |image292| image:: media/66a496c0fc7baf9c157eaf6f07dc0aea.jpeg
-.. |image293| image:: media/a2d8dd6a5e34c6be3400068a35c9cf4b.jpeg
-.. |image294| image:: media/65aa75da5e1fa9d789e3e017a0b5e82b.jpeg
-.. |image295| image:: media/c1d3c6cc45db04bc6aa0cf3d05ea286c.jpeg
-.. |image296| image:: media/10b307c39057d29e26bcdcf639c6c5e4.jpeg
+.. |image185| image:: media/4a5bf0af3b96ddd254e550dc6b4c3711.jpeg
+.. |image186| image:: media/66a496c0fc7baf9c157eaf6f07dc0aea.jpeg
+.. |image187| image:: media/a2d8dd6a5e34c6be3400068a35c9cf4b.jpeg
+.. |image188| image:: media/65aa75da5e1fa9d789e3e017a0b5e82b.jpeg
+.. |image189| image:: media/c1d3c6cc45db04bc6aa0cf3d05ea286c.jpeg
+.. |image190| image:: media/10b307c39057d29e26bcdcf639c6c5e4.jpeg
