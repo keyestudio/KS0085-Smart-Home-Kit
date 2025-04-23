@@ -115,7 +115,7 @@ to use and understand.
    == ======================================= === =========================
    1  Keyestudio UNO PLUS Mainboard           1   |image-20250417092736616|
    2  Keyestudio V5 Expansion Board           1   |image-20250417092914962|
-   3  basswood 10PCS T=3MM                    1   |image-20250416145409152|
+   3  basswood 10PCS T=3MM                    1   |image1|
    4  White LED                               1   |image-20250417093209402|
    5  Yellow LED                              1   |image-20250417093230138|
    6  Button                                  2   |image-20250417093258161|
@@ -188,7 +188,7 @@ Project 15 Multi-functional Smart Home
 
 .. |image-20250417092736616| image:: media/image-20250417092736616.png
 .. |image-20250417092914962| image:: media/image-20250417092914962.png
-.. |image-20250416145409152| image:: ../../5.%20Tutorial%20for%20Scratch/1.%20Introduction/media/image-20250416145409152.png
+.. |image1| image:: media/image-20250423094148594.png
 .. |image-20250417093209402| image:: media/image-20250417093209402.png
 .. |image-20250417093230138| image:: media/image-20250417093230138.png
 .. |image-20250417093258161| image:: media/image-20250417093258161.png
