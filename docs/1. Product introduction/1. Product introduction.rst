@@ -1,0 +1,178 @@
+1. Product introduction
+=======================
+
+|image1|
+
+1.1 Overview:
+-------------
+
+This Smart Home Learning Kit based on the Arduino platform is newly
+rolled out by Keyestudio DIY Robot Co. Ltd.
+
+It simulates the real smart home and demonstrates the cozy and
+comfortable life for people.
+
+In fact, the logic programming, an invisible hand, controls everything
+in smart home: it turns on the air conditioner, boots up the water
+heater, secures your home with an electronic lock, and sets your LED
+lights and smart curtains to turn on automatically when you get home.
+Meanwhile, the intelligent lighting system allows you to create a
+comfortable, tranquil atmosphere. Everything is finished by a remote
+control or your own cellphone.
+
+As Bill Gates puts it, “In the near future, a house without a smart home
+system will be as unfashionable as a home without Internet access
+today.”
+
+So, go ahead and get started; let’s build this amazing analog smart
+home.
+
+1.2 Kit list
+------------
+
+After getting this smart home kit, we need to make sure that there are
+not missing components.
+
++---+-------------------------------+---+----------------------------------+
+| # | Name                          | Q | Picture                          |
+|   |                               | T |                                  |
+|   |                               | Y |                                  |
++===+===============================+===+==================================+
+| 1 | Keyestudio PLUS Control Board | 1 | |image2|                         |
++---+-------------------------------+---+----------------------------------+
+| 2 | Keyestudio Sensor Shield V    | 1 | |image3|                         |
+|   | 5.2                           |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 3 | Wooden Board*10 T=3MM         | 1 | |image-20250423092526992|        |
++---+-------------------------------+---+----------------------------------+
+| 4 | White LED Module              | 1 | |image4|                         |
++---+-------------------------------+---+----------------------------------+
+| 5 | Yellow LED Module             | 1 | |image5|                         |
++---+-------------------------------+---+----------------------------------+
+| 6 | Button Sensor                 | 2 | |image6|                         |
++---+-------------------------------+---+----------------------------------+
+| 7 | Photocell Sensor              | 1 | |image7|                         |
++---+-------------------------------+---+----------------------------------+
+| 8 | PIR Motion Sensor             | 1 | |image8|                         |
++---+-------------------------------+---+----------------------------------+
+| 9 | MQ-2 Gas Sensor               | 1 | |image9|                         |
++---+-------------------------------+---+----------------------------------+
+| 1 | Relay Module                  | 1 | |image10|                        |
+| 0 |                               |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 1 | Bluetooth HM-10 Module        | 1 | |image11|                        |
+| 1 |                               |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 1 | Passive Buzzer Sensor         | 1 | |image12|                        |
+| 2 |                               |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 1 | Fan module                    | 1 | |image13|                        |
+| 3 |                               |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 1 | Steam Sensor                  | 1 | |image14|                        |
+| 4 |                               |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 1 | Servo Motor                   | 2 | |image15|                        |
+| 5 |                               |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 1 | LCD1602 Display Module        | 1 | |image16|                        |
+| 6 |                               |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 1 | Soil Humidity Sensor          | 1 | |image17|                        |
+| 7 |                               |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 1 | USB Cable                     | 1 | |image18|                        |
+| 8 |                               |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 1 | Female to Female Dupont       | 4 | |image19|                        |
+| 9 | Cables                        | 0 |                                  |
++---+-------------------------------+---+----------------------------------+
+| 2 | Male to female Dupont Cables  | 6 | |image20|                        |
+| 0 |                               |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 2 | M3 Nickel Plated Nuts         | 2 | |image-20250416150440426|        |
+| 1 |                               | 5 |                                  |
++---+-------------------------------+---+----------------------------------+
+| 2 | M2*12MM Round Head Screws     | 6 | |image-20250416150255499|        |
+| 2 |                               |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 2 | M2 Nickel Plated Nuts         | 6 | |image-20250416150222937|        |
+| 3 |                               |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 2 | M3*10MM Dual-pass Copper Bush | 4 | |image-20250416150153520|        |
+| 4 |                               |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 2 | M3*6MM Round Head Screws      | 8 | |image-20250416150130680|        |
+| 5 |                               |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 2 | M3 304 Stainless Steel        | 4 | |image-20250416150119881|        |
+| 6 | Self-locking Nuts             |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 2 | M3*10MM Round Head Screws     | 2 | |image-20250416150056376|        |
+| 7 |                               | 0 |                                  |
++---+-------------------------------+---+----------------------------------+
+| 2 | M2.5*10MM Round Head Screws   | 6 | |image-20250416150036608|        |
+| 8 |                               |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 2 | M2.5 Nickel Plated Nuts       | 6 | |image-20250416150006617|        |
+| 9 |                               |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 3 | M3*12MM Round Head Screws     | 6 | |image-20250416145907696|        |
+| 0 |                               |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 3 | M3*10MM Flat Head Screws      | 2 | |image-20250416145826473|        |
+| 1 |                               |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 3 | M1.2*5MM Round Head           | 1 | |image-20250416145807856|        |
+| 2 | Self-tapping Screws           | 0 |                                  |
++---+-------------------------------+---+----------------------------------+
+| 3 | 6-Slot AA Battery Holder with | 1 | |image21|                        |
+| 3 | DC Head and 15cm Dew Line     |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 3 | Black-yellow Handle 3*40MM    | 1 | |image22|                        |
+| 4 | Cross Screwdriver             |   |                                  |
++---+-------------------------------+---+----------------------------------+
+| 3 | 20cm 2.54 3Pin F-F Jumper     | 1 | |image23|                        |
+| 5 | Wire                          | 3 |                                  |
++---+-------------------------------+---+----------------------------------+
+| 3 | 20cm 2.54 4Pin F-F Jumper     | 2 | |image24|                        |
+| 6 | Wire                          |   |                                  |
++---+-------------------------------+---+----------------------------------+
+
+.. |image1| image:: media/1.png
+.. |image2| image:: media/2.jpeg
+.. |image3| image:: media/3.jpeg
+.. |image-20250423092526992| image:: media/4.png
+.. |image4| image:: media/5.jpeg
+.. |image5| image:: media/6.jpeg
+.. |image6| image:: media/7.jpeg
+.. |image7| image:: media/8.jpeg
+.. |image8| image:: media/9.jpeg
+.. |image9| image:: media/10.png
+.. |image10| image:: media/11.jpeg
+.. |image11| image:: media/12.png
+.. |image12| image:: media/13.jpeg
+.. |image13| image:: media/14.jpeg
+.. |image14| image:: media/15.jpeg
+.. |image15| image:: media/16.png
+.. |image16| image:: media/17.jpeg
+.. |image17| image:: media/18.jpeg
+.. |image18| image:: media/19.jpeg
+.. |image19| image:: media/20.png
+.. |image20| image:: media/21.png
+.. |image-20250416150440426| image:: media/22.png
+.. |image-20250416150255499| image:: media/23.png
+.. |image-20250416150222937| image:: media/24.png
+.. |image-20250416150153520| image:: media/25.png
+.. |image-20250416150130680| image:: media/26.png
+.. |image-20250416150119881| image:: media/27.png
+.. |image-20250416150056376| image:: media/28.png
+.. |image-20250416150036608| image:: media/29.png
+.. |image-20250416150006617| image:: media/30.png
+.. |image-20250416145907696| image:: media/31.png
+.. |image-20250416145826473| image:: media/32.png
+.. |image-20250416145807856| image:: media/33.png
+.. |image21| image:: media/34.png
+.. |image22| image:: media/35.jpeg
+.. |image23| image:: media/36.png
+.. |image24| image:: media/37.jpeg
