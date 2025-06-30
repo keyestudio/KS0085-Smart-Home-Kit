@@ -7,7 +7,7 @@
 Scratch information contains project ,please click to download for
 follow-up study!!!!
 
-Data download： :download:`Data download <./Scratch.7z>`
+Data download：\ :download:`Data download <./Scratch.7z>`
 
 5.2 Software installation of Windows System
 -------------------------------------------

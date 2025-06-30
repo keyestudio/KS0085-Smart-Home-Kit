@@ -103,15 +103,14 @@ adjusting the delayed time.
 
 **1.3 What You Need**
 
-+------------+------------+----------+---------------+---------------+
-| PLUS       | Sensor     | White    | USB cable*1   | 3pin F-F      |
-| control    | shield*1   | LED      |               | Dupont line*1 |
-| board*1    |            | module   |               |               |
-|            |            | \*1      |               |               |
-+============+============+==========+===============+===============+
-| |image7|   | |image8|   | |image9| | |image-20250  | |image-20250  |
-|            |            |          | 607135359678| | 607135414734| |
-+------------+------------+----------+---------------+---------------+
++------------+------------+----------+---------------------------+---------------------------+
+| PLUS       | Sensor     | White    | USB cable*1               | 3pin F-F Dupont line*1    |
+| control    | shield*1   | LED      |                           |                           |
+| board*1    |            | module   |                           |                           |
+|            |            | \*1      |                           |                           |
++============+============+==========+===========================+===========================+
+| |image7|   | |image8|   | |image9| | |image-20250607135359678| | |image-20250607135414734| |
++------------+------------+----------+---------------------------+---------------------------+
 
 **1.4 Sensor Shield**
 
@@ -691,15 +690,13 @@ contact will go back to be the initial state, that is, off state.
 
 **4.2 What You Need**
 
-+-----------+------------+------------+---------+---------+---------+
-| PLUS      | Sensor     | Yellow LED | Button  | USB     | 3pin    |
-| control   | shield*1   | module*1   | s       | cable*1 | F-F     |
-| board*1   |            |            | ensor*1 |         | Dupont  |
-|           |            |            |         |         | line*2  |
-+===========+============+============+=========+=========+=========+
-| |image36| | |image37|  | |image38|  | |i      | |i      | |i      |
-|           |            |            | mage39| | mage40| | mage41| |
-+-----------+------------+------------+---------+---------+---------+
++-----------+------------+------------+-----------+-----------+-----------+
+| PLUS      | Sensor     | Yellow LED | Button    | USB       | 3pin F-F  |
+| control   | shield*1   | module*1   | sensor*1  | cable*1   | Dupont    |
+| board*1   |            |            |           |           | line*2    |
++===========+============+============+===========+===========+===========+
+| |image36| | |image37|  | |image38|  | |image39| | |image40| | |image41| |
++-----------+------------+------------+-----------+-----------+-----------+
 
 **4.3 Wiring Diagram**
 
@@ -824,23 +821,21 @@ fix the module to other equipment.
 
 **5.3 What You Need**
 
-+--------------------------+--------------------------+-----------------+
-| PLUS control board*1     | Sensor shield*1          | USB cable*1     |
-+==========================+==========================+=================+
-| |image46|                | |image47|                | |image48|       |
-+--------------------------+--------------------------+-----------------+
-| Relay module*1           | White LED*1              | 3pin F-F Dupont |
-|                          |                          | Line*1          |
-+--------------------------+--------------------------+-----------------+
-| |                        | |                        | |image49|       |
-| image-20250607140735042| | image-20250607140751056| |                 |
-+--------------------------+--------------------------+-----------------+
-| Female to Female Dupont  | Male to Female Dupont    |                 |
-| Lines*2                  | Line*2                   |                 |
-+--------------------------+--------------------------+-----------------+
-| |image50|                | |                        |                 |
-|                          | image-20250607140835461| |                 |
-+--------------------------+--------------------------+-----------------+
++---------------------------+---------------------------+-----------------+
+| PLUS control board*1      | Sensor shield*1           | USB cable*1     |
++===========================+===========================+=================+
+| |image46|                 | |image47|                 | |image48|       |
++---------------------------+---------------------------+-----------------+
+| Relay module*1            | White LED*1               | 3pin F-F Dupont |
+|                           |                           | Line*1          |
++---------------------------+---------------------------+-----------------+
+| |image-20250607140735042| | |image-20250607140751056| | |image49|       |
++---------------------------+---------------------------+-----------------+
+| Female to Female Dupont   | Male to Female Dupont     |                 |
+| Lines*2                   | Line*2                    |                 |
++---------------------------+---------------------------+-----------------+
+| |image50|                 | |image-20250607140835461| |                 |
++---------------------------+---------------------------+-----------------+
 
 **5.4 Wiring Diagram：**
 
@@ -911,15 +906,13 @@ light control circuit as well.
 
 **6.2 What You Need**
 
-+-----------+------------+---------+------------+---------+---------+
-| PLUS      | Sensor     | Ph      | Yellow LED | USB     | 3pin    |
-| control   | shield*1   | otocell | module*1   | cable*1 | F-F     |
-| board*1   |            | s       |            |         | Dupont  |
-|           |            | ensor*1 |            |         | line*2  |
-+===========+============+=========+============+=========+=========+
-| |image54| | |image55|  | |i      | |image57|  | |i      | |i      |
-|           |            | mage56| |            | mage58| | mage59| |
-+-----------+------------+---------+------------+---------+---------+
++-----------+------------+-----------+------------+-----------+-----------+
+| PLUS      | Sensor     | Photocell | Yellow LED | USB       | 3pin F-F  |
+| control   | shield \*1 | sensor*1  | module*1   | cable*1   | Dupont    |
+| board*1   |            |           |            |           | line*2    |
++===========+============+===========+============+===========+===========+
+| |image54| | |image55|  | |image56| | |image57|  | |image58| | |image59| |
++-----------+------------+-----------+------------+-----------+-----------+
 
 **6.3 Wiring Diagram：**
 
@@ -1541,14 +1534,13 @@ become more visible or less visible.
 
 **12.3 What You Need**
 
-+-------------+--------------+--------------+-------------+-----------+
-| PLUS        | Sensor       | 1602 LCD     | USB cable*1 | 4pinF-F   |
-| control     | shield*1     | Display*1    |             | Dupont    |
-| board*1     |              |              |             | line*1    |
-+=============+==============+==============+=============+===========+
-| |image109|  | |image110|   | |image111|   | |image112|  | |         |
-|             |              |              |             | image113| |
-+-------------+--------------+--------------+-------------+-----------+
++-------------+--------------+--------------+-------------+------------+
+| PLUS        | Sensor       | 1602 LCD     | USB cable*1 | 4pinF-F    |
+| control     | shield*1     | Display*1    |             | Dupont     |
+| board*1     |              |              |             | line*1     |
++=============+==============+==============+=============+============+
+| |image109|  | |image110|   | |image111|   | |image112|  | |image113| |
++-------------+--------------+--------------+-------------+------------+
 
 **12.4 Wiring Diagram：**
 
@@ -1766,34 +1758,29 @@ smart home kit.
 
 We also provide you with APP for Android and iOS system.
 
-+----+-----------------------------------------------------------------+
-| Pi | Description                                                     |
-| ns |                                                                 |
-+====+=================================================================+
-| B  | As the input pin, short press control, or input single pulse of |
-| RK | 100ms low level to achieve the following functions: When module |
-|    | is in sleep state: Module is activated to normal state, if open |
-|    | AT+NOTI, serial port will send OK+WAKE. When in connected       |
-|    | state: Module will actively request to disconnect When in       |
-|    | standby mode: Module will be in initial state                   |
-+----+-----------------------------------------------------------------+
-| R  | Serial data inputs                                              |
-| XD |                                                                 |
-+----+-----------------------------------------------------------------+
-| T  | Serial data outputs                                             |
-| XD |                                                                 |
-+----+-----------------------------------------------------------------+
-| G  | ground lead                                                     |
-| ND |                                                                 |
-+----+-----------------------------------------------------------------+
-| V  | Positive pole of power, input 5V                                |
-| CC |                                                                 |
-+----+-----------------------------------------------------------------+
-| S  | As output pin, show the working state of module Flash slowly in |
-| TA | standby state——repeat 500ms pulse； Always light up in          |
-| TE | connected state——high level You could set to no flashing in     |
-|    | standby state, always light up in connected state               |
-+----+-----------------------------------------------------------------+
++-------+-----------------------------------------------------------------+
+| Pins  | Description                                                     |
++=======+=================================================================+
+| BRK   | As the input pin, short press control, or input single pulse of |
+|       | 100ms low level to achieve the following functions: When module |
+|       | is in sleep state: Module is activated to normal state, if open |
+|       | AT+NOTI, serial port will send OK+WAKE. When in connected       |
+|       | state: Module will actively request to disconnect When in       |
+|       | standby mode: Module will be in initial state                   |
++-------+-----------------------------------------------------------------+
+| RXD   | Serial data inputs                                              |
++-------+-----------------------------------------------------------------+
+| TXD   | Serial data outputs                                             |
++-------+-----------------------------------------------------------------+
+| GND   | ground lead                                                     |
++-------+-----------------------------------------------------------------+
+| VCC   | Positive pole of power, input 5V                                |
++-------+-----------------------------------------------------------------+
+| STATE | As output pin, show the working state of module Flash slowly in |
+|       | standby state——repeat 500ms pulse； Always light up in          |
+|       | connected state——high level You could set to no flashing in     |
+|       | standby state, always light up in connected state               |
++-------+-----------------------------------------------------------------+
 
 **14.2 Parameters:**
 
