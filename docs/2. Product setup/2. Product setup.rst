@@ -1,3 +1,5 @@
+.. _2-product-setup:
+
 2. Product setup
 ================
 
@@ -6,31 +8,26 @@ Servo Calibration Code Download： :download:`Servo Calibration code <./Code.7z>
 Check board A~I and other parts |image1|
 
 Step 1
-------
 
 Needed Components: |image2| Installation Diagram: |image3| Prototype:
 |image4|
 
 Step 2
-------
 
 Needed Components: |image5| Installation Diagram: |image6| Prototype:
 |image7|
 
 Step 3
-------
 
 Needed Components: |image8| Installation Diagram: |image9| Prototype:
 |image10|
 
 Step 4
-------
 
 Needed Components: |image11| Installation Diagram: |image12| Prototype:
 |image13|
 
 Step 5
-------
 
 Needed Components: |image14| Installation Diagram: |image15| Prototype:
 |image16| Set the angle of the Servo which controls the window to 90°:
@@ -57,44 +54,37 @@ software and upload the servo code of the course you are using.
 |image18|
 
 Step 6
-------
 
 Needed Components: |image19| Installation Diagram: (Please do not
 tighten the self-locking nut when installing it. The window is closed
 during installation as shown below:) |image20| Prototype: |image21|
 
 Step 7
-------
 
 Needed Components: |image22| Installation Diagram: |image23| Prototype:
 |image24|
 
 Step 8
-------
 
 Needed Components: |image25| Installation Diagram: |image26| Prototype:
 |image27|
 
 Step 9
-------
 
 Needed Components: |image28| Installation Diagram: |image29| Prototype:
 |image30|
 
 Step 10
--------
 
 Needed Components: |image31| Installation Diagram: |image32| Prototype:
 |image33|
 
 Step 11
--------
 
 Needed Components: |image34| Installation Diagram: |image35| Prototype:
 |image36|
 
 Step 12
--------
 
 Needed Components: |image37| Installation Diagram:
 
@@ -117,194 +107,171 @@ Prototype:
 |image40|
 
 Step 13
--------
 
 Needed Components: |image41| Installation Diagram: |image42| Prototype:
 |image43|
 
 Step 14
--------
 
 Needed Components: |image44| Installation Diagram: |image45| Prototype:
 |image46|
 
 Step 15
--------
 
 Needed Components: |image47| Installation Diagram: |image48| Prototype:
 |image49|
 
 Step 16
--------
 
 Needed Components: |image50| Installation Diagram: |image51| Prototype:
 |image52|
 
 Step 17
--------
 
 Needed Components: |image53| Installation Diagram: |image54| Prototype:
 |image55|
 
 Step 18
--------
 
 Needed Components: |image56| Installation Diagram: |image57| Prototype:
 |image58|
 
 Step 19
--------
 
 | Needed Components:
 | |image59| Installation Diagram: |image60| Prototype: |image61|
 
 Wiring
-------
 
 **PIR Motion Sensor**
 
 |image62| |Img| |image63|
 
-+-----------------------+-----------------------+-----------------------+
-| PIR motion sensor     | Expansion board       | Position on wood      |
-|                       |                       | board                 |
-+=======================+=======================+=======================+
-| G/V/S                 | G/V/2                 | ⑤                     |
-+-----------------------+-----------------------+-----------------------+
+================= =============== ======================
+PIR motion sensor Expansion board Position on wood board
+================= =============== ======================
+G/V/S             G/V/2           ⑤
+================= =============== ======================
 
 **Passive Buzzer**
 
 |image64| |image65| |image66|
 
-+-----------------------+-----------------------+-----------------------+
-| Passive buzzer        | Expansion board       | Position on wood      |
-|                       |                       | board                 |
-+=======================+=======================+=======================+
-| G/V/S                 | G/V/3                 | ⑯                     |
-+-----------------------+-----------------------+-----------------------+
+============== =============== ======================
+Passive buzzer Expansion board Position on wood board
+============== =============== ======================
+G/V/S          G/V/3           ⑯
+============== =============== ======================
 
 **Button 1**
 
 |image67| |image68| |image69|
 
-+-----------------------+-----------------------+-----------------------+
-| Button 1              | Expansion board       | Position on wood      |
-|                       |                       | board                 |
-+=======================+=======================+=======================+
-| G/V/S                 | G/V/4                 | ③                     |
-+-----------------------+-----------------------+-----------------------+
+======== =============== ======================
+Button 1 Expansion board Position on wood board
+======== =============== ======================
+G/V/S    G/V/4           ③
+======== =============== ======================
 
 **Yellow LED**
 
 |image70| |image71| |image72|
 
-+-----------------------+-----------------------+-----------------------+
-| Yellow LED            | Expansion board       | Position on wood      |
-|                       |                       | board                 |
-+=======================+=======================+=======================+
-| G/V/S                 | G/V/5                 | ⑫                     |
-+-----------------------+-----------------------+-----------------------+
+========== =============== ======================
+Yellow LED Expansion board Position on wood board
+========== =============== ======================
+G/V/S      G/V/5           ⑫
+========== =============== ======================
 
 **Fan**
 
 |image73| |image74| |image75|
 
-+-----------------------+-----------------------+-----------------------+
-| Fan                   | Expansion board       | Position on wood      |
-|                       |                       | board                 |
-+=======================+=======================+=======================+
-| GND/VCC/INA/INB       | G/V/7/6               | ⑮                     |
-+-----------------------+-----------------------+-----------------------+
+=============== =============== ======================
+Fan             Expansion board Position on wood board
+=============== =============== ======================
+GND/VCC/INA/INB G/V/7/6         ⑮
+=============== =============== ======================
 
 **Button 2**
 
 |image76| |image77| |image78|
 
-+-----------------------+-----------------------+-----------------------+
-| Button 2              | Expansion board       | Position on wood      |
-|                       |                       | board                 |
-+=======================+=======================+=======================+
-| G/V/S                 | G/V/8                 | ④                     |
-+-----------------------+-----------------------+-----------------------+
+======== =============== ======================
+Button 2 Expansion board Position on wood board
+======== =============== ======================
+G/V/S    G/V/8           ④
+======== =============== ======================
 
 **Servo 1 for Door Controlling**
 
 |image79| |image80| |image81|
 
-+-----------------------+-----------------------+-----------------------+
-| Servo 1               | Expansion board       | Position on wood      |
-|                       |                       | board                 |
-+=======================+=======================+=======================+
-| Brown line/Red        | G/V/9                 | ⑰                     |
-| line/Orange line      |                       |                       |
-+-----------------------+-----------------------+-----------------------+
+=============================== =============== ======================
+Servo 1                         Expansion board Position on wood board
+=============================== =============== ======================
+Brown line/Red line/Orange line G/V/9           ⑰
+=============================== =============== ======================
 
 **Servo 2 for Window Controlling**
 
 |image82| |image83| |image84|
 
-+-----------------------+-----------------------+-----------------------+
-| Servo 2               | Expansion board       | Position on wood      |
-|                       |                       | board                 |
-+=======================+=======================+=======================+
-| Brown line/Red        | G/V/10                | ⑪                     |
-| line/Orange line      |                       |                       |
-+-----------------------+-----------------------+-----------------------+
+=============================== =============== ======================
+Servo 2                         Expansion board Position on wood board
+=============================== =============== ======================
+Brown line/Red line/Orange line G/V/10          ⑪
+=============================== =============== ======================
 
 **MQ-2 Gas Sensor**
 
 |image85| |image86| |image87|
 
-+-----------------------+-----------------------+-----------------------+
-| MQ-2 gas sensor       | Expansion board       | Position on wood      |
-|                       |                       | board                 |
-+=======================+=======================+=======================+
-| GND/VCC/D0/A0         | G/V/11/A0             | ⑩                     |
-+-----------------------+-----------------------+-----------------------+
+=============== =============== ======================
+MQ-2 gas sensor Expansion board Position on wood board
+=============== =============== ======================
+GND/VCC/D0/A0   G/V/11/A0       ⑩
+=============== =============== ======================
 
 **Relay Module**
 
 |image88| |image89| |image90|
 
-+-----------------------+-----------------------+-----------------------+
-| Relay module          | Expansion board       | Position on wood      |
-|                       |                       | board                 |
-+=======================+=======================+=======================+
-| G/V/S                 | G/V/12                | ⑥                     |
-+-----------------------+-----------------------+-----------------------+
+============ =============== ======================
+Relay module Expansion board Position on wood board
+============ =============== ======================
+G/V/S        G/V/12          ⑥
+============ =============== ======================
 
 **White LED**
 
 |image91| |image92| |image93|
 
-+-----------------------+-----------------------+-----------------------+
-| White LED             | Expansion board       | Position on wood      |
-|                       |                       | board                 |
-+=======================+=======================+=======================+
-| G/V/S                 | G/V/13                | ①                     |
-+-----------------------+-----------------------+-----------------------+
+========= =============== ======================
+White LED Expansion board Position on wood board
+========= =============== ======================
+G/V/S     G/V/13          ①
+========= =============== ======================
 
 **LCD1602 Display**
 
 |image94| |image95| |image96|
 
-+-----------------------+-----------------------+-----------------------+
-| LCD1602 display       | Expansion board       | Position on wood      |
-|                       |                       | board                 |
-+=======================+=======================+=======================+
-| GND/VCC/SDA/SCL       | GND/5V/SDA/SCL        | ②                     |
-+-----------------------+-----------------------+-----------------------+
+=============== =============== ======================
+LCD1602 display Expansion board Position on wood board
+=============== =============== ======================
+GND/VCC/SDA/SCL GND/5V/SDA/SCL  ②
+=============== =============== ======================
 
 **Photocell Sensor**
 
 |image97| |image98| |image99|
 
-+-----------------------+-----------------------+-----------------------+
-| photocell sensor      | Expansion board       | Position on wood      |
-|                       |                       | board                 |
-+=======================+=======================+=======================+
-| G/V/S                 | G/V/A1                | ⑭                     |
-+-----------------------+-----------------------+-----------------------+
+================ =============== ======================
+photocell sensor Expansion board Position on wood board
+================ =============== ======================
+G/V/S            G/V/A1          ⑭
+================ =============== ======================
 
 **Soil Humidity Sensor**
 
@@ -320,19 +287,17 @@ G/V/S                G/V/A2
 
 |image103| |image104| |image105|
 
-+-----------------------+-----------------------+-----------------------+
-| steam sensor          | Expansion board       | Position on wood      |
-|                       |                       | board                 |
-+=======================+=======================+=======================+
-| G/V/S                 | G/V/A3                | ⑬                     |
-+-----------------------+-----------------------+-----------------------+
+============ =============== ======================
+steam sensor Expansion board Position on wood board
+============ =============== ======================
+G/V/S        G/V/A3          ⑬
+============ =============== ======================
 
 **Power Supply**
 
 |image106| |image107|
 
 Last Step: Roof Installation
-----------------------------
 
 Needed Components |image108| Installation Diagram |image109| Prototype
 |image110|

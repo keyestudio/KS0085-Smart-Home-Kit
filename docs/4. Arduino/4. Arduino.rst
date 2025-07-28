@@ -1,5 +1,9 @@
+.. _4-arduino:
+
 4. Arduino
 ==========
+
+.. _41-data-download:
 
 4.1 Data download
 -----------------
@@ -8,6 +12,8 @@ Arduino information contains library files 、 project code and
 APP,please click to download for follow-up sttudy!!!!
 
 Data download: :download:`Arduino Data <./Arduino.7z>`
+
+.. _42-software-download:
 
 4.2 Software Download
 ---------------------
@@ -31,12 +37,16 @@ And when the ZIP file is downloaded,you can directly unzip and start it.
 
 |image2|
 
+.. _43-set-arduino-ide:
+
 4.3 Set Arduino IDE
 -------------------
 
 1、Connecting the board to the computer.
 
 |image3|
+
+.. _44-add-library:
 
 4.4 Add Library
 ---------------
@@ -52,6 +62,8 @@ download.
 We will introduce the most simple way for you to add libraries .
 
 |image4|
+
+.. _45-projects:
 
 4.5 Projects
 ------------
@@ -103,18 +115,17 @@ adjusting the delayed time.
 
 **1.3 What You Need**
 
-+------------+------------+----------+---------------------------+---------------------------+
-| PLUS       | Sensor     | White    | USB cable*1               | 3pin F-F Dupont line*1    |
-| control    | shield*1   | LED      |                           |                           |
-| board*1    |            | module   |                           |                           |
-|            |            | \*1      |                           |                           |
-+============+============+==========+===========================+===========================+
-| |image7|   | |image8|   | |image9| | |image-20250607135359678| | |image-20250607135414734| |
-+------------+------------+----------+---------------------------+---------------------------+
++-------------+-------------+-------------+---------------------------+---------------------------+
+| PLUS        | Sensor      | White LED   | USB cable*1               | 3pin F-F Dupont line*1    |
+| control     | shield*1    | module \*1  |                           |                           |
+| board*1     |             |             |                           |                           |
++=============+=============+=============+===========================+===========================+
+| |image10|   | |image11|   | |image12|   | |image-20250607135359678| | |image-20250607135414734| |
++-------------+-------------+-------------+---------------------------+---------------------------+
 
 **1.4 Sensor Shield**
 
-|image10|
+|image13|
 
 We usually combine Arduino control board with a large number of sensors
 and modules. However, the pins and ports are limited on control board.
@@ -130,13 +141,13 @@ and 2 signal lights.
 
 **1.5 Pins Description**
 
-|image11|
+|image14|
 
 **1.6 Wiring Diagram**
 
 Connect LED module with D13 of shield.
 
-|image12|
+|image15|
 
 Note: pin G, V and S of white LED module are connected with G, V and 13
 of V5 board.
@@ -178,7 +189,7 @@ grammar of Arduino is based on C.
 
 Comments generally have two forms of expression:
 
-/\* …….*/ : suitable for long paragraph comments
+/\* .......*/ : suitable for long paragraph comments
 
 // : suitable for mono line comments
 
@@ -244,8 +255,8 @@ Similarly, we make D13 output low level, LED will turn off.
 
    delay(1000); // wait for a second
 
-Delay for 1s, light on LED–keep on 1s–light off LED–stay on 1s, iterate
-the process. LED flashes with 1-second interval.
+Delay for 1s, light on LED--keep on 1s--light off LED--stay on 1s,
+iterate the process. LED flashes with 1-second interval.
 
 What if you want to make LED flash rapidly? You only need to modify the
 value of delay block. Reducing the delay value implies that the time you
@@ -255,7 +266,7 @@ LED flash slowly.
 Project 2：Breathing Light
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|image13|
+|image16|
 
 **2.1 Description**
 
@@ -273,7 +284,7 @@ to control the analog output.In general, the input voltage of port are
 and 3.5V? We can’t change resistor constantly. For this situation, we
 need to control by PWM.
 
-|image14|
+|image17|
 
 For the Arduino digital port voltage output, there are only LOW and
 HIGH, which correspond to the voltage output of 0V and 5V. You can
@@ -295,12 +306,12 @@ the more accurately control.
 | control     | shield*1    | module*1    |             | Dupont      |
 | board*1     |             |             |             | line*1      |
 +=============+=============+=============+=============+=============+
-| |image15|   | |image16|   | |image17|   | |image18|   | |image19|   |
+| |image23|   | |image24|   | |image25|   | |image26|   | |image27|   |
 +-------------+-------------+-------------+-------------+-------------+
 
 **2.3 Wiring Diagram**
 
-|image20|
+|image28|
 
 Note: on sensor shield, the G, V and S pins of yellow LED module are
 connected with G, V and 5.
@@ -339,7 +350,7 @@ LED smoothly changes its brightness from dark to bright and back to
 dark, continuing to do so, which is similar to a lung breathing in and
 out.
 
-|image21|
+|image29|
 
 **2.5 Code Analysis**
 
@@ -347,7 +358,7 @@ When we need to repeat some statements, we have to use “for” statement
 
 For statement format as follows:
 
-|image22|
+|image30|
 
 “for” cyclic sequence:
 
@@ -373,9 +384,9 @@ After knowing this order, go back to code:
    }
 
 The two “for”statement make value increase from 0 to 255, then reduce
-from 255 to 0, then increase to 255,….infinite loop
+from 255 to 0, then increase to 255,....infinite loop
 
-There is a new function in “for” statement —– analogWrite()
+There is a new function in “for” statement ----- analogWrite()
 
 We know that digital port only has two state of 0 and 1. So how to send
 an analog value to a digital value? Here, we need this function, observe
@@ -402,7 +413,7 @@ pulse width modulation.
 
 Through the following five square waves, let’s know more about PWM.
 
-|image23|
+|image31|
 
 In the above figure, the green line represents a period, and value of
 analogWrite() corresponds to a percentage which is called Duty Cycle as
@@ -421,7 +432,7 @@ Project 3：Passive Buzzer
 
 **3.1 Description**
 
-|image24|
+|image32|
 
 There are prolific interactive works completed by Arduino. The most
 common one is sound and light display. We always use LED to make
@@ -437,17 +448,17 @@ passive buzzer emit “do re mi fa so la si do”, and play specific songs.
 
 **3.2 What You Need**
 
-+--------------+---------------+------------+------------+------------+
-| PLUS control | Sensor        | Passive    | USB        | 3pin F-F   |
-| board*1      | shield*1      | buzzer*1   | cable*1    | Dupont     |
-|              |               |            |            | line*1     |
-+==============+===============+============+============+============+
-| |image25|    | |image26|     | |image27|  | |image28|  | |image29|  |
-+--------------+---------------+------------+------------+------------+
++-------------+-------------+-------------+-------------+-------------+
+| PLUS        | Sensor      | Passive     | USB cable*1 | 3pin F-F    |
+| control     | shield*1    | buzzer*1    |             | Dupont      |
+| board*1     |             |             |             | line*1      |
++=============+=============+=============+=============+=============+
+| |image38|   | |image39|   | |image40|   | |image41|   | |image42|   |
++-------------+-------------+-------------+-------------+-------------+
 
 **3.2 Wiring Diagram**
 
-|image30|
+|image43|
 
 The G, V and S pins of passive buzzer are connected to G, V and 3.
 
@@ -493,7 +504,7 @@ The G, V and S pins of passive buzzer are connected to G, V and 3.
 From the above code, number 80 and 100 decide frequency in “for”
 statement. Delay time controls duration, like the beat in music.
 
-|image31|
+|image44|
 
 We will play fabulous music if control ling frequency and beats well, so
 let’s figure out the frequency of tones. As shown below:
@@ -545,11 +556,11 @@ produced when every note plays a certain amount of time. The note rhythm
 is divided into one beat, half beat, 1/4 beat, 1/8 beat,.
 
 The time for a note is stipulated as half beat( 0.5), 1/4 beat(0.250,
-1/8 beat( 0.125)….., therefore, the music is played.
+1/8 beat( 0.125)....., therefore, the music is played.
 
 We will take an example of “Ode to joy”
 
-|image32|
+|image45|
 
 From notation, the music is 4/4 beat.
 
@@ -558,7 +569,7 @@ There are special notes we need to explain:
 1. Normal note, like the first note 3, correspond to 350(frequency),
    occupy 1 beat
 2. The note with underline means 0.5 beat
-3. The note with dot(|image33|)means that 0.5 beat is added, that is
+3. The note with dot(|image46|)means that 0.5 beat is added, that is
    1+0.5 beat
 4. The note with”—” represents that 1 beat is added, that is 1+1 beat.
 5. The two successive notes with arc imply legato, you could slightly
@@ -667,12 +678,12 @@ Upload test code on the development board.
 
 Do you hear “Ode to joy”?
 
-|image34|
+|image47|
 
 Project 4：Button module
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-|image35|
+|image48|
 
 **4.1 Description**
 
@@ -690,17 +701,17 @@ contact will go back to be the initial state, that is, off state.
 
 **4.2 What You Need**
 
-+-----------+------------+------------+-----------+-----------+-----------+
-| PLUS      | Sensor     | Yellow LED | Button    | USB       | 3pin F-F  |
-| control   | shield*1   | module*1   | sensor*1  | cable*1   | Dupont    |
-| board*1   |            |            |           |           | line*2    |
-+===========+============+============+===========+===========+===========+
-| |image36| | |image37|  | |image38|  | |image39| | |image40| | |image41| |
-+-----------+------------+------------+-----------+-----------+-----------+
++-----------+-----------+-----------+-----------+-------------+-----------+
+| PLUS      | Sensor    | Yellow    | Button    | USB cable*1 | 3pin F-F  |
+| control   | shield*1  | LED       | sensor*1  |             | Dupont    |
+| board*1   |           | module*1  |           |             | line*2    |
++===========+===========+===========+===========+=============+===========+
+| |image55| | |image56| | |image57| | |image58| | |image59|   | |image60| |
++-----------+-----------+-----------+-----------+-------------+-----------+
 
 **4.3 Wiring Diagram**
 
-|image42|
+|image61|
 
 Note: The G, V, and S pins of button sensor module are separately
 connected to G, V, and 4 on the shield, and the G, V, and S pins of the
@@ -709,7 +720,7 @@ yellow LED module are connected with G, V, and 5 on the shield.
 **4.4 Test Code**
 
 Then, we will design the program to make LED on by button. Comparing
-with previous experiments, we add a conditional judgement statement —
+with previous experiments, we add a conditional judgement statement ---
 “if” statement. The written sentences of Arduino is based on C language,
 therefore, the condition judgement statement of C is suitable for
 Arduino, like while, swich, etc.
@@ -754,12 +765,12 @@ circuits and electrical appliances.
 
 The back-light will be on when the button is pressed.
 
-|image43|
+|image62|
 
 Project 5：1-channel Relay Module
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|image44|
+|image63|
 
 **5.1 Description：**
 
@@ -768,7 +779,7 @@ sensor expansion board. It has a control system (also called an input
 loop) and a controlled system (also called an output loop).
 
 Commonly used in automatic control circuits, the relay module is an
-“automatic switch” that controls a larger current and a lower voltage
+"automatic switch" that controls a larger current and a lower voltage
 with a smaller current and a lower voltage.
 
 Therefore, it plays the role of automatic adjustment, safety protection
@@ -781,7 +792,7 @@ armature B, spring C, moving contact D, static contact (normally open
 contact) E, and static contact (normally closed contact) F, (as shown in
 the figure ).
 
-|image45|
+|image64|
 
 As long as a certain voltage is applied to both ends of the coil, a
 certain current will flow through the coil to generate electromagnetic
@@ -795,11 +806,11 @@ releasing the moving contact and the original static contact (normally
 closed contact).
 
 This pulls in and releases, thus achieving the purpose of turning on and
-off in the circuit. The “normally open and closed” contacts of the relay
+off in the circuit. The "normally open and closed" contacts of the relay
 can be distinguished in this way: the static contacts on disconnected
-state when the relay coil is powered off are called “normally open
-contacts”; the static contacts on connected state are called “normally
-closed contact”. The module comes with 2 positioning holes for you to
+state when the relay coil is powered off are called "normally open
+contacts"; the static contacts on connected state are called "normally
+closed contact". The module comes with 2 positioning holes for you to
 fix the module to other equipment.
 
 **5.2 Specifications：**
@@ -821,25 +832,25 @@ fix the module to other equipment.
 
 **5.3 What You Need**
 
-+---------------------------+---------------------------+-----------------+
-| PLUS control board*1      | Sensor shield*1           | USB cable*1     |
-+===========================+===========================+=================+
-| |image46|                 | |image47|                 | |image48|       |
-+---------------------------+---------------------------+-----------------+
-| Relay module*1            | White LED*1               | 3pin F-F Dupont |
-|                           |                           | Line*1          |
-+---------------------------+---------------------------+-----------------+
-| |image-20250607140735042| | |image-20250607140751056| | |image49|       |
-+---------------------------+---------------------------+-----------------+
-| Female to Female Dupont   | Male to Female Dupont     |                 |
-| Lines*2                   | Line*2                    |                 |
-+---------------------------+---------------------------+-----------------+
-| |image50|                 | |image-20250607140835461| |                 |
-+---------------------------+---------------------------+-----------------+
++---------------------------+---------------------------+----------------------+
+| PLUS control board*1      | Sensor shield*1           | USB cable*1          |
++===========================+===========================+======================+
+| |image70|                 | |image71|                 | |image72|            |
++---------------------------+---------------------------+----------------------+
+| Relay module*1            | White LED*1               | 3pin F-F Dupont      |
+|                           |                           | Line*1               |
++---------------------------+---------------------------+----------------------+
+| |image-20250607140735042| | |image-20250607140751056| | |image73|            |
++---------------------------+---------------------------+----------------------+
+| Female to Female Dupont   | Male to Female Dupont     |                      |
+| Lines*2                   | Line*2                    |                      |
++---------------------------+---------------------------+----------------------+
+| |image74|                 | |image-20250607140835461| |                      |
++---------------------------+---------------------------+----------------------+
 
 **5.4 Wiring Diagram：**
 
-|image51|
+|image75|
 
 Note: On the shield, the G, V, and S pins of 1-channel relay module are
 connected to G, V, and 12 respectively. The NO is connected with V; the
@@ -878,14 +889,14 @@ When the relay is connected(“NO” is on , NC is off) for 0.5s, the white
 LED will be on; conversely, when it is disconnected, the white LED will
 go off.
 
-|image52|
+|image76|
 
 Project 6：Photocell Sensor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **6.1 Description：**
 
-|image53|
+|image77|
 
 The photocell sensor (photoresistor) is a resistor made by the
 photoelectric effect of a semiconductor. As highly sensitive to ambient
@@ -906,17 +917,17 @@ light control circuit as well.
 
 **6.2 What You Need**
 
-+-----------+------------+-----------+------------+-----------+-----------+
-| PLUS      | Sensor     | Photocell | Yellow LED | USB       | 3pin F-F  |
-| control   | shield \*1 | sensor*1  | module*1   | cable*1   | Dupont    |
-| board*1   |            |           |            |           | line*2    |
-+===========+============+===========+============+===========+===========+
-| |image54| | |image55|  | |image56| | |image57|  | |image58| | |image59| |
-+-----------+------------+-----------+------------+-----------+-----------+
++-----------+-----------+-----------+-----------+-------------+-----------+
+| PLUS      | Sensor    | Photocell | Yellow    | USB cable*1 | 3pin F-F  |
+| control   | shield*1  | sensor*1  | LED       |             | Dupont    |
+| board*1   |           |           | module*1  |             | line*2    |
++===========+===========+===========+===========+=============+===========+
+| |image84| | |image85| | |image86| | |image87| | |image88|   | |image89| |
++-----------+-----------+-----------+-----------+-------------+-----------+
 
 **6.3 Wiring Diagram：**
 
-|image60|
+|image90|
 
 Note: On the expansion board, the G, V, and S pins of the photocell
 sensor module are connected to G, V, and A1; the G, V, and S pins of the
@@ -968,12 +979,12 @@ The analog value will gradually decrease if there is light. When the
 value is up to 900, this value can be set up according to the brightness
 you choose
 
-|image61|
+|image91|
 
 Project 7：Adjusting Servo Angle
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|image62|
+|image92|
 
 **7.1 Description：**
 
@@ -990,16 +1001,16 @@ voltage of the potentiometer and obtains the voltage difference output.
 When the motor speed is constant, the potentiometer is driven to rotate
 through the cascade reduction gear, which leads 0 voltage difference,
 and the motor stops rotating. Generally, the angle range of servo
-rotation is 0° –180 °
+rotation is 0° --180 °
 
 The rotation angle of servo motor is controlled by regulating the duty
 cycle of PWM (Pulse-Width Modulation) signal. The standard cycle of PWM
 signal is 20ms (50Hz). Theoretically, the width is distributed between
-1ms-2ms, but in fact, it’s between 0.5ms-2.5ms. The width corresponds to
+1ms-2ms, but in fact, it's between 0.5ms-2.5ms. The width corresponds to
 the rotation angle from 0° to 180°. But note that for different brand
 motor, the same signal may have different rotation angle.
 
-|image63|
+|image93|
 
 One way is using a common digital sensor port of Arduino to produce
 square wave with different duty cycle and to simulate PWM signal and use
@@ -1034,16 +1045,15 @@ recommend the external power.
 
 **7.3 What You Need**
 
-+------------------+------------------+---------------+---------------+
-| PLUS control     | Sensor shield*1  | Servo*1       | USB cable*1   |
-| board*1          |                  |               |               |
-+==================+==================+===============+===============+
-| |image64|        | |image65|        | |image66|     | |image67|     |
-+------------------+------------------+---------------+---------------+
+==================== =============== ========= ===========
+PLUS control board*1 Sensor shield*1 Servo*1   USB cable*1
+==================== =============== ========= ===========
+|image94|            |image95|       |image96| |image97|
+==================== =============== ========= ===========
 
 **7.4 Wiring Diagram：**
 
-|image68|
+|image98|
 
 Note: The servo is connected to G (GND), V (VCC), 9. The brown wire of
 the servo is connected to Gnd (G), the red wire is connected with 5v
@@ -1087,12 +1097,12 @@ the servo is connected to Gnd (G), the red wire is connected with 5v
 Upload code, wire up components according to connection diagram, and
 power on. The servo rotates from 0° to 180° then from 180°~0°
 
-|image69|
+|image99|
 
 Project 8：Fan Module
 ~~~~~~~~~~~~~~~~~~~~~
 
-|image70|
+|image100|
 
 **8.1 Description**
 
@@ -1112,18 +1122,18 @@ efficient, with high quality fan, which can put out the flame within
 
 **8.3 What You Need**
 
-+--------------+---------------+------------+------------+------------+
-| PLUS control | Sensor        | Fan        | USB        | Female to  |
-| board*1      | shield*1      | module*1   | cable*1    | Female     |
-|              |               |            |            | Dupont     |
-|              |               |            |            | lines*4    |
-+==============+===============+============+============+============+
-| |image71|    | |image72|     | |image73|  | |image74|  | |image75|  |
-+--------------+---------------+------------+------------+------------+
++-------------+-------------+-------------+-------------+-------------+
+| PLUS        | Sensor      | Fan         | USB cable*1 | Female to   |
+| control     | shield*1    | module*1    |             | Female      |
+| board*1     |             |             |             | Dupont      |
+|             |             |             |             | lines*4     |
++=============+=============+=============+=============+=============+
+| |image106|  | |image107|  | |image108|  | |image109|  | |image110|  |
++-------------+-------------+-------------+-------------+-------------+
 
 **8.4 Wiring Diagram：**
 
-|image76|
+|image111|
 
 Note: On the shield, the GND, VCC, INA, and INB pins of the fan module
 are respectively connected to G, V, 7, 6.
@@ -1164,12 +1174,12 @@ diagram, and dial the DIP switch to right side and power on. The fan
 rotates counterclockwise for 3000ms, stops for 1000ms, then rotates
 clockwise for 3000ms.
 
-|image77|
+|image112|
 
 Project 9: Steam Sensor
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-|image78|
+|image113|
 
 **9.1 Description：**
 
@@ -1201,17 +1211,17 @@ in the water please.
 
 **9.3 What You Need**
 
-+--------------+---------------+------------+------------+------------+
-| PLUS control | Sensor        | Steam      | USB        | 3pinF-F    |
-| board*1      | shield*1      | sensor*1   | cable*1    | Dupont     |
-|              |               |            |            | line*1     |
-+==============+===============+============+============+============+
-| |image79|    | |image80|     | |image81|  | |image82|  | |image83|  |
-+--------------+---------------+------------+------------+------------+
++-------------+-------------+-------------+-------------+-------------+
+| PLUS        | Sensor      | Steam       | USB cable*1 | 3pinF-F     |
+| control     | shield*1    | sensor*1    |             | Dupont      |
+| board*1     |             |             |             | line*1      |
++=============+=============+=============+=============+=============+
+| |image119|  | |image120|  | |image121|  | |image122|  | |image123|  |
++-------------+-------------+-------------+-------------+-------------+
 
 **9.4 Wiring Diagram：**
 
-|image84|
+|image124|
 
 Note: On the sensor shield, the pins G，V and S of steam sensor are
 connected to G, V and A3
@@ -1248,16 +1258,16 @@ different current value. As shown below;
 When the sensor detects the steam of boiled water, the moisture value is
 displayed on serial monitor of ARDUINO software.
 
-|image85|
+|image125|
 
-|image86|
+|image126|
 
 Project 10: PIR Motion Sensor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **10.1 Description：**
 
-|image87|
+|image127|
 
 The Pyroelectric infrared motion sensor can detect infrared signals from
 moving objects, and output switching signals. Applied to a variety of
@@ -1309,21 +1319,21 @@ reduce when temperature exceeds 30℃.
 
 **10.3 What You Need**
 
-+-----------------+-----------------+----------------+----------------+
-| PLUS control    | Sensor shield*1 | PIR motion     | F-F Dupont     |
-| board*1         |                 | sensor*1       | lines*4        |
-+=================+=================+================+================+
-| |image88|       | |image89|       | |image90|      | |image91|      |
-+-----------------+-----------------+----------------+----------------+
-| Fan module*1    | White LED       | USB cable*1    | 3pinF-F Dupont |
-|                 | module*1        |                | line*2         |
-+-----------------+-----------------+----------------+----------------+
-| |image92|       | |image93|       | |image94|      | |image95|      |
-+-----------------+-----------------+----------------+----------------+
++----------------+----------------+----------------+----------------+
+| PLUS control   | Sensor         | PIR motion     | F-F Dupont     |
+| board*1        | shield*1       | sensor*1       | lines*4        |
++================+================+================+================+
+| |image136|     | |image137|     | |image138|     | |image139|     |
++----------------+----------------+----------------+----------------+
+| Fan module*1   | White LED      | USB cable*1    | 3pinF-F Dupont |
+|                | module*1       |                | line*2         |
++----------------+----------------+----------------+----------------+
+| |image140|     | |image141|     | |image142|     | |image143|     |
++----------------+----------------+----------------+----------------+
 
 **10.4 Wiring Diagram：**
 
-|image96|
+|image144|
 
 Note: On the shield, the G, V and S of PIR motion sensor are connected
 to G, V and 2; the GND, VCC, INA and INB of fan module are separately
@@ -1375,12 +1385,12 @@ will display “1” , and LED and D13 will be turned on as well, and fan
 will rotate. If nobody is around, the serial monitor will show “0”,
 indicators will be off and fan will stop rotating.
 
-|image97|
+|image145|
 
 Project 11: Analog Gas Sensor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|image98|
+|image146|
 
 **11.1 Description：**
 
@@ -1428,21 +1438,21 @@ the potentiometer.
 
 **11.3 What you need**
 
-+------------------+------------------+---------------+---------------+
-| PLUS control     | Sensor shield*1  | MQ-2 gas      | 3pinF-FDupont |
-| board*1          |                  | sensor*1      | Cable*1       |
-+==================+==================+===============+===============+
-| |image99|        | |image100|       | |image101|    | |image102|    |
-+------------------+------------------+---------------+---------------+
-| **Passive        | **USB cable*1**  | **F-F Dupint  |               |
-| buzzer*1**       |                  | line*8**      |               |
-+------------------+------------------+---------------+---------------+
-| |image103|       | |image104|       | |image105|    |               |
-+------------------+------------------+---------------+---------------+
++----------------+-----------------+----------------+----------------+
+| PLUS control   | Sensor shield*1 | MQ-2 gas       | 3pinF-FDupont  |
+| board*1        |                 | sensor*1       | Cable*1        |
++================+=================+================+================+
+| |image154|     | |image155|      | |image156|     | |image157|     |
++----------------+-----------------+----------------+----------------+
+| **Passive      | **USB cable*1** | **F-F Dupint   |                |
+| buzzer*1**     |                 | line*8**       |                |
++----------------+-----------------+----------------+----------------+
+| |image158|     | |image159|      | |image160|     |                |
++----------------+-----------------+----------------+----------------+
 
 **11.4 Wiring Diagram：**
 
-|image106|
+|image161|
 
 Note: On the shield, the pin GND, VCC, D0 and A0 of gas sensor are
 connected with pin G, V and A0. The pin G,V and S of passive buzzer are
@@ -1490,12 +1500,12 @@ power on. When the detected value of flammable gas is greater than 70,
 the passive buzzer will emit sound, however, when there is no flammable
 gas, the passive buzzer won’t emit a sound.
 
-|image107|
+|image162|
 
 Project 12: 1602 LCD Display
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|image108|
+|image163|
 
 **12.1 Description：**
 
@@ -1534,17 +1544,17 @@ become more visible or less visible.
 
 **12.3 What You Need**
 
-+-------------+--------------+--------------+-------------+------------+
-| PLUS        | Sensor       | 1602 LCD     | USB cable*1 | 4pinF-F    |
-| control     | shield*1     | Display*1    |             | Dupont     |
-| board*1     |              |              |             | line*1     |
-+=============+==============+==============+=============+============+
-| |image109|  | |image110|   | |image111|   | |image112|  | |image113| |
-+-------------+--------------+--------------+-------------+------------+
++-------------+-------------+-------------+-------------+-------------+
+| PLUS        | Sensor      | 1602 LCD    | USB cable*1 | 4pinF-F     |
+| control     | shield*1    | Display*1   |             | Dupont      |
+| board*1     |             |             |             | line*1      |
++=============+=============+=============+=============+=============+
+| |image169|  | |image170|  | |image171|  | |image172|  | |image173|  |
++-------------+-------------+-------------+-------------+-------------+
 
 **12.4 Wiring Diagram：**
 
-|image114|
+|image174|
 
 Note: there are pin GND, VCC, SDA and SCL on 1602LCD module. GND is
 connected with GND（-）of IIC communication, VCC is connected to
@@ -1582,23 +1592,23 @@ connected with GND（-）of IIC communication, VCC is connected to
 **12.6 Test Result**
 
 After hooking up components and uploading sample code, the 1602 LCD will
-print “Hello, world!, keyestudio!”, and you can adjust LCD backlight
+print "Hello, world!, keyestudio!", and you can adjust LCD backlight
 with a potentiometer.
 
-|image115|
+|image175|
 
 Note: When the display doesn’t show characters, you can adjust the
 potentiometer behind the 1602LCD and backlight to make the 1602LCD
 display the corresponding character string.
 
-|image116|
+|image176|
 
 Project 13：Soil Humidity Sensor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **13.1 Description**
 
-|image117|
+|image177|
 
 This is a sensor to detect the soil humidity.
 
@@ -1631,23 +1641,21 @@ devices.
 
 **13.3 What You Need**
 
-+-----------------+-----------------+--------------+-----------------+
-| PLUS control    | Sensor shield*1 | Soil         | 1602 LCD        |
-| board*1         |                 | humidity     | display*1       |
-|                 |                 | sensor*1     |                 |
-+=================+=================+==============+=================+
-| |image118|      | |image119|      | |image120|   | |image121|      |
-+-----------------+-----------------+--------------+-----------------+
-| USB cable*1     | 4pinF-F Dupont  | 3pinF-F      |                 |
-|                 | line*1          | Dupont       |                 |
-|                 |                 | line*1       |                 |
-+-----------------+-----------------+--------------+-----------------+
-| |image122|      | |image123|      | |image124|   |                 |
-+-----------------+-----------------+--------------+-----------------+
++----------------+----------------+----------------+----------------+
+| PLUS control   | Sensor         | Soil humidity  | 1602 LCD       |
+| board*1        | shield*1       | sensor*1       | display*1      |
++================+================+================+================+
+| |image185|     | |image186|     | |image187|     | |image188|     |
++----------------+----------------+----------------+----------------+
+| USB cable*1    | 4pinF-F Dupont | 3pinF-F Dupont |                |
+|                | line*1         | line*1         |                |
++----------------+----------------+----------------+----------------+
+| |image189|     | |image190|     | |image191|     |                |
++----------------+----------------+----------------+----------------+
 
 **13.4 Wiring Diagram：**
 
-|image125|
+|image192|
 
 Note: On the shield, the pin G, V and S of soil humidity sensor are
 connected to G, V and A2; GND of 1602 LCD is connected with GND of ICC
@@ -1729,14 +1737,14 @@ into the soil.
 The greater the humidity is, the larger the value(0-1023). Also, the
 1602 LCD will display the corresponding value.
 
-|image126|
+|image193|
 
 Project 14: Bluetooth Test
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 14.1 Description
 
-|image127|
+|image194|
 
 Bluetooth technology is a wireless standard technology that enables
 short-distance data exchange between fixed devices, mobile devices, and
@@ -1758,29 +1766,30 @@ smart home kit.
 
 We also provide you with APP for Android and iOS system.
 
-+-------+-----------------------------------------------------------------+
-| Pins  | Description                                                     |
-+=======+=================================================================+
-| BRK   | As the input pin, short press control, or input single pulse of |
-|       | 100ms low level to achieve the following functions: When module |
-|       | is in sleep state: Module is activated to normal state, if open |
-|       | AT+NOTI, serial port will send OK+WAKE. When in connected       |
-|       | state: Module will actively request to disconnect When in       |
-|       | standby mode: Module will be in initial state                   |
-+-------+-----------------------------------------------------------------+
-| RXD   | Serial data inputs                                              |
-+-------+-----------------------------------------------------------------+
-| TXD   | Serial data outputs                                             |
-+-------+-----------------------------------------------------------------+
-| GND   | ground lead                                                     |
-+-------+-----------------------------------------------------------------+
-| VCC   | Positive pole of power, input 5V                                |
-+-------+-----------------------------------------------------------------+
-| STATE | As output pin, show the working state of module Flash slowly in |
-|       | standby state——repeat 500ms pulse； Always light up in          |
-|       | connected state——high level You could set to no flashing in     |
-|       | standby state, always light up in connected state               |
-+-------+-----------------------------------------------------------------+
++-------+--------------------------------------------------------------+
+| Pins  | Description                                                  |
++=======+==============================================================+
+| BRK   | As the input pin, short press control, or input single pulse |
+|       | of 100ms low level to achieve the following functions: When  |
+|       | module is in sleep state: Module is activated to normal      |
+|       | state, if open AT+NOTI, serial port will send OK+WAKE. When  |
+|       | in connected state: Module will actively request to          |
+|       | disconnect When in standby mode: Module will be in initial   |
+|       | state                                                        |
++-------+--------------------------------------------------------------+
+| RXD   | Serial data inputs                                           |
++-------+--------------------------------------------------------------+
+| TXD   | Serial data outputs                                          |
++-------+--------------------------------------------------------------+
+| GND   | ground lead                                                  |
++-------+--------------------------------------------------------------+
+| VCC   | Positive pole of power, input 5V                             |
++-------+--------------------------------------------------------------+
+| STATE | As output pin, show the working state of module Flash slowly |
+|       | in standby state——repeat 500ms pulse； Always light up in    |
+|       | connected state——high level You could set to no flashing in  |
+|       | standby state, always light up in connected state            |
++-------+--------------------------------------------------------------+
 
 **14.2 Parameters:**
 
@@ -1818,11 +1827,11 @@ We also provide you with APP for Android and iOS system.
 **14.3 Using Bluetooth APP**
 
 In the previous lesson, we’ve introduced the basic parameter principle
-of HM-10 Bluetooth module. In this project, let’s show you how to use
+of HM-10 Bluetooth module. In this project, let's show you how to use
 the HM-10 Bluetooth module. In order to efficiently control this kit by
 HM-10 Bluetooth module, we specially designed an APP, as shown below.
 
-|image128|
+|image195|
 
 There are twelve control buttons and four sliders on App. When we press
 control button on APP, the Bluetooth of cellphone will send a control
@@ -1845,19 +1854,19 @@ https://play.google.com/store/apps/details?id=com.keyestudio.iot_keyes
 Open the app\ |image-20250416164302672|\ ，and the interface will pop up
 as below:
 
-|image129|
+|image196|
 
 Upload code and power on. LED of Bluetooth module blinks.
 
 Start Bluetooth of your cellphone and open App to click “SCANNING” to
 pair.
 
-|image130|
+|image197|
 
 Click “Connect”, then Bluetooth is connected successfully(indicator is
 always on). As shown below;
 
-|image131|
+|image198|
 
 **iOS System：**
 
@@ -1865,18 +1874,16 @@ always on). As shown below;
 
 (2) Search “IoT keyes”on APP store, then click “download”.
 
-.. figure:: ./media/image-20230523171616100-1749275326332-82.png
-   :alt: image-20230523171616100
-
-   image-20230523171616100
+|image-20230523171616100|
 
 (3) After the app is installed successfully,
-    tap\ |image-20250416164358790|\ to enter the interface as follows:
+tap\ |image-20250416164358790-1749275326332-83|\ to enter the interface
+as follows:
 
-|image132|
+|image199|
 
 (4) After uploading the test code successfully, insert the Bluetooth
-    module and power on.
+module and power on.
 
 First start the Bluetooth on cellphone, then click “connect” on app to
 search Bluetooth and pair. After paring successfully, the LED of
@@ -1890,7 +1897,7 @@ code.
 
 **14.4 Wiring Diagram：**
 
-|image133|
+|image200|
 
 Note: On the sensor expansion board, the RXD, TXD, GND, and VCC of the
 Bluetooth module are respectively connected to TXD, RXD, GND, and 5V,
@@ -1922,16 +1929,16 @@ connecting.
        }
    }
 
-|image134|
+|image201|
 
 The function of corresponding character and button is shown below:
 
-|image135|
+|image202|
 
 Project 15：Multi-purpose Smart Home
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|image136|
+|image203|
 
 **15.1 Description**
 
@@ -1941,7 +1948,7 @@ functions of this smart home.
 
 We will achieve the effect as follows:
 
-|image137|
+|image204|
 
 **1.Photocell sensor, PIR motion sensor and LED.** When at night,
 someone passes by, LED is on; nobody is around, the LED is off.
@@ -1971,22 +1978,22 @@ doesn’t rotate）
 **3.Insert soil humidity sensor into a plant pot.** When the soil is too
 dry, the buzzer will alarm and you will get the notification from app.
 
-|image138|
+|image205|
 
 **(4) When the gas sensor detects the gas with high concentration,** the
-buzzer will emit a “tick,tick” alarm sound.
+buzzer will emit a "tick,tick" alarm sound.
 
-|image139|
+|image206|
 
 **(5) When steam sensor detects rains,** the servo 2 will be activated
 and the window will be closed automatically, otherwise, the window will
 be open.
 
-|image140|
+|image207|
 
 **15.2 What You Need**
 
-|image141|
+|image208|
 
 Keyestudio PLUS Control Board \* 1, sensor shield \* 1, Bluetooth module
 \* 1, PIR motion sensor\* 1, photocell sensor \* 1, button sensor \* 2,
@@ -1998,45 +2005,44 @@ several FF dupont cable, USB cable \* 1
 
 **15.3 Wiring diagram：**
 
-|image142|
+|image209|
 
-+----------------------------+-----------------------+-------------+---+
-| Name                       | sensors and sensor    | board       |   |
-|                            | shield                |             |   |
-+============================+=======================+=============+===+
-| PIR Motion Sensor          | G/V/S                 | G/V/2       | ⑤ |
-+----------------------------+-----------------------+-------------+---+
-| Passive Buzzer             | G/V/S                 | G/V/3       | ⑯ |
-+----------------------------+-----------------------+-------------+---+
-| Button sensor 1            | G/V/S                 | G/V/4       | ③ |
-+----------------------------+-----------------------+-------------+---+
-| Yellow LED Module          | G/V/S                 | G/V/5       | ⑫ |
-+----------------------------+-----------------------+-------------+---+
-| Fan Module                 | GND/VCC/ INA/INB      | G/V/7/6     | ⑮ |
-+----------------------------+-----------------------+-------------+---+
-| Button Module 2            | G/V/S                 | G/V/8       | ④ |
-+----------------------------+-----------------------+-------------+---+
-| Servo 1 controlling the    | Brown/Red/ Orange     | G/V/9       | ⑰ |
-| door                       | Wire                  |             |   |
-+----------------------------+-----------------------+-------------+---+
-| Servo 2 controlling the    | Brown/Red/ Orange     | G/V/10      | ⑪ |
-| window                     | Wire                  |             |   |
-+----------------------------+-----------------------+-------------+---+
-| MQ-2 Gas Sensor            | GND/VCC/ D0/A0        | G/V/11/A0   | ⑩ |
-+----------------------------+-----------------------+-------------+---+
-| Relay Module               | G/V/S                 | G/V/12      | ⑥ |
-+----------------------------+-----------------------+-------------+---+
-| White LED                  | G/V/S                 | G/V/13      | ① |
-+----------------------------+-----------------------+-------------+---+
-| LCD1602 Display            | GND/VCC /SDA/SCL      | GND/5V      | ② |
-|                            |                       | /SDA/SCL    |   |
-+----------------------------+-----------------------+-------------+---+
-| Photocell Sensor           | G/V/S                 | G/V/A1      | ⑭ |
-+----------------------------+-----------------------+-------------+---+
-| Soil Humidity Sensor       | G/V/S                 | G/V/A2      |   |
-+----------------------------+-----------------------+-------------+---+
-| Steam Sensor               | G/V/S                 | G/V/A3      | ⑬ |
-+----------------------------+-----------------------+-------------+---+
++-----------------------+-----------------------+-----------------+---+
+| Name                  | sensors and sensor    | board           |   |
+|                       | shield                |                 |   |
++=======================+=======================+=================+===+
+| PIR Motion Sensor     | G/V/S                 | G/V/2           | ⑤ |
++-----------------------+-----------------------+-----------------+---+
+| Passive Buzzer        | G/V/S                 | G/V/3           | ⑯ |
++-----------------------+-----------------------+-----------------+---+
+| Button sensor 1       | G/V/S                 | G/V/4           | ③ |
++-----------------------+-----------------------+-----------------+---+
+| Yellow LED Module     | G/V/S                 | G/V/5           | ⑫ |
++-----------------------+-----------------------+-----------------+---+
+| Fan Module            | GND/VCC/ INA/INB      | G/V/7/6         | ⑮ |
++-----------------------+-----------------------+-----------------+---+
+| Button Module 2       | G/V/S                 | G/V/8           | ④ |
++-----------------------+-----------------------+-----------------+---+
+| Servo 1 controlling   | Brown/Red/ Orange     | G/V/9           | ⑰ |
+| the door              | Wire                  |                 |   |
++-----------------------+-----------------------+-----------------+---+
+| Servo 2 controlling   | Brown/Red/ Orange     | G/V/10          | ⑪ |
+| the window            | Wire                  |                 |   |
++-----------------------+-----------------------+-----------------+---+
+| MQ-2 Gas Sensor       | GND/VCC/ D0/A0        | G/V/11/A0       | ⑩ |
++-----------------------+-----------------------+-----------------+---+
+| Relay Module          | G/V/S                 | G/V/12          | ⑥ |
++-----------------------+-----------------------+-----------------+---+
+| White LED             | G/V/S                 | G/V/13          | ① |
++-----------------------+-----------------------+-----------------+---+
+| LCD1602 Display       | GND/VCC /SDA/SCL      | GND/5V /SDA/SCL | ② |
++-----------------------+-----------------------+-----------------+---+
+| Photocell Sensor      | G/V/S                 | G/V/A1          | ⑭ |
++-----------------------+-----------------------+-----------------+---+
+| Soil Humidity Sensor  | G/V/S                 | G/V/A2          |   |
++-----------------------+-----------------------+-----------------+---+
+| Steam Sensor          | G/V/S                 | G/V/A3          | ⑬ |
++-----------------------+-----------------------+-----------------+---+
 
 **15.4 Test Code：**
 
@@ -2618,142 +2624,210 @@ control the smart home through app.
 .. |image9| image:: ./media/image-20250607135333230.png
 .. |image-20250607135359678| image:: ./media/image-20250607135359678.png
 .. |image-20250607135414734| image:: ./media/image-20250607135414734.png
-.. |image10| image:: ./media/image-20230612104345186-1749275326331-28.png
-.. |image11| image:: ./media/fd2e9e9910365f3c5b7d8dda73620ac9-1749275326331-26.jpeg
-.. |image12| image:: ./media/f333bf0356bdac18485911e123ed4d2e-1749275326331-25.png
-.. |image13| image:: ./media/948e5cc836bce61cc8166cfda3a277b8-1749275326331-27.jpeg
-.. |image14| image:: ./media/bbcfcb9ae56abb7e80ee587246fc4be9-1749275326332-30.gif
-.. |image15| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image16| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image17| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
-.. |image18| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image19| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image20| image:: ./media/cd10f1f03f20f7465f1feee9e1bd0a67-1749275326332-31.png
-.. |image21| image:: ./media/84ac0b289e27c94f023d5fa83716d412-1749275326332-34.jpeg
-.. |image22| image:: ./media/65da124bdd0ea488291c71c6b879fe95-1749275326332-33.jpeg
-.. |image23| image:: ./media/553f3d1b6ca04e1aa0479841dd075fa2-1749275326332-32.png
-.. |image24| image:: ./media/image-20230612105405939-1749275326332-35.png
-.. |image25| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image26| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image27| image:: ./media/image-20250607140210570.png
-.. |image28| image:: ./media/image-20250607140300296.png
-.. |image29| image:: ./media/image-20250607140316135.png
-.. |image30| image:: ./media/1b0b1b98f6e805d4dca168a4c5ba97a7-1749275326332-36.png
-.. |image31| image:: ./media/7768261ac881df969bd5d384faca4ac5-1749275326332-41.png
-.. |image32| image:: ./media/528bf6b44f7d795ff487dce28fad43de-1749275326332-37.jpeg
-.. |image33| image:: ./media/d3e0cf5647f9ed8613ba339c25b1ec1f-1749275326332-38.png
-.. |image34| image:: ./media/image-20230612110252965-1749275326332-42.png
-.. |image35| image:: ./media/image-20230612110259469-1749275326332-39.png
-.. |image36| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image37| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image38| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
-.. |image39| image:: ./media/image-20250607140539890.png
-.. |image40| image:: ./media/image-20250607140553187.png
-.. |image41| image:: ./media/image-20250607140316135.png
-.. |image42| image:: ./media/48cb561fe113be0ceda220ebcf6ebb59-1749275326332-40.png
-.. |image43| image:: ./media/image-20230612110406053-1749275326332-43.png
-.. |image44| image:: ./media/image-20230612110412980-1749275326332-44.png
-.. |image45| image:: ./media/97319b6bfd2ebf5cef9d1a14d07ae538-1749275326332-45.jpeg
-.. |image46| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image47| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image48| image:: ./media/image-20250607140854949.png
+.. |image10| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image11| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image12| image:: ./media/image-20250607135333230.png
+.. |image13| image:: ./media/image-20230612104345186-1749275326331-28.png
+.. |image14| image:: ./media/fd2e9e9910365f3c5b7d8dda73620ac9-1749275326331-26.jpeg
+.. |image15| image:: ./media/f333bf0356bdac18485911e123ed4d2e-1749275326331-25.png
+.. |image16| image:: ./media/948e5cc836bce61cc8166cfda3a277b8-1749275326331-27.jpeg
+.. |image17| image:: ./media/bbcfcb9ae56abb7e80ee587246fc4be9-1749275326332-30.gif
+.. |image18| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image19| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image20| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
+.. |image21| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image22| image:: media/bad041b053825940869213d9f431ef96.png
+.. |image23| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image24| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image25| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
+.. |image26| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image27| image:: media/bad041b053825940869213d9f431ef96.png
+.. |image28| image:: ./media/cd10f1f03f20f7465f1feee9e1bd0a67-1749275326332-31.png
+.. |image29| image:: ./media/84ac0b289e27c94f023d5fa83716d412-1749275326332-34.jpeg
+.. |image30| image:: ./media/65da124bdd0ea488291c71c6b879fe95-1749275326332-33.jpeg
+.. |image31| image:: ./media/553f3d1b6ca04e1aa0479841dd075fa2-1749275326332-32.png
+.. |image32| image:: ./media/image-20230612105405939-1749275326332-35.png
+.. |image33| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image34| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image35| image:: ./media/image-20250607140210570.png
+.. |image36| image:: ./media/image-20250607140300296.png
+.. |image37| image:: ./media/image-20250607140316135.png
+.. |image38| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image39| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image40| image:: ./media/image-20250607140210570.png
+.. |image41| image:: ./media/image-20250607140300296.png
+.. |image42| image:: ./media/image-20250607140316135.png
+.. |image43| image:: ./media/1b0b1b98f6e805d4dca168a4c5ba97a7-1749275326332-36.png
+.. |image44| image:: ./media/7768261ac881df969bd5d384faca4ac5-1749275326332-41.png
+.. |image45| image:: ./media/528bf6b44f7d795ff487dce28fad43de-1749275326332-37.jpeg
+.. |image46| image:: ./media/d3e0cf5647f9ed8613ba339c25b1ec1f-1749275326332-38.png
+.. |image47| image:: ./media/image-20230612110252965-1749275326332-42.png
+.. |image48| image:: ./media/image-20230612110259469-1749275326332-39.png
+.. |image49| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image50| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image51| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
+.. |image52| image:: ./media/image-20250607140539890.png
+.. |image53| image:: ./media/image-20250607140553187.png
+.. |image54| image:: ./media/image-20250607140316135.png
+.. |image55| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image56| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image57| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
+.. |image58| image:: ./media/image-20250607140539890.png
+.. |image59| image:: ./media/image-20250607140553187.png
+.. |image60| image:: ./media/image-20250607140316135.png
+.. |image61| image:: ./media/48cb561fe113be0ceda220ebcf6ebb59-1749275326332-40.png
+.. |image62| image:: ./media/image-20230612110406053-1749275326332-43.png
+.. |image63| image:: ./media/image-20230612110412980-1749275326332-44.png
+.. |image64| image:: ./media/97319b6bfd2ebf5cef9d1a14d07ae538-1749275326332-45.jpeg
+.. |image65| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image66| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image67| image:: ./media/image-20250607140854949.png
 .. |image-20250607140735042| image:: ./media/image-20250607140735042.png
 .. |image-20250607140751056| image:: ./media/image-20250607140751056.png
-.. |image49| image:: ./media/image-20250607140316135.png
-.. |image50| image:: ./media/image-20250607140805233.png
+.. |image68| image:: ./media/image-20250607140316135.png
+.. |image69| image:: ./media/image-20250607140805233.png
 .. |image-20250607140835461| image:: ./media/image-20250607140835461.png
-.. |image51| image:: ./media/0bde162c8c3ae0e8917a8a9953827a68-1749275326332-47.png
-.. |image52| image:: ./media/d001ec087a1d48dd983be447505a7d27-1749275326332-46.jpeg
-.. |image53| image:: ./media/image-20230612110527917-1749275326332-48.png
-.. |image54| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image55| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image56| image:: ./media/image-20250607140948065.png
-.. |image57| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
-.. |image58| image:: ./media/image-20250607140914196.png
-.. |image59| image:: ./media/image-20250607140931260.png
-.. |image60| image:: ./media/38be559475a64e6b228f06b2e09e1d7a-1749275326332-51.png
-.. |image61| image:: ./media/image-20230612110618805-1749275326332-53.png
-.. |image62| image:: ./media/image-20230612110628157-1749275326332-49.png
-.. |image63| image:: ./media/image-20230612110643097-1749275326332-54.png
-.. |image64| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image65| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image66| image:: ./media/image-20250607141854669.png
-.. |image67| image:: ./media/image-20250607141911997.png
-.. |image68| image:: ./media/2993c9c61fb1185b6e24403e0eb53136-1749275326332-50.png
-.. |image69| image:: ./media/image-20230612110754405-1749275326332-52.png
-.. |image70| image:: ./media/image-20230612110803700-1749275326332-55.png
-.. |image71| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image72| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image73| image:: ./media/image-20250607142107188.png
-.. |image74| image:: ./media/image-20250607142140921.png
-.. |image75| image:: ./media/image-20250607142200500.png
-.. |image76| image:: ./media/a7ec518da57cd093981bd578ddc70aec-1749275326332-56.png
-.. |image77| image:: ./media/image-20230612110851044-1749275326332-57.png
-.. |image78| image:: ./media/image-20230612110856132-1749275326332-58.png
-.. |image79| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image80| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image81| image:: ./media/image-20250607142255148.png
-.. |image82| image:: ./media/image-20250607142301596.png
-.. |image83| image:: ./media/image-20250607142317775.png
-.. |image84| image:: ./media/b050f0182ffc81a13824af95511a9fe5-1749275326332-59.png
-.. |image85| image:: ./media/image-20230612110941990-1749275326332-60.png
-.. |image86| image:: ./media/7cd14fd4e82df9909603997f9ff6e615-1749275326332-61.jpeg
-.. |image87| image:: ./media/image-20230612110954811-1749275326332-68.png
-.. |image88| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image89| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image90| image:: ./media/image-20250607142405113.png
-.. |image91| image:: media/1b76ae2bbea30f1a9fe80b41de65ab94.png
-.. |image92| image:: media/54cdb977922bf3a61bf00d3b6468e403.jpeg
-.. |image93| image:: media/9cad01dce5c196317f665e6115b44c86.jpeg
-.. |image94| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image95| image:: media/bad041b053825940869213d9f431ef96.png
-.. |image96| image:: ./media/070ebbff591c015a1c2986e4d5e0803d-1749275326332-62.png
-.. |image97| image:: ./media/030b1fdb722ca22716bbed0a0503b91c-1749275326332-63.png
-.. |image98| image:: ./media/image-20230612111109389-1749275326332-65.png
-.. |image99| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image100| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image101| image:: ./media/image-20250607142949412.png
-.. |image102| image:: ./media/image-20250607143002332.png
-.. |image103| image:: ./media/image-20250607143031218.png
-.. |image104| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image105| image:: ./media/image-20250607142936523.png
-.. |image106| image:: ./media/5326feaab7a0b9887ef921e589694635-1749275326332-66.png
-.. |image107| image:: ./media/image-20230612111215876-1749275326332-67.png
-.. |image108| image:: ./media/ab1818942731c6e822a574ba5c0df31e-1749275326332-69.jpeg
-.. |image109| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image110| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image111| image:: media/ab1818942731c6e822a574ba5c0df31e.jpeg
-.. |image112| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image113| image:: ./media/image-20250607143119823.png
-.. |image114| image:: ./media/18e30bb459c2c24d40509741424c3fb9-1749275326332-70.png
-.. |image115| image:: ./media/aff719348ce074be2d6f3aa88eb822ef-1749275326332-71.png
-.. |image116| image:: ./media/image-20230612111314348-1749275326332-72.png
-.. |image117| image:: ./media/image-20230612111327983-1749275326332-73.png
-.. |image118| image:: media/24c831162a53ab88e584fbbedd6e4018.png
-.. |image119| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
-.. |image120| image:: ./media/image-20250607143202265.png
-.. |image121| image:: media/ab1818942731c6e822a574ba5c0df31e.jpeg
-.. |image122| image:: media/0da41a27db41e1207a7f760067e93104.png
-.. |image123| image:: ./media/image-20250607143215720.png
-.. |image124| image:: ./media/image-20250607143228857.png
-.. |image125| image:: ./media/8339f3adc268de8c8dd5d26a6c0a1359-1749275326332-74.png
-.. |image126| image:: ./media/image-20230612111429712-1749275326332-75.png
-.. |image127| image:: ./media/image-20230612111440173-1749275326332-76.png
-.. |image128| image:: ./media/51f78d766d19dff68efde3e89cc25a0c-1749275326332-78.jpeg
+.. |image70| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image71| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image72| image:: ./media/image-20250607140854949.png
+.. |image73| image:: ./media/image-20250607140316135.png
+.. |image74| image:: ./media/image-20250607140805233.png
+.. |image75| image:: ./media/0bde162c8c3ae0e8917a8a9953827a68-1749275326332-47.png
+.. |image76| image:: ./media/d001ec087a1d48dd983be447505a7d27-1749275326332-46.jpeg
+.. |image77| image:: ./media/image-20230612110527917-1749275326332-48.png
+.. |image78| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image79| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image80| image:: ./media/image-20250607140948065.png
+.. |image81| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
+.. |image82| image:: ./media/image-20250607140914196.png
+.. |image83| image:: ./media/image-20250607140931260.png
+.. |image84| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image85| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image86| image:: ./media/image-20250607140948065.png
+.. |image87| image:: media/c330317970c9594d8baed73ee43106e6.jpeg
+.. |image88| image:: ./media/image-20250607140914196.png
+.. |image89| image:: ./media/image-20250607140931260.png
+.. |image90| image:: ./media/38be559475a64e6b228f06b2e09e1d7a-1749275326332-51.png
+.. |image91| image:: ./media/image-20230612110618805-1749275326332-53.png
+.. |image92| image:: ./media/image-20230612110628157-1749275326332-49.png
+.. |image93| image:: ./media/image-20230612110643097-1749275326332-54.png
+.. |image94| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image95| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image96| image:: ./media/image-20250607141854669.png
+.. |image97| image:: ./media/image-20250607141911997.png
+.. |image98| image:: ./media/2993c9c61fb1185b6e24403e0eb53136-1749275326332-50.png
+.. |image99| image:: ./media/image-20230612110754405-1749275326332-52.png
+.. |image100| image:: ./media/image-20230612110803700-1749275326332-55.png
+.. |image101| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image102| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image103| image:: ./media/image-20250607142107188.png
+.. |image104| image:: ./media/image-20250607142140921.png
+.. |image105| image:: ./media/image-20250607142200500.png
+.. |image106| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image107| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image108| image:: ./media/image-20250607142107188.png
+.. |image109| image:: ./media/image-20250607142140921.png
+.. |image110| image:: ./media/image-20250607142200500.png
+.. |image111| image:: ./media/a7ec518da57cd093981bd578ddc70aec-1749275326332-56.png
+.. |image112| image:: ./media/image-20230612110851044-1749275326332-57.png
+.. |image113| image:: ./media/image-20230612110856132-1749275326332-58.png
+.. |image114| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image115| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image116| image:: ./media/image-20250607142255148.png
+.. |image117| image:: ./media/image-20250607142301596.png
+.. |image118| image:: ./media/image-20250607142317775.png
+.. |image119| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image120| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image121| image:: ./media/image-20250607142255148.png
+.. |image122| image:: ./media/image-20250607142301596.png
+.. |image123| image:: ./media/image-20250607142317775.png
+.. |image124| image:: ./media/b050f0182ffc81a13824af95511a9fe5-1749275326332-59.png
+.. |image125| image:: ./media/image-20230612110941990-1749275326332-60.png
+.. |image126| image:: ./media/7cd14fd4e82df9909603997f9ff6e615-1749275326332-61.jpeg
+.. |image127| image:: ./media/image-20230612110954811-1749275326332-68.png
+.. |image128| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image129| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image130| image:: ./media/image-20250607142405113.png
+.. |image131| image:: media/1b76ae2bbea30f1a9fe80b41de65ab94.png
+.. |image132| image:: media/54cdb977922bf3a61bf00d3b6468e403.jpeg
+.. |image133| image:: media/9cad01dce5c196317f665e6115b44c86.jpeg
+.. |image134| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image135| image:: media/bad041b053825940869213d9f431ef96.png
+.. |image136| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image137| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image138| image:: ./media/image-20250607142405113.png
+.. |image139| image:: media/1b76ae2bbea30f1a9fe80b41de65ab94.png
+.. |image140| image:: media/54cdb977922bf3a61bf00d3b6468e403.jpeg
+.. |image141| image:: media/9cad01dce5c196317f665e6115b44c86.jpeg
+.. |image142| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image143| image:: media/bad041b053825940869213d9f431ef96.png
+.. |image144| image:: ./media/070ebbff591c015a1c2986e4d5e0803d-1749275326332-62.png
+.. |image145| image:: ./media/030b1fdb722ca22716bbed0a0503b91c-1749275326332-63.png
+.. |image146| image:: ./media/image-20230612111109389-1749275326332-65.png
+.. |image147| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image148| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image149| image:: ./media/image-20250607142949412.png
+.. |image150| image:: ./media/image-20250607143002332.png
+.. |image151| image:: ./media/image-20250607143031218.png
+.. |image152| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image153| image:: ./media/image-20250607142936523.png
+.. |image154| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image155| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image156| image:: ./media/image-20250607142949412.png
+.. |image157| image:: ./media/image-20250607143002332.png
+.. |image158| image:: ./media/image-20250607143031218.png
+.. |image159| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image160| image:: ./media/image-20250607142936523.png
+.. |image161| image:: ./media/5326feaab7a0b9887ef921e589694635-1749275326332-66.png
+.. |image162| image:: ./media/image-20230612111215876-1749275326332-67.png
+.. |image163| image:: ./media/ab1818942731c6e822a574ba5c0df31e-1749275326332-69.jpeg
+.. |image164| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image165| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image166| image:: media/ab1818942731c6e822a574ba5c0df31e.jpeg
+.. |image167| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image168| image:: ./media/image-20250607143119823.png
+.. |image169| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image170| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image171| image:: media/ab1818942731c6e822a574ba5c0df31e.jpeg
+.. |image172| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image173| image:: ./media/image-20250607143119823.png
+.. |image174| image:: ./media/18e30bb459c2c24d40509741424c3fb9-1749275326332-70.png
+.. |image175| image:: ./media/aff719348ce074be2d6f3aa88eb822ef-1749275326332-71.png
+.. |image176| image:: ./media/image-20230612111314348-1749275326332-72.png
+.. |image177| image:: ./media/image-20230612111327983-1749275326332-73.png
+.. |image178| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image179| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image180| image:: ./media/image-20250607143202265.png
+.. |image181| image:: media/ab1818942731c6e822a574ba5c0df31e.jpeg
+.. |image182| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image183| image:: ./media/image-20250607143215720.png
+.. |image184| image:: ./media/image-20250607143228857.png
+.. |image185| image:: media/24c831162a53ab88e584fbbedd6e4018.png
+.. |image186| image:: media/cc6f4cc25bad50e342fe54bc09417592.jpeg
+.. |image187| image:: ./media/image-20250607143202265.png
+.. |image188| image:: media/ab1818942731c6e822a574ba5c0df31e.jpeg
+.. |image189| image:: media/0da41a27db41e1207a7f760067e93104.png
+.. |image190| image:: ./media/image-20250607143215720.png
+.. |image191| image:: ./media/image-20250607143228857.png
+.. |image192| image:: ./media/8339f3adc268de8c8dd5d26a6c0a1359-1749275326332-74.png
+.. |image193| image:: ./media/image-20230612111429712-1749275326332-75.png
+.. |image194| image:: ./media/image-20230612111440173-1749275326332-76.png
+.. |image195| image:: ./media/51f78d766d19dff68efde3e89cc25a0c-1749275326332-78.jpeg
 .. |image-20250416164302672| image:: ./media/image-20250416164302672-1749275326332-77.png
-.. |image129| image:: ./media/51f78d766d19dff68efde3e89cc25a0c-1749275326332-78.jpeg
-.. |image130| image:: ./media/c9e488c23dadabcbc2fffed2adf69dd8-1749275326332-79.jpeg
-.. |image131| image:: ./media/a182ea97bfea835954cf6205b5bec83c-1749275326332-80.jpeg
+.. |image196| image:: ./media/51f78d766d19dff68efde3e89cc25a0c-1749275326332-78.jpeg
+.. |image197| image:: ./media/c9e488c23dadabcbc2fffed2adf69dd8-1749275326332-79.jpeg
+.. |image198| image:: ./media/a182ea97bfea835954cf6205b5bec83c-1749275326332-80.jpeg
 .. |image-20230523171559487| image:: ./media/image-20230523171559487-1749275326332-81.png
-.. |image-20250416164358790| image:: ./media/image-20250416164358790-1749275326332-83.png
-.. |image132| image:: ./media/cbdbd5555560fbae02c9d45301bad4b1-1749275326332-84.png
-.. |image133| image:: ./media/16477d46a4396f0283d1ea5acf603a19-1749275326332-85.png
-.. |image134| image:: ./media/image-20230612111533264-1749275326332-86.png
-.. |image135| image:: ./media/6465465654.jpeg
-.. |image136| image:: ./media/7f962fd86397e96ebb2eb4c590d90c1d.png
-.. |image137| image:: ./media/image-20230612113049091.png
-.. |image138| image:: ./media/image-20230612113055108.png
-.. |image139| image:: ./media/image-20230612113100185.png
-.. |image140| image:: ./media/image-20230612113105664.png
-.. |image141| image:: ./media/ea22fb2dc139a1414e4f7c3ac6a9f72b.png
-.. |image142| image:: ./media/image-20230612113133417.png
+.. |image-20230523171616100| image:: ./media/image-20230523171616100-1749275326332-82.png
+.. |image-20250416164358790-1749275326332-83| image:: ./media/image-20250416164358790-1749275326332-83.png
+.. |image199| image:: ./media/cbdbd5555560fbae02c9d45301bad4b1-1749275326332-84.png
+.. |image200| image:: ./media/16477d46a4396f0283d1ea5acf603a19-1749275326332-85.png
+.. |image201| image:: ./media/image-20230612111533264-1749275326332-86.png
+.. |image202| image:: ./media/6465465654.jpeg
+.. |image203| image:: ./media/7f962fd86397e96ebb2eb4c590d90c1d.png
+.. |image204| image:: ./media/image-20230612113049091.png
+.. |image205| image:: ./media/image-20230612113055108.png
+.. |image206| image:: ./media/image-20230612113100185.png
+.. |image207| image:: ./media/image-20230612113105664.png
+.. |image208| image:: ./media/ea22fb2dc139a1414e4f7c3ac6a9f72b.png
+.. |image209| image:: ./media/image-20230612113133417.png

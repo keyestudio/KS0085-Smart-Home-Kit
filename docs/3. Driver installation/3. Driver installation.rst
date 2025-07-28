@@ -1,25 +1,33 @@
+.. _3-driver-installation:
+
 3. Driver installation
 ======================
 
-一、Windows System
+.. _31-windows-system:
+
+3.1 Windows System
 ------------------
 
-1.1Checking the driver
-~~~~~~~~~~~~~~~~~~~~~~
+.. _311checking-the-driver:
+
+3.1.1Checking the driver
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 1、Connect the motherboard to the computer.
 
 |image1|
 
 2、Open Device Manager，Open the device manager, if the prompt
-**“Silicon Labs CP210x USB to UART Bridge (COMx)”** appears to prove
-that the driver has been installed, please skip the **“Driver
-installation”** part.
+**"Silicon Labs CP210x USB to UART Bridge (COMx)"** appears to prove
+that the driver has been installed, please skip the **"Driver
+installation"** part.
 
 |image2|
 
-1.2 Manual driver installation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _312-manual-driver-installation:
+
+3.1.2 Manual driver installation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1、Driver download
 
@@ -32,15 +40,17 @@ driver and install it manually.
 
 |image3|
 
-二、MAC System
+.. _32-mac-system:
+
+3.2 MAC System
 --------------
 
-.. _checking-the-driver-1:
+.. _321checking-the-driver:
 
-2.1Checking the driver
-----------------------
+3.2.1Checking the driver
+------------------------
 
-Connect the development board to the computer, according to [Tools] —>
+Connect the development board to the computer, according to [Tools] --->
 [Port] to select the development board port (Note: If you can not
 confirm which port is the development board, please connect the
 motherboard to take pictures to record all the ports, and then unplug
@@ -52,12 +62,12 @@ please replace the computer USB port or around the phone cable to
 re-recognize the port, if it still does not work refer to the following
 steps to install the driver.
 
-|image4|
+![](./media/截屏2025-06-26 15.43.43.png)
 
-.. _manual-driver-installation-1:
+.. _322-manual-driver-installation:
 
-2.2 Manual driver installation
-------------------------------
+3.2.2 Manual driver installation
+--------------------------------
 
 1、Driver download
 
@@ -65,16 +75,16 @@ Mac System: :download:`Mac System driver <./Mac.7z>`
 
 2、double-click to decompress the downloaded driver zip package
 
+|image4|
+
 |image5|
 
 |image6|
 
-|image7|
-
-3、After that keep **“Next ”** installing until the installation is
+3、After that keep **"Next ”** installing until the installation is
 complete
 
-|image8|
+|image7|
 
 At this point, the port can be recognized by plugging in the board
 again.
@@ -82,21 +92,20 @@ again.
 4、Then go to the Arduino IDE, click on “Tools”, select the board
 Arduino Uno and the recognized development board port。
 
-|image9|
+|image8|
 
 16.Click\ |image-20250417085312966|\ to upload code and show “Done
 uploading”.
 
-|image10|
+|image9|
 
 .. |image1| image:: ./media/1.jpg
 .. |image2| image:: ./media/Animation.gif
 .. |image3| image:: ./media/Animation-1750921346712-3.gif
-.. |image4| image:: ./media/截屏2025-06-26%2015.43.43.png
-.. |image5| image:: ./media/image-20250417083615847-1749262759458-8.png
-.. |image6| image:: ./media/image-20250417083758947-1749262759458-7.png
-.. |image7| image:: ./media/image-20250417083918581-1749262759458-5.png
-.. |image8| image:: ./media/7cca827fe946096f228797dadce10661.png
-.. |image9| image:: ./media/2.png
+.. |image4| image:: ./media/image-20250417083615847-1749262759458-8.png
+.. |image5| image:: ./media/image-20250417083758947-1749262759458-7.png
+.. |image6| image:: ./media/image-20250417083918581-1749262759458-5.png
+.. |image7| image:: ./media/7cca827fe946096f228797dadce10661.png
+.. |image8| image:: ./media/2.png
 .. |image-20250417085312966| image:: ./media/image-20250417085312966-1749262759459-18.png
-.. |image10| image:: ./media/3.png
+.. |image9| image:: ./media/3.png

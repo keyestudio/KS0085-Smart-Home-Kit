@@ -1,13 +1,19 @@
+.. _5-scratch:
+
 5. Scratch
 ==========
+
+.. _51-data-download:
 
 5.1 Data download
 -----------------
 
 Scratch information contains project ,please click to download for
-follow-up study!!!!
+follow-up study.
 
 Data download：\ :download:`Data download <./Scratch.7z>`
+
+.. _52-software-installation-of-windows-system:
 
 5.2 Software installation of Windows System
 -------------------------------------------
@@ -25,21 +31,16 @@ First connect the development board to the computer
 
 |image3|
 
+.. _53-software-installation-of-mac-system:
+
 5.3 Software installation of Mac System
 ---------------------------------------
 
-1.Download kidsblock: https://xiazai.keyesrobot.cn/KidsBlock.dmg Desktop
-1.1.3.dmg. |Img|
+1.Download kidsblock: https://xiazai.keyesrobot.cn/KidsBlock.dmg
 
-2.Click KidsBlock, and drag KidsBlock Desktop into Applications.
-|image4|
-
-3.Wait for installing. KidsBlock icon will show up in Launchpad if it is
-installed successfully. |image5|
+|i|
 
 .. |image1| image:: ./media/Ani.gif
 .. |image2| image:: ./media/An.gif
 .. |image3| image:: ./media/A.gif
-.. |Img| image:: ./media/img-20230302102209-1749281036490-1.png
-.. |image4| image:: ./media/img-20230302102213-1749281036490-2.png
-.. |image5| image:: media/img-20230302102218.png
+.. |i| image:: ./media/i-1753669905835-2.gif
