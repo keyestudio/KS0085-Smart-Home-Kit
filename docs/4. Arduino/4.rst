@@ -32,7 +32,7 @@ Connecting the board to the computer.
 
 |image3|
 
-2.4 Add Library
+4.4 Add Library
 ---------------
 
 What are Libraries ?
@@ -45,7 +45,7 @@ We will introduce the most simple way for you to add libraries
 
 |image4|
 
-2.5 Project
+4.5 Project
 -----------
 
 |image5|
