@@ -1,11 +1,70 @@
 4. Arduino Tutorial
 ===================
 
+4.1 Data download
+-----------------
+
+Arduino information contains library files and project code ,please
+click to download for follow-up study.
+
+Data download: :download:`Arduino <./Arduino.7z>`
+
+4.2 Software Download
+---------------------
+
+Open the browser and search: https://www.arduino.cc/en/software, we will
+take WINDOWS system as an example to show you how to download and
+install.
+
+|image1|
+
+You just need to click JUSTDOWNLOAD,then click the downloaded file to
+install it.And when the ZIP file is downloaded,you can directly unzip
+and start it.
+
+|image2|
+
+4.3 Set Arduino IDE
+-------------------
+
+Connecting the board to the computer.
+
+
+|image3|
+
+2.4 Add Library
+---------------
+
+What are Libraries ?
+
+Libraries are a collection of code that makes it easy for you to connect 
+to a sensor,display, module, etc.  
+
+There are hundreds of additional libraries available on the Internet for download. 
+We will introduce the most simple way for you to add libraries
+
+|image4|
+
+2.5 Project
+-----------
+
+|image5|
+
+Alright, let’s get straight to our projects. In this kit, there are 14 sensors 
+and modules. We will make you know the smart home deeply from the simple sensor.
+
+However, if you are professional with Arduino. You can skip theses steps and 
+assemble the smart home kit directly(**there is assembly video in the folder**).
+
+**Note: In this course, the interface of each sensor / module marked with(G,-, GND) 
+indicates the negative pole, G is connected to G, - or GND of sensor shield or control 
+board; “V” is positive pole and connected with V, VCC or 5V.**
+
+
 .. toctree::
     :maxdepth: 1
 
 
-    Project/4. Arduino
     Project/Project1
     Project/Project2
     Project/Project3
@@ -22,3 +81,11 @@
     Project/Project14
     Project/Project15
     
+
+
+
+.. |image1| image:: media/Animati.gif
+.. |image2| image:: media/Animat.gif
+.. |image3| image:: media/Anima.gif
+.. |image4| image:: media/Anim.gif
+.. |image5| image:: media/1dfed548560b06e51f83a1b2d1c71558-1749275326331-23.jpeg
